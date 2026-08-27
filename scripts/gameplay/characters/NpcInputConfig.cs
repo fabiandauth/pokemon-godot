@@ -16,6 +16,10 @@ public partial class NpcInputConfig : Resource
     [Export]
     public Array<string> Messages;
 
+    [ExportGroup("Item reward")]
+    [Export]
+    public NpcItemRewardConfig ItemReward;
+
     [ExportSubgroup("Wander")]
     [Export]
     public Vector2 WanderOrigin = Vector2.Zero;

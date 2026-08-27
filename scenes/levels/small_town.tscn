@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=4 uid="uid://bhequssh43v25"]
+[gd_scene load_steps=17 format=4 uid="uid://bhequssh43v25"]
 
 [ext_resource type="Script" uid="uid://bpion4qpiamje" path="res://scripts/gameplay/levels/Level.cs" id="1_2cpqh"]
 [ext_resource type="TileSet" uid="uid://cx5l6e3tq8rem" path="res://resources/tilesets/level.tres" id="1_467iw"]
@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://bx4im14dneh6k" path="res://scenes/characters/npc.tscn" id="7_fv6i1"]
 [ext_resource type="Script" uid="uid://bd7euek3bm7wd" path="res://scripts/gameplay/characters/NpcInputConfig.cs" id="8_00pfa"]
 [ext_resource type="Script" uid="uid://buiyxe2pa1lhv" path="res://scripts/utilities/LevelDebugger.cs" id="9_gr214"]
+[ext_resource type="Script" path="res://scripts/gameplay/characters/NpcItemRewardConfig.cs" id="10_reward"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r2wcl"]
 size = Vector2(16, 32)
@@ -16,10 +17,21 @@ size = Vector2(16, 32)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r53i7"]
 size = Vector2(16, 64)
 
+[sub_resource type="Resource" id="Resource_gardener_reward"]
+script = ExtResource("10_reward")
+Mode = 2
+ItemId = "flower_bouquet"
+ItemName = "Flower Bouquet"
+ConvincingGoal = "The player sincerely appreciates or compliments the gardener's flowers. Require a meaningful compliment about the flowers, not merely a greeting or a request for an item."
+RequiredConvincingTurns = 2
+Quantity = 1
+HandoverMessage = "You truly appreciate my flowers. Please take this bouquet as a thank-you."
+
 [sub_resource type="Resource" id="Resource_gr214"]
 script = ExtResource("8_00pfa")
 NpcMovementType = 3
 Messages = ["Hey! How's it going!"]
+ItemReward = SubResource("Resource_gardener_reward")
 WanderOrigin = Vector2(0, 0)
 WanderRadius = 64.0
 WanderMoveInterval = 2.0
