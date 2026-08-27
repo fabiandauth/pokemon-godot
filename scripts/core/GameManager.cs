@@ -1,3 +1,4 @@
+using Game.Core.AI;
 using Game.Gameplay;
 using Game.UI;
 using Godot;
@@ -15,11 +16,17 @@ public partial class GameManager : Node
 	[ExportCategory("Vars")]
 	[Export]
 	public Player Player;
+	
+	[Export]
+	public bool AI_TestMode = false;
 
 	public override void _Ready()
 	{
 		Instance = this;
 
+		// Enable AI test mode if configured
+		OllamaAI.TestMode = AI_TestMode;
+		
 		Logger.Info("Loading game manager ...");
 
 		SceneManager.ChangeLevel(spawn: true);

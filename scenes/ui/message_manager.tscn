@@ -1,13 +1,52 @@
-[gd_scene load_steps=4 format=3 uid="uid://b1uwooeykwtdd"]
+[gd_scene load_steps=7 format=3 uid="uid://b1uwooeykwtdd"]
 
 [ext_resource type="Texture2D" uid="uid://c3yqc7n3jcfh6" path="res://assets/ui/message_box.png" id="1_gxlwh"]
 [ext_resource type="Script" uid="uid://bsh66shknstqw" path="res://scripts/ui/MessageManager.cs" id="1_yl3ye"]
 [ext_resource type="FontFile" uid="uid://e4w4uwtnmxq2" path="res://assets/fonts/pokemon-emerald.ttf" id="2_84ee0"]
 
-[node name="MessageManager" type="CanvasLayer" node_paths=PackedStringArray("Box", "Label")]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_input"]
+bg_color = Color(0.968627, 0.952941, 0.827451, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.188235, 0.25098, 0.313726, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_button"]
+bg_color = Color(0.913725, 0.784314, 0.247059, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.188235, 0.25098, 0.313726, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_button_hover"]
+bg_color = Color(1, 0.878431, 0.360784, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.188235, 0.25098, 0.313726, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[node name="MessageManager" type="CanvasLayer" node_paths=PackedStringArray("Box", "Label", "InputField", "SendButton", "CancelButton")]
 script = ExtResource("1_yl3ye")
 Box = NodePath("Control/NinePatchRect")
 Label = NodePath("Control/NinePatchRect/RichTextLabel")
+InputField = NodePath("Control/NinePatchRect/InputField")
+SendButton = NodePath("Control/NinePatchRect/SendButton")
+CancelButton = NodePath("Control/NinePatchRect/CancelButton")
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
@@ -24,7 +63,7 @@ anchors_preset = -1
 anchor_left = 0.236111
 anchor_top = 0.753086
 anchor_right = 0.763889
-anchor_bottom = 0.938272
+anchor_bottom = 0.965
 offset_top = -3.05176e-05
 grow_horizontal = 2
 grow_vertical = 2
@@ -40,7 +79,7 @@ layout_mode = 0
 anchor_left = 0.0263158
 anchor_top = 0.133333
 anchor_right = 0.973684
-anchor_bottom = 0.866667
+anchor_bottom = 0.68
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_colors/font_shadow_color = Color(0.427451, 0.498039, 0.466667, 1)
 theme_override_constants/shadow_offset_y = 1
@@ -49,3 +88,44 @@ theme_override_fonts/normal_font = ExtResource("2_84ee0")
 theme_override_font_sizes/normal_font_size = 40
 text = "Placeholder"
 metadata/_edit_use_anchors_ = true
+
+[node name="InputField" type="LineEdit" parent="Control/NinePatchRect"]
+visible = false
+layout_mode = 0
+anchor_left = 0.0263158
+anchor_left = 0.24
+anchor_top = 0.72
+anchor_right = 0.73
+anchor_bottom = 0.94
+theme_override_colors/font_color = Color(0.105882, 0.137255, 0.164706, 1)
+theme_override_fonts/normal_font = ExtResource("2_84ee0")
+theme_override_font_sizes/normal_font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_input")
+placeholder_text = "Talk to the NPC..."
+placeholder_alpha = 0.5
+
+[node name="SendButton" type="Button" parent="Control/NinePatchRect"]
+visible = false
+layout_mode = 0
+anchor_left = 0.75
+anchor_top = 0.72
+anchor_right = 0.973684
+anchor_bottom = 0.94
+theme_override_styles/normal = SubResource("StyleBoxFlat_button")
+theme_override_styles/hover = SubResource("StyleBoxFlat_button_hover")
+text = "Send"
+theme_override_fonts/normal_font = ExtResource("2_84ee0")
+theme_override_font_sizes/normal_font_size = 30
+
+[node name="CancelButton" type="Button" parent="Control/NinePatchRect"]
+visible = false
+layout_mode = 0
+anchor_left = 0.0263158
+anchor_top = 0.72
+anchor_right = 0.22
+anchor_bottom = 0.94
+theme_override_styles/normal = SubResource("StyleBoxFlat_button")
+theme_override_styles/hover = SubResource("StyleBoxFlat_button_hover")
+text = "End"
+theme_override_fonts/normal_font = ExtResource("2_84ee0")
+theme_override_font_sizes/normal_font_size = 30

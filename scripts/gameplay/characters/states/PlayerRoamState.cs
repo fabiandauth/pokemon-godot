@@ -89,19 +89,31 @@ public partial class PlayerRoamState : State
     {
         if (Input.IsActionJustReleased("use"))
         {
-            var (_, result) = CharacterMovement.GetTargetColliders((PlayerInput.Direction * Globals.GRID_SIZE) + ((Player)StateOwner).Position);
+            Logger.Info(new object[] { "PlayerRoamState: GetUseInput - 'use' action released" });
+            
+            var playerPos = ((Player)StateOwner).Position;
+            var targetPos = (PlayerInput.Direction * Globals.GRID_SIZE) + playerPos;
+            Logger.Info(new object[] { "PlayerRoamState: Player position:", playerPos, "Direction:", PlayerInput.Direction, "Target position:", targetPos });
+            
+            var (_, result) = CharacterMovement.GetTargetColliders(targetPos);
+            
+            Logger.Info(new object[] { "PlayerRoamState: Found", result.Count, "colliders" });
 
             foreach (var collision in result)
             {
                 var collider = (Node)(GodotObject)collision["collider"];
                 var colliderType = collider.GetType().Name;
+                
+                Logger.Info(new object[] { "PlayerRoamState: Collider type:", colliderType, "Name:", collider.Name });
 
                 switch (colliderType)
                 {
                     case "Sign":
+                        Logger.Info(new object[] { "PlayerRoamState: Playing Sign message for:", collider.Name });
                         ((Sign)collider).PlayMessage();
                         break;
                     case "Npc":
+                        Logger.Info(new object[] { "PlayerRoamState: Playing NPC message for:", collider.Name, "Direction:", PlayerInput.Direction });
                         ((Npc)collider).PlayMessage(PlayerInput.Direction);
                         break;
                 }

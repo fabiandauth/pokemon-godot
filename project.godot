@@ -17,8 +17,8 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-Globals="*res://scripts/core/Globals.cs"
-Signals="*res://scripts/core/Signals.cs"
+Globals="*res://scenes/core/Globals.tscn"
+Signals="*res://scenes/core/Signals.tscn"
 SceneManager="*res://scenes/core/scene_manager.tscn"
 
 [dotnet]
