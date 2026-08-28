@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/025.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/025.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Pikachu"
+Id = 25
+Description = "Es streckt seinen Schwanz nach oben, um seine Umgebung zu prüfen. Häufig fährt ein Blitz hinein."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 5
+TypeTwo = 0
+BaseHp = 35
+BaseAttack = 55
+BaseDefense = 40
+BaseSpecialAttack = 50
+BaseSpecialDefense = 50
+BaseSpeed = 90
+ExpectedStatsLevel50 = {"hp": 110, "attack": 75, "defense": 60, "special_attack": 70, "special_defense": 70, "speed": 110}
+ExpectedStatsLevel100 = {"hp": 211, "attack": 146, "defense": 116, "special_attack": 136, "special_defense": 136, "speed": 216}
+LearnableMoves = ["Donnerschock", "Rutenschlag", "Heuler", "Kameradschaft", "Ruckzuckhieb", "Donnerwelle", "Elektroball", "Doppelteam", "Wangenrubbler", "Slam", "Donnerblitz", "Offenlegung", "Agilität", "Ladungsstoß", "Lichtschild", "Donner"]
+LevelUpMoves = {"Donnerschock": 1, "Rutenschlag": 1, "Heuler": 5, "Kameradschaft": 7, "Ruckzuckhieb": 10, "Donnerwelle": 13, "Elektroball": 18, "Doppelteam": 21, "Wangenrubbler": 23, "Slam": 26, "Donnerblitz": 29, "Offenlegung": 34, "Agilität": 37, "Ladungsstoß": 42, "Lichtschild": 45, "Donner": 50}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

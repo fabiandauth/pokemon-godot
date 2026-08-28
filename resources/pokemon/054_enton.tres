@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/054.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/054.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Enton"
+Id = 54
+Description = "Es wird permanent von Kopfsschmerzen geplagt. Wird der Schmerz stärker, setzt es geheimnisvolle Kräfte ein."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 3
+TypeTwo = 0
+BaseHp = 50
+BaseAttack = 52
+BaseDefense = 48
+BaseSpecialAttack = 65
+BaseSpecialDefense = 50
+BaseSpeed = 55
+ExpectedStatsLevel50 = {"hp": 125, "attack": 72, "defense": 68, "special_attack": 85, "special_defense": 70, "speed": 75}
+ExpectedStatsLevel100 = {"hp": 241, "attack": 140, "defense": 132, "special_attack": 166, "special_defense": 136, "speed": 146}
+LearnableMoves = ["Kratzer", "Nassmacher", "Rutenschlag", "Aquaknarre", "Aussetzer", "Konfusion", "Aquawelle", "Kratzfurie", "Kreideschrei", "Zen-Kopfstoß", "Nassschweif", "Überflutung", "Psycho-Plus", "Amnesie", "Hydropumpe", "Wunderraum"]
+LevelUpMoves = {"Kratzer": 1, "Nassmacher": 1, "Rutenschlag": 4, "Aquaknarre": 8, "Aussetzer": 11, "Konfusion": 15, "Aquawelle": 18, "Kratzfurie": 22, "Kreideschrei": 25, "Zen-Kopfstoß": 29, "Nassschweif": 32, "Überflutung": 36, "Psycho-Plus": 39, "Amnesie": 43, "Hydropumpe": 46, "Wunderraum": 50}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

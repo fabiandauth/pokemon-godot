@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/079.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/079.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Flegmon"
+Id = 79
+Description = "Es ist stets in Gedanken versunken und niemand weiß, worüber es nachdenkt. Es kann mit seiner Rute gut angeln."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 3
+TypeTwo = 11
+BaseHp = 90
+BaseAttack = 65
+BaseDefense = 65
+BaseSpecialAttack = 40
+BaseSpecialDefense = 40
+BaseSpeed = 15
+ExpectedStatsLevel50 = {"hp": 165, "attack": 85, "defense": 85, "special_attack": 60, "special_defense": 60, "speed": 35}
+ExpectedStatsLevel100 = {"hp": 321, "attack": 166, "defense": 166, "special_attack": 116, "special_defense": 116, "speed": 66}
+LearnableMoves = ["Fluch", "Tackle", "Gähner", "Heuler", "Aquaknarre", "Konfusion", "Aussetzer", "Kopfnuss", "Aquawelle", "Zen-Kopfstoß", "Tagedieb", "Amnesie", "Psychokinese", "Regentanz", "Psycho-Plus", "Heilwoge"]
+LevelUpMoves = {"Fluch": 1, "Tackle": 1, "Gähner": 1, "Heuler": 5, "Aquaknarre": 9, "Konfusion": 14, "Aussetzer": 19, "Kopfnuss": 23, "Aquawelle": 28, "Zen-Kopfstoß": 32, "Tagedieb": 36, "Amnesie": 41, "Psychokinese": 45, "Regentanz": 49, "Psycho-Plus": 54, "Heilwoge": 58}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

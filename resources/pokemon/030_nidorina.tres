@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/030.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/030.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Nidorina"
+Id = 30
+Description = "Das Weibchen ist ausgeglichener. Es stößt Schreie im Ultraschallwellenbereich aus, die den Gegner verwirren können."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 8
+TypeTwo = 0
+BaseHp = 70
+BaseAttack = 62
+BaseDefense = 67
+BaseSpecialAttack = 55
+BaseSpecialDefense = 55
+BaseSpeed = 56
+ExpectedStatsLevel50 = {"hp": 145, "attack": 82, "defense": 87, "special_attack": 75, "special_defense": 75, "speed": 76}
+ExpectedStatsLevel100 = {"hp": 281, "attack": 160, "defense": 170, "special_attack": 146, "special_defense": 146, "speed": 148}
+LearnableMoves = ["Kratzer", "Heuler", "Rutenschlag", "Doppelkick", "Giftstachel", "Kratzfurie", "Biss", "Rechte Hand", "Giftspitzen", "Schmeichler", "Knirscher", "Liebreiz", "Giftzahn"]
+LevelUpMoves = {"Kratzer": 1, "Heuler": 1, "Rutenschlag": 7, "Doppelkick": 9, "Giftstachel": 13, "Kratzfurie": 20, "Biss": 23, "Rechte Hand": 28, "Giftspitzen": 35, "Schmeichler": 38, "Knirscher": 43, "Liebreiz": 50, "Giftzahn": 58}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

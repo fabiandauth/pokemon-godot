@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/141.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/141.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Kabutops"
+Id = 141
+Description = "Im Wasser zieht es seine Beine an und bewegt seinen Panzer, um so schneller schwimmen zu können."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 13
+TypeTwo = 3
+BaseHp = 60
+BaseAttack = 115
+BaseDefense = 105
+BaseSpecialAttack = 65
+BaseSpecialDefense = 70
+BaseSpeed = 80
+ExpectedStatsLevel50 = {"hp": 135, "attack": 135, "defense": 125, "special_attack": 85, "special_defense": 90, "speed": 100}
+ExpectedStatsLevel100 = {"hp": 261, "attack": 266, "defense": 246, "special_attack": 166, "special_defense": 176, "speed": 196}
+LearnableMoves = ["Nachthieb", "Offenlegung", "Absorber", "Kratzer", "Härtner", "Silberblick", "Lehmschuss", "Sandwirbel", "Ausdauer", "Wasserdüse", "Megasauger", "Schlitzer", "Metallsound", "Antik-Kraft", "Auswringen"]
+LevelUpMoves = {"Nachthieb": 1, "Offenlegung": 1, "Absorber": 1, "Kratzer": 1, "Härtner": 1, "Silberblick": 1, "Lehmschuss": 16, "Sandwirbel": 21, "Ausdauer": 26, "Wasserdüse": 31, "Megasauger": 36, "Schlitzer": 40, "Metallsound": 45, "Antik-Kraft": 54, "Auswringen": 63}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

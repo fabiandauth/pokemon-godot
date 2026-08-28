@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/081.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/081.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Magnetilo"
+Id = 81
+Description = "Die Magneten an seinem Körper erzeugen ein Antigravitationsfeld, um es ständig in der Schwebe zu halten."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 5
+TypeTwo = 17
+BaseHp = 25
+BaseAttack = 35
+BaseDefense = 70
+BaseSpecialAttack = 95
+BaseSpecialDefense = 55
+BaseSpeed = 45
+ExpectedStatsLevel50 = {"hp": 100, "attack": 55, "defense": 90, "special_attack": 115, "special_defense": 75, "speed": 65}
+ExpectedStatsLevel100 = {"hp": 191, "attack": 106, "defense": 176, "special_attack": 226, "special_defense": 146, "speed": 126}
+LearnableMoves = ["Tackle", "Superschall", "Donnerschock", "Elektrofeld", "Donnerwelle", "Magnetbombe", "Funkensprung", "Spiegelsalve", "Metallsound", "Elektroball", "Lichtkanone", "Kreideschrei", "Ladungsstoß", "Zielschuss", "Magnetflug", "Gyroball", "Blitzkanone"]
+LevelUpMoves = {"Tackle": 1, "Superschall": 4, "Donnerschock": 7, "Elektrofeld": 11, "Donnerwelle": 15, "Magnetbombe": 18, "Funkensprung": 21, "Spiegelsalve": 25, "Metallsound": 29, "Elektroball": 32, "Lichtkanone": 35, "Kreideschrei": 39, "Ladungsstoß": 43, "Zielschuss": 46, "Magnetflug": 49, "Gyroball": 53, "Blitzkanone": 57}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/096.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/096.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Traumato"
+Id = 96
+Description = "Traumato versetzt Gegner in den Schlaf und frisst deren Träume. Von Alpträumen wird ihm aber übel."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 11
+TypeTwo = 0
+BaseHp = 60
+BaseAttack = 48
+BaseDefense = 45
+BaseSpecialAttack = 43
+BaseSpecialDefense = 90
+BaseSpeed = 42
+ExpectedStatsLevel50 = {"hp": 135, "attack": 68, "defense": 65, "special_attack": 63, "special_defense": 110, "speed": 62}
+ExpectedStatsLevel100 = {"hp": 261, "attack": 132, "defense": 126, "special_attack": 122, "special_defense": 216, "speed": 120}
+LearnableMoves = ["Pfund", "Hypnose", "Aussetzer", "Konfusion", "Kopfnuss", "Giftwolke", "Meditation", "Psystrahl", "Psycho-Plus", "Synchrolärm", "Zen-Kopfstoß", "Angeberei", "Psychokinese", "Ränkeschmied", "Psychoschock", "Seher"]
+LevelUpMoves = {"Pfund": 1, "Hypnose": 1, "Aussetzer": 5, "Konfusion": 9, "Kopfnuss": 13, "Giftwolke": 17, "Meditation": 21, "Psystrahl": 25, "Psycho-Plus": 33, "Synchrolärm": 37, "Zen-Kopfstoß": 41, "Angeberei": 45, "Psychokinese": 49, "Ränkeschmied": 53, "Psychoschock": 57, "Seher": 61}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

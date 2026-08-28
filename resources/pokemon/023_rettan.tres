@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/023.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/023.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Rettan"
+Id = 23
+Description = "Mit dem Alter wird der Körper dieses Pokémon immer länger. Es schläft um Äste gewickelt."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 8
+TypeTwo = 0
+BaseHp = 35
+BaseAttack = 60
+BaseDefense = 44
+BaseSpecialAttack = 40
+BaseSpecialDefense = 54
+BaseSpeed = 55
+ExpectedStatsLevel50 = {"hp": 110, "attack": 80, "defense": 64, "special_attack": 60, "special_defense": 74, "speed": 75}
+ExpectedStatsLevel100 = {"hp": 211, "attack": 156, "defense": 124, "special_attack": 116, "special_defense": 144, "speed": 146}
+LearnableMoves = ["Wickel", "Silberblick", "Giftstachel", "Biss", "Giftblick", "Kreideschrei", "Säure", "Horter", "Entfessler", "Verzehrer", "Säurespeier", "Schlammbombe", "Magensäfte", "Rülpser", "Dunkelnebel", "Einrollen", "Mülltreffer"]
+LevelUpMoves = {"Wickel": 1, "Silberblick": 1, "Giftstachel": 4, "Biss": 9, "Giftblick": 12, "Kreideschrei": 17, "Säure": 20, "Horter": 25, "Entfessler": 25, "Verzehrer": 25, "Säurespeier": 28, "Schlammbombe": 33, "Magensäfte": 36, "Rülpser": 38, "Dunkelnebel": 41, "Einrollen": 44, "Mülltreffer": 49}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

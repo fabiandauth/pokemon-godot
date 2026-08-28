@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/099.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/099.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Kingler"
+Id = 99
+Description = "Die Kraft seiner großen und harten Schere entspricht 10 000 PS. Durch die Größe ist sie aber auch äußerst unhandlich und sperrig."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 3
+TypeTwo = 0
+BaseHp = 55
+BaseAttack = 130
+BaseDefense = 115
+BaseSpecialAttack = 50
+BaseSpecialDefense = 50
+BaseSpeed = 75
+ExpectedStatsLevel50 = {"hp": 130, "attack": 150, "defense": 135, "special_attack": 70, "special_defense": 70, "speed": 95}
+ExpectedStatsLevel100 = {"hp": 251, "attack": 296, "defense": 266, "special_attack": 136, "special_defense": 136, "speed": 186}
+LearnableMoves = ["Klammer", "Silberblick", "Rundumschutz", "Lehmsuhler", "Blubber", "Härtner", "Blubbstrahl", "Lehmschuss", "Metallklaue", "Stampfer", "Schutzschild", "Guillotine", "Slam", "Lake", "Krabbhammer", "Dreschflegel"]
+LevelUpMoves = {"Klammer": 1, "Silberblick": 1, "Rundumschutz": 1, "Lehmsuhler": 1, "Blubber": 1, "Härtner": 11, "Blubbstrahl": 15, "Lehmschuss": 19, "Metallklaue": 21, "Stampfer": 25, "Schutzschild": 32, "Guillotine": 37, "Slam": 44, "Lake": 51, "Krabbhammer": 56, "Dreschflegel": 63}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/069.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/069.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Knofensa"
+Id = 69
+Description = "Obwohl sein Körper sehr schmal ist, schnappt es blitzschnell nach Beute."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 4
+TypeTwo = 8
+BaseHp = 50
+BaseAttack = 75
+BaseDefense = 35
+BaseSpecialAttack = 70
+BaseSpecialDefense = 30
+BaseSpeed = 40
+ExpectedStatsLevel50 = {"hp": 125, "attack": 95, "defense": 55, "special_attack": 90, "special_defense": 50, "speed": 60}
+ExpectedStatsLevel100 = {"hp": 241, "attack": 186, "defense": 106, "special_attack": 176, "special_defense": 96, "speed": 116}
+LearnableMoves = ["Rankenhieb", "Wachstum", "Wickel", "Schlafpuder", "Giftpuder", "Stachelspore", "Säure", "Abschlag", "Lockduft", "Magensäfte", "Rasierblatt", "Slam", "Auswringen"]
+LevelUpMoves = {"Rankenhieb": 1, "Wachstum": 7, "Wickel": 11, "Schlafpuder": 13, "Giftpuder": 15, "Stachelspore": 17, "Säure": 23, "Abschlag": 27, "Lockduft": 29, "Magensäfte": 35, "Rasierblatt": 39, "Slam": 41, "Auswringen": 47}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

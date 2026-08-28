@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/073.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/073.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Tentoxa"
+Id = 73
+Description = "Dieses Pokémon kann die Tentakel bei der Jagd ausfahren, um die Beute leichter zu fangen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 3
+TypeTwo = 8
+BaseHp = 80
+BaseAttack = 70
+BaseDefense = 65
+BaseSpecialAttack = 80
+BaseSpecialDefense = 120
+BaseSpeed = 100
+ExpectedStatsLevel50 = {"hp": 155, "attack": 90, "defense": 85, "special_attack": 100, "special_defense": 140, "speed": 120}
+ExpectedStatsLevel100 = {"hp": 301, "attack": 176, "defense": 166, "special_attack": 196, "special_defense": 276, "speed": 236}
+LearnableMoves = ["Auswringen", "Giftstachel", "Superschall", "Typenspiegel", "Umklammerung", "Säure", "Giftspitzen", "Blubbstrahl", "Wickel", "Säurespeier", "Barriere", "Aquawelle", "Gifthieb", "Kreideschrei", "Bürde", "Hydropumpe", "Schlammwoge"]
+LevelUpMoves = {"Auswringen": 1, "Giftstachel": 1, "Superschall": 1, "Typenspiegel": 1, "Umklammerung": 1, "Säure": 12, "Giftspitzen": 15, "Blubbstrahl": 19, "Wickel": 22, "Säurespeier": 26, "Barriere": 29, "Aquawelle": 34, "Gifthieb": 38, "Kreideschrei": 43, "Bürde": 47, "Hydropumpe": 52, "Schlammwoge": 56}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

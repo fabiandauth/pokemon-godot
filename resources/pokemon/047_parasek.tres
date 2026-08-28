@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/047.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/047.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Parasek"
+Id = 47
+Description = "Parasek wird von einem Pilz, der größer als das Pokémon ist, kontrolliert. Er gibt Giftsporen ab."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 12
+TypeTwo = 4
+BaseHp = 60
+BaseAttack = 95
+BaseDefense = 80
+BaseSpecialAttack = 60
+BaseSpecialDefense = 80
+BaseSpeed = 30
+ExpectedStatsLevel50 = {"hp": 135, "attack": 115, "defense": 100, "special_attack": 80, "special_defense": 100, "speed": 50}
+ExpectedStatsLevel100 = {"hp": 261, "attack": 226, "defense": 196, "special_attack": 156, "special_defense": 196, "speed": 96}
+LearnableMoves = ["Giftstreich", "Kratzer", "Stachelspore", "Giftpuder", "Blutsauger", "Zornklinge", "Pilzspore", "Schlitzer", "Wachstum", "Gigasauger", "Aromakur", "Wutpulver", "Kreuzschere"]
+LevelUpMoves = {"Giftstreich": 1, "Kratzer": 1, "Stachelspore": 1, "Giftpuder": 1, "Blutsauger": 1, "Zornklinge": 17, "Pilzspore": 22, "Schlitzer": 29, "Wachstum": 37, "Gigasauger": 44, "Aromakur": 51, "Wutpulver": 59, "Kreuzschere": 66}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

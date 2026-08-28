@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/029.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/029.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Nidoran♀"
+Id = 29
+Description = "Dieses Pokémon ist sehr klein, verfügt aber über starke Gifte. Das Weibchen hat ein kleineres Horn."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 8
+TypeTwo = 0
+BaseHp = 55
+BaseAttack = 47
+BaseDefense = 52
+BaseSpecialAttack = 40
+BaseSpecialDefense = 40
+BaseSpeed = 41
+ExpectedStatsLevel50 = {"hp": 130, "attack": 67, "defense": 72, "special_attack": 60, "special_defense": 60, "speed": 61}
+ExpectedStatsLevel100 = {"hp": 251, "attack": 130, "defense": 140, "special_attack": 116, "special_defense": 116, "speed": 118}
+LearnableMoves = ["Kratzer", "Heuler", "Rutenschlag", "Doppelkick", "Giftstachel", "Kratzfurie", "Biss", "Rechte Hand", "Giftspitzen", "Schmeichler", "Knirscher", "Liebreiz", "Giftzahn"]
+LevelUpMoves = {"Kratzer": 1, "Heuler": 1, "Rutenschlag": 7, "Doppelkick": 9, "Giftstachel": 13, "Kratzfurie": 19, "Biss": 21, "Rechte Hand": 25, "Giftspitzen": 1, "Schmeichler": 31, "Knirscher": 33, "Liebreiz": 37, "Giftzahn": 43}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/070.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/070.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Ultrigaria"
+Id = 70
+Description = "Die Blätter werden eingesetzt, um Gegner aufzuschlitzen. Dieses Pokémon spuckt eine Flüssigkeit, die alles auflöst."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 4
+TypeTwo = 8
+BaseHp = 65
+BaseAttack = 90
+BaseDefense = 50
+BaseSpecialAttack = 85
+BaseSpecialDefense = 45
+BaseSpeed = 55
+ExpectedStatsLevel50 = {"hp": 140, "attack": 110, "defense": 70, "special_attack": 105, "special_defense": 65, "speed": 75}
+ExpectedStatsLevel100 = {"hp": 271, "attack": 216, "defense": 136, "special_attack": 206, "special_defense": 126, "speed": 146}
+LearnableMoves = ["Wachstum", "Rankenhieb", "Wickel", "Schlafpuder", "Giftpuder", "Stachelspore", "Säure", "Abschlag", "Lockduft", "Magensäfte", "Rasierblatt", "Slam", "Auswringen"]
+LevelUpMoves = {"Wachstum": 1, "Rankenhieb": 1, "Wickel": 1, "Schlafpuder": 13, "Giftpuder": 15, "Stachelspore": 17, "Säure": 23, "Abschlag": 27, "Lockduft": 29, "Magensäfte": 35, "Rasierblatt": 39, "Slam": 41, "Auswringen": 47}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

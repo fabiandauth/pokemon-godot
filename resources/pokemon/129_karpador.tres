@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/129.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/129.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Karpador"
+Id = 129
+Description = "Es ist nutzlos, was Kraft und Geschwindigkeit angeht. Dieses ist das schwächste und erbärmlichste Pokémon der Welt."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 3
+TypeTwo = 0
+BaseHp = 20
+BaseAttack = 10
+BaseDefense = 55
+BaseSpecialAttack = 15
+BaseSpecialDefense = 20
+BaseSpeed = 80
+ExpectedStatsLevel50 = {"hp": 95, "attack": 30, "defense": 75, "special_attack": 35, "special_defense": 40, "speed": 100}
+ExpectedStatsLevel100 = {"hp": 181, "attack": 56, "defense": 146, "special_attack": 66, "special_defense": 76, "speed": 196}
+LearnableMoves = ["Platscher", "Tackle", "Dreschflegel"]
+LevelUpMoves = {"Platscher": 1, "Tackle": 15, "Dreschflegel": 30}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

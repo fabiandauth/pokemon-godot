@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/050.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/050.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Digda"
+Id = 50
+Description = "Dieses Pokémon lebt 1 m unter der Erde. Es frisst Wurzeln und kommt nur selten an die Oberfläche."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 9
+TypeTwo = 0
+BaseHp = 10
+BaseAttack = 55
+BaseDefense = 25
+BaseSpecialAttack = 35
+BaseSpecialDefense = 45
+BaseSpeed = 95
+ExpectedStatsLevel50 = {"hp": 85, "attack": 75, "defense": 45, "special_attack": 55, "special_defense": 65, "speed": 115}
+ExpectedStatsLevel100 = {"hp": 161, "attack": 146, "defense": 86, "special_attack": 106, "special_defense": 126, "speed": 226}
+LearnableMoves = ["Kratzer", "Sandwirbel", "Heuler", "Erstauner", "Lehmschelle", "Intensität", "Dampfwalze", "Tiefschlag", "Schlammbombe", "Erdkräfte", "Schaufler", "Schlitzer", "Erdbeben", "Geofissur"]
+LevelUpMoves = {"Kratzer": 1, "Sandwirbel": 1, "Heuler": 4, "Erstauner": 7, "Lehmschelle": 12, "Intensität": 15, "Dampfwalze": 18, "Tiefschlag": 23, "Schlammbombe": 26, "Erdkräfte": 29, "Schaufler": 34, "Schlitzer": 37, "Erdbeben": 40, "Geofissur": 45}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

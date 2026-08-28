@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/119.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/119.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Golking"
+Id = 119
+Description = "Im Herbst, zur Paarungszeit, sieht man diese Pokémon kraftvoll Bäche und Flüsse hinaufschwimmen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 3
+TypeTwo = 0
+BaseHp = 80
+BaseAttack = 92
+BaseDefense = 65
+BaseSpecialAttack = 65
+BaseSpecialDefense = 80
+BaseSpeed = 68
+ExpectedStatsLevel50 = {"hp": 155, "attack": 112, "defense": 85, "special_attack": 85, "special_defense": 100, "speed": 88}
+ExpectedStatsLevel100 = {"hp": 301, "attack": 220, "defense": 166, "special_attack": 166, "special_defense": 196, "speed": 172}
+LearnableMoves = ["Gifthieb", "Nassmacher", "Rutenschlag", "Superschall", "Schnabel", "Hornattacke", "Aquawelle", "Dreschflegel", "Wasserring", "Furienschlag", "Kaskade", "Hornbohrer", "Agilität", "Überflutung", "Vielender"]
+LevelUpMoves = {"Gifthieb": 1, "Nassmacher": 1, "Rutenschlag": 1, "Superschall": 1, "Schnabel": 1, "Hornattacke": 11, "Aquawelle": 17, "Dreschflegel": 21, "Wasserring": 27, "Furienschlag": 31, "Kaskade": 40, "Hornbohrer": 47, "Agilität": 56, "Überflutung": 63, "Vielender": 72}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

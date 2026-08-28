@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/114.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/114.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Tangela"
+Id = 114
+Description = "Aufgrund der Ranken, die seinen Körper bedecken, kennt keiner seine wahre Form. Die blauen Ranken wachsen immer weiter."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 4
+TypeTwo = 0
+BaseHp = 65
+BaseAttack = 55
+BaseDefense = 115
+BaseSpecialAttack = 100
+BaseSpecialDefense = 40
+BaseSpeed = 60
+ExpectedStatsLevel50 = {"hp": 140, "attack": 75, "defense": 135, "special_attack": 120, "special_defense": 60, "speed": 80}
+ExpectedStatsLevel100 = {"hp": 271, "attack": 146, "defense": 266, "special_attack": 236, "special_defense": 116, "speed": 156}
+LearnableMoves = ["Verwurzler", "Umklammerung", "Schlafpuder", "Rankenhieb", "Absorber", "Giftpuder", "Klammergriff", "Wachstum", "Megasauger", "Abschlag", "Stachelspore", "Beerenkräfte", "Gigasauger", "Antik-Kraft", "Slam", "Spaßkanone", "Auswringen", "Grasfeld", "Blattgeißel"]
+LevelUpMoves = {"Verwurzler": 1, "Umklammerung": 1, "Schlafpuder": 4, "Rankenhieb": 7, "Absorber": 10, "Giftpuder": 14, "Klammergriff": 17, "Wachstum": 20, "Megasauger": 23, "Abschlag": 27, "Stachelspore": 30, "Beerenkräfte": 33, "Gigasauger": 36, "Antik-Kraft": 38, "Slam": 41, "Spaßkanone": 44, "Auswringen": 46, "Grasfeld": 48, "Blattgeißel": 50}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

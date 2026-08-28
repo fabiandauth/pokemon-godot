@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/068.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/068.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Machomei"
+Id = 68
+Description = "Seine markigen Arme können innerhalb von nur zwei Sekunden 1 000 Schläge verteilen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 7
+TypeTwo = 0
+BaseHp = 90
+BaseAttack = 130
+BaseDefense = 80
+BaseSpecialAttack = 65
+BaseSpecialDefense = 85
+BaseSpeed = 55
+ExpectedStatsLevel50 = {"hp": 165, "attack": 150, "defense": 100, "special_attack": 85, "special_defense": 105, "speed": 75}
+ExpectedStatsLevel100 = {"hp": 321, "attack": 296, "defense": 196, "special_attack": 166, "special_defense": 206, "speed": 146}
+LearnableMoves = ["Energiefokus", "Silberblick", "Fußkick", "Rundumschutz", "Karateschlag", "Fußtritt", "Gesichte", "Geowurf", "Vergeltung", "Überwurf", "Überroller", "Weckruf", "Kreuzhieb", "Grimasse", "Wuchtschlag"]
+LevelUpMoves = {"Energiefokus": 1, "Silberblick": 1, "Fußkick": 1, "Rundumschutz": 1, "Karateschlag": 1, "Fußtritt": 13, "Gesichte": 19, "Geowurf": 22, "Vergeltung": 25, "Überwurf": 32, "Überroller": 36, "Weckruf": 40, "Kreuzhieb": 44, "Grimasse": 51, "Wuchtschlag": 55}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

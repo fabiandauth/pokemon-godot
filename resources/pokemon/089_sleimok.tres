@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/089.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/089.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Sleimok"
+Id = 89
+Description = "Sie treffen sich an stinkenden Orten, an denen der Schleim sich türmt. Dies merkt man am Gestank."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 8
+TypeTwo = 0
+BaseHp = 105
+BaseAttack = 105
+BaseDefense = 75
+BaseSpecialAttack = 65
+BaseSpecialDefense = 100
+BaseSpeed = 50
+ExpectedStatsLevel50 = {"hp": 180, "attack": 125, "defense": 95, "special_attack": 85, "special_defense": 120, "speed": 70}
+ExpectedStatsLevel100 = {"hp": 351, "attack": 246, "defense": 186, "special_attack": 166, "special_defense": 236, "speed": 136}
+LearnableMoves = ["Pfund", "Giftwolke", "Härtner", "Lehmschelle", "Aussetzer", "Schlammbad", "Komprimator", "Schlammbombe", "Matschbombe", "Schleuder", "Kreideschrei", "Schlammwoge", "Säurepanzer", "Mülltreffer", "Rülpser", "Memento-Mori"]
+LevelUpMoves = {"Pfund": 1, "Giftwolke": 1, "Härtner": 1, "Lehmschelle": 1, "Aussetzer": 12, "Schlammbad": 15, "Komprimator": 18, "Schlammbombe": 21, "Matschbombe": 26, "Schleuder": 29, "Kreideschrei": 32, "Schlammwoge": 37, "Säurepanzer": 43, "Mülltreffer": 49, "Rülpser": 53, "Memento-Mori": 57}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

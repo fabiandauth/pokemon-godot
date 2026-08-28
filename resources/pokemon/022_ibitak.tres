@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/022.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/022.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Ibitak"
+Id = 22
+Description = "Mit seinen riesigen Flügeln kann dieses Pokémon nahezu pausenlos in der Luft bleiben."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 1
+TypeTwo = 10
+BaseHp = 65
+BaseAttack = 90
+BaseDefense = 65
+BaseSpecialAttack = 61
+BaseSpecialDefense = 61
+BaseSpeed = 100
+ExpectedStatsLevel50 = {"hp": 140, "attack": 110, "defense": 85, "special_attack": 81, "special_defense": 81, "speed": 120}
+ExpectedStatsLevel100 = {"hp": 271, "attack": 216, "defense": 166, "special_attack": 158, "special_defense": 158, "speed": 236}
+LearnableMoves = ["Furienschlag", "Heuler", "Pflücker", "Schlagbohrer", "Schnabel", "Silberblick", "Verfolgung", "Aero-Ass", "Spiegeltrick", "Agilität", "Gewissheit", "Ruheort", "Bohrschnabel"]
+LevelUpMoves = {"Furienschlag": 1, "Heuler": 1, "Pflücker": 1, "Schlagbohrer": 1, "Schnabel": 1, "Silberblick": 1, "Verfolgung": 13, "Aero-Ass": 17, "Spiegeltrick": 23, "Agilität": 29, "Gewissheit": 35, "Ruheort": 41, "Bohrschnabel": 47}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

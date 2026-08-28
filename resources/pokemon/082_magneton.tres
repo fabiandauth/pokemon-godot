@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/082.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/082.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Magneton"
+Id = 82
+Description = "Schließen sich mehrere Magnetilo zusammen, entsteht dieses Pokémon. Es entlädt kräftige Hochspannungsmagnetwellen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 5
+TypeTwo = 17
+BaseHp = 50
+BaseAttack = 60
+BaseDefense = 95
+BaseSpecialAttack = 120
+BaseSpecialDefense = 70
+BaseSpeed = 70
+ExpectedStatsLevel50 = {"hp": 125, "attack": 80, "defense": 115, "special_attack": 140, "special_defense": 90, "speed": 90}
+ExpectedStatsLevel100 = {"hp": 241, "attack": 156, "defense": 226, "special_attack": 276, "special_defense": 176, "speed": 176}
+LearnableMoves = ["Blitzkanone", "Tackle", "Superschall", "Triplette", "Donnerschock", "Ultraschall", "Elektrofeld", "Donnerwelle", "Magnetbombe", "Funkensprung", "Spiegelsalve", "Metallsound", "Elektroball", "Lichtkanone", "Kreideschrei", "Ladungsstoß", "Zielschuss", "Magnetflug", "Gyroball"]
+LevelUpMoves = {"Blitzkanone": 1, "Tackle": 1, "Superschall": 1, "Triplette": 1, "Donnerschock": 1, "Ultraschall": 1, "Elektrofeld": 11, "Donnerwelle": 15, "Magnetbombe": 18, "Funkensprung": 21, "Spiegelsalve": 25, "Metallsound": 29, "Elektroball": 34, "Lichtkanone": 39, "Kreideschrei": 45, "Ladungsstoß": 51, "Zielschuss": 56, "Magnetflug": 62, "Gyroball": 67}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

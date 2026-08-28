@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/027.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/027.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Sandan"
+Id = 27
+Description = "Es gräbt und lebt im Erdboden. Bei Gefahr rollt es sich zum Schutz zu einem Ball zusammen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 9
+TypeTwo = 0
+BaseHp = 50
+BaseAttack = 75
+BaseDefense = 85
+BaseSpecialAttack = 20
+BaseSpecialDefense = 30
+BaseSpeed = 40
+ExpectedStatsLevel50 = {"hp": 125, "attack": 95, "defense": 105, "special_attack": 40, "special_defense": 50, "speed": 60}
+ExpectedStatsLevel100 = {"hp": 241, "attack": 186, "defense": 206, "special_attack": 76, "special_defense": 96, "speed": 116}
+LearnableMoves = ["Kratzer", "Einigler", "Sandwirbel", "Giftstachel", "Walzer", "Turbodreher", "Sternschauer", "Zornklinge", "Intensität", "Kratzfurie", "Sandgrab", "Schlitzer", "Schaufler", "Gyroball", "Schwerttanz", "Sandsturm", "Erdbeben"]
+LevelUpMoves = {"Kratzer": 1, "Einigler": 1, "Sandwirbel": 3, "Giftstachel": 5, "Walzer": 7, "Turbodreher": 9, "Sternschauer": 11, "Zornklinge": 14, "Intensität": 17, "Kratzfurie": 20, "Sandgrab": 23, "Schlitzer": 26, "Schaufler": 30, "Gyroball": 34, "Schwerttanz": 38, "Sandsturm": 42, "Erdbeben": 46}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

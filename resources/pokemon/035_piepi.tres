@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/035.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/035.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Piepi"
+Id = 35
+Description = "Eine Ansammlung von Piepi bei Vollmond tanzen zu sehen, soll Freude verheißen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 18
+TypeTwo = 1
+BaseHp = 70
+BaseAttack = 45
+BaseDefense = 48
+BaseSpecialAttack = 60
+BaseSpecialDefense = 65
+BaseSpeed = 35
+ExpectedStatsLevel50 = {"hp": 145, "attack": 65, "defense": 68, "special_attack": 80, "special_defense": 85, "speed": 55}
+ExpectedStatsLevel100 = {"hp": 281, "attack": 126, "defense": 132, "special_attack": 156, "special_defense": 166, "speed": 106}
+LearnableMoves = ["Säuselstimme", "Pfund", "Heuler", "Heilopfer", "Charme", "Galanterie", "Zugabe", "Gesang", "Duplexhieb", "Einigler", "Spotlight", "Offerte", "Weckruf", "Komprimator", "Kraftvorrat", "Metronom", "Kosmik-Kraft", "Beschwörung", "Bodyslam", "Mondschein", "Mondgewalt", "Erdanziehung", "Sternenhieb"]
+LevelUpMoves = {"Säuselstimme": 1, "Pfund": 1, "Heuler": 1, "Heilopfer": 1, "Charme": 1, "Galanterie": 1, "Zugabe": 4, "Gesang": 7, "Duplexhieb": 10, "Einigler": 13, "Spotlight": 16, "Offerte": 19, "Weckruf": 22, "Komprimator": 25, "Kraftvorrat": 28, "Metronom": 31, "Kosmik-Kraft": 34, "Beschwörung": 37, "Bodyslam": 40, "Mondschein": 43, "Mondgewalt": 46, "Erdanziehung": 49, "Sternenhieb": 50}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

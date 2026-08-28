@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/124.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/124.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Rossana"
+Id = 124
+Description = "Der beschwingte Gang dieses Pokémon bezaubert Zuschauer und lässt sie im Takt dazu tanzen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 6
+TypeTwo = 11
+BaseHp = 65
+BaseAttack = 50
+BaseDefense = 35
+BaseSpecialAttack = 115
+BaseSpecialDefense = 95
+BaseSpeed = 95
+ExpectedStatsLevel50 = {"hp": 140, "attack": 70, "defense": 55, "special_attack": 135, "special_defense": 115, "speed": 115}
+ExpectedStatsLevel100 = {"hp": 271, "attack": 136, "defense": 106, "special_attack": 266, "special_defense": 226, "speed": 226}
+LearnableMoves = ["Abgesang", "Diebeskuss", "Pfund", "Pulverschnee", "Todeskuss", "Schlecker", "Duplexhieb", "Eishieb", "Herzstempel", "Horrorblick", "Trugträne", "Weckruf", "Lawine", "Bodyslam", "Auswringen", "Blizzard"]
+LevelUpMoves = {"Abgesang": 1, "Diebeskuss": 1, "Pfund": 1, "Pulverschnee": 1, "Todeskuss": 1, "Schlecker": 1, "Duplexhieb": 15, "Eishieb": 18, "Herzstempel": 21, "Horrorblick": 25, "Trugträne": 28, "Weckruf": 33, "Lawine": 39, "Bodyslam": 44, "Auswringen": 49, "Blizzard": 60}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

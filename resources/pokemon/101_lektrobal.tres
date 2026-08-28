@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/101.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/101.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Lektrobal"
+Id = 101
+Description = "Es explodiert schon bei kleinsten Reizen. Sein Spitzname \"Die Bombenkugel\" spiegelt die Furcht der Menschen wieder."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 5
+TypeTwo = 0
+BaseHp = 60
+BaseAttack = 50
+BaseDefense = 70
+BaseSpecialAttack = 80
+BaseSpecialDefense = 80
+BaseSpeed = 150
+ExpectedStatsLevel50 = {"hp": 135, "attack": 70, "defense": 90, "special_attack": 100, "special_defense": 100, "speed": 170}
+ExpectedStatsLevel100 = {"hp": 261, "attack": 136, "defense": 176, "special_attack": 196, "special_defense": 196, "speed": 336}
+LearnableMoves = ["Tackle", "Ultraschall", "Funkensprung", "Ladevorgang", "Magnetregler", "Mystowellen", "Walzer", "Kreideschrei", "Ladestrahl", "Lichtschild", "Elektroball", "Finale", "Sternschauer", "Magnetflug", "Gyroball", "Explosion", "Spiegelcape"]
+LevelUpMoves = {"Tackle": 1, "Ultraschall": 1, "Funkensprung": 1, "Ladevorgang": 1, "Magnetregler": 1, "Mystowellen": 8, "Walzer": 15, "Kreideschrei": 19, "Ladestrahl": 22, "Lichtschild": 26, "Elektroball": 29, "Finale": 35, "Sternschauer": 40, "Magnetflug": 46, "Gyroball": 51, "Explosion": 57, "Spiegelcape": 62}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

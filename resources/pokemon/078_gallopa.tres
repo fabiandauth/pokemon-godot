@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/078.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/078.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Gallopa"
+Id = 78
+Description = "Dieses Pokémon verfolgt schnelle Objekte in der Hoffnung, ein Wettrennen gegen sie zu gewinnen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 2
+TypeTwo = 0
+BaseHp = 65
+BaseAttack = 100
+BaseDefense = 70
+BaseSpecialAttack = 80
+BaseSpecialDefense = 80
+BaseSpeed = 105
+ExpectedStatsLevel50 = {"hp": 140, "attack": 120, "defense": 90, "special_attack": 100, "special_defense": 100, "speed": 125}
+ExpectedStatsLevel100 = {"hp": 271, "attack": 236, "defense": 176, "special_attack": 196, "special_defense": 196, "speed": 246}
+LearnableMoves = ["Gifthieb", "Vielender", "Ruckzuckhieb", "Rutenschlag", "Heuler", "Glut", "Flammenrad", "Stampfer", "Nitroladung", "Feuerwirbel", "Bodycheck", "Inferno", "Agilität", "Furienschlag", "Feuersturm", "Sprungfeder", "Flammenblitz"]
+LevelUpMoves = {"Gifthieb": 1, "Vielender": 1, "Ruckzuckhieb": 1, "Rutenschlag": 1, "Heuler": 1, "Glut": 1, "Flammenrad": 13, "Stampfer": 17, "Nitroladung": 21, "Feuerwirbel": 25, "Bodycheck": 29, "Inferno": 33, "Agilität": 37, "Furienschlag": 40, "Feuersturm": 41, "Sprungfeder": 45, "Flammenblitz": 49}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

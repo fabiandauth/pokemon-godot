@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/005.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/005.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Glutexo"
+Id = 5
+Description = "Es schlägt im Kampf mit seinem Schwanz nach seinen Gegnern. Anschließend zerfetzt es die Gegner mit seinen scharfen Klauen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 2
+TypeTwo = 0
+BaseHp = 58
+BaseAttack = 64
+BaseDefense = 58
+BaseSpecialAttack = 80
+BaseSpecialDefense = 65
+BaseSpeed = 80
+ExpectedStatsLevel50 = {"hp": 133, "attack": 84, "defense": 78, "special_attack": 100, "special_defense": 85, "speed": 100}
+ExpectedStatsLevel100 = {"hp": 257, "attack": 164, "defense": 152, "special_attack": 196, "special_defense": 166, "speed": 196}
+LearnableMoves = ["Kratzer", "Heuler", "Glut", "Rauchwolke", "Drachenwut", "Grimasse", "Feuerzahn", "Funkenflug", "Schlitzer", "Flammenwurf", "Feuerwirbel", "Inferno"]
+LevelUpMoves = {"Kratzer": 1, "Heuler": 1, "Glut": 1, "Rauchwolke": 10, "Drachenwut": 17, "Grimasse": 21, "Feuerzahn": 28, "Funkenflug": 32, "Schlitzer": 39, "Flammenwurf": 43, "Feuerwirbel": 50, "Inferno": 54}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

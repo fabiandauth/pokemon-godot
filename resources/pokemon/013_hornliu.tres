@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/013.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/013.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Hornliu"
+Id = 13
+Description = "Es lebt bevorzugt in Wäldern und im hohen Gras. Auf dem Kopf trägt es einen circa 5 cm langen, spitzen, giftigen Stachel."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 12
+TypeTwo = 8
+BaseHp = 40
+BaseAttack = 35
+BaseDefense = 30
+BaseSpecialAttack = 20
+BaseSpecialDefense = 20
+BaseSpeed = 50
+ExpectedStatsLevel50 = {"hp": 115, "attack": 55, "defense": 50, "special_attack": 40, "special_defense": 40, "speed": 70}
+ExpectedStatsLevel100 = {"hp": 221, "attack": 106, "defense": 96, "special_attack": 76, "special_defense": 76, "speed": 136}
+LearnableMoves = ["Giftstachel", "Fadenschuss", "Käferbiss"]
+LevelUpMoves = {"Giftstachel": 1, "Fadenschuss": 1, "Käferbiss": 15}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

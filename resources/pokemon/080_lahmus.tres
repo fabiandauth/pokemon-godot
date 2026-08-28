@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/080.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/080.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Lahmus"
+Id = 80
+Description = "Das Muschas an seiner Rute lässt nicht locker, da ein leckerer Geschmack aus seiner Rute strömt."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 3
+TypeTwo = 11
+BaseHp = 95
+BaseAttack = 75
+BaseDefense = 110
+BaseSpecialAttack = 100
+BaseSpecialDefense = 80
+BaseSpeed = 30
+ExpectedStatsLevel50 = {"hp": 170, "attack": 95, "defense": 130, "special_attack": 120, "special_defense": 100, "speed": 50}
+ExpectedStatsLevel100 = {"hp": 331, "attack": 186, "defense": 256, "special_attack": 236, "special_defense": 196, "speed": 96}
+LearnableMoves = ["Fluch", "Tackle", "Heuler", "Gähner", "Heilwoge", "Aquaknarre", "Konfusion", "Aussetzer", "Kopfnuss", "Aquawelle", "Zen-Kopfstoß", "Tagedieb", "Panzerschutz", "Amnesie", "Psychokinese", "Regentanz", "Psycho-Plus"]
+LevelUpMoves = {"Fluch": 1, "Tackle": 1, "Heuler": 1, "Gähner": 1, "Heilwoge": 1, "Aquaknarre": 9, "Konfusion": 14, "Aussetzer": 19, "Kopfnuss": 23, "Aquawelle": 28, "Zen-Kopfstoß": 32, "Tagedieb": 36, "Panzerschutz": 37, "Amnesie": 43, "Psychokinese": 49, "Regentanz": 55, "Psycho-Plus": 62}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

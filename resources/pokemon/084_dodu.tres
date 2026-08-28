@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/084.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/084.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Dodu"
+Id = 84
+Description = "Dieses zweiköpfige Pokémon gilt als plötzliche Mutation. Es rennt bis zu 100 km/h schnell."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 1
+TypeTwo = 10
+BaseHp = 35
+BaseAttack = 85
+BaseDefense = 45
+BaseSpecialAttack = 35
+BaseSpecialDefense = 35
+BaseSpeed = 75
+ExpectedStatsLevel50 = {"hp": 110, "attack": 105, "defense": 65, "special_attack": 55, "special_defense": 55, "speed": 95}
+ExpectedStatsLevel100 = {"hp": 211, "attack": 206, "defense": 126, "special_attack": 106, "special_defense": 106, "speed": 186}
+LearnableMoves = ["Heuler", "Schnabel", "Ruckzuckhieb", "Raserei", "Furienschlag", "Verfolgung", "Aufruhr", "Akupressur", "Doppelschlag", "Agilität", "Bohrschnabel", "Notsituation", "Fuchtler"]
+LevelUpMoves = {"Heuler": 1, "Schnabel": 1, "Ruckzuckhieb": 5, "Raserei": 10, "Furienschlag": 14, "Verfolgung": 19, "Aufruhr": 23, "Akupressur": 28, "Doppelschlag": 32, "Agilität": 37, "Bohrschnabel": 41, "Notsituation": 46, "Fuchtler": 50}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/034.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/034.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Nidoking"
+Id = 34
+Description = "Seine steinharte Haut und sein ausgeprägtes Horn sind seine Markenzeichen. Achte auf das Horn, denn es enthält Gift."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 8
+TypeTwo = 9
+BaseHp = 81
+BaseAttack = 102
+BaseDefense = 77
+BaseSpecialAttack = 85
+BaseSpecialDefense = 75
+BaseSpeed = 85
+ExpectedStatsLevel50 = {"hp": 156, "attack": 122, "defense": 97, "special_attack": 105, "special_defense": 95, "speed": 105}
+ExpectedStatsLevel100 = {"hp": 303, "attack": 240, "defense": 190, "special_attack": 206, "special_defense": 186, "speed": 206}
+LearnableMoves = ["Doppelkick", "Giftstachel", "Schnabel", "Energiefokus", "Vielender", "Zermürben", "Fuchtler", "Erdkräfte"]
+LevelUpMoves = {"Doppelkick": 1, "Giftstachel": 1, "Schnabel": 1, "Energiefokus": 1, "Vielender": 1, "Zermürben": 23, "Fuchtler": 35, "Erdkräfte": 43}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/003.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/003.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Bisaflor"
+Id = 3
+Description = "Es spreizt die breiten Blätter seiner Blüte, um seinen Körper mit Sonnenenergie zu durchfluten."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 4
+TypeTwo = 8
+BaseHp = 80
+BaseAttack = 82
+BaseDefense = 83
+BaseSpecialAttack = 100
+BaseSpecialDefense = 100
+BaseSpeed = 80
+ExpectedStatsLevel50 = {"hp": 155, "attack": 102, "defense": 103, "special_attack": 120, "special_defense": 120, "speed": 100}
+ExpectedStatsLevel100 = {"hp": 301, "attack": 200, "defense": 202, "special_attack": 236, "special_defense": 236, "speed": 196}
+LearnableMoves = ["Rankenhieb", "Egelsamen", "Tackle", "Heuler", "Schlafpuder", "Giftpuder", "Bodycheck", "Rasierblatt", "Lockduft", "Wachstum", "Risikotackle", "Blättertanz", "Sorgensamen", "Synthese", "Blütenwirbel", "Solarstrahl"]
+LevelUpMoves = {"Rankenhieb": 1, "Egelsamen": 1, "Tackle": 1, "Heuler": 1, "Schlafpuder": 13, "Giftpuder": 13, "Bodycheck": 15, "Rasierblatt": 20, "Lockduft": 23, "Wachstum": 28, "Risikotackle": 31, "Blättertanz": 32, "Sorgensamen": 39, "Synthese": 45, "Blütenwirbel": 50, "Solarstrahl": 53}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

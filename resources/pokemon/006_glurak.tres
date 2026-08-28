@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/006.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/006.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Glurak"
+Id = 6
+Description = "Wenn dieses Pokémon einen Strahl glühenden Feuers speit, leuchtet seine Schwanzspitze auf."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 2
+TypeTwo = 10
+BaseHp = 78
+BaseAttack = 84
+BaseDefense = 78
+BaseSpecialAttack = 109
+BaseSpecialDefense = 85
+BaseSpeed = 100
+ExpectedStatsLevel50 = {"hp": 153, "attack": 104, "defense": 98, "special_attack": 129, "special_defense": 105, "speed": 120}
+ExpectedStatsLevel100 = {"hp": 297, "attack": 204, "defense": 192, "special_attack": 254, "special_defense": 206, "speed": 236}
+LearnableMoves = ["Kratzer", "Dunkelklaue", "Heuler", "Glut", "Luftschnitt", "Drachenklaue", "Rauchwolke", "Drachenwut", "Grimasse", "Feuerzahn", "Funkenflug", "Flügelschlag", "Schlitzer", "Flammenwurf", "Feuerwirbel", "Inferno", "Hitzewelle", "Flammenblitz"]
+LevelUpMoves = {"Kratzer": 1, "Dunkelklaue": 1, "Heuler": 1, "Glut": 1, "Luftschnitt": 1, "Drachenklaue": 1, "Rauchwolke": 1, "Drachenwut": 17, "Grimasse": 21, "Feuerzahn": 28, "Funkenflug": 32, "Flügelschlag": 36, "Schlitzer": 41, "Flammenwurf": 47, "Feuerwirbel": 56, "Inferno": 62, "Hitzewelle": 71, "Flammenblitz": 77}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

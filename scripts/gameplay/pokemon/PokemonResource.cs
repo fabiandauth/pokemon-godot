@@ -19,6 +19,12 @@ public partial class PokemonResource : Resource
     public string Description;
 
     [Export]
+    public string PokedexSource;
+
+    [Export]
+    public int DefaultLevel = 1;
+
+    [Export]
     public PokemonType TypeOne = PokemonType.None;
 
     [Export]
@@ -51,6 +57,13 @@ public partial class PokemonResource : Resource
 
     [Export]
     public int BaseSpeed;
+
+    [ExportCategory("Expected Stats")]
+    [Export]
+    public Dictionary<string, int> ExpectedStatsLevel50;
+
+    [Export]
+    public Dictionary<string, int> ExpectedStatsLevel100;
 
     [ExportCategory("Moves")]
     [Export]

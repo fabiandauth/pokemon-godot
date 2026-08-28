@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/076.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/076.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Geowaz"
+Id = 76
+Description = "Sie rollen Berge hinunter und hinterlassen Spurrillen. Halte dich von diesen Rillen fern."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 13
+TypeTwo = 9
+BaseHp = 80
+BaseAttack = 120
+BaseDefense = 130
+BaseSpecialAttack = 55
+BaseSpecialDefense = 65
+BaseSpeed = 45
+ExpectedStatsLevel50 = {"hp": 155, "attack": 140, "defense": 150, "special_attack": 75, "special_defense": 85, "speed": 65}
+ExpectedStatsLevel100 = {"hp": 301, "attack": 276, "defense": 296, "special_attack": 146, "special_defense": 166, "speed": 126}
+LearnableMoves = ["Tackle", "Steinpolitur", "Einigler", "Lehmsuhler", "Rammboss", "Quetschwalze", "Intensität", "Steinwurf", "Felswurf", "Katapult", "Finale", "Dampfwalze", "Tarnsteine", "Erdbeben", "Explosion", "Risikotackle", "Steinkante"]
+LevelUpMoves = {"Tackle": 1, "Steinpolitur": 1, "Einigler": 1, "Lehmsuhler": 1, "Rammboss": 1, "Quetschwalze": 11, "Intensität": 15, "Steinwurf": 18, "Felswurf": 22, "Katapult": 27, "Finale": 31, "Dampfwalze": 36, "Tarnsteine": 42, "Erdbeben": 47, "Explosion": 53, "Risikotackle": 58, "Steinkante": 64}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

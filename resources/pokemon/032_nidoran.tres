@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/032.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/032.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Nidoran♂"
+Id = 32
+Description = "Es untersucht die Umgebung, indem es die Ohren spitzt und lauscht. Sein giftiges Horn schützt es."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 8
+TypeTwo = 0
+BaseHp = 46
+BaseAttack = 57
+BaseDefense = 40
+BaseSpecialAttack = 40
+BaseSpecialDefense = 40
+BaseSpeed = 50
+ExpectedStatsLevel50 = {"hp": 121, "attack": 77, "defense": 60, "special_attack": 60, "special_defense": 60, "speed": 70}
+ExpectedStatsLevel100 = {"hp": 233, "attack": 150, "defense": 116, "special_attack": 116, "special_defense": 116, "speed": 136}
+LearnableMoves = ["Silberblick", "Schnabel", "Energiefokus", "Doppelkick", "Giftstachel", "Furienschlag", "Hornattacke", "Rechte Hand", "Giftspitzen", "Schmeichler", "Gifthieb", "Liebreiz", "Hornbohrer"]
+LevelUpMoves = {"Silberblick": 1, "Schnabel": 1, "Energiefokus": 7, "Doppelkick": 9, "Giftstachel": 13, "Furienschlag": 19, "Hornattacke": 21, "Rechte Hand": 25, "Giftspitzen": 31, "Schmeichler": 33, "Gifthieb": 37, "Liebreiz": 43, "Hornbohrer": 45}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

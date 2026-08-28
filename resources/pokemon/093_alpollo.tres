@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/093.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/093.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Alpollo"
+Id = 93
+Description = "Falls du im Dunkeln das Gefühl hast, beobachtet zu werden und niemand ist zu sehen, ist es bestimmt Alpollo."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 14
+TypeTwo = 8
+BaseHp = 45
+BaseAttack = 50
+BaseDefense = 45
+BaseSpecialAttack = 115
+BaseSpecialDefense = 55
+BaseSpeed = 95
+ExpectedStatsLevel50 = {"hp": 120, "attack": 70, "defense": 65, "special_attack": 135, "special_defense": 75, "speed": 115}
+ExpectedStatsLevel100 = {"hp": 231, "attack": 136, "defense": 126, "special_attack": 266, "special_defense": 146, "speed": 226}
+LearnableMoves = ["Hypnose", "Groll", "Schlecker", "Horrorblick", "Fluch", "Nachtnebel", "Konfustrahl", "Tiefschlag", "Finsterfaust", "Gegenstoß", "Spukball", "Traumfresser", "Finsteraura", "Abgangsbund", "Bürde", "Nachtmahr"]
+LevelUpMoves = {"Hypnose": 1, "Groll": 1, "Schlecker": 1, "Horrorblick": 8, "Fluch": 12, "Nachtnebel": 15, "Konfustrahl": 19, "Tiefschlag": 22, "Finsterfaust": 25, "Gegenstoß": 28, "Spukball": 33, "Traumfresser": 39, "Finsteraura": 44, "Abgangsbund": 50, "Bürde": 55, "Nachtmahr": 61}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

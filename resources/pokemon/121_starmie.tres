@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/121.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/121.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Starmie"
+Id = 121
+Description = "Der Kern dieses Pokémon leuchtet in den Farben des Regenbogens. Sein KErn gilt als Edelstein."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 3
+TypeTwo = 11
+BaseHp = 60
+BaseAttack = 75
+BaseDefense = 85
+BaseSpecialAttack = 100
+BaseSpecialDefense = 85
+BaseSpeed = 115
+ExpectedStatsLevel50 = {"hp": 135, "attack": 95, "defense": 105, "special_attack": 120, "special_defense": 105, "speed": 135}
+ExpectedStatsLevel100 = {"hp": 261, "attack": 186, "defense": 206, "special_attack": 236, "special_defense": 206, "speed": 266}
+LearnableMoves = ["Aquaknarre", "Genesung", "Hydropumpe", "Sternschauer", "Turbodreher", "Konfustrahl"]
+LevelUpMoves = {"Aquaknarre": 1, "Genesung": 1, "Hydropumpe": 1, "Sternschauer": 1, "Turbodreher": 1, "Konfustrahl": 22}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

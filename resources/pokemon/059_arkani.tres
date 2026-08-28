@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/059.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/059.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Arkani"
+Id = 59
+Description = "Dieses Pokémon trägt ein wunderschönes Fell. Es ist obendrein schnell und sehr wendig."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 2
+TypeTwo = 0
+BaseHp = 90
+BaseAttack = 110
+BaseDefense = 80
+BaseSpecialAttack = 100
+BaseSpecialDefense = 80
+BaseSpeed = 95
+ExpectedStatsLevel50 = {"hp": 165, "attack": 130, "defense": 100, "special_attack": 120, "special_defense": 100, "speed": 115}
+ExpectedStatsLevel100 = {"hp": 321, "attack": 256, "defense": 196, "special_attack": 236, "special_defense": 196, "speed": 226}
+LearnableMoves = ["Biss", "Brüller", "Schnüffler", "Donnerzahn", "Feuerzahn", "Turbotempo"]
+LevelUpMoves = {"Biss": 1, "Brüller": 1, "Schnüffler": 1, "Donnerzahn": 1, "Feuerzahn": 1, "Turbotempo": 34}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

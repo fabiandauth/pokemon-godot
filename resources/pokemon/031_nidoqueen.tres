@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/031.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/031.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Nidoqueen"
+Id = 31
+Description = "Es benutzt seinen schuppigen Körper, um den Höhleneingang als Schutz für seine Jungen zu sperren."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 8
+TypeTwo = 9
+BaseHp = 90
+BaseAttack = 92
+BaseDefense = 87
+BaseSpecialAttack = 75
+BaseSpecialDefense = 85
+BaseSpeed = 76
+ExpectedStatsLevel50 = {"hp": 165, "attack": 112, "defense": 107, "special_attack": 95, "special_defense": 105, "speed": 96}
+ExpectedStatsLevel100 = {"hp": 321, "attack": 220, "defense": 210, "special_attack": 186, "special_defense": 206, "speed": 188}
+LearnableMoves = ["Kraftkoloss", "Kratzer", "Rutenschlag", "Doppelkick", "Giftstachel", "Zermürben", "Bodyslam", "Erdkräfte"]
+LevelUpMoves = {"Kraftkoloss": 1, "Kratzer": 1, "Rutenschlag": 1, "Doppelkick": 1, "Giftstachel": 1, "Zermürben": 23, "Bodyslam": 35, "Erdkräfte": 43}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

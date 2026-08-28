@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/122.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/122.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Pantimos"
+Id = 122
+Description = "Seine Fingerspitzen sondern etwas ab, das die Luft zu einer schützenden Wand werden lässt."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 11
+TypeTwo = 18
+BaseHp = 40
+BaseAttack = 45
+BaseDefense = 65
+BaseSpecialAttack = 100
+BaseSpecialDefense = 120
+BaseSpeed = 90
+ExpectedStatsLevel50 = {"hp": 115, "attack": 65, "defense": 85, "special_attack": 120, "special_defense": 140, "speed": 110}
+ExpectedStatsLevel100 = {"hp": 221, "attack": 126, "defense": 166, "special_attack": 236, "special_defense": 276, "speed": 216}
+LearnableMoves = ["Rapidschutz", "Rundumschutz", "Zauberblatt", "Schutztausch", "Krafttausch", "Konfusion", "Barriere", "Nebelfeld", "Imitator", "Meditation", "Duplexhieb", "Mimikry", "Psywelle", "Zugabe", "Reflektor", "Lichtschild", "Psystrahl", "Delegator", "Aufbereitung", "Trickbetrug", "Psychokinese", "Rollentausch", "Staffette", "Bodyguard"]
+LevelUpMoves = {"Rapidschutz": 1, "Rundumschutz": 1, "Zauberblatt": 1, "Schutztausch": 1, "Krafttausch": 1, "Konfusion": 1, "Barriere": 1, "Nebelfeld": 1, "Imitator": 4, "Meditation": 8, "Duplexhieb": 11, "Mimikry": 15, "Psywelle": 15, "Zugabe": 18, "Reflektor": 22, "Lichtschild": 22, "Psystrahl": 25, "Delegator": 29, "Aufbereitung": 32, "Trickbetrug": 36, "Psychokinese": 39, "Rollentausch": 43, "Staffette": 46, "Bodyguard": 50}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

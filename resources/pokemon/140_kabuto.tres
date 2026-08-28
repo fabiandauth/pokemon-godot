@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/140.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/140.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Kabuto"
+Id = 140
+Description = "Man geht davon aus, dass dieses Pokémon vor 300 Millionen Jahren die Strände bevölkerte."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 13
+TypeTwo = 3
+BaseHp = 30
+BaseAttack = 80
+BaseDefense = 90
+BaseSpecialAttack = 55
+BaseSpecialDefense = 45
+BaseSpeed = 55
+ExpectedStatsLevel50 = {"hp": 105, "attack": 100, "defense": 110, "special_attack": 75, "special_defense": 65, "speed": 75}
+ExpectedStatsLevel100 = {"hp": 201, "attack": 196, "defense": 216, "special_attack": 146, "special_defense": 126, "speed": 146}
+LearnableMoves = ["Kratzer", "Härtner", "Absorber", "Silberblick", "Lehmschuss", "Sandwirbel", "Ausdauer", "Wasserdüse", "Megasauger", "Metallsound", "Antik-Kraft", "Auswringen"]
+LevelUpMoves = {"Kratzer": 1, "Härtner": 1, "Absorber": 6, "Silberblick": 11, "Lehmschuss": 16, "Sandwirbel": 21, "Ausdauer": 26, "Wasserdüse": 31, "Megasauger": 36, "Metallsound": 41, "Antik-Kraft": 46, "Auswringen": 50}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

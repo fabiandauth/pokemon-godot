@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/085.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/085.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Dodri"
+Id = 85
+Description = "Lässt ein Feind auch nur einen der drei Köpfe für nur eine Sekunde aus den Augen, wird er sofort gepickt."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 1
+TypeTwo = 10
+BaseHp = 60
+BaseAttack = 110
+BaseDefense = 70
+BaseSpecialAttack = 60
+BaseSpecialDefense = 60
+BaseSpeed = 110
+ExpectedStatsLevel50 = {"hp": 135, "attack": 130, "defense": 90, "special_attack": 80, "special_defense": 80, "speed": 130}
+ExpectedStatsLevel100 = {"hp": 261, "attack": 256, "defense": 176, "special_attack": 156, "special_defense": 156, "speed": 256}
+LearnableMoves = ["Raserei", "Heuler", "Schnabel", "Pflücker", "Ruckzuckhieb", "Furienschlag", "Verfolgung", "Aufruhr", "Akupressur", "Triplette", "Agilität", "Bohrschnabel", "Notsituation", "Fuchtler"]
+LevelUpMoves = {"Raserei": 1, "Heuler": 1, "Schnabel": 1, "Pflücker": 1, "Ruckzuckhieb": 1, "Furienschlag": 14, "Verfolgung": 19, "Aufruhr": 23, "Akupressur": 28, "Triplette": 34, "Agilität": 41, "Bohrschnabel": 47, "Notsituation": 54, "Fuchtler": 60}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

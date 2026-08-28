@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/094.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/094.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Gengar"
+Id = 94
+Description = "Es versteckt sich im Schatten. Man sagt, wenn sich ein Gengar versteckt, kühlt es sich um 5 °C ab."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 14
+TypeTwo = 8
+BaseHp = 60
+BaseAttack = 65
+BaseDefense = 60
+BaseSpecialAttack = 130
+BaseSpecialDefense = 75
+BaseSpeed = 110
+ExpectedStatsLevel50 = {"hp": 135, "attack": 85, "defense": 80, "special_attack": 150, "special_defense": 95, "speed": 130}
+ExpectedStatsLevel100 = {"hp": 261, "attack": 166, "defense": 156, "special_attack": 296, "special_defense": 186, "speed": 256}
+LearnableMoves = ["Hypnose", "Groll", "Schlecker", "Horrorblick", "Fluch", "Nachtnebel", "Konfustrahl", "Tiefschlag", "Finsterfaust", "Gegenstoß", "Spukball", "Traumfresser", "Finsteraura", "Abgangsbund", "Bürde", "Nachtmahr"]
+LevelUpMoves = {"Hypnose": 1, "Groll": 1, "Schlecker": 1, "Horrorblick": 8, "Fluch": 12, "Nachtnebel": 15, "Konfustrahl": 19, "Tiefschlag": 22, "Finsterfaust": 25, "Gegenstoß": 28, "Spukball": 33, "Traumfresser": 39, "Finsteraura": 44, "Abgangsbund": 50, "Bürde": 55, "Nachtmahr": 61}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

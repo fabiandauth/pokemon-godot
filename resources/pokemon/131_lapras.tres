@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/131.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/131.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Lapras"
+Id = 131
+Description = "Sie sind gutmütig. Da sie selten kämpfen, wurden sie oft gefangen. Ihre Anzahl ist stark reduziert."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 3
+TypeTwo = 6
+BaseHp = 130
+BaseAttack = 85
+BaseDefense = 80
+BaseSpecialAttack = 85
+BaseSpecialDefense = 95
+BaseSpeed = 60
+ExpectedStatsLevel50 = {"hp": 205, "attack": 105, "defense": 100, "special_attack": 105, "special_defense": 115, "speed": 80}
+ExpectedStatsLevel100 = {"hp": 401, "attack": 206, "defense": 196, "special_attack": 206, "special_defense": 226, "speed": 156}
+LearnableMoves = ["Heuler", "Gesang", "Aquaknarre", "Weißnebel", "Konfustrahl", "Eissplitter", "Aquawelle", "Bodyslam", "Regentanz", "Abgesang", "Eisstrahl", "Lake", "Bodyguard", "Hydropumpe", "Eiseskälte"]
+LevelUpMoves = {"Heuler": 1, "Gesang": 1, "Aquaknarre": 1, "Weißnebel": 4, "Konfustrahl": 7, "Eissplitter": 10, "Aquawelle": 14, "Bodyslam": 18, "Regentanz": 22, "Abgesang": 27, "Eisstrahl": 32, "Lake": 37, "Bodyguard": 43, "Hydropumpe": 47, "Eiseskälte": 50}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

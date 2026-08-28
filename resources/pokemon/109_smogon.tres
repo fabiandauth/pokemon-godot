@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/109.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/109.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Smogon"
+Id = 109
+Description = "Sein dünner, ballonartiger Körper ist mit schrecklichem Giftgas gefüllt. Es verbreitet einen heftigen Gestank, wenn es in der Nähe ist."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 8
+TypeTwo = 0
+BaseHp = 40
+BaseAttack = 65
+BaseDefense = 95
+BaseSpecialAttack = 60
+BaseSpecialDefense = 45
+BaseSpeed = 35
+ExpectedStatsLevel50 = {"hp": 115, "attack": 85, "defense": 115, "special_attack": 80, "special_defense": 65, "speed": 55}
+ExpectedStatsLevel100 = {"hp": 221, "attack": 166, "defense": 226, "special_attack": 156, "special_defense": 126, "speed": 106}
+LearnableMoves = ["Tackle", "Giftwolke", "Smog", "Rauchwolke", "Gewissheit", "Klärsmog", "Schlammbad", "Finale", "Dunkelnebel", "Gyroball", "Matschbombe", "Explosion", "Abgangsbund", "Memento-Mori"]
+LevelUpMoves = {"Tackle": 1, "Giftwolke": 1, "Smog": 46, "Rauchwolke": 7, "Gewissheit": 12, "Klärsmog": 15, "Schlammbad": 18, "Finale": 23, "Dunkelnebel": 26, "Gyroball": 29, "Matschbombe": 34, "Explosion": 37, "Abgangsbund": 40, "Memento-Mori": 45}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")
