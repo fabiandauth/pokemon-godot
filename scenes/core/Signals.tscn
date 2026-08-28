@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://5e8f3f8d4e8e4e7a80123e56789abc12"]
+
+[ext_resource type="Script" path="res://scripts/core/Signals.cs" id="1"]
+
+[node name="Signals" type="Node"]
+script = ExtResource("1")

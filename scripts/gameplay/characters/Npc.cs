@@ -1,4 +1,5 @@
 using Game.Core;
+using Game.Core.AI;
 using Game.UI;
 using Game.Utilities;
 using Godot;
@@ -10,6 +11,9 @@ namespace Game.Gameplay;
 public partial class Npc : CharacterBody2D
 {
     private NpcAppearance npcAppearance = NpcAppearance.Worker;
+    
+    // AI Conversation
+    private OllamaAI.ConversationContext conversationContext;
 
     [ExportCategory("Traits")]
     [Export]
@@ -103,8 +107,13 @@ public partial class Npc : CharacterBody2D
         if (Engine.IsEditorHint())
             return;
 
+        Logger.Info(new object[] { Name, ": PlayMessage called with direction:", Direction });
+
         if (characterMovement.IsMoving())
+        {
+            Logger.Info(new object[] { Name, ": Character is moving, ignoring PlayMessage" });
             return;
+        }
 
         if (npcInput.Direction != Direction * -1)
         {
@@ -112,7 +121,104 @@ public partial class Npc : CharacterBody2D
             npcInput.EmitSignal(CharacterInput.SignalName.Turn);
         }
 
+        Logger.Info(new object[] { Name, ": Changing to Message state" });
         stateMachine.ChangeState("Message");
-        MessageManager.PlayText([.. NpcInputConfig.Messages]);
+        
+        // Initialize AI conversation if not already done
+        if (conversationContext == null)
+        {
+            Logger.Info(new object[] { Name, ": Initializing AI conversation context" });
+            conversationContext = OllamaAI.InitializeConversation(Name, NpcAppearance.ToString());
+        }
+        else
+        {
+            Logger.Info(new object[] { Name, ": Using existing conversation context" });
+        }
+        
+        // Start AI conversation
+        Logger.Info(new object[] { Name, ": Starting AI talk" });
+        StartAITalk();
+    }
+    
+    /// <summary>
+    /// Start conversation with AI
+    /// </summary>
+    public async void StartAITalk()
+    {
+        Logger.Info(new object[] { Name, ": StartAITalk - checking Ollama availability" });
+        
+        // Check if Ollama is available
+        if (!OllamaAI.IsAvailable())
+        {
+            // Fallback to static messages
+            Logger.Warning(new object[] { Name, ": Ollama not available, using fallback messages" });
+            MessageManager.StartAIConversation(this, [.. NpcInputConfig.Messages]);
+            return;
+        }
+        
+        Logger.Info(new object[] { Name, ": StartAITalk - Ollama available, sending initial message" });
+        
+        // Get AI response
+        var response = await OllamaAI.SendMessageAsync(
+            conversationContext,
+            "Hello there!"  // Initial greeting
+        );
+        
+        Logger.Info(new object[] { Name, ": StartAITalk - AI response received, success:", response.Success, "message:", response.Message });
+        
+        if (response.Success && !string.IsNullOrEmpty(response.Message))
+        {
+            // Display AI response
+            Logger.Info(new object[] { Name, ": StartAITalk - Starting AI conversation with response" });
+            MessageManager.StartAIConversation(this, new[] { response.Message });
+        }
+        else
+        {
+            // Fallback to static messages
+            Logger.Warning(new object[] { Name, ": StartAITalk - AI response failed, using fallback. Error:", response.Error });
+            MessageManager.StartAIConversation(this, [.. NpcInputConfig.Messages]);
+        }
+    }
+    
+    /// <summary>
+    /// Send user message to AI and get response
+    /// </summary>
+    public async void SendUserMessage(string userMessage)
+    {
+        Logger.Info(new object[] { Name, ": SendUserMessage - user said:", userMessage });
+        
+        if (conversationContext == null)
+        {
+            Logger.Info(new object[] { Name, ": SendUserMessage - Creating new conversation context" });
+            conversationContext = OllamaAI.InitializeConversation(Name, NpcAppearance.ToString());
+        }
+        
+        if (!OllamaAI.IsAvailable())
+        {
+            Logger.Warning(new object[] { Name, ": SendUserMessage - Ollama not available, using contextual fallback" });
+            MessageManager.AddAIResponse(this, "Sorry, I lost my train of thought. Could you say that again in a moment?");
+            return;
+        }
+        
+        Logger.Info(new object[] { Name, ": SendUserMessage - Sending to AI" });
+        
+        // Send to AI
+        var response = await OllamaAI.SendMessageAsync(conversationContext, userMessage);
+        
+        Logger.Info(new object[] { Name, ": SendUserMessage - AI response:", response.Message });
+        
+        if (response.Success && !string.IsNullOrEmpty(response.Message))
+        {
+            // Display AI response - this will add it to the messages and display it
+            Logger.Info(new object[] { Name, ": SendUserMessage - Adding AI response to message manager" });
+            MessageManager.AddAIResponse(this, response.Message);
+        }
+        else
+        {
+            Logger.Warning(new object[] { Name, ": SendUserMessage - AI error:", response.Error });
+            // End conversation on error
+            MessageManager.EndAIConversation(this);
+            stateMachine.ChangeState("Roam");
+        }
     }
 }
