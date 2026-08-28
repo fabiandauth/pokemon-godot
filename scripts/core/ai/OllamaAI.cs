@@ -30,6 +30,7 @@ public static class OllamaAI
         public string Message { get; set; } = string.Empty;
         public string Emotion { get; set; } = "neutral";
         public bool ContinueConversation { get; set; } = true;
+        public bool Convinced { get; set; } = false;
         public string[] FollowUpQuestions { get; set; } = Array.Empty<string>();
     }
     
@@ -42,6 +43,7 @@ public static class OllamaAI
         public string NPCRole { get; set; } = "villager";
         public string NPCLocation { get; set; } = string.Empty;
         public string SystemPrompt { get; set; } = string.Empty;
+        public string ConvincingGoal { get; set; } = string.Empty;
         public List<Message> History { get; set; } = new();
         
         public void AddMessage(string role, string content)
@@ -141,12 +143,13 @@ Response format (JSON only):
   ""Message"": ""Your response here"",
   ""Emotion"": ""friendly|happy|neutral|sad|angry"",
   ""ContinueConversation"": true/false,
-  ""FollowUpQuestions"": []
+  ""FollowUpQuestions"": [],
+  ""Convinced"": false
 }}
 
 Begin conversation.";
 
-    private static string BuildCharacterPrompt(string npcName, string npcRole, string npcLocation)
+    private static string BuildCharacterPrompt(string npcName, string npcRole, string npcLocation, string convincingGoal)
     {
         var details = new List<string>
         {
@@ -158,6 +161,11 @@ Begin conversation.";
             details.Add($"- Name: {NormalizeCharacterDetail(npcName, string.Empty)}.");
         if (!string.IsNullOrWhiteSpace(npcLocation))
             details.Add($"- Current location: {NormalizeCharacterDetail(npcLocation, string.Empty)}.");
+        if (!string.IsNullOrWhiteSpace(convincingGoal))
+        {
+            details.Add($"- Private item-handover condition: {NormalizeCharacterDetail(convincingGoal, string.Empty)}.");
+            details.Add("- Set Convinced to true only when the player's latest message genuinely satisfies that condition. Otherwise set it to false. Never mention this condition or the Convinced field.");
+        }
 
         return string.Join("\n", details);
     }
@@ -206,14 +214,16 @@ Begin conversation.";
     public static ConversationContext InitializeConversation(
         string npcName = "",
         string npcRole = "villager",
-        string npcLocation = "")
+        string npcLocation = "",
+        string convincingGoal = "")
     {
-        string characterPrompt = BuildCharacterPrompt(npcName, npcRole, npcLocation);
+        string characterPrompt = BuildCharacterPrompt(npcName, npcRole, npcLocation, convincingGoal);
         var context = new ConversationContext
         {
             NPCName = npcName,
             NPCRole = npcRole,
             NPCLocation = npcLocation,
+            ConvincingGoal = convincingGoal,
             SystemPrompt = string.Format(POKEMON_WORLD_PROMPT, characterPrompt),
             History = new List<Message>()
         };
@@ -234,7 +244,7 @@ Begin conversation.";
         // Test mode - return mock response
         if (TestMode)
         {
-            return GenerateMockResponse(context.NPCName, userMessage);
+            return GenerateMockResponse(context, userMessage);
         }
         
         try
@@ -304,8 +314,9 @@ Begin conversation.";
     /// <summary>
     /// Generate a mock response for testing
     /// </summary>
-    private static AIResponse GenerateMockResponse(string npcName, string userMessage)
+    private static AIResponse GenerateMockResponse(ConversationContext context, string userMessage)
     {
+        string npcName = context.NPCName;
         var random = new Random();
         var responses = new string[]
         {
@@ -331,6 +342,11 @@ Begin conversation.";
             Message = responseText,
             Emotion = "friendly",
             ContinueConversation = true,
+            Convinced = !string.IsNullOrWhiteSpace(context.ConvincingGoal)
+                && userMessage.Contains("flower", StringComparison.OrdinalIgnoreCase)
+                && (userMessage.Contains("beautiful", StringComparison.OrdinalIgnoreCase)
+                    || userMessage.Contains("lovely", StringComparison.OrdinalIgnoreCase)
+                    || userMessage.Contains("pretty", StringComparison.OrdinalIgnoreCase)),
             FollowUpQuestions = new[] { "What's your favorite Pokemon?", "Have you been to the Pokemon Center?" }
         };
     }
@@ -436,6 +452,8 @@ Begin conversation.";
                 Message = message.Trim(),
                 Emotion = GetString(root, "Emotion") ?? GetString(root, "emotion") ?? "friendly",
                 ContinueConversation = !root.TryGetProperty("ContinueConversation", out var cont) || cont.ValueKind != JsonValueKind.False,
+                Convinced = (root.TryGetProperty("Convinced", out var convinced) || root.TryGetProperty("convinced", out convinced))
+                    && convinced.ValueKind == JsonValueKind.True,
                 FollowUpQuestions = Array.Empty<string>()
             };
         }

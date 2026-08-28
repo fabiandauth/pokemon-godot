@@ -276,6 +276,16 @@ public partial class MessageManager : CanvasLayer
         if (!Instance.IsScrolling)
             ScrollText();
     }
+
+    public static void AddSystemMessage(string message)
+    {
+        if (Instance == null || string.IsNullOrWhiteSpace(message))
+            return;
+
+        Instance.Messages.Add(message);
+        if (!Instance.IsScrolling)
+            ScrollText();
+    }
     
     /// <summary>
     /// End AI conversation

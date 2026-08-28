@@ -7,6 +7,7 @@ public partial class Signals : Node
     public static Signals Instance { get; private set; }
 
     [Signal] public delegate void MessageBoxOpenEventHandler(bool value);
+    [Signal] public delegate void ItemReceivedEventHandler(string itemId, string itemName, int quantity);
 
     public override void _Ready()
     {

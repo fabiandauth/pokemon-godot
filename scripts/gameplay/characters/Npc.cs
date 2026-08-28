@@ -14,6 +14,8 @@ public partial class Npc : CharacterBody2D
     
     // AI Conversation
     private OllamaAI.ConversationContext conversationContext;
+    private int convincingTurns;
+    private bool rewardGiven;
 
     [ExportCategory("Traits")]
     [Export]
@@ -128,7 +130,7 @@ public partial class Npc : CharacterBody2D
         if (conversationContext == null)
         {
             Logger.Info(new object[] { Name, ": Initializing AI conversation context" });
-            conversationContext = OllamaAI.InitializeConversation(Name, NpcAppearance.ToString());
+            conversationContext = CreateConversationContext();
         }
         else
         {
@@ -153,6 +155,7 @@ public partial class Npc : CharacterBody2D
             // Fallback to static messages
             Logger.Warning(new object[] { Name, ": Ollama not available, using fallback messages" });
             MessageManager.StartAIConversation(this, [.. NpcInputConfig.Messages]);
+            TryHandOverItem(talkCompleted: true, convinced: false);
             return;
         }
         
@@ -171,6 +174,7 @@ public partial class Npc : CharacterBody2D
             // Display AI response
             Logger.Info(new object[] { Name, ": StartAITalk - Starting AI conversation with response" });
             MessageManager.StartAIConversation(this, new[] { response.Message });
+            TryHandOverItem(talkCompleted: true, response.Convinced);
         }
         else
         {
@@ -190,7 +194,7 @@ public partial class Npc : CharacterBody2D
         if (conversationContext == null)
         {
             Logger.Info(new object[] { Name, ": SendUserMessage - Creating new conversation context" });
-            conversationContext = OllamaAI.InitializeConversation(Name, NpcAppearance.ToString());
+            conversationContext = CreateConversationContext();
         }
         
         if (!OllamaAI.IsAvailable())
@@ -212,6 +216,7 @@ public partial class Npc : CharacterBody2D
             // Display AI response - this will add it to the messages and display it
             Logger.Info(new object[] { Name, ": SendUserMessage - Adding AI response to message manager" });
             MessageManager.AddAIResponse(this, response.Message);
+            TryHandOverItem(talkCompleted: true, response.Convinced);
         }
         else
         {
@@ -220,5 +225,51 @@ public partial class Npc : CharacterBody2D
             MessageManager.EndAIConversation(this);
             stateMachine.ChangeState("Roam");
         }
+    }
+
+    private OllamaAI.ConversationContext CreateConversationContext()
+    {
+        string convincingGoal = NpcInputConfig?.ItemReward?.Mode == NpcItemHandoverMode.AfterConvincing
+            ? NpcInputConfig.ItemReward.ConvincingGoal
+            : string.Empty;
+
+        return OllamaAI.InitializeConversation(
+            Name,
+            NpcAppearance.ToString(),
+            convincingGoal: convincingGoal);
+    }
+
+    private void TryHandOverItem(bool talkCompleted, bool convinced)
+    {
+        NpcItemRewardConfig reward = NpcInputConfig?.ItemReward;
+        if (reward == null || rewardGiven || reward.Mode == NpcItemHandoverMode.None)
+            return;
+
+        bool shouldGiveItem = reward.Mode switch
+        {
+            NpcItemHandoverMode.AfterTalking => talkCompleted,
+            NpcItemHandoverMode.AfterConvincing => RegisterConvincingTurn(convinced, reward.RequiredConvincingTurns),
+            _ => false
+        };
+
+        if (!shouldGiveItem || string.IsNullOrWhiteSpace(reward.ItemId))
+            return;
+
+        rewardGiven = true;
+        int quantity = Mathf.Max(1, reward.Quantity);
+        string itemName = string.IsNullOrWhiteSpace(reward.ItemName) ? reward.ItemId : reward.ItemName;
+        Inventory.AddItem(reward.ItemId, itemName, quantity);
+
+        if (!string.IsNullOrWhiteSpace(reward.HandoverMessage))
+            MessageManager.AddAIResponse(this, reward.HandoverMessage);
+        MessageManager.AddSystemMessage($"You received {quantity} x {itemName}!");
+    }
+
+    private bool RegisterConvincingTurn(bool convinced, int requiredTurns)
+    {
+        if (convinced)
+            convincingTurns++;
+
+        return convincingTurns >= Mathf.Max(1, requiredTurns);
     }
 }
