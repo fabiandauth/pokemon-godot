@@ -35,6 +35,9 @@ public partial class GameMenu : CanvasLayer
 
     private MenuPage currentPage = MenuPage.Main;
     private bool wasPaused;
+    private Button[] mainButtons;
+    private string[] mainButtonLabels = { "ITEMS", "POKÉDEX", "SAVE", "CLOSE" };
+    private int mainSelection;
 
     public override void _Ready()
     {
@@ -55,20 +58,52 @@ public partial class GameMenu : CanvasLayer
         PokedexButton.Pressed += ShowPokedex;
         SaveButton.Pressed += ShowSave;
         CloseButton.Pressed += Close;
+        mainButtons = new[] { ItemsButton, PokedexButton, SaveButton, CloseButton };
+        for (int index = 0; index < mainButtons.Length; index++)
+        {
+            int selectedIndex = index;
+            mainButtons[index].FocusEntered += () => SelectMainEntry(selectedIndex);
+            mainButtons[index].MouseEntered += () => SelectMainEntry(selectedIndex);
+        }
         ShowPage(MenuPage.Main);
     }
 
-    public override void _UnhandledInput(InputEvent inputEvent)
+    public override void _Input(InputEvent inputEvent)
     {
         if (inputEvent.IsActionPressed("menu"))
         {
             if (!Root.Visible && !MessageManager.IsReading()) Open();
             else if (Root.Visible) Back();
             GetViewport().SetInputAsHandled();
+            return;
         }
-        else if (Root.Visible && inputEvent.IsActionPressed("ui_cancel"))
+
+        if (!Root.Visible)
+            return;
+
+        if (inputEvent.IsActionPressed("ui_cancel"))
         {
             Back();
+            GetViewport().SetInputAsHandled();
+            return;
+        }
+
+        if (currentPage != MenuPage.Main)
+            return;
+
+        if (inputEvent.IsActionPressed("ui_up"))
+        {
+            SelectMainEntry((mainSelection - 1 + mainButtons.Length) % mainButtons.Length);
+            GetViewport().SetInputAsHandled();
+        }
+        else if (inputEvent.IsActionPressed("ui_down"))
+        {
+            SelectMainEntry((mainSelection + 1) % mainButtons.Length);
+            GetViewport().SetInputAsHandled();
+        }
+        else if (inputEvent.IsActionPressed("ui_accept"))
+        {
+            mainButtons[mainSelection].EmitSignal(Button.SignalName.Pressed);
             GetViewport().SetInputAsHandled();
         }
     }
@@ -123,7 +158,20 @@ public partial class GameMenu : CanvasLayer
         PokemonDetailPanel.Visible = page == MenuPage.PokemonDetail;
         SavePanel.Visible = page == MenuPage.Save;
         StatusLabel.Text = string.Empty;
-        if (page == MenuPage.Main) ItemsButton.GrabFocus();
+        if (page == MenuPage.Main) SelectMainEntry(0);
+    }
+
+    private void SelectMainEntry(int index)
+    {
+        if (mainButtons == null || mainButtons.Length == 0)
+            return;
+
+        mainSelection = Mathf.Clamp(index, 0, mainButtons.Length - 1);
+        for (int buttonIndex = 0; buttonIndex < mainButtons.Length; buttonIndex++)
+            mainButtons[buttonIndex].Text = buttonIndex == mainSelection
+                ? $"▶  {mainButtonLabels[buttonIndex]}"
+                : $"   {mainButtonLabels[buttonIndex]}";
+        mainButtons[mainSelection].GrabFocus();
     }
 
     private void RefreshPokedex()
