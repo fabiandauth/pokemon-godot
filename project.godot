@@ -20,6 +20,7 @@ config/icon="res://icon.svg"
 Globals="*res://scenes/core/Globals.tscn"
 Signals="*res://scenes/core/Signals.tscn"
 Inventory="*res://scenes/core/Inventory.tscn"
+PokemonRegistry="*res://scenes/core/PokemonRegistry.tscn"
 SceneManager="*res://scenes/core/scene_manager.tscn"
 
 [dotnet]
