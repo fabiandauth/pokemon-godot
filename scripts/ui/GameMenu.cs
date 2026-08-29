@@ -52,64 +52,117 @@ public partial class GameMenu : CanvasLayer
         ItemList.ItemSelected += ShowSelectedItem;
         UseButton.Pressed += UseSelectedItem;
         PokedexList.ItemSelected += PreviewPokemon;
-        PokedexList.ItemActivated += OpenPokemonDetail;
+        PokedexList.ItemActivated += index =>
+        {
+            Logger.Info(new object[] { "GameMenu: Pokédex item activated by GUI:", index });
+            OpenPokemonDetail(index);
+        };
         Signals.Instance.InventoryChanged += RefreshItems;
-        ItemsButton.Pressed += ShowItems;
-        PokedexButton.Pressed += ShowPokedex;
-        SaveButton.Pressed += ShowSave;
-        CloseButton.Pressed += Close;
         mainButtons = new[] { ItemsButton, PokedexButton, SaveButton, CloseButton };
         for (int index = 0; index < mainButtons.Length; index++)
         {
             int selectedIndex = index;
-            mainButtons[index].FocusEntered += () => SelectMainEntry(selectedIndex);
+            mainButtons[index].FocusMode = Control.FocusModeEnum.None;
             mainButtons[index].MouseEntered += () => SelectMainEntry(selectedIndex);
+            mainButtons[index].Pressed += () => ActivateMainEntry(selectedIndex, "mouse/button");
         }
+        ItemList.FocusMode = Control.FocusModeEnum.None;
+        PokedexList.FocusMode = Control.FocusModeEnum.None;
         ShowPage(MenuPage.Main);
+        Logger.Info("GameMenu: ready; global keyboard polling enabled");
     }
 
-    public override void _Input(InputEvent inputEvent)
+    public override void _Process(double delta)
     {
-        if (inputEvent.IsActionPressed("menu"))
-        {
-            if (!Root.Visible && !MessageManager.IsReading()) Open();
-            else if (Root.Visible) Back();
-            GetViewport().SetInputAsHandled();
-            return;
-        }
-
         if (!Root.Visible)
-            return;
-
-        if (inputEvent.IsActionPressed("ui_cancel"))
         {
+            if (Input.IsActionJustPressed("menu") && !MessageManager.IsReading())
+            {
+                Logger.Info("GameMenu input: menu/open");
+                Open();
+            }
+            return;
+        }
+
+        if (Input.IsActionJustPressed("menu") || Input.IsActionJustPressed("ui_cancel"))
+        {
+            Logger.Info(new object[] { "GameMenu input: back from page", currentPage });
             Back();
-            GetViewport().SetInputAsHandled();
             return;
         }
 
-        if (currentPage != MenuPage.Main)
+        if (Input.IsActionJustPressed("ui_up"))
+        {
+            Logger.Info(new object[] { "GameMenu input: up on page", currentPage });
+            MoveSelection(-1);
+        }
+        else if (Input.IsActionJustPressed("ui_down"))
+        {
+            Logger.Info(new object[] { "GameMenu input: down on page", currentPage });
+            MoveSelection(1);
+        }
+        else if (Input.IsActionJustPressed("ui_accept") || Input.IsActionJustPressed("use"))
+        {
+            Logger.Info(new object[] { "GameMenu input: accept on page", currentPage });
+            ActivateSelection();
+        }
+    }
+
+    private void MoveSelection(int direction)
+    {
+        if (currentPage == MenuPage.Main)
+        {
+            SelectMainEntry((mainSelection + direction + mainButtons.Length) % mainButtons.Length);
+            return;
+        }
+
+        ItemList list = currentPage == MenuPage.Pokedex ? PokedexList
+            : currentPage == MenuPage.Items ? ItemList : null;
+        if (list == null || list.ItemCount == 0)
             return;
 
-        if (inputEvent.IsActionPressed("ui_up"))
+        int[] selected = list.GetSelectedItems();
+        int current = selected.Length == 0 ? 0 : selected[0];
+        int next = (current + direction + list.ItemCount) % list.ItemCount;
+        list.Select(next);
+        list.EnsureCurrentIsVisible();
+        if (currentPage == MenuPage.Pokedex) PreviewPokemon(next);
+        else ShowSelectedItem(next);
+        Logger.Info(new object[] { "GameMenu selection:", currentPage, next });
+    }
+
+    private void ActivateSelection()
+    {
+        if (currentPage == MenuPage.Main)
         {
-            SelectMainEntry((mainSelection - 1 + mainButtons.Length) % mainButtons.Length);
-            GetViewport().SetInputAsHandled();
+            ActivateMainEntry(mainSelection, "keyboard");
+            return;
         }
-        else if (inputEvent.IsActionPressed("ui_down"))
+
+        int[] selected = currentPage == MenuPage.Pokedex ? PokedexList.GetSelectedItems()
+            : currentPage == MenuPage.Items ? ItemList.GetSelectedItems() : System.Array.Empty<int>();
+        if (selected.Length == 0)
+            return;
+        if (currentPage == MenuPage.Pokedex) OpenPokemonDetail(selected[0]);
+        else if (currentPage == MenuPage.Items) UseSelectedItem();
+    }
+
+    private void ActivateMainEntry(int index, string source)
+    {
+        SelectMainEntry(index);
+        Logger.Info(new object[] { "GameMenu activate:", mainButtonLabels[index], "source:", source });
+        switch (index)
         {
-            SelectMainEntry((mainSelection + 1) % mainButtons.Length);
-            GetViewport().SetInputAsHandled();
-        }
-        else if (inputEvent.IsActionPressed("ui_accept"))
-        {
-            mainButtons[mainSelection].EmitSignal(Button.SignalName.Pressed);
-            GetViewport().SetInputAsHandled();
+            case 0: ShowItems(); break;
+            case 1: ShowPokedex(); break;
+            case 2: ShowSave(); break;
+            case 3: Close(); break;
         }
     }
 
     public void Open()
     {
+        Logger.Info("GameMenu: opening");
         wasPaused = GetTree().Paused;
         Root.Visible = true;
         GetTree().Paused = true;
@@ -118,6 +171,7 @@ public partial class GameMenu : CanvasLayer
 
     public void Close()
     {
+        Logger.Info("GameMenu: closing");
         Root.Visible = false;
         GetTree().Paused = wasPaused;
     }
@@ -126,14 +180,12 @@ public partial class GameMenu : CanvasLayer
     {
         ShowPage(MenuPage.Items);
         RefreshItems();
-        (ItemList.ItemCount > 0 ? (Control)ItemList : CategoryFilter).GrabFocus();
     }
 
     public void ShowPokedex()
     {
         ShowPage(MenuPage.Pokedex);
         RefreshPokedex();
-        PokedexList.GrabFocus();
     }
 
     public void ShowSave() => ShowPage(MenuPage.Save);
@@ -143,7 +195,6 @@ public partial class GameMenu : CanvasLayer
         if (currentPage == MenuPage.PokemonDetail)
         {
             ShowPage(MenuPage.Pokedex);
-            PokedexList.GrabFocus();
         }
         else if (currentPage != MenuPage.Main) ShowPage(MenuPage.Main);
         else Close();
@@ -151,6 +202,7 @@ public partial class GameMenu : CanvasLayer
 
     private void ShowPage(MenuPage page)
     {
+        Logger.Info(new object[] { "GameMenu page:", page });
         currentPage = page;
         MainPanel.Visible = page == MenuPage.Main;
         ItemsPanel.Visible = page == MenuPage.Items;
@@ -171,7 +223,7 @@ public partial class GameMenu : CanvasLayer
             mainButtons[buttonIndex].Text = buttonIndex == mainSelection
                 ? $"▶  {mainButtonLabels[buttonIndex]}"
                 : $"   {mainButtonLabels[buttonIndex]}";
-        mainButtons[mainSelection].GrabFocus();
+        Logger.Info(new object[] { "GameMenu main selection:", mainSelection, mainButtonLabels[mainSelection] });
     }
 
     private void RefreshPokedex()
