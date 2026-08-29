@@ -110,17 +110,6 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("panel")
 
-[node name="Title" type="Label" parent="Root/Window"]
-layout_mode = 0
-offset_left = 30.0
-offset_top = 18.0
-offset_right = 830.0
-offset_bottom = 66.0
-theme_override_colors/font_color = Color(0.105882, 0.137255, 0.164706, 1)
-theme_override_fonts/font = ExtResource("2")
-theme_override_font_sizes/font_size = 40
-text = "TRAINER MENU"
-
 [node name="StatusLabel" type="Label" parent="Root/Window"]
 layout_mode = 0
 offset_left = 30.0
@@ -134,7 +123,7 @@ theme_override_font_sizes/font_size = 24
 [node name="MainPanel" type="Control" parent="Root/Window"]
 layout_mode = 0
 offset_left = 170.0
-offset_top = 85.0
+offset_top = 35.0
 offset_right = 690.0
 offset_bottom = 515.0
 
@@ -186,7 +175,7 @@ text = "CLOSE"
 [node name="ItemsPanel" type="Control" parent="Root/Window"]
 layout_mode = 0
 offset_left = 30.0
-offset_top = 82.0
+offset_top = 30.0
 offset_right = 830.0
 offset_bottom = 510.0
 
@@ -231,7 +220,7 @@ text = "USE"
 [node name="PokedexPanel" type="Control" parent="Root/Window"]
 layout_mode = 0
 offset_left = 30.0
-offset_top = 82.0
+offset_top = 30.0
 offset_right = 830.0
 offset_bottom = 510.0
 
@@ -265,7 +254,7 @@ horizontal_alignment = 1
 [node name="PokemonDetailPanel" type="Control" parent="Root/Window"]
 layout_mode = 0
 offset_left = 30.0
-offset_top = 82.0
+offset_top = 30.0
 offset_right = 830.0
 offset_bottom = 510.0
 
@@ -332,7 +321,7 @@ theme_override_colors/font_color = Color(0, 0, 0, 1)
 [node name="SavePanel" type="Control" parent="Root/Window"]
 layout_mode = 0
 offset_left = 30.0
-offset_top = 82.0
+offset_top = 30.0
 offset_right = 830.0
 offset_bottom = 510.0
 
