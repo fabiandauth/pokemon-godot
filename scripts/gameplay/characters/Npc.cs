@@ -167,7 +167,7 @@ public partial class Npc : CharacterBody2D
             "Hello there!"  // Initial greeting
         );
         
-        Logger.Info(new object[] { Name, ": StartAITalk - AI response received, success:", response.Success, "message:", response.Message });
+        Logger.Info(new object[] { Name, ": StartAITalk - AI response received, success:", response.Success, "convinced:", response.Convinced, "message:", response.Message });
         
         if (response.Success && !string.IsNullOrEmpty(response.Message))
         {
@@ -209,7 +209,7 @@ public partial class Npc : CharacterBody2D
         // Send to AI
         var response = await OllamaAI.SendMessageAsync(conversationContext, userMessage);
         
-        Logger.Info(new object[] { Name, ": SendUserMessage - AI response:", response.Message });
+        Logger.Info(new object[] { Name, ": SendUserMessage - AI response:", response.Message, "convinced:", response.Convinced });
         
         if (response.Success && !string.IsNullOrEmpty(response.Message))
         {
@@ -270,6 +270,15 @@ public partial class Npc : CharacterBody2D
         if (convinced)
             convincingTurns++;
 
-        return convincingTurns >= Mathf.Max(1, requiredTurns);
+        int required = Mathf.Max(1, requiredTurns);
+        bool requirementMet = convincingTurns >= required;
+        Logger.Info(new object[]
+        {
+            Name,
+            ": conviction debug - LLM convinced:", convinced,
+            "progress:", convincingTurns, "/", required,
+            "reward condition met:", requirementMet
+        });
+        return requirementMet;
     }
 }

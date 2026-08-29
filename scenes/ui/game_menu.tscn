@@ -245,6 +245,9 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_fonts/font = ExtResource("2")
 theme_override_font_sizes/font_size = 31
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_selected_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hovered_color = Color(0, 0, 0, 1)
 theme_override_styles/panel = SubResource("inner")
 fixed_icon_size = Vector2i(64, 64)
 same_column_width = true
@@ -290,6 +293,7 @@ offset_right = 790.0
 offset_bottom = 102.0
 theme_override_fonts/font = ExtResource("2")
 theme_override_font_sizes/font_size = 28
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 
 [node name="PokemonStats" type="Label" parent="Root/Window/PokemonDetailPanel"]
 layout_mode = 0
@@ -299,6 +303,7 @@ offset_right = 790.0
 offset_bottom = 205.0
 theme_override_fonts/font = ExtResource("2")
 theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 
 [node name="PokemonDescription" type="Label" parent="Root/Window/PokemonDetailPanel"]
 layout_mode = 0
@@ -307,6 +312,7 @@ offset_right = 455.0
 offset_bottom = 420.0
 theme_override_fonts/font = ExtResource("2")
 theme_override_font_sizes/font_size = 25
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 autowrap_mode = 2
 
 [node name="MovesScroll" type="ScrollContainer" parent="Root/Window/PokemonDetailPanel"]
@@ -321,6 +327,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 theme_override_fonts/font = ExtResource("2")
 theme_override_font_sizes/font_size = 23
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 
 [node name="SavePanel" type="Control" parent="Root/Window"]
 layout_mode = 0
