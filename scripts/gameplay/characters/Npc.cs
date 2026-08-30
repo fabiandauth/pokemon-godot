@@ -234,10 +234,20 @@ public partial class Npc : CharacterBody2D
         
         if (response.Success && !string.IsNullOrEmpty(response.Message))
         {
+            bool fallbackConvinced = NpcInputConfig?.ItemReward?.MatchesDeterministicConvincingRule(userMessage) == true;
+            bool convinced = response.Convinced || fallbackConvinced;
+            Logger.Info(new object[]
+            {
+                Name,
+                ": convincing evaluation - LLM:", response.Convinced,
+                "deterministic fallback:", fallbackConvinced,
+                "final:", convinced
+            });
+
             // Display AI response - this will add it to the messages and display it
             Logger.Info(new object[] { Name, ": SendUserMessage - Adding AI response to message manager" });
             MessageManager.AddAIResponse(this, response.Message);
-            TryHandOverItem(talkCompleted: true, response.Convinced);
+            TryHandOverItem(talkCompleted: true, convinced);
         }
         else
         {

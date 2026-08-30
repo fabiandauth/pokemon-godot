@@ -80,8 +80,22 @@ public static class OllamaAI
         public List<Message> Messages { get; set; } = new();
         public OllamaOptions Options { get; set; } = new();
         public bool Stream { get; set; } = false;
-        public string Format { get; set; } = "json";
+        public object Format { get; set; } = CreateResponseSchema();
     }
+
+    private static object CreateResponseSchema() => new
+    {
+        type = "object",
+        properties = new
+        {
+            Message = new { type = "string" },
+            Emotion = new { type = "string", @enum = new[] { "friendly", "happy", "neutral", "sad", "angry" } },
+            ContinueConversation = new { type = "boolean" },
+            FollowUpQuestions = new { type = "array", items = new { type = "string" } },
+            Convinced = new { type = "boolean" }
+        },
+        required = new[] { "Message", "Emotion", "ContinueConversation", "FollowUpQuestions", "Convinced" }
+    };
     
     /// <summary>
     /// Options for Ollama request
@@ -143,17 +157,13 @@ CONVERSATION RULES:
 Character description:
 {0}
 
-Response format (JSON only):
-The Convinced value MUST be a JSON boolean, never text. Silently judge the player's
-latest message against the private condition before choosing true or false. The value
-shown below only demonstrates valid JSON syntax; do not copy it without judging.
-{{
-  ""Message"": ""Your response here"",
-  ""Emotion"": ""friendly|happy|neutral|sad|angry"",
-  ""ContinueConversation"": true/false,
-  ""FollowUpQuestions"": [],
-  ""Convinced"": false
-}}
+Response rules:
+- Return only the JSON object required by the supplied response schema.
+- Silently judge the player's latest message against the private condition.
+- Set Convinced to true exactly when the latest message satisfies that condition,
+  including a sincere compliment when the condition asks for one.
+- Set Convinced to false when it does not satisfy the condition.
+- Make the natural-language Message consistent with the Convinced judgment.
 
 Begin conversation.";
 
@@ -270,10 +280,10 @@ Begin conversation.";
             {
                 Model = DEFAULT_MODEL,
                 Stream = false,
-                Format = "json",
+                Format = CreateResponseSchema(),
                 Options = new OllamaOptions
                 {
-                    Temperature = 0.7f,
+                    Temperature = 0.2f,
                     TopP = 0.9f,
                     MaxTokens = 512
                 },
