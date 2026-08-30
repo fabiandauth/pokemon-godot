@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/135.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/135.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Blitza"
+Id = 135
+Description = "Lädt es sich mit Elektrizität auf, steht jedes einzelne seiner Körperhaare steil nach oben."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 5
+TypeTwo = 0
+BaseHp = 65
+BaseAttack = 65
+BaseDefense = 60
+BaseSpecialAttack = 110
+BaseSpecialDefense = 95
+BaseSpeed = 130
+ExpectedStatsLevel50 = {"hp": 140, "attack": 85, "defense": 80, "special_attack": 130, "special_defense": 115, "speed": 150}
+ExpectedStatsLevel100 = {"hp": 271, "attack": 166, "defense": 156, "special_attack": 256, "special_defense": 226, "speed": 296}
+LearnableMoves = ["Tackle", "Rutenschlag", "Rechte Hand", "Sandwirbel", "Donnerschock", "Ruckzuckhieb", "Doppelkick", "Donnerzahn", "Nadelrakete", "Agilität", "Donnerwelle", "Ladungsstoß", "Zuflucht", "Donner"]
+LevelUpMoves = {"Tackle": 1, "Rutenschlag": 1, "Rechte Hand": 1, "Sandwirbel": 5, "Donnerschock": 9, "Ruckzuckhieb": 13, "Doppelkick": 17, "Donnerzahn": 20, "Nadelrakete": 25, "Agilität": 29, "Donnerwelle": 33, "Ladungsstoß": 37, "Zuflucht": 41, "Donner": 45}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

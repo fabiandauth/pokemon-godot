@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/113.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/113.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Chaneira"
+Id = 113
+Description = "Man sagt, es bringe Glück. Es ist sehr mitfühlend und teilt seine Eier mit Verletzten."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 1
+TypeTwo = 0
+BaseHp = 250
+BaseAttack = 5
+BaseDefense = 5
+BaseSpecialAttack = 35
+BaseSpecialDefense = 105
+BaseSpeed = 50
+ExpectedStatsLevel50 = {"hp": 325, "attack": 25, "defense": 25, "special_attack": 55, "special_defense": 125, "speed": 70}
+ExpectedStatsLevel100 = {"hp": 641, "attack": 46, "defense": 46, "special_attack": 106, "special_defense": 246, "speed": 136}
+LearnableMoves = ["Pfund", "Heuler", "Einigler", "Risikotackle", "Rutenschlag", "Heilung", "Duplexhieb", "Weichei", "Offerte", "Komprimator", "Bodycheck", "Gesang", "Schleuder", "Heilwoge", "Eierbombe", "Lichtschild", "Heilopfer"]
+LevelUpMoves = {"Pfund": 1, "Heuler": 1, "Einigler": 1, "Risikotackle": 1, "Rutenschlag": 5, "Heilung": 9, "Duplexhieb": 12, "Weichei": 16, "Offerte": 20, "Komprimator": 23, "Bodycheck": 27, "Gesang": 31, "Schleuder": 34, "Heilwoge": 38, "Eierbombe": 42, "Lichtschild": 46, "Heilopfer": 50}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

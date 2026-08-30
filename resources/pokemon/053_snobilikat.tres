@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/053.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/053.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Snobilikat"
+Id = 53
+Description = "Dieses Pokémon hat sehr schönes Fell. Es ist jedoch ein schwer erziehbares Haustier."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 1
+TypeTwo = 0
+BaseHp = 65
+BaseAttack = 70
+BaseDefense = 60
+BaseSpecialAttack = 65
+BaseSpecialDefense = 65
+BaseSpeed = 115
+ExpectedStatsLevel50 = {"hp": 140, "attack": 90, "defense": 80, "special_attack": 85, "special_defense": 85, "speed": 135}
+ExpectedStatsLevel100 = {"hp": 271, "attack": 176, "defense": 156, "special_attack": 166, "special_defense": 166, "speed": 266}
+LearnableMoves = ["Knuddler", "Wechseldich", "Kratzer", "Heuler", "Biss", "Mogelhieb", "Kratzfurie", "Kreideschrei", "Finte", "Verhöhner", "Sternschauer", "Juwelenkraft", "Schlitzer", "Ränkeschmied", "Gewissheit", "Liebreiz", "Nachthieb", "Offenlegung"]
+LevelUpMoves = {"Knuddler": 1, "Wechseldich": 1, "Kratzer": 1, "Heuler": 1, "Biss": 1, "Mogelhieb": 1, "Kratzfurie": 14, "Kreideschrei": 17, "Finte": 22, "Verhöhner": 25, "Sternschauer": 28, "Juwelenkraft": 32, "Schlitzer": 37, "Ränkeschmied": 44, "Gewissheit": 49, "Liebreiz": 56, "Nachthieb": 61, "Offenlegung": 65}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

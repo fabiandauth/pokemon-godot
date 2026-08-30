@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/055.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/055.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Entoron"
+Id = 55
+Description = "Es taucht bei Sonnenuntergang am Wasser auf. Leuchtet seine Stirn, setzt es telekinetische Kräfte ein."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 3
+TypeTwo = 0
+BaseHp = 80
+BaseAttack = 82
+BaseDefense = 78
+BaseSpecialAttack = 95
+BaseSpecialDefense = 80
+BaseSpeed = 85
+ExpectedStatsLevel50 = {"hp": 155, "attack": 102, "defense": 98, "special_attack": 115, "special_defense": 100, "speed": 105}
+ExpectedStatsLevel100 = {"hp": 301, "attack": 200, "defense": 192, "special_attack": 226, "special_defense": 196, "speed": 206}
+LearnableMoves = ["Kratzer", "Nassmacher", "Rutenschlag", "Aquaknarre", "Aussetzer", "Konfusion", "Aquawelle", "Kratzfurie", "Kreideschrei", "Zen-Kopfstoß", "Nassschweif", "Überflutung", "Psycho-Plus", "Amnesie", "Hydropumpe", "Wunderraum"]
+LevelUpMoves = {"Kratzer": 1, "Nassmacher": 1, "Rutenschlag": 4, "Aquaknarre": 8, "Aussetzer": 11, "Konfusion": 15, "Aquawelle": 18, "Kratzfurie": 22, "Kreideschrei": 25, "Zen-Kopfstoß": 29, "Nassschweif": 32, "Überflutung": 38, "Psycho-Plus": 43, "Amnesie": 49, "Hydropumpe": 54, "Wunderraum": 60}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

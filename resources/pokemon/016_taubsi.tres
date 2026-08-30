@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/016.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/016.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Taubsi"
+Id = 16
+Description = "Ein vorwiegend in Wäldern lebendes Pokémon, das zur Verteidigung mit den Flügeln Sand aufwirbelt."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 1
+TypeTwo = 10
+BaseHp = 40
+BaseAttack = 45
+BaseDefense = 40
+BaseSpecialAttack = 35
+BaseSpecialDefense = 35
+BaseSpeed = 56
+ExpectedStatsLevel50 = {"hp": 115, "attack": 65, "defense": 60, "special_attack": 55, "special_defense": 55, "speed": 76}
+ExpectedStatsLevel100 = {"hp": 221, "attack": 126, "defense": 116, "special_attack": 106, "special_defense": 106, "speed": 148}
+LearnableMoves = ["Tackle", "Sandwirbel", "Windstoß", "Ruckzuckhieb", "Wirbelwind", "Windhose", "Daunenreigen", "Agilität", "Flügelschlag", "Ruheort", "Rückenwind", "Spiegeltrick", "Luftschnitt", "Orkan"]
+LevelUpMoves = {"Tackle": 1, "Sandwirbel": 5, "Windstoß": 9, "Ruckzuckhieb": 13, "Wirbelwind": 1, "Windhose": 21, "Daunenreigen": 25, "Agilität": 29, "Flügelschlag": 33, "Ruheort": 37, "Rückenwind": 41, "Spiegeltrick": 45, "Luftschnitt": 49, "Orkan": 53}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

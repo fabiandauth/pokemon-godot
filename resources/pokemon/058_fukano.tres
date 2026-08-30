@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/058.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/058.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Fukano"
+Id = 58
+Description = "Es ist sehr freundlich und bleibt den Menschen treu. Durch Bellen und Beißen versucht es, Gegner zu verscheuchen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 2
+TypeTwo = 0
+BaseHp = 55
+BaseAttack = 70
+BaseDefense = 45
+BaseSpecialAttack = 70
+BaseSpecialDefense = 50
+BaseSpeed = 60
+ExpectedStatsLevel50 = {"hp": 130, "attack": 90, "defense": 65, "special_attack": 90, "special_defense": 70, "speed": 80}
+ExpectedStatsLevel100 = {"hp": 251, "attack": 176, "defense": 126, "special_attack": 176, "special_defense": 136, "speed": 156}
+LearnableMoves = ["Biss", "Brüller", "Glut", "Silberblick", "Schnüffler", "Rechte Hand", "Flammenrad", "Gegenschlag", "Feuerzahn", "Bodycheck", "Funkenflug", "Agilität", "Heimzahlung", "Flammenwurf", "Knirscher", "Hitzewelle", "Wutanfall", "Flammenblitz"]
+LevelUpMoves = {"Biss": 1, "Brüller": 1, "Glut": 6, "Silberblick": 8, "Schnüffler": 10, "Rechte Hand": 12, "Flammenrad": 17, "Gegenschlag": 19, "Feuerzahn": 21, "Bodycheck": 23, "Funkenflug": 28, "Agilität": 30, "Heimzahlung": 32, "Flammenwurf": 34, "Knirscher": 39, "Hitzewelle": 41, "Wutanfall": 43, "Flammenblitz": 45}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

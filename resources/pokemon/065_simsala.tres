@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/065.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/065.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Simsala"
+Id = 65
+Description = "Seine Gehirnzellen vervielfachen sich sein ganzes Leben lang. Daher kann es sich immer an alles erinnern."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 11
+TypeTwo = 0
+BaseHp = 55
+BaseAttack = 50
+BaseDefense = 45
+BaseSpecialAttack = 135
+BaseSpecialDefense = 95
+BaseSpeed = 120
+ExpectedStatsLevel50 = {"hp": 130, "attack": 70, "defense": 65, "special_attack": 155, "special_defense": 115, "speed": 140}
+ExpectedStatsLevel100 = {"hp": 251, "attack": 136, "defense": 126, "special_attack": 306, "special_defense": 226, "speed": 276}
+LearnableMoves = ["Konfusion", "Teleport", "Psykraft", "Aussetzer", "Wunderauge", "Seitentausch", "Psystrahl", "Reflektor", "Telekinese", "Genesung", "Psychoklinge", "Rollentausch", "Psychokinese", "Seher", "Trickbetrug"]
+LevelUpMoves = {"Konfusion": 1, "Teleport": 1, "Psykraft": 1, "Aussetzer": 18, "Wunderauge": 22, "Seitentausch": 24, "Psystrahl": 28, "Reflektor": 30, "Telekinese": 34, "Genesung": 36, "Psychoklinge": 40, "Rollentausch": 42, "Psychokinese": 46, "Seher": 48, "Trickbetrug": 50}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/057.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/057.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Rasaff"
+Id = 57
+Description = "In ganz seltenen Fällen beruhigt sich dieses sehr jähzornige Pokémon und ist für einen Moment friedlich."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 7
+TypeTwo = 0
+BaseHp = 65
+BaseAttack = 105
+BaseDefense = 60
+BaseSpecialAttack = 60
+BaseSpecialDefense = 70
+BaseSpeed = 95
+ExpectedStatsLevel50 = {"hp": 140, "attack": 125, "defense": 80, "special_attack": 80, "special_defense": 90, "speed": 115}
+ExpectedStatsLevel100 = {"hp": 271, "attack": 246, "defense": 156, "special_attack": 156, "special_defense": 176, "speed": 226}
+LearnableMoves = ["Energiefokus", "Kratzer", "Bezirzer", "Silberblick", "Fußkick", "Kratzfurie", "Karateschlag", "Geowurf", "Kreideschrei", "Gewissheit", "Angeberei", "Kreuzhieb", "Fuchtler", "Strafattacke", "Nahkampf", "Wagemut"]
+LevelUpMoves = {"Energiefokus": 1, "Kratzer": 1, "Bezirzer": 1, "Silberblick": 1, "Fußkick": 1, "Kratzfurie": 9, "Karateschlag": 13, "Geowurf": 17, "Kreideschrei": 21, "Gewissheit": 25, "Angeberei": 33, "Kreuzhieb": 37, "Fuchtler": 41, "Strafattacke": 45, "Nahkampf": 49, "Wagemut": 53}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

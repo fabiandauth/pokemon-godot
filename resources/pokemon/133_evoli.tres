@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/133.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/133.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Evoli"
+Id = 133
+Description = "Ein seltenes Pokémon, das sich seiner Umgebung anpasst, indem es sich in unterschiedlicher Form entwickelt."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 1
+TypeTwo = 0
+BaseHp = 55
+BaseAttack = 55
+BaseDefense = 50
+BaseSpecialAttack = 45
+BaseSpecialDefense = 65
+BaseSpeed = 55
+ExpectedStatsLevel50 = {"hp": 130, "attack": 75, "defense": 70, "special_attack": 65, "special_defense": 85, "speed": 75}
+ExpectedStatsLevel100 = {"hp": 251, "attack": 146, "defense": 136, "special_attack": 126, "special_defense": 166, "speed": 146}
+LearnableMoves = ["Rechte Hand", "Heuler", "Tackle", "Rutenschlag", "Sandwirbel", "Kulleraugen", "Sternschauer", "Ruckzuckhieb", "Biss", "Heilung", "Bezirzer", "Bodycheck", "Charme", "Staffette", "Risikotackle", "Zuflucht", "Trumpfkarte"]
+LevelUpMoves = {"Rechte Hand": 1, "Heuler": 1, "Tackle": 1, "Rutenschlag": 1, "Sandwirbel": 5, "Kulleraugen": 9, "Sternschauer": 10, "Ruckzuckhieb": 13, "Biss": 17, "Heilung": 20, "Bezirzer": 23, "Bodycheck": 25, "Charme": 29, "Staffette": 33, "Risikotackle": 37, "Zuflucht": 41, "Trumpfkarte": 45}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

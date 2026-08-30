@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/024.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/024.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Arbok"
+Id = 24
+Description = "Das Muster auf seinem Bauch ähnelt einer Fratze. Schwache Gegner nehmen bereits beim Anblick Reißaus."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 8
+TypeTwo = 0
+BaseHp = 60
+BaseAttack = 95
+BaseDefense = 69
+BaseSpecialAttack = 65
+BaseSpecialDefense = 79
+BaseSpeed = 80
+ExpectedStatsLevel50 = {"hp": 135, "attack": 115, "defense": 89, "special_attack": 85, "special_defense": 99, "speed": 100}
+ExpectedStatsLevel100 = {"hp": 261, "attack": 226, "defense": 174, "special_attack": 166, "special_defense": 194, "speed": 196}
+LearnableMoves = ["Wickel", "Eiszahn", "Feuerzahn", "Donnerzahn", "Biss", "Silberblick", "Giftstachel", "Giftblick", "Kreideschrei", "Säure", "Knirscher", "Entfessler", "Verzehrer", "Horter", "Säurespeier", "Schlammbombe", "Magensäfte", "Rülpser", "Dunkelnebel", "Einrollen", "Mülltreffer"]
+LevelUpMoves = {"Wickel": 1, "Eiszahn": 1, "Feuerzahn": 1, "Donnerzahn": 1, "Biss": 1, "Silberblick": 1, "Giftstachel": 1, "Giftblick": 12, "Kreideschrei": 17, "Säure": 20, "Knirscher": 22, "Entfessler": 27, "Verzehrer": 27, "Horter": 27, "Säurespeier": 32, "Schlammbombe": 39, "Magensäfte": 44, "Rülpser": 48, "Dunkelnebel": 51, "Einrollen": 56, "Mülltreffer": 63}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/015.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/015.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Bibor"
+Id = 15
+Description = "Dieses Pokémon verfügt über drei Giftstachel. Es kann seine Gegner damit wiederholt stechen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 12
+TypeTwo = 8
+BaseHp = 65
+BaseAttack = 90
+BaseDefense = 40
+BaseSpecialAttack = 45
+BaseSpecialDefense = 80
+BaseSpeed = 75
+ExpectedStatsLevel50 = {"hp": 140, "attack": 110, "defense": 60, "special_attack": 65, "special_defense": 100, "speed": 95}
+ExpectedStatsLevel100 = {"hp": 271, "attack": 216, "defense": 116, "special_attack": 126, "special_defense": 196, "speed": 186}
+LearnableMoves = ["Furienschlag", "Energiefokus", "Duonadel", "Raserei", "Verfolgung", "Giftspitzen", "Nadelrakete", "Agilität", "Gewissheit", "Gifthieb", "Notsituation", "Stachelfinale"]
+LevelUpMoves = {"Furienschlag": 1, "Energiefokus": 13, "Duonadel": 16, "Raserei": 19, "Verfolgung": 22, "Giftspitzen": 25, "Nadelrakete": 28, "Agilität": 31, "Gewissheit": 34, "Gifthieb": 37, "Notsituation": 40, "Stachelfinale": 45}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

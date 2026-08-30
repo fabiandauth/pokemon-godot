@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/033.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/033.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Nidorino"
+Id = 33
+Description = "Es überwacht mit seinen riesigen Ohren die Umgebung. Registriert es eine Bewegung, greift es an."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 8
+TypeTwo = 0
+BaseHp = 61
+BaseAttack = 72
+BaseDefense = 57
+BaseSpecialAttack = 55
+BaseSpecialDefense = 55
+BaseSpeed = 65
+ExpectedStatsLevel50 = {"hp": 136, "attack": 92, "defense": 77, "special_attack": 75, "special_defense": 75, "speed": 85}
+ExpectedStatsLevel100 = {"hp": 263, "attack": 180, "defense": 150, "special_attack": 146, "special_defense": 146, "speed": 166}
+LearnableMoves = ["Silberblick", "Schnabel", "Energiefokus", "Doppelkick", "Giftstachel", "Furienschlag", "Hornattacke", "Rechte Hand", "Giftspitzen", "Schmeichler", "Gifthieb", "Liebreiz", "Hornbohrer"]
+LevelUpMoves = {"Silberblick": 1, "Schnabel": 1, "Energiefokus": 7, "Doppelkick": 9, "Giftstachel": 13, "Furienschlag": 20, "Hornattacke": 23, "Rechte Hand": 28, "Giftspitzen": 35, "Schmeichler": 38, "Gifthieb": 43, "Liebreiz": 50, "Hornbohrer": 58}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

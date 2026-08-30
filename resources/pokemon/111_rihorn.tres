@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/111.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/111.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Rihorn"
+Id = 111
+Description = "Stark, aber nicht allzu klug, kann dieses Pokémon sogar Hochhäuser mit seinem Tackle-Angriff zum Einsturz bringen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 9
+TypeTwo = 13
+BaseHp = 80
+BaseAttack = 85
+BaseDefense = 95
+BaseSpecialAttack = 30
+BaseSpecialDefense = 30
+BaseSpeed = 25
+ExpectedStatsLevel50 = {"hp": 155, "attack": 105, "defense": 115, "special_attack": 50, "special_defense": 50, "speed": 45}
+ExpectedStatsLevel100 = {"hp": 301, "attack": 206, "defense": 226, "special_attack": 96, "special_defense": 96, "speed": 86}
+LearnableMoves = ["Rutenschlag", "Hornattacke", "Stampfer", "Furienschlag", "Grimasse", "Felswurf", "Dampfwalze", "Zermürben", "Bodycheck", "Schlagbohrer", "Steinkante", "Erdbeben", "Hornbohrer", "Vielender"]
+LevelUpMoves = {"Rutenschlag": 1, "Hornattacke": 1, "Stampfer": 8, "Furienschlag": 12, "Grimasse": 19, "Felswurf": 23, "Dampfwalze": 30, "Zermürben": 34, "Bodycheck": 41, "Schlagbohrer": 45, "Steinkante": 52, "Erdbeben": 56, "Hornbohrer": 63, "Vielender": 67}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

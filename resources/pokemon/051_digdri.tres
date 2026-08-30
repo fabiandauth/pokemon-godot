@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/051.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/051.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Digdri"
+Id = 51
+Description = "Im Kampf gräbt es sich ein und attackiert den Gegner aus einer unvorhersehbaren Richtung."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 9
+TypeTwo = 0
+BaseHp = 35
+BaseAttack = 100
+BaseDefense = 50
+BaseSpecialAttack = 50
+BaseSpecialDefense = 70
+BaseSpeed = 120
+ExpectedStatsLevel50 = {"hp": 110, "attack": 120, "defense": 70, "special_attack": 70, "special_defense": 90, "speed": 140}
+ExpectedStatsLevel100 = {"hp": 211, "attack": 236, "defense": 136, "special_attack": 136, "special_defense": 176, "speed": 276}
+LearnableMoves = ["Pflüger", "Nachthieb", "Triplette", "Kratzer", "Sandwirbel", "Heuler", "Erstauner", "Lehmschelle", "Intensität", "Dampfwalze", "Tiefschlag", "Sandgrab", "Schlammbombe", "Erdkräfte", "Schaufler", "Schlitzer", "Erdbeben", "Geofissur"]
+LevelUpMoves = {"Pflüger": 1, "Nachthieb": 1, "Triplette": 1, "Kratzer": 1, "Sandwirbel": 1, "Heuler": 1, "Erstauner": 7, "Lehmschelle": 12, "Intensität": 15, "Dampfwalze": 18, "Tiefschlag": 23, "Sandgrab": 26, "Schlammbombe": 28, "Erdkräfte": 33, "Schaufler": 40, "Schlitzer": 45, "Erdbeben": 50, "Geofissur": 57}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

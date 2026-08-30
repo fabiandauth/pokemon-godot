@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/088.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/088.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Sleima"
+Id = 88
+Description = "Schlamm, der Röntgenstrahlung vom Mond ausgesetzt war, wurde zu Sleima. Es isst am liebsten dreckige Dinge."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 8
+TypeTwo = 0
+BaseHp = 80
+BaseAttack = 80
+BaseDefense = 50
+BaseSpecialAttack = 40
+BaseSpecialDefense = 50
+BaseSpeed = 25
+ExpectedStatsLevel50 = {"hp": 155, "attack": 100, "defense": 70, "special_attack": 60, "special_defense": 70, "speed": 45}
+ExpectedStatsLevel100 = {"hp": 301, "attack": 196, "defense": 136, "special_attack": 116, "special_defense": 136, "speed": 86}
+LearnableMoves = ["Pfund", "Giftwolke", "Härtner", "Lehmschelle", "Aussetzer", "Schlammbad", "Komprimator", "Schlammbombe", "Matschbombe", "Schleuder", "Kreideschrei", "Schlammwoge", "Säurepanzer", "Mülltreffer", "Rülpser", "Memento-Mori"]
+LevelUpMoves = {"Pfund": 1, "Giftwolke": 1, "Härtner": 4, "Lehmschelle": 7, "Aussetzer": 12, "Schlammbad": 15, "Komprimator": 18, "Schlammbombe": 21, "Matschbombe": 26, "Schleuder": 29, "Kreideschrei": 32, "Schlammwoge": 37, "Säurepanzer": 40, "Mülltreffer": 43, "Rülpser": 46, "Memento-Mori": 48}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

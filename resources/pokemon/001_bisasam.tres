@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/001.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/001.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Bisasam"
+Id = 1
+Description = "Dieses Pokémon trägt von Geburt an einen Samen auf dem Rücken, der mit ihm keimt und wächst."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 4
+TypeTwo = 8
+BaseHp = 45
+BaseAttack = 49
+BaseDefense = 49
+BaseSpecialAttack = 65
+BaseSpecialDefense = 65
+BaseSpeed = 45
+ExpectedStatsLevel50 = {"hp": 120, "attack": 69, "defense": 69, "special_attack": 85, "special_defense": 85, "speed": 65}
+ExpectedStatsLevel100 = {"hp": 231, "attack": 134, "defense": 134, "special_attack": 166, "special_defense": 166, "speed": 126}
+LearnableMoves = ["Tackle", "Heuler", "Egelsamen", "Rankenhieb", "Giftpuder", "Schlafpuder", "Bodycheck", "Rasierblatt", "Lockduft", "Wachstum", "Risikotackle", "Sorgensamen", "Synthese", "Samenbomben"]
+LevelUpMoves = {"Tackle": 1, "Heuler": 3, "Egelsamen": 7, "Rankenhieb": 9, "Giftpuder": 13, "Schlafpuder": 13, "Bodycheck": 15, "Rasierblatt": 19, "Lockduft": 21, "Wachstum": 25, "Risikotackle": 27, "Sorgensamen": 31, "Synthese": 33, "Samenbomben": 37}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

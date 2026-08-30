@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/092.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/092.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Nebulak"
+Id = 92
+Description = "Es hat einen gasförmigen Körper. Es kann jeden Gegner mit Giftgas einnebeln und dadurch ersticken."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 14
+TypeTwo = 8
+BaseHp = 30
+BaseAttack = 35
+BaseDefense = 30
+BaseSpecialAttack = 100
+BaseSpecialDefense = 35
+BaseSpeed = 80
+ExpectedStatsLevel50 = {"hp": 105, "attack": 55, "defense": 50, "special_attack": 120, "special_defense": 55, "speed": 100}
+ExpectedStatsLevel100 = {"hp": 201, "attack": 106, "defense": 96, "special_attack": 236, "special_defense": 106, "speed": 196}
+LearnableMoves = ["Hypnose", "Schlecker", "Groll", "Horrorblick", "Fluch", "Nachtnebel", "Konfustrahl", "Tiefschlag", "Gegenstoß", "Spukball", "Traumfresser", "Finsteraura", "Abgangsbund", "Bürde", "Nachtmahr"]
+LevelUpMoves = {"Hypnose": 1, "Schlecker": 1, "Groll": 5, "Horrorblick": 8, "Fluch": 12, "Nachtnebel": 15, "Konfustrahl": 19, "Tiefschlag": 22, "Gegenstoß": 26, "Spukball": 29, "Traumfresser": 33, "Finsteraura": 36, "Abgangsbund": 40, "Bürde": 43, "Nachtmahr": 47}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/106.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/106.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Kicklee"
+Id = 106
+Description = "Die Beine ziehen und strecken sich unabhängig voneinander. Mit seinen dehnbaren Beinen kann es einen entfernten Gegner treffen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 7
+TypeTwo = 0
+BaseHp = 50
+BaseAttack = 120
+BaseDefense = 53
+BaseSpecialAttack = 35
+BaseSpecialDefense = 110
+BaseSpeed = 87
+ExpectedStatsLevel50 = {"hp": 125, "attack": 140, "defense": 73, "special_attack": 55, "special_defense": 130, "speed": 107}
+ExpectedStatsLevel100 = {"hp": 241, "attack": 276, "defense": 142, "special_attack": 106, "special_defense": 256, "speed": 210}
+LearnableMoves = ["Doppelkick", "Gegenschlag", "Megakick", "Nahkampf", "Vergeltung", "Meditation", "Fegekick", "Sprungkick", "Durchbruch", "Energiefokus", "Offenlegung", "Turmkick", "Willensleser", "Gesichte", "Rundumschutz", "Feuerfeger", "Ausdauer"]
+LevelUpMoves = {"Doppelkick": 1, "Gegenschlag": 1, "Megakick": 1, "Nahkampf": 1, "Vergeltung": 1, "Meditation": 5, "Fegekick": 9, "Sprungkick": 13, "Durchbruch": 17, "Energiefokus": 21, "Offenlegung": 25, "Turmkick": 29, "Willensleser": 33, "Gesichte": 37, "Rundumschutz": 41, "Feuerfeger": 45, "Ausdauer": 49}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

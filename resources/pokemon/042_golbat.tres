@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/042.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/042.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Golbat"
+Id = 42
+Description = "Dieses Pokémon saugt dem Gegner selbst dann noch Energie ab, wenn es zu schwer zum Fliegen wird."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 8
+TypeTwo = 10
+BaseHp = 75
+BaseAttack = 80
+BaseDefense = 70
+BaseSpecialAttack = 65
+BaseSpecialDefense = 75
+BaseSpeed = 90
+ExpectedStatsLevel50 = {"hp": 150, "attack": 100, "defense": 90, "special_attack": 85, "special_defense": 95, "speed": 110}
+ExpectedStatsLevel100 = {"hp": 291, "attack": 196, "defense": 176, "special_attack": 166, "special_defense": 186, "speed": 216}
+LearnableMoves = ["Blutsauger", "Superschall", "Kreideschrei", "Erstauner", "Biss", "Flügelschlag", "Konfustrahl", "Sternschauer", "Windschnitt", "Akrobatik", "Horrorblick", "Giftzahn", "Dunkelnebel", "Luftschnitt"]
+LevelUpMoves = {"Blutsauger": 1, "Superschall": 1, "Kreideschrei": 1, "Erstauner": 1, "Biss": 12, "Flügelschlag": 15, "Konfustrahl": 19, "Sternschauer": 24, "Windschnitt": 28, "Akrobatik": 33, "Horrorblick": 38, "Giftzahn": 42, "Dunkelnebel": 47, "Luftschnitt": 52}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

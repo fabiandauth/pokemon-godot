@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/143.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/143.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Relaxo"
+Id = 143
+Description = "Es ist erst satt, wenn es über 400 kg Nahrung am Tag gefressen hat. Ist es mit dem Essen fertig, schläft es sofort ein."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 1
+TypeTwo = 0
+BaseHp = 160
+BaseAttack = 110
+BaseDefense = 65
+BaseSpecialAttack = 65
+BaseSpecialDefense = 110
+BaseSpeed = 30
+ExpectedStatsLevel50 = {"hp": 235, "attack": 130, "defense": 85, "special_attack": 85, "special_defense": 130, "speed": 50}
+ExpectedStatsLevel100 = {"hp": 461, "attack": 256, "defense": 166, "special_attack": 166, "special_defense": 256, "speed": 96}
+LearnableMoves = ["Tackle", "Einigler", "Amnesie", "Schlecker", "Zermürben", "Gähner", "Bodyslam", "Erholung", "Schnarcher", "Schlafrede", "Walzer", "Rückentzug", "Bauchtrommel", "Knirscher", "Rammboss", "Gigastoß"]
+LevelUpMoves = {"Tackle": 1, "Einigler": 4, "Amnesie": 9, "Schlecker": 12, "Zermürben": 17, "Gähner": 20, "Bodyslam": 25, "Erholung": 28, "Schnarcher": 28, "Schlafrede": 33, "Walzer": 36, "Rückentzug": 41, "Bauchtrommel": 44, "Knirscher": 49, "Rammboss": 50, "Gigastoß": 57}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

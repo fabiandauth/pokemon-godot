@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/123.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/123.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Sichlor"
+Id = 123
+Description = "Es zerreißt und zerkleinert seine Beute mit seinen unglaublich scharfen Sicheln. Selten breitet es seine Flügel aus, um zu fliegen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 12
+TypeTwo = 10
+BaseHp = 70
+BaseAttack = 110
+BaseDefense = 80
+BaseSpecialAttack = 55
+BaseSpecialDefense = 80
+BaseSpeed = 105
+ExpectedStatsLevel50 = {"hp": 145, "attack": 130, "defense": 100, "special_attack": 75, "special_defense": 100, "speed": 125}
+ExpectedStatsLevel100 = {"hp": 281, "attack": 256, "defense": 196, "special_attack": 146, "special_defense": 196, "speed": 246}
+LearnableMoves = ["Vakuumwelle", "Silberblick", "Ruckzuckhieb", "Energiefokus", "Verfolgung", "Trugschlag", "Agilität", "Flügelschlag", "Zornklinge", "Schlitzer", "Klingensturm", "Doppelteam", "Kreuzschere", "Nachthieb", "Doppelschlag", "Luftschnitt", "Schwerttanz", "Offenlegung"]
+LevelUpMoves = {"Vakuumwelle": 1, "Silberblick": 1, "Ruckzuckhieb": 1, "Energiefokus": 5, "Verfolgung": 9, "Trugschlag": 13, "Agilität": 17, "Flügelschlag": 21, "Zornklinge": 25, "Schlitzer": 29, "Klingensturm": 33, "Doppelteam": 37, "Kreuzschere": 41, "Nachthieb": 45, "Doppelschlag": 49, "Luftschnitt": 50, "Schwerttanz": 57, "Offenlegung": 61}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

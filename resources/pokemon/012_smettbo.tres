@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/012.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/012.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Smettbo"
+Id = 12
+Description = "Es liebt Blütenhonig. Es findet selbst Blumen, die sehr wenig Pollen haben."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 12
+TypeTwo = 10
+BaseHp = 60
+BaseAttack = 45
+BaseDefense = 50
+BaseSpecialAttack = 90
+BaseSpecialDefense = 80
+BaseSpeed = 70
+ExpectedStatsLevel50 = {"hp": 135, "attack": 65, "defense": 70, "special_attack": 110, "special_defense": 100, "speed": 90}
+ExpectedStatsLevel100 = {"hp": 261, "attack": 126, "defense": 136, "special_attack": 216, "special_defense": 196, "speed": 176}
+LearnableMoves = ["Konfusion", "Schlafpuder", "Giftpuder", "Stachelspore", "Windstoß", "Superschall", "Wirbelwind", "Psystrahl", "Silberhauch", "Rückenwind", "Wutpulver", "Bodyguard", "Liebreiz", "Käfergebrumm", "Falterreigen"]
+LevelUpMoves = {"Konfusion": 1, "Schlafpuder": 12, "Giftpuder": 12, "Stachelspore": 12, "Windstoß": 16, "Superschall": 18, "Wirbelwind": 22, "Psystrahl": 24, "Silberhauch": 28, "Rückenwind": 30, "Wutpulver": 34, "Bodyguard": 36, "Liebreiz": 40, "Käfergebrumm": 42, "Falterreigen": 46}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

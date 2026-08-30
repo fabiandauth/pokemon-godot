@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/126.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/126.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Magmar"
+Id = 126
+Description = "Es wurde in der Nähe eines Vulkans gefunden. Die Körpertemperatur dieses Feuerspuckers liegt bei fast 1200 °C."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 2
+TypeTwo = 0
+BaseHp = 65
+BaseAttack = 95
+BaseDefense = 57
+BaseSpecialAttack = 100
+BaseSpecialDefense = 85
+BaseSpeed = 93
+ExpectedStatsLevel50 = {"hp": 140, "attack": 115, "defense": 77, "special_attack": 120, "special_defense": 105, "speed": 113}
+ExpectedStatsLevel100 = {"hp": 271, "attack": 226, "defense": 150, "special_attack": 236, "special_defense": 206, "speed": 222}
+LearnableMoves = ["Silberblick", "Glut", "Smog", "Rauchwolke", "Finte", "Feuerwirbel", "Klärsmog", "Funkenflug", "Konfustrahl", "Feuerschlag", "Flammensturm", "Sonnentag", "Flammenwurf", "Feuersturm"]
+LevelUpMoves = {"Silberblick": 1, "Glut": 1, "Smog": 1, "Rauchwolke": 8, "Finte": 12, "Feuerwirbel": 15, "Klärsmog": 19, "Funkenflug": 22, "Konfustrahl": 26, "Feuerschlag": 29, "Flammensturm": 36, "Sonnentag": 42, "Flammenwurf": 49, "Feuersturm": 55}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

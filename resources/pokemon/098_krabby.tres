@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/098.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/098.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Krabby"
+Id = 98
+Description = "Es kommt vor allem nahe des Meeres vor. Die großen Scheren wachsen nach, wenn sie vom Körper abgetrennt wurden."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 3
+TypeTwo = 0
+BaseHp = 30
+BaseAttack = 105
+BaseDefense = 90
+BaseSpecialAttack = 25
+BaseSpecialDefense = 25
+BaseSpeed = 50
+ExpectedStatsLevel50 = {"hp": 105, "attack": 125, "defense": 110, "special_attack": 45, "special_defense": 45, "speed": 70}
+ExpectedStatsLevel100 = {"hp": 201, "attack": 246, "defense": 216, "special_attack": 86, "special_defense": 86, "speed": 136}
+LearnableMoves = ["Blubber", "Lehmsuhler", "Klammer", "Silberblick", "Härtner", "Blubbstrahl", "Lehmschuss", "Metallklaue", "Stampfer", "Schutzschild", "Guillotine", "Slam", "Lake", "Krabbhammer", "Dreschflegel"]
+LevelUpMoves = {"Blubber": 1, "Lehmsuhler": 1, "Klammer": 5, "Silberblick": 9, "Härtner": 11, "Blubbstrahl": 15, "Lehmschuss": 19, "Metallklaue": 21, "Stampfer": 25, "Schutzschild": 29, "Guillotine": 31, "Slam": 25, "Lake": 39, "Krabbhammer": 41, "Dreschflegel": 45}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

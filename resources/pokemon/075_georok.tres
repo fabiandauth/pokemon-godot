@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/075.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/075.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Georok"
+Id = 75
+Description = "Es ist ihm völlig gleichgültig, wenn Stücke aus ihm herausbrechen, während es Berge hinabrollt."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 13
+TypeTwo = 9
+BaseHp = 55
+BaseAttack = 95
+BaseDefense = 115
+BaseSpecialAttack = 45
+BaseSpecialDefense = 45
+BaseSpeed = 35
+ExpectedStatsLevel50 = {"hp": 130, "attack": 115, "defense": 135, "special_attack": 65, "special_defense": 65, "speed": 55}
+ExpectedStatsLevel100 = {"hp": 251, "attack": 226, "defense": 266, "special_attack": 126, "special_defense": 126, "speed": 106}
+LearnableMoves = ["Tackle", "Steinpolitur", "Einigler", "Lehmsuhler", "Walzer", "Intensität", "Steinwurf", "Felswurf", "Katapult", "Finale", "Dampfwalze", "Tarnsteine", "Erdbeben", "Explosion", "Risikotackle", "Steinkante"]
+LevelUpMoves = {"Tackle": 1, "Steinpolitur": 1, "Einigler": 1, "Lehmsuhler": 1, "Walzer": 11, "Intensität": 15, "Steinwurf": 18, "Felswurf": 22, "Katapult": 27, "Finale": 31, "Dampfwalze": 36, "Tarnsteine": 42, "Erdbeben": 47, "Explosion": 53, "Risikotackle": 58, "Steinkante": 64}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

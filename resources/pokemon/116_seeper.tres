@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/116.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/116.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Seeper"
+Id = 116
+Description = "Dieses Pokémon schießt mit Tinte auf über der Wasseroberfläche fliegende Insekten."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 3
+TypeTwo = 0
+BaseHp = 30
+BaseAttack = 40
+BaseDefense = 70
+BaseSpecialAttack = 70
+BaseSpecialDefense = 25
+BaseSpeed = 60
+ExpectedStatsLevel50 = {"hp": 105, "attack": 60, "defense": 90, "special_attack": 90, "special_defense": 45, "speed": 80}
+ExpectedStatsLevel100 = {"hp": 201, "attack": 116, "defense": 176, "special_attack": 176, "special_defense": 86, "speed": 156}
+LearnableMoves = ["Aquaknarre", "Rauchwolke", "Silberblick", "Blubber", "Energiefokus", "Blubbstrahl", "Agilität", "Windhose", "Lake", "Hydropumpe", "Drachentanz", "Drachenpuls"]
+LevelUpMoves = {"Aquaknarre": 1, "Rauchwolke": 4, "Silberblick": 8, "Blubber": 11, "Energiefokus": 14, "Blubbstrahl": 18, "Agilität": 23, "Windhose": 26, "Lake": 30, "Hydropumpe": 35, "Drachentanz": 38, "Drachenpuls": 42}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

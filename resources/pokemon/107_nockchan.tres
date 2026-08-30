@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/107.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/107.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Nockchan"
+Id = 107
+Description = "Die Schläge, die es austeilt, können Beton pulverisieren. Es muss sich im Kampf alle 3 Minuten ausruhen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 7
+TypeTwo = 0
+BaseHp = 50
+BaseAttack = 105
+BaseDefense = 79
+BaseSpecialAttack = 35
+BaseSpecialDefense = 110
+BaseSpeed = 76
+ExpectedStatsLevel50 = {"hp": 125, "attack": 125, "defense": 99, "special_attack": 55, "special_defense": 130, "speed": 96}
+ExpectedStatsLevel100 = {"hp": 241, "attack": 246, "defense": 194, "special_attack": 106, "special_defense": 256, "speed": 188}
+LearnableMoves = ["Kometenhieb", "Vergeltung", "Nahkampf", "Power-Punch", "Agilität", "Verfolgung", "Patronenhieb", "Tempohieb", "Offenlegung", "Vakuumwelle", "Rapidschutz", "Donnerschlag", "Eishieb", "Feuerschlag", "Himmelhieb", "Megahieb", "Scanner", "Konter"]
+LevelUpMoves = {"Kometenhieb": 1, "Vergeltung": 1, "Nahkampf": 1, "Power-Punch": 1, "Agilität": 6, "Verfolgung": 11, "Patronenhieb": 16, "Tempohieb": 16, "Offenlegung": 21, "Vakuumwelle": 26, "Rapidschutz": 31, "Donnerschlag": 36, "Eishieb": 36, "Feuerschlag": 36, "Himmelhieb": 41, "Megahieb": 46, "Scanner": 50, "Konter": 61}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

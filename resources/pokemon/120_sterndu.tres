@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/120.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/120.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Sterndu"
+Id = 120
+Description = "Auch wenn sein Körper nicht mehr intakt ist, kann es sich regenerieren, wenn der Kern leuchtet."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 3
+TypeTwo = 0
+BaseHp = 30
+BaseAttack = 45
+BaseDefense = 55
+BaseSpecialAttack = 70
+BaseSpecialDefense = 55
+BaseSpeed = 85
+ExpectedStatsLevel50 = {"hp": 105, "attack": 65, "defense": 75, "special_attack": 90, "special_defense": 75, "speed": 105}
+ExpectedStatsLevel100 = {"hp": 201, "attack": 126, "defense": 146, "special_attack": 176, "special_defense": 146, "speed": 206}
+LearnableMoves = ["Tackle", "Härtner", "Aquaknarre", "Turbodreher", "Genesung", "Tarnung", "Sternschauer", "Blubbstrahl", "Komprimator", "Gyroball", "Lichtschild", "Lake", "Typenspiegel", "Juwelenkraft", "Kosmik-Kraft", "Hydropumpe"]
+LevelUpMoves = {"Tackle": 1, "Härtner": 1, "Aquaknarre": 6, "Turbodreher": 10, "Genesung": 12, "Tarnung": 15, "Sternschauer": 18, "Blubbstrahl": 22, "Komprimator": 25, "Gyroball": 30, "Lichtschild": 33, "Lake": 36, "Typenspiegel": 40, "Juwelenkraft": 43, "Kosmik-Kraft": 48, "Hydropumpe": 52}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

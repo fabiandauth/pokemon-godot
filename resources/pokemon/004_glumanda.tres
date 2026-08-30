@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/004.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/004.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Glumanda"
+Id = 4
+Description = "Die Flamme auf seiner Schweifspitze zeigt die Lebensenergie an. Ist es gesund, leuchtet sie hell."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 2
+TypeTwo = 0
+BaseHp = 39
+BaseAttack = 52
+BaseDefense = 43
+BaseSpecialAttack = 60
+BaseSpecialDefense = 50
+BaseSpeed = 65
+ExpectedStatsLevel50 = {"hp": 114, "attack": 72, "defense": 63, "special_attack": 80, "special_defense": 70, "speed": 85}
+ExpectedStatsLevel100 = {"hp": 219, "attack": 140, "defense": 122, "special_attack": 156, "special_defense": 136, "speed": 166}
+LearnableMoves = ["Kratzer", "Heuler", "Glut", "Rauchwolke", "Drachenwut", "Grimasse", "Feuerzahn", "Funkenflug", "Schlitzer", "Flammenwurf", "Feuerwirbel", "Inferno"]
+LevelUpMoves = {"Kratzer": 1, "Heuler": 1, "Glut": 7, "Rauchwolke": 10, "Drachenwut": 16, "Grimasse": 19, "Feuerzahn": 25, "Funkenflug": 28, "Schlitzer": 34, "Flammenwurf": 37, "Feuerwirbel": 43, "Inferno": 46}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

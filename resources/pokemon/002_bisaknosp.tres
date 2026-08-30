@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/002.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/002.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Bisaknosp"
+Id = 2
+Description = "Es trägt eine Knospe auf seinem Rücken. Nimmt es Nahrung zu sich, soll aus der Knospe eine große blühende Blume werden."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 4
+TypeTwo = 8
+BaseHp = 60
+BaseAttack = 62
+BaseDefense = 63
+BaseSpecialAttack = 80
+BaseSpecialDefense = 80
+BaseSpeed = 60
+ExpectedStatsLevel50 = {"hp": 135, "attack": 82, "defense": 83, "special_attack": 100, "special_defense": 100, "speed": 80}
+ExpectedStatsLevel100 = {"hp": 261, "attack": 160, "defense": 162, "special_attack": 196, "special_defense": 196, "speed": 156}
+LearnableMoves = ["Egelsamen", "Tackle", "Heuler", "Rankenhieb", "Schlafpuder", "Giftpuder", "Bodycheck", "Rasierblatt", "Lockduft", "Wachstum", "Risikotackle", "Sorgensamen", "Synthese", "Solarstrahl"]
+LevelUpMoves = {"Egelsamen": 1, "Tackle": 1, "Heuler": 1, "Rankenhieb": 9, "Schlafpuder": 13, "Giftpuder": 13, "Bodycheck": 15, "Rasierblatt": 20, "Lockduft": 23, "Wachstum": 28, "Risikotackle": 31, "Sorgensamen": 36, "Synthese": 39, "Solarstrahl": 44}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/128.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/128.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Tauros"
+Id = 128
+Description = "Es kämpft mit vollem Einsatz, nachdem es sich mit seinen Schweifen auspeitscht, um sich anzustacheln"
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 1
+TypeTwo = 0
+BaseHp = 75
+BaseAttack = 100
+BaseDefense = 95
+BaseSpecialAttack = 40
+BaseSpecialDefense = 70
+BaseSpeed = 110
+ExpectedStatsLevel50 = {"hp": 150, "attack": 120, "defense": 115, "special_attack": 60, "special_defense": 90, "speed": 130}
+ExpectedStatsLevel100 = {"hp": 291, "attack": 236, "defense": 226, "special_attack": 116, "special_defense": 176, "speed": 256}
+LearnableMoves = ["Tackle", "Rutenschlag", "Raserei", "Hornattacke", "Grimasse", "Verfolgung", "Erholung", "Gegenstoß", "Kraftschub", "Zen-Kopfstoß", "Bodycheck", "Angeberei", "Fuchtler", "Gigastoß"]
+LevelUpMoves = {"Tackle": 1, "Rutenschlag": 3, "Raserei": 5, "Hornattacke": 8, "Grimasse": 11, "Verfolgung": 15, "Erholung": 19, "Gegenstoß": 24, "Kraftschub": 29, "Zen-Kopfstoß": 35, "Bodycheck": 41, "Angeberei": 48, "Fuchtler": 50, "Gigastoß": 63}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

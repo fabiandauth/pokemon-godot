@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/009.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/009.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Turtok"
+Id = 9
+Description = "Es begräbt seine Gegner mit seinem enormen Körpergewicht. Wenn es in einer aussichtslosen Lage steckt, zieht es sich in seinen Panzer zurück."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 3
+TypeTwo = 0
+BaseHp = 79
+BaseAttack = 83
+BaseDefense = 100
+BaseSpecialAttack = 85
+BaseSpecialDefense = 105
+BaseSpeed = 78
+ExpectedStatsLevel50 = {"hp": 154, "attack": 103, "defense": 120, "special_attack": 105, "special_defense": 125, "speed": 98}
+ExpectedStatsLevel100 = {"hp": 299, "attack": 202, "defense": 236, "special_attack": 206, "special_defense": 246, "speed": 192}
+LearnableMoves = ["Tackle", "Lichtkanone", "Panzerschutz", "Aquaknarre", "Rutenschlag", "Blubber", "Biss", "Turbodreher", "Schutzschild", "Aquawelle", "Nassschweif", "Schädelwumme", "Eisenabwehr", "Regentanz", "Hydropumpe"]
+LevelUpMoves = {"Tackle": 1, "Lichtkanone": 1, "Panzerschutz": 1, "Aquaknarre": 1, "Rutenschlag": 1, "Blubber": 7, "Biss": 16, "Turbodreher": 20, "Schutzschild": 24, "Aquawelle": 28, "Nassschweif": 32, "Schädelwumme": 39, "Eisenabwehr": 46, "Regentanz": 53, "Hydropumpe": 60}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

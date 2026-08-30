@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/048.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/048.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Bluzuk"
+Id = 48
+Description = "Seine großen Augen bestehen aus vielen kleinen Augen. Nachts wird es von Licht angezogen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 12
+TypeTwo = 8
+BaseHp = 60
+BaseAttack = 55
+BaseDefense = 50
+BaseSpecialAttack = 40
+BaseSpecialDefense = 55
+BaseSpeed = 45
+ExpectedStatsLevel50 = {"hp": 135, "attack": 75, "defense": 70, "special_attack": 60, "special_defense": 75, "speed": 65}
+ExpectedStatsLevel100 = {"hp": 261, "attack": 146, "defense": 136, "special_attack": 116, "special_defense": 146, "speed": 126}
+LearnableMoves = ["Tackle", "Aussetzer", "Gesichte", "Superschall", "Konfusion", "Giftpuder", "Blutsauger", "Stachelspore", "Psystrahl", "Schlafpuder", "Ampelleuchte", "Zen-Kopfstoß", "Giftzahn", "Psychokinese"]
+LevelUpMoves = {"Tackle": 1, "Aussetzer": 1, "Gesichte": 1, "Superschall": 5, "Konfusion": 11, "Giftpuder": 13, "Blutsauger": 17, "Stachelspore": 23, "Psystrahl": 25, "Schlafpuder": 29, "Ampelleuchte": 35, "Zen-Kopfstoß": 37, "Giftzahn": 41, "Psychokinese": 47}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

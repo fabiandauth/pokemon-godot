@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/011.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/011.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Safcon"
+Id = 11
+Description = "Der stahlharte Panzer schützt seinen zarten Körper. Es wartet geduldig auf seine Entwicklung."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 12
+TypeTwo = 0
+BaseHp = 50
+BaseAttack = 20
+BaseDefense = 55
+BaseSpecialAttack = 25
+BaseSpecialDefense = 25
+BaseSpeed = 30
+ExpectedStatsLevel50 = {"hp": 125, "attack": 40, "defense": 75, "special_attack": 45, "special_defense": 45, "speed": 50}
+ExpectedStatsLevel100 = {"hp": 241, "attack": 76, "defense": 146, "special_attack": 86, "special_defense": 86, "speed": 96}
+LearnableMoves = ["Härtner"]
+LevelUpMoves = {"Härtner": 1}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/125.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/125.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Elektek"
+Id = 125
+Description = "Elektrizität bedeckt seinen Körper. Im Dunkeln erstrahlt es in einem bläulichen Ton."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 5
+TypeTwo = 0
+BaseHp = 65
+BaseAttack = 83
+BaseDefense = 57
+BaseSpecialAttack = 95
+BaseSpecialDefense = 85
+BaseSpeed = 105
+ExpectedStatsLevel50 = {"hp": 140, "attack": 103, "defense": 77, "special_attack": 115, "special_defense": 105, "speed": 125}
+ExpectedStatsLevel100 = {"hp": 271, "attack": 202, "defense": 150, "special_attack": 226, "special_defense": 206, "speed": 246}
+LearnableMoves = ["Silberblick", "Donnerschock", "Ruckzuckhieb", "Fußkick", "Sternschauer", "Schockwelle", "Donnerwelle", "Elektroball", "Lichtschild", "Donnerschlag", "Ladungsstoß", "Kreideschrei", "Donnerblitz", "Donner"]
+LevelUpMoves = {"Silberblick": 1, "Donnerschock": 1, "Ruckzuckhieb": 1, "Fußkick": 8, "Sternschauer": 12, "Schockwelle": 15, "Donnerwelle": 19, "Elektroball": 22, "Lichtschild": 26, "Donnerschlag": 29, "Ladungsstoß": 36, "Kreideschrei": 44, "Donnerblitz": 49, "Donner": 55}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

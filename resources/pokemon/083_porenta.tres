@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/083.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/083.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Porenta"
+Id = 83
+Description = "Dieses Pokémon nutzt eine Lauchstange als Waffe. Es setzt sie wie ein Schwert ein."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 1
+TypeTwo = 10
+BaseHp = 52
+BaseAttack = 90
+BaseDefense = 55
+BaseSpecialAttack = 58
+BaseSpecialDefense = 62
+BaseSpeed = 60
+ExpectedStatsLevel50 = {"hp": 127, "attack": 110, "defense": 75, "special_attack": 78, "special_defense": 82, "speed": 80}
+ExpectedStatsLevel100 = {"hp": 245, "attack": 216, "defense": 146, "special_attack": 152, "special_defense": 160, "speed": 156}
+LearnableMoves = ["Sturzflug", "Gifthieb", "Sandwirbel", "Silberblick", "Schnabel", "Zornklinge", "Furienschlag", "Aero-Ass", "Abschlag", "Schlitzer", "Windschnitt", "Schwerttanz", "Agilität", "Nachthieb", "Akrobatik", "Offenlegung", "Trugschlag", "Luftschnitt"]
+LevelUpMoves = {"Sturzflug": 1, "Gifthieb": 1, "Sandwirbel": 1, "Silberblick": 1, "Schnabel": 1, "Zornklinge": 1, "Furienschlag": 7, "Aero-Ass": 9, "Abschlag": 13, "Schlitzer": 19, "Windschnitt": 21, "Schwerttanz": 25, "Agilität": 31, "Nachthieb": 33, "Akrobatik": 37, "Offenlegung": 43, "Trugschlag": 45, "Luftschnitt": 49}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/017.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/017.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Tauboga"
+Id = 17
+Description = "Die Krallen an seinen Füßen sind sehr ausgeprägt. Es kann sogar ein Owei zu seinem Nest in 100 km Entfernung tragen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 1
+TypeTwo = 10
+BaseHp = 63
+BaseAttack = 60
+BaseDefense = 55
+BaseSpecialAttack = 50
+BaseSpecialDefense = 50
+BaseSpeed = 71
+ExpectedStatsLevel50 = {"hp": 138, "attack": 80, "defense": 75, "special_attack": 70, "special_defense": 70, "speed": 91}
+ExpectedStatsLevel100 = {"hp": 267, "attack": 156, "defense": 146, "special_attack": 136, "special_defense": 136, "speed": 178}
+LearnableMoves = ["Windstoß", "Sandwirbel", "Tackle", "Wirbelwind", "Windhose", "Daunenreigen", "Agilität", "Flügelschlag", "Ruheort", "Rückenwind", "Spiegeltrick", "Luftschnitt", "Orkan"]
+LevelUpMoves = {"Windstoß": 1, "Sandwirbel": 1, "Tackle": 1, "Wirbelwind": 17, "Windhose": 22, "Daunenreigen": 27, "Agilität": 32, "Flügelschlag": 37, "Ruheort": 42, "Rückenwind": 47, "Spiegeltrick": 52, "Luftschnitt": 57, "Orkan": 62}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

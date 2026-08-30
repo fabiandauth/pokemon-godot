@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/112.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/112.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Rizeros"
+Id = 112
+Description = "Durch seine panzerähnliche Körperhülle kann es in bis zu 2000 Grad heißer Lava leben."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 9
+TypeTwo = 13
+BaseHp = 105
+BaseAttack = 130
+BaseDefense = 120
+BaseSpecialAttack = 45
+BaseSpecialDefense = 45
+BaseSpeed = 40
+ExpectedStatsLevel50 = {"hp": 180, "attack": 150, "defense": 140, "special_attack": 65, "special_defense": 65, "speed": 60}
+ExpectedStatsLevel100 = {"hp": 351, "attack": 296, "defense": 276, "special_attack": 126, "special_defense": 126, "speed": 116}
+LearnableMoves = ["Stampfer", "Rutenschlag", "Furienschlag", "Hornattacke", "Vielender", "Hornbohrer", "Grimasse", "Felswurf", "Dampfwalze", "Zermürben", "Bodycheck", "Hammerarm", "Schlagbohrer", "Steinkante", "Erdbeben"]
+LevelUpMoves = {"Stampfer": 1, "Rutenschlag": 1, "Furienschlag": 1, "Hornattacke": 1, "Vielender": 1, "Hornbohrer": 1, "Grimasse": 19, "Felswurf": 23, "Dampfwalze": 30, "Zermürben": 34, "Bodycheck": 41, "Hammerarm": 42, "Schlagbohrer": 47, "Steinkante": 56, "Erdbeben": 62}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

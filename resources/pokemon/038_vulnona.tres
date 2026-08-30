@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/038.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/038.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Vulnona"
+Id = 38
+Description = "Es hat neun lange Schweife und sein Fell glänzt gülden. Man sagt, es soll 1 000 Jahre alt werden."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 2
+TypeTwo = 0
+BaseHp = 73
+BaseAttack = 76
+BaseDefense = 75
+BaseSpecialAttack = 81
+BaseSpecialDefense = 100
+BaseSpeed = 100
+ExpectedStatsLevel50 = {"hp": 148, "attack": 96, "defense": 95, "special_attack": 101, "special_defense": 120, "speed": 120}
+ExpectedStatsLevel100 = {"hp": 287, "attack": 188, "defense": 186, "special_attack": 198, "special_defense": 236, "speed": 236}
+LearnableMoves = ["Glut", "Ruckzuckhieb", "Konfustrahl", "Bodyguard", "Ränkeschmied", "Flammenwurf"]
+LevelUpMoves = {"Glut": 1, "Ruckzuckhieb": 1, "Konfustrahl": 1, "Bodyguard": 1, "Ränkeschmied": 1, "Flammenwurf": 1}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

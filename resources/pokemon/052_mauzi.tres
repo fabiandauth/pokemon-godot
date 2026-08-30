@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/052.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/052.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Mauzi"
+Id = 52
+Description = "Ein nachtaktives Pokémon. Sieht es etwas Schimmerndes, fangen seine Augen an zu glänzen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 1
+TypeTwo = 0
+BaseHp = 40
+BaseAttack = 45
+BaseDefense = 35
+BaseSpecialAttack = 40
+BaseSpecialDefense = 40
+BaseSpeed = 90
+ExpectedStatsLevel50 = {"hp": 115, "attack": 65, "defense": 55, "special_attack": 60, "special_defense": 60, "speed": 110}
+ExpectedStatsLevel100 = {"hp": 221, "attack": 126, "defense": 106, "special_attack": 116, "special_defense": 116, "speed": 216}
+LearnableMoves = ["Kratzer", "Heuler", "Biss", "Mogelhieb", "Kratzfurie", "Kreideschrei", "Finte", "Verhöhner", "Zahltag", "Schlitzer", "Ränkeschmied", "Gewissheit", "Liebreiz", "Nachthieb", "Offenlegung"]
+LevelUpMoves = {"Kratzer": 1, "Heuler": 1, "Biss": 6, "Mogelhieb": 9, "Kratzfurie": 14, "Kreideschrei": 17, "Finte": 22, "Verhöhner": 25, "Zahltag": 30, "Schlitzer": 33, "Ränkeschmied": 38, "Gewissheit": 41, "Liebreiz": 46, "Nachthieb": 49, "Offenlegung": 50}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

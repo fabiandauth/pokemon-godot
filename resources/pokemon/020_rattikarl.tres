@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/020.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/020.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Rattikarl"
+Id = 20
+Description = "Es wetzt seine ständig wachsenden Zähne an harten Dingen. Es kann Wände aus Beton zernagen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 1
+TypeTwo = 0
+BaseHp = 55
+BaseAttack = 81
+BaseDefense = 60
+BaseSpecialAttack = 50
+BaseSpecialDefense = 70
+BaseSpeed = 97
+ExpectedStatsLevel50 = {"hp": 130, "attack": 101, "defense": 80, "special_attack": 70, "special_defense": 90, "speed": 117}
+ExpectedStatsLevel100 = {"hp": 251, "attack": 198, "defense": 156, "special_attack": 136, "special_defense": 176, "speed": 230}
+LearnableMoves = ["Schwerttanz", "Tackle", "Rutenschlag", "Energiefokus", "Ruckzuckhieb", "Biss", "Verfolgung", "Hyperzahn", "Tiefschlag", "Grimasse", "Knirscher", "Gewissheit", "Superzahn", "Risikotackle", "Notsituation"]
+LevelUpMoves = {"Schwerttanz": 1, "Tackle": 1, "Rutenschlag": 1, "Energiefokus": 1, "Ruckzuckhieb": 1, "Biss": 10, "Verfolgung": 13, "Hyperzahn": 16, "Tiefschlag": 19, "Grimasse": 20, "Knirscher": 24, "Gewissheit": 29, "Superzahn": 34, "Risikotackle": 39, "Notsituation": 44}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

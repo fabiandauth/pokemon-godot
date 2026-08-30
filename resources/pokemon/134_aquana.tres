@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/134.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/134.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Aquana"
+Id = 134
+Description = "Es liebt schöne Ufer. Da seine Zellstruktur Wassermolekülen ähnlich ist, kann es mit Wasser verschmelzen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 3
+TypeTwo = 0
+BaseHp = 130
+BaseAttack = 65
+BaseDefense = 60
+BaseSpecialAttack = 110
+BaseSpecialDefense = 95
+BaseSpeed = 65
+ExpectedStatsLevel50 = {"hp": 205, "attack": 85, "defense": 80, "special_attack": 130, "special_defense": 115, "speed": 85}
+ExpectedStatsLevel100 = {"hp": 401, "attack": 166, "defense": 156, "special_attack": 256, "special_defense": 226, "speed": 166}
+LearnableMoves = ["Tackle", "Rutenschlag", "Rechte Hand", "Sandwirbel", "Aquaknarre", "Ruckzuckhieb", "Aquawelle", "Aurorastrahl", "Wasserring", "Säurepanzer", "Dunkelnebel", "Lehmbrühe", "Zuflucht", "Hydropumpe"]
+LevelUpMoves = {"Tackle": 1, "Rutenschlag": 1, "Rechte Hand": 1, "Sandwirbel": 5, "Aquaknarre": 9, "Ruckzuckhieb": 13, "Aquawelle": 17, "Aurorastrahl": 20, "Wasserring": 25, "Säurepanzer": 29, "Dunkelnebel": 33, "Lehmbrühe": 37, "Zuflucht": 41, "Hydropumpe": 45}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

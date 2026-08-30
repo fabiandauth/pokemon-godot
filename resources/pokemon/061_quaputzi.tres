@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/061.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/061.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Quaputzi"
+Id = 61
+Description = "Dieses Pokémon kann im Wasser und auch an Land leben. An Land schwitzt es sich den Körper nass."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 3
+TypeTwo = 0
+BaseHp = 65
+BaseAttack = 65
+BaseDefense = 65
+BaseSpecialAttack = 50
+BaseSpecialDefense = 50
+BaseSpeed = 90
+ExpectedStatsLevel50 = {"hp": 140, "attack": 85, "defense": 85, "special_attack": 70, "special_defense": 70, "speed": 110}
+ExpectedStatsLevel100 = {"hp": 271, "attack": 166, "defense": 166, "special_attack": 136, "special_defense": 136, "speed": 216}
+LearnableMoves = ["Blubber", "Nassmacher", "Hypnose", "Aquaknarre", "Duplexhieb", "Regentanz", "Bodyslam", "Blubbstrahl", "Lehmschuss", "Bauchtrommel", "Weckruf", "Hydropumpe", "Schlammbombe"]
+LevelUpMoves = {"Blubber": 1, "Nassmacher": 1, "Hypnose": 1, "Aquaknarre": 5, "Duplexhieb": 15, "Regentanz": 18, "Bodyslam": 21, "Blubbstrahl": 27, "Lehmschuss": 32, "Bauchtrommel": 37, "Weckruf": 43, "Hydropumpe": 48, "Schlammbombe": 53}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

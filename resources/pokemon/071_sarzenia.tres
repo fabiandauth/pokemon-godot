@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/071.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/071.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Sarzenia"
+Id = 71
+Description = "Dieses Pokémon soll in großen Kolonien tief im Dschungel leben, doch niemand kann dies bestätigen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 4
+TypeTwo = 8
+BaseHp = 80
+BaseAttack = 105
+BaseDefense = 65
+BaseSpecialAttack = 100
+BaseSpecialDefense = 70
+BaseSpeed = 70
+ExpectedStatsLevel50 = {"hp": 155, "attack": 125, "defense": 85, "special_attack": 120, "special_defense": 90, "speed": 90}
+ExpectedStatsLevel100 = {"hp": 301, "attack": 246, "defense": 166, "special_attack": 236, "special_defense": 176, "speed": 176}
+LearnableMoves = ["Rankenhieb", "Rasierblatt", "Schlafpuder", "Lockduft", "Horter", "Entfessler", "Verzehrer", "Grasmixer", "Blättersturm", "Laubklinge"]
+LevelUpMoves = {"Rankenhieb": 1, "Rasierblatt": 1, "Schlafpuder": 1, "Lockduft": 1, "Horter": 1, "Entfessler": 1, "Verzehrer": 1, "Grasmixer": 27, "Blättersturm": 47, "Laubklinge": 47}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

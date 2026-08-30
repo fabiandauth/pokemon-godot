@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/067.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/067.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Maschock"
+Id = 67
+Description = "Dieses Pokémon ist superstark. Es kann sich nur mit einem Kraft regulierenden Gürtel bewegen."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 7
+TypeTwo = 0
+BaseHp = 80
+BaseAttack = 100
+BaseDefense = 70
+BaseSpecialAttack = 50
+BaseSpecialDefense = 60
+BaseSpeed = 45
+ExpectedStatsLevel50 = {"hp": 155, "attack": 120, "defense": 90, "special_attack": 70, "special_defense": 80, "speed": 65}
+ExpectedStatsLevel100 = {"hp": 301, "attack": 236, "defense": 176, "special_attack": 136, "special_defense": 156, "speed": 126}
+LearnableMoves = ["Energiefokus", "Silberblick", "Fußkick", "Karateschlag", "Fußtritt", "Gesichte", "Geowurf", "Vergeltung", "Überwurf", "Überroller", "Weckruf", "Kreuzhieb", "Grimasse", "Wuchtschlag"]
+LevelUpMoves = {"Energiefokus": 1, "Silberblick": 1, "Fußkick": 1, "Karateschlag": 1, "Fußtritt": 13, "Gesichte": 19, "Geowurf": 22, "Vergeltung": 25, "Überwurf": 32, "Überroller": 36, "Weckruf": 40, "Kreuzhieb": 44, "Grimasse": 51, "Wuchtschlag": 55}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

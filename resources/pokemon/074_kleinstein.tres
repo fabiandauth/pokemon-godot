@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/074.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/074.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Kleinstein"
+Id = 74
+Description = "Wandere stolpern in den Bergen häufig über dieses Pokémon, da es wie ein Stein aussieht."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 13
+TypeTwo = 9
+BaseHp = 40
+BaseAttack = 80
+BaseDefense = 100
+BaseSpecialAttack = 30
+BaseSpecialDefense = 30
+BaseSpeed = 20
+ExpectedStatsLevel50 = {"hp": 115, "attack": 100, "defense": 120, "special_attack": 50, "special_defense": 50, "speed": 40}
+ExpectedStatsLevel100 = {"hp": 221, "attack": 196, "defense": 236, "special_attack": 96, "special_defense": 96, "speed": 76}
+LearnableMoves = ["Tackle", "Einigler", "Lehmsuhler", "Steinpolitur", "Walzer", "Intensität", "Steinwurf", "Felswurf", "Katapult", "Finale", "Dampfwalze", "Tarnsteine", "Erdbeben", "Explosion", "Risikotackle", "Steinkante"]
+LevelUpMoves = {"Tackle": 1, "Einigler": 1, "Lehmsuhler": 4, "Steinpolitur": 8, "Walzer": 11, "Intensität": 15, "Steinwurf": 18, "Felswurf": 22, "Katapult": 25, "Finale": 29, "Dampfwalze": 32, "Tarnsteine": 36, "Erdbeben": 39, "Explosion": 43, "Risikotackle": 46, "Steinkante": 50}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

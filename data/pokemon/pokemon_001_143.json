@@ -1,0 +1,7491 @@
+{
+  "001": {
+    "id": 1,
+    "name": "Bisasam",
+    "level": 1,
+    "pokedex_entry": "Dieses Pokémon trägt von Geburt an einen Samen auf dem Rücken, der mit ihm keimt und wächst.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Pflanze",
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "special_attack": 65,
+      "special_defense": 65,
+      "speed": 45
+    },
+    "expected_stats_level_50": {
+      "hp": 120,
+      "attack": 69,
+      "defense": 69,
+      "special_attack": 85,
+      "special_defense": 85,
+      "speed": 65
+    },
+    "expected_stats_level_100": {
+      "hp": 231,
+      "attack": 134,
+      "defense": 134,
+      "special_attack": 166,
+      "special_defense": 166,
+      "speed": 126
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Heuler": 3,
+      "Egelsamen": 7,
+      "Rankenhieb": 9,
+      "Giftpuder": 13,
+      "Schlafpuder": 13,
+      "Bodycheck": 15,
+      "Rasierblatt": 19,
+      "Lockduft": 21,
+      "Wachstum": 25,
+      "Risikotackle": 27,
+      "Sorgensamen": 31,
+      "Synthese": 33,
+      "Samenbomben": 37
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/001.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/001.png"
+  },
+  "002": {
+    "id": 2,
+    "name": "Bisaknosp",
+    "level": 1,
+    "pokedex_entry": "Es trägt eine Knospe auf seinem Rücken. Nimmt es Nahrung zu sich, soll aus der Knospe eine große blühende Blume werden.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Pflanze",
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 62,
+      "defense": 63,
+      "special_attack": 80,
+      "special_defense": 80,
+      "speed": 60
+    },
+    "expected_stats_level_50": {
+      "hp": 135,
+      "attack": 82,
+      "defense": 83,
+      "special_attack": 100,
+      "special_defense": 100,
+      "speed": 80
+    },
+    "expected_stats_level_100": {
+      "hp": 261,
+      "attack": 160,
+      "defense": 162,
+      "special_attack": 196,
+      "special_defense": 196,
+      "speed": 156
+    },
+    "level_up_attacks": {
+      "Egelsamen": 1,
+      "Tackle": 1,
+      "Heuler": 1,
+      "Rankenhieb": 9,
+      "Schlafpuder": 13,
+      "Giftpuder": 13,
+      "Bodycheck": 15,
+      "Rasierblatt": 20,
+      "Lockduft": 23,
+      "Wachstum": 28,
+      "Risikotackle": 31,
+      "Sorgensamen": 36,
+      "Synthese": 39,
+      "Solarstrahl": 44
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/002.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/002.png"
+  },
+  "003": {
+    "id": 3,
+    "name": "Bisaflor",
+    "level": 1,
+    "pokedex_entry": "Es spreizt die breiten Blätter seiner Blüte, um seinen Körper mit Sonnenenergie zu durchfluten.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Pflanze",
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "special_attack": 100,
+      "special_defense": 100,
+      "speed": 80
+    },
+    "expected_stats_level_50": {
+      "hp": 155,
+      "attack": 102,
+      "defense": 103,
+      "special_attack": 120,
+      "special_defense": 120,
+      "speed": 100
+    },
+    "expected_stats_level_100": {
+      "hp": 301,
+      "attack": 200,
+      "defense": 202,
+      "special_attack": 236,
+      "special_defense": 236,
+      "speed": 196
+    },
+    "level_up_attacks": {
+      "Rankenhieb": 1,
+      "Egelsamen": 1,
+      "Tackle": 1,
+      "Heuler": 1,
+      "Schlafpuder": 13,
+      "Giftpuder": 13,
+      "Bodycheck": 15,
+      "Rasierblatt": 20,
+      "Lockduft": 23,
+      "Wachstum": 28,
+      "Risikotackle": 31,
+      "Blättertanz": 32,
+      "Sorgensamen": 39,
+      "Synthese": 45,
+      "Blütenwirbel": 50,
+      "Solarstrahl": 53
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/003.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/003.png"
+  },
+  "004": {
+    "id": 4,
+    "name": "Glumanda",
+    "level": 1,
+    "pokedex_entry": "Die Flamme auf seiner Schweifspitze zeigt die Lebensenergie an. Ist es gesund, leuchtet sie hell.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Feuer"
+    ],
+    "base_stats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "special_attack": 60,
+      "special_defense": 50,
+      "speed": 65
+    },
+    "expected_stats_level_50": {
+      "hp": 114,
+      "attack": 72,
+      "defense": 63,
+      "special_attack": 80,
+      "special_defense": 70,
+      "speed": 85
+    },
+    "expected_stats_level_100": {
+      "hp": 219,
+      "attack": 140,
+      "defense": 122,
+      "special_attack": 156,
+      "special_defense": 136,
+      "speed": 166
+    },
+    "level_up_attacks": {
+      "Kratzer": 1,
+      "Heuler": 1,
+      "Glut": 7,
+      "Rauchwolke": 10,
+      "Drachenwut": 16,
+      "Grimasse": 19,
+      "Feuerzahn": 25,
+      "Funkenflug": 28,
+      "Schlitzer": 34,
+      "Flammenwurf": 37,
+      "Feuerwirbel": 43,
+      "Inferno": 46
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/004.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/004.png"
+  },
+  "005": {
+    "id": 5,
+    "name": "Glutexo",
+    "level": 1,
+    "pokedex_entry": "Es schlägt im Kampf mit seinem Schwanz nach seinen Gegnern. Anschließend zerfetzt es die Gegner mit seinen scharfen Klauen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Feuer"
+    ],
+    "base_stats": {
+      "hp": 58,
+      "attack": 64,
+      "defense": 58,
+      "special_attack": 80,
+      "special_defense": 65,
+      "speed": 80
+    },
+    "expected_stats_level_50": {
+      "hp": 133,
+      "attack": 84,
+      "defense": 78,
+      "special_attack": 100,
+      "special_defense": 85,
+      "speed": 100
+    },
+    "expected_stats_level_100": {
+      "hp": 257,
+      "attack": 164,
+      "defense": 152,
+      "special_attack": 196,
+      "special_defense": 166,
+      "speed": 196
+    },
+    "level_up_attacks": {
+      "Kratzer": 1,
+      "Heuler": 1,
+      "Glut": 1,
+      "Rauchwolke": 10,
+      "Drachenwut": 17,
+      "Grimasse": 21,
+      "Feuerzahn": 28,
+      "Funkenflug": 32,
+      "Schlitzer": 39,
+      "Flammenwurf": 43,
+      "Feuerwirbel": 50,
+      "Inferno": 54
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/005.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/005.png"
+  },
+  "006": {
+    "id": 6,
+    "name": "Glurak",
+    "level": 1,
+    "pokedex_entry": "Wenn dieses Pokémon einen Strahl glühenden Feuers speit, leuchtet seine Schwanzspitze auf.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Feuer",
+      "Flug"
+    ],
+    "base_stats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "special_attack": 109,
+      "special_defense": 85,
+      "speed": 100
+    },
+    "expected_stats_level_50": {
+      "hp": 153,
+      "attack": 104,
+      "defense": 98,
+      "special_attack": 129,
+      "special_defense": 105,
+      "speed": 120
+    },
+    "expected_stats_level_100": {
+      "hp": 297,
+      "attack": 204,
+      "defense": 192,
+      "special_attack": 254,
+      "special_defense": 206,
+      "speed": 236
+    },
+    "level_up_attacks": {
+      "Kratzer": 1,
+      "Dunkelklaue": 1,
+      "Heuler": 1,
+      "Glut": 1,
+      "Luftschnitt": 1,
+      "Drachenklaue": 1,
+      "Rauchwolke": 1,
+      "Drachenwut": 17,
+      "Grimasse": 21,
+      "Feuerzahn": 28,
+      "Funkenflug": 32,
+      "Flügelschlag": 36,
+      "Schlitzer": 41,
+      "Flammenwurf": 47,
+      "Feuerwirbel": 56,
+      "Inferno": 62,
+      "Hitzewelle": 71,
+      "Flammenblitz": 77
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/006.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/006.png"
+  },
+  "007": {
+    "id": 7,
+    "name": "Schiggy",
+    "level": 1,
+    "pokedex_entry": "Es zieht sich in seinen Panzer zurück und greift dann mit Wasserstrahlen seine Gegner an.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 44,
+      "attack": 48,
+      "defense": 65,
+      "special_attack": 50,
+      "special_defense": 64,
+      "speed": 43
+    },
+    "expected_stats_level_50": {
+      "hp": 119,
+      "attack": 68,
+      "defense": 85,
+      "special_attack": 70,
+      "special_defense": 84,
+      "speed": 63
+    },
+    "expected_stats_level_100": {
+      "hp": 229,
+      "attack": 132,
+      "defense": 166,
+      "special_attack": 136,
+      "special_defense": 164,
+      "speed": 122
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Rutenschlag": 4,
+      "Aquaknarre": 7,
+      "Panzerschutz": 10,
+      "Blubber": 13,
+      "Biss": 16,
+      "Turbodreher": 19,
+      "Schutzschild": 22,
+      "Aquawelle": 25,
+      "Nassschweif": 28,
+      "Schädelwumme": 31,
+      "Eisenabwehr": 34,
+      "Regentanz": 37,
+      "Hydropumpe": 40
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/007.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/007.png"
+  },
+  "008": {
+    "id": 8,
+    "name": "Schillok",
+    "level": 1,
+    "pokedex_entry": "Bei Gefahr zieht es seinen Kopf ein. Die Schwanzspitze ragt jedoch aus dem Panzer heraus.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 59,
+      "attack": 63,
+      "defense": 80,
+      "special_attack": 65,
+      "special_defense": 80,
+      "speed": 58
+    },
+    "expected_stats_level_50": {
+      "hp": 134,
+      "attack": 83,
+      "defense": 100,
+      "special_attack": 85,
+      "special_defense": 100,
+      "speed": 78
+    },
+    "expected_stats_level_100": {
+      "hp": 259,
+      "attack": 162,
+      "defense": 196,
+      "special_attack": 166,
+      "special_defense": 196,
+      "speed": 152
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Rutenschlag": 1,
+      "Aquaknarre": 1,
+      "Panzerschutz": 10,
+      "Blubber": 13,
+      "Biss": 16,
+      "Turbodreher": 20,
+      "Schutzschild": 24,
+      "Aquawelle": 28,
+      "Nassschweif": 32,
+      "Schädelwumme": 36,
+      "Eisenabwehr": 40,
+      "Regentanz": 44,
+      "Hydropumpe": 48
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/008.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/008.png"
+  },
+  "009": {
+    "id": 9,
+    "name": "Turtok",
+    "level": 1,
+    "pokedex_entry": "Es begräbt seine Gegner mit seinem enormen Körpergewicht. Wenn es in einer aussichtslosen Lage steckt, zieht es sich in seinen Panzer zurück.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "special_attack": 85,
+      "special_defense": 105,
+      "speed": 78
+    },
+    "expected_stats_level_50": {
+      "hp": 154,
+      "attack": 103,
+      "defense": 120,
+      "special_attack": 105,
+      "special_defense": 125,
+      "speed": 98
+    },
+    "expected_stats_level_100": {
+      "hp": 299,
+      "attack": 202,
+      "defense": 236,
+      "special_attack": 206,
+      "special_defense": 246,
+      "speed": 192
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Lichtkanone": 1,
+      "Panzerschutz": 1,
+      "Aquaknarre": 1,
+      "Rutenschlag": 1,
+      "Blubber": 7,
+      "Biss": 16,
+      "Turbodreher": 20,
+      "Schutzschild": 24,
+      "Aquawelle": 28,
+      "Nassschweif": 32,
+      "Schädelwumme": 39,
+      "Eisenabwehr": 46,
+      "Regentanz": 53,
+      "Hydropumpe": 60
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/009.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/009.png"
+  },
+  "010": {
+    "id": 10,
+    "name": "Raupy",
+    "level": 1,
+    "pokedex_entry": "Als Schutz vor Feinden sondert es einen übel riechenden Gestank mit seinen Antennen ab.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Kaefer"
+    ],
+    "base_stats": {
+      "hp": 45,
+      "attack": 30,
+      "defense": 35,
+      "special_attack": 20,
+      "special_defense": 20,
+      "speed": 45
+    },
+    "expected_stats_level_50": {
+      "hp": 120,
+      "attack": 50,
+      "defense": 55,
+      "special_attack": 40,
+      "special_defense": 40,
+      "speed": 65
+    },
+    "expected_stats_level_100": {
+      "hp": 231,
+      "attack": 96,
+      "defense": 106,
+      "special_attack": 76,
+      "special_defense": 76,
+      "speed": 126
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Fadenschuss": 1,
+      "Käferbiss": 15
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/010.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/010.png"
+  },
+  "011": {
+    "id": 11,
+    "name": "Safcon",
+    "level": 1,
+    "pokedex_entry": "Der stahlharte Panzer schützt seinen zarten Körper. Es wartet geduldig auf seine Entwicklung.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Kaefer"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 20,
+      "defense": 55,
+      "special_attack": 25,
+      "special_defense": 25,
+      "speed": 30
+    },
+    "expected_stats_level_50": {
+      "hp": 125,
+      "attack": 40,
+      "defense": 75,
+      "special_attack": 45,
+      "special_defense": 45,
+      "speed": 50
+    },
+    "expected_stats_level_100": {
+      "hp": 241,
+      "attack": 76,
+      "defense": 146,
+      "special_attack": 86,
+      "special_defense": 86,
+      "speed": 96
+    },
+    "level_up_attacks": {
+      "Härtner": 1
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/011.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/011.png"
+  },
+  "012": {
+    "id": 12,
+    "name": "Smettbo",
+    "level": 1,
+    "pokedex_entry": "Es liebt Blütenhonig. Es findet selbst Blumen, die sehr wenig Pollen haben.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Kaefer",
+      "Flug"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 45,
+      "defense": 50,
+      "special_attack": 90,
+      "special_defense": 80,
+      "speed": 70
+    },
+    "expected_stats_level_50": {
+      "hp": 135,
+      "attack": 65,
+      "defense": 70,
+      "special_attack": 110,
+      "special_defense": 100,
+      "speed": 90
+    },
+    "expected_stats_level_100": {
+      "hp": 261,
+      "attack": 126,
+      "defense": 136,
+      "special_attack": 216,
+      "special_defense": 196,
+      "speed": 176
+    },
+    "level_up_attacks": {
+      "Konfusion": 1,
+      "Schlafpuder": 12,
+      "Giftpuder": 12,
+      "Stachelspore": 12,
+      "Windstoß": 16,
+      "Superschall": 18,
+      "Wirbelwind": 22,
+      "Psystrahl": 24,
+      "Silberhauch": 28,
+      "Rückenwind": 30,
+      "Wutpulver": 34,
+      "Bodyguard": 36,
+      "Liebreiz": 40,
+      "Käfergebrumm": 42,
+      "Falterreigen": 46
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/012.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/012.png"
+  },
+  "013": {
+    "id": 13,
+    "name": "Hornliu",
+    "level": 1,
+    "pokedex_entry": "Es lebt bevorzugt in Wäldern und im hohen Gras. Auf dem Kopf trägt es einen circa 5 cm langen, spitzen, giftigen Stachel.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Kaefer",
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 35,
+      "defense": 30,
+      "special_attack": 20,
+      "special_defense": 20,
+      "speed": 50
+    },
+    "expected_stats_level_50": {
+      "hp": 115,
+      "attack": 55,
+      "defense": 50,
+      "special_attack": 40,
+      "special_defense": 40,
+      "speed": 70
+    },
+    "expected_stats_level_100": {
+      "hp": 221,
+      "attack": 106,
+      "defense": 96,
+      "special_attack": 76,
+      "special_defense": 76,
+      "speed": 136
+    },
+    "level_up_attacks": {
+      "Giftstachel": 1,
+      "Fadenschuss": 1,
+      "Käferbiss": 15
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/013.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/013.png"
+  },
+  "014": {
+    "id": 14,
+    "name": "Kokuna",
+    "level": 1,
+    "pokedex_entry": "Dieses Pokémon kann sich kaum bewegen. Bei drohender Gefahr verhärtet es seinen Panzer.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Kaefer",
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 45,
+      "attack": 25,
+      "defense": 50,
+      "special_attack": 25,
+      "special_defense": 25,
+      "speed": 35
+    },
+    "expected_stats_level_50": {
+      "hp": 120,
+      "attack": 45,
+      "defense": 70,
+      "special_attack": 45,
+      "special_defense": 45,
+      "speed": 55
+    },
+    "expected_stats_level_100": {
+      "hp": 231,
+      "attack": 86,
+      "defense": 136,
+      "special_attack": 86,
+      "special_defense": 86,
+      "speed": 106
+    },
+    "level_up_attacks": {
+      "Härtner": 1
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/014.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/014.png"
+  },
+  "015": {
+    "id": 15,
+    "name": "Bibor",
+    "level": 1,
+    "pokedex_entry": "Dieses Pokémon verfügt über drei Giftstachel. Es kann seine Gegner damit wiederholt stechen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Kaefer",
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 40,
+      "special_attack": 45,
+      "special_defense": 80,
+      "speed": 75
+    },
+    "expected_stats_level_50": {
+      "hp": 140,
+      "attack": 110,
+      "defense": 60,
+      "special_attack": 65,
+      "special_defense": 100,
+      "speed": 95
+    },
+    "expected_stats_level_100": {
+      "hp": 271,
+      "attack": 216,
+      "defense": 116,
+      "special_attack": 126,
+      "special_defense": 196,
+      "speed": 186
+    },
+    "level_up_attacks": {
+      "Furienschlag": 1,
+      "Energiefokus": 13,
+      "Duonadel": 16,
+      "Raserei": 19,
+      "Verfolgung": 22,
+      "Giftspitzen": 25,
+      "Nadelrakete": 28,
+      "Agilität": 31,
+      "Gewissheit": 34,
+      "Gifthieb": 37,
+      "Notsituation": 40,
+      "Stachelfinale": 45
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/015.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/015.png"
+  },
+  "016": {
+    "id": 16,
+    "name": "Taubsi",
+    "level": 1,
+    "pokedex_entry": "Ein vorwiegend in Wäldern lebendes Pokémon, das zur Verteidigung mit den Flügeln Sand aufwirbelt.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal",
+      "Flug"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 40,
+      "special_attack": 35,
+      "special_defense": 35,
+      "speed": 56
+    },
+    "expected_stats_level_50": {
+      "hp": 115,
+      "attack": 65,
+      "defense": 60,
+      "special_attack": 55,
+      "special_defense": 55,
+      "speed": 76
+    },
+    "expected_stats_level_100": {
+      "hp": 221,
+      "attack": 126,
+      "defense": 116,
+      "special_attack": 106,
+      "special_defense": 106,
+      "speed": 148
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Sandwirbel": 5,
+      "Windstoß": 9,
+      "Ruckzuckhieb": 13,
+      "Wirbelwind": 1,
+      "Windhose": 21,
+      "Daunenreigen": 25,
+      "Agilität": 29,
+      "Flügelschlag": 33,
+      "Ruheort": 37,
+      "Rückenwind": 41,
+      "Spiegeltrick": 45,
+      "Luftschnitt": 49,
+      "Orkan": 53
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/016.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/016.png"
+  },
+  "017": {
+    "id": 17,
+    "name": "Tauboga",
+    "level": 1,
+    "pokedex_entry": "Die Krallen an seinen Füßen sind sehr ausgeprägt. Es kann sogar ein Owei zu seinem Nest in 100 km Entfernung tragen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal",
+      "Flug"
+    ],
+    "base_stats": {
+      "hp": 63,
+      "attack": 60,
+      "defense": 55,
+      "special_attack": 50,
+      "special_defense": 50,
+      "speed": 71
+    },
+    "expected_stats_level_50": {
+      "hp": 138,
+      "attack": 80,
+      "defense": 75,
+      "special_attack": 70,
+      "special_defense": 70,
+      "speed": 91
+    },
+    "expected_stats_level_100": {
+      "hp": 267,
+      "attack": 156,
+      "defense": 146,
+      "special_attack": 136,
+      "special_defense": 136,
+      "speed": 178
+    },
+    "level_up_attacks": {
+      "Windstoß": 1,
+      "Sandwirbel": 1,
+      "Tackle": 1,
+      "Wirbelwind": 17,
+      "Windhose": 22,
+      "Daunenreigen": 27,
+      "Agilität": 32,
+      "Flügelschlag": 37,
+      "Ruheort": 42,
+      "Rückenwind": 47,
+      "Spiegeltrick": 52,
+      "Luftschnitt": 57,
+      "Orkan": 62
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/017.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/017.png"
+  },
+  "018": {
+    "id": 18,
+    "name": "Tauboss",
+    "level": 1,
+    "pokedex_entry": "Dieses Pokémon schnellt bei der Jagd blitzschnell unter Wasser, um seine ahnungslose Beute zu fangen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal",
+      "Flug"
+    ],
+    "base_stats": {
+      "hp": 83,
+      "attack": 80,
+      "defense": 75,
+      "special_attack": 70,
+      "special_defense": 70,
+      "speed": 101
+    },
+    "expected_stats_level_50": {
+      "hp": 158,
+      "attack": 100,
+      "defense": 95,
+      "special_attack": 90,
+      "special_defense": 90,
+      "speed": 121
+    },
+    "expected_stats_level_100": {
+      "hp": 307,
+      "attack": 196,
+      "defense": 186,
+      "special_attack": 176,
+      "special_defense": 176,
+      "speed": 238
+    },
+    "level_up_attacks": {
+      "Orkan": 1,
+      "Ruckzuckhieb": 1,
+      "Tackle": 1,
+      "Sandwirbel": 1,
+      "Windstoß": 1,
+      "Wirbelwind": 17,
+      "Windhose": 22,
+      "Daunenreigen": 27,
+      "Agilität": 32,
+      "Flügelschlag": 38,
+      "Ruheort": 44,
+      "Rückenwind": 50,
+      "Spiegeltrick": 56,
+      "Luftschnitt": 62
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/018.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/018.png"
+  },
+  "019": {
+    "id": 19,
+    "name": "Rattfratz",
+    "level": 1,
+    "pokedex_entry": "Es baut sein Nest, wo es Futter findet. Es ist den ganzen Tag auf der Suche nach etwas Essbarem.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 30,
+      "attack": 56,
+      "defense": 35,
+      "special_attack": 25,
+      "special_defense": 35,
+      "speed": 72
+    },
+    "expected_stats_level_50": {
+      "hp": 105,
+      "attack": 76,
+      "defense": 55,
+      "special_attack": 45,
+      "special_defense": 55,
+      "speed": 92
+    },
+    "expected_stats_level_100": {
+      "hp": 201,
+      "attack": 148,
+      "defense": 106,
+      "special_attack": 86,
+      "special_defense": 106,
+      "speed": 180
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Rutenschlag": 1,
+      "Ruckzuckhieb": 4,
+      "Energiefokus": 7,
+      "Biss": 10,
+      "Verfolgung": 13,
+      "Hyperzahn": 16,
+      "Tiefschlag": 19,
+      "Knirscher": 22,
+      "Gewissheit": 25,
+      "Superzahn": 28,
+      "Risikotackle": 31,
+      "Notsituation": 34
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/019.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/019.png"
+  },
+  "020": {
+    "id": 20,
+    "name": "Rattikarl",
+    "level": 1,
+    "pokedex_entry": "Es wetzt seine ständig wachsenden Zähne an harten Dingen. Es kann Wände aus Beton zernagen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 81,
+      "defense": 60,
+      "special_attack": 50,
+      "special_defense": 70,
+      "speed": 97
+    },
+    "expected_stats_level_50": {
+      "hp": 130,
+      "attack": 101,
+      "defense": 80,
+      "special_attack": 70,
+      "special_defense": 90,
+      "speed": 117
+    },
+    "expected_stats_level_100": {
+      "hp": 251,
+      "attack": 198,
+      "defense": 156,
+      "special_attack": 136,
+      "special_defense": 176,
+      "speed": 230
+    },
+    "level_up_attacks": {
+      "Schwerttanz": 1,
+      "Tackle": 1,
+      "Rutenschlag": 1,
+      "Energiefokus": 1,
+      "Ruckzuckhieb": 1,
+      "Biss": 10,
+      "Verfolgung": 13,
+      "Hyperzahn": 16,
+      "Tiefschlag": 19,
+      "Grimasse": 20,
+      "Knirscher": 24,
+      "Gewissheit": 29,
+      "Superzahn": 34,
+      "Risikotackle": 39,
+      "Notsituation": 44
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/020.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/020.png"
+  },
+  "021": {
+    "id": 21,
+    "name": "Habitak",
+    "level": 1,
+    "pokedex_entry": "Es beschützt sein Gebiet stets vor Eindringlingen. Daher fliegt es ständig wild umher.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal",
+      "Flug"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 60,
+      "defense": 30,
+      "special_attack": 31,
+      "special_defense": 31,
+      "speed": 70
+    },
+    "expected_stats_level_50": {
+      "hp": 115,
+      "attack": 80,
+      "defense": 50,
+      "special_attack": 51,
+      "special_defense": 51,
+      "speed": 90
+    },
+    "expected_stats_level_100": {
+      "hp": 221,
+      "attack": 156,
+      "defense": 96,
+      "special_attack": 98,
+      "special_defense": 98,
+      "speed": 176
+    },
+    "level_up_attacks": {
+      "Heuler": 1,
+      "Schnabel": 1,
+      "Silberblick": 5,
+      "Furienschlag": 9,
+      "Verfolgung": 13,
+      "Aero-Ass": 17,
+      "Spiegeltrick": 21,
+      "Agilität": 25,
+      "Gewissheit": 29,
+      "Ruheort": 33,
+      "Bohrschnabel": 37
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/021.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/021.png"
+  },
+  "022": {
+    "id": 22,
+    "name": "Ibitak",
+    "level": 1,
+    "pokedex_entry": "Mit seinen riesigen Flügeln kann dieses Pokémon nahezu pausenlos in der Luft bleiben.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal",
+      "Flug"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 65,
+      "special_attack": 61,
+      "special_defense": 61,
+      "speed": 100
+    },
+    "expected_stats_level_50": {
+      "hp": 140,
+      "attack": 110,
+      "defense": 85,
+      "special_attack": 81,
+      "special_defense": 81,
+      "speed": 120
+    },
+    "expected_stats_level_100": {
+      "hp": 271,
+      "attack": 216,
+      "defense": 166,
+      "special_attack": 158,
+      "special_defense": 158,
+      "speed": 236
+    },
+    "level_up_attacks": {
+      "Furienschlag": 1,
+      "Heuler": 1,
+      "Pflücker": 1,
+      "Schlagbohrer": 1,
+      "Schnabel": 1,
+      "Silberblick": 1,
+      "Verfolgung": 13,
+      "Aero-Ass": 17,
+      "Spiegeltrick": 23,
+      "Agilität": 29,
+      "Gewissheit": 35,
+      "Ruheort": 41,
+      "Bohrschnabel": 47
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/022.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/022.png"
+  },
+  "023": {
+    "id": 23,
+    "name": "Rettan",
+    "level": 1,
+    "pokedex_entry": "Mit dem Alter wird der Körper dieses Pokémon immer länger. Es schläft um Äste gewickelt.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 35,
+      "attack": 60,
+      "defense": 44,
+      "special_attack": 40,
+      "special_defense": 54,
+      "speed": 55
+    },
+    "expected_stats_level_50": {
+      "hp": 110,
+      "attack": 80,
+      "defense": 64,
+      "special_attack": 60,
+      "special_defense": 74,
+      "speed": 75
+    },
+    "expected_stats_level_100": {
+      "hp": 211,
+      "attack": 156,
+      "defense": 124,
+      "special_attack": 116,
+      "special_defense": 144,
+      "speed": 146
+    },
+    "level_up_attacks": {
+      "Wickel": 1,
+      "Silberblick": 1,
+      "Giftstachel": 4,
+      "Biss": 9,
+      "Giftblick": 12,
+      "Kreideschrei": 17,
+      "Säure": 20,
+      "Horter": 25,
+      "Entfessler": 25,
+      "Verzehrer": 25,
+      "Säurespeier": 28,
+      "Schlammbombe": 33,
+      "Magensäfte": 36,
+      "Rülpser": 38,
+      "Dunkelnebel": 41,
+      "Einrollen": 44,
+      "Mülltreffer": 49
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/023.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/023.png"
+  },
+  "024": {
+    "id": 24,
+    "name": "Arbok",
+    "level": 1,
+    "pokedex_entry": "Das Muster auf seinem Bauch ähnelt einer Fratze. Schwache Gegner nehmen bereits beim Anblick Reißaus.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 95,
+      "defense": 69,
+      "special_attack": 65,
+      "special_defense": 79,
+      "speed": 80
+    },
+    "expected_stats_level_50": {
+      "hp": 135,
+      "attack": 115,
+      "defense": 89,
+      "special_attack": 85,
+      "special_defense": 99,
+      "speed": 100
+    },
+    "expected_stats_level_100": {
+      "hp": 261,
+      "attack": 226,
+      "defense": 174,
+      "special_attack": 166,
+      "special_defense": 194,
+      "speed": 196
+    },
+    "level_up_attacks": {
+      "Wickel": 1,
+      "Eiszahn": 1,
+      "Feuerzahn": 1,
+      "Donnerzahn": 1,
+      "Biss": 1,
+      "Silberblick": 1,
+      "Giftstachel": 1,
+      "Giftblick": 12,
+      "Kreideschrei": 17,
+      "Säure": 20,
+      "Knirscher": 22,
+      "Entfessler": 27,
+      "Verzehrer": 27,
+      "Horter": 27,
+      "Säurespeier": 32,
+      "Schlammbombe": 39,
+      "Magensäfte": 44,
+      "Rülpser": 48,
+      "Dunkelnebel": 51,
+      "Einrollen": 56,
+      "Mülltreffer": 63
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/024.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/024.png"
+  },
+  "025": {
+    "id": 25,
+    "name": "Pikachu",
+    "level": 1,
+    "pokedex_entry": "Es streckt seinen Schwanz nach oben, um seine Umgebung zu prüfen. Häufig fährt ein Blitz hinein.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Elektro"
+    ],
+    "base_stats": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "special_attack": 50,
+      "special_defense": 50,
+      "speed": 90
+    },
+    "expected_stats_level_50": {
+      "hp": 110,
+      "attack": 75,
+      "defense": 60,
+      "special_attack": 70,
+      "special_defense": 70,
+      "speed": 110
+    },
+    "expected_stats_level_100": {
+      "hp": 211,
+      "attack": 146,
+      "defense": 116,
+      "special_attack": 136,
+      "special_defense": 136,
+      "speed": 216
+    },
+    "level_up_attacks": {
+      "Donnerschock": 1,
+      "Rutenschlag": 1,
+      "Heuler": 5,
+      "Kameradschaft": 7,
+      "Ruckzuckhieb": 10,
+      "Donnerwelle": 13,
+      "Elektroball": 18,
+      "Doppelteam": 21,
+      "Wangenrubbler": 23,
+      "Slam": 26,
+      "Donnerblitz": 29,
+      "Offenlegung": 34,
+      "Agilität": 37,
+      "Ladungsstoß": 42,
+      "Lichtschild": 45,
+      "Donner": 50
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/025.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/025.png"
+  },
+  "026": {
+    "id": 26,
+    "name": "Raichu",
+    "level": 1,
+    "pokedex_entry": "Wenn es sich auflädt, zucken seine Muskeln und es wird aggressiver und kampflustiger.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Elektro"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 90,
+      "defense": 55,
+      "special_attack": 90,
+      "special_defense": 80,
+      "speed": 110
+    },
+    "expected_stats_level_50": {
+      "hp": 135,
+      "attack": 110,
+      "defense": 75,
+      "special_attack": 110,
+      "special_defense": 100,
+      "speed": 130
+    },
+    "expected_stats_level_100": {
+      "hp": 261,
+      "attack": 216,
+      "defense": 146,
+      "special_attack": 216,
+      "special_defense": 196,
+      "speed": 256
+    },
+    "level_up_attacks": {
+      "Donnerschock": 1,
+      "Rutenschlag": 1,
+      "Ruckzuckhieb": 1,
+      "Donnerblitz": 1
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/026.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/026.png"
+  },
+  "027": {
+    "id": 27,
+    "name": "Sandan",
+    "level": 1,
+    "pokedex_entry": "Es gräbt und lebt im Erdboden. Bei Gefahr rollt es sich zum Schutz zu einem Ball zusammen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Boden"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 85,
+      "special_attack": 20,
+      "special_defense": 30,
+      "speed": 40
+    },
+    "expected_stats_level_50": {
+      "hp": 125,
+      "attack": 95,
+      "defense": 105,
+      "special_attack": 40,
+      "special_defense": 50,
+      "speed": 60
+    },
+    "expected_stats_level_100": {
+      "hp": 241,
+      "attack": 186,
+      "defense": 206,
+      "special_attack": 76,
+      "special_defense": 96,
+      "speed": 116
+    },
+    "level_up_attacks": {
+      "Kratzer": 1,
+      "Einigler": 1,
+      "Sandwirbel": 3,
+      "Giftstachel": 5,
+      "Walzer": 7,
+      "Turbodreher": 9,
+      "Sternschauer": 11,
+      "Zornklinge": 14,
+      "Intensität": 17,
+      "Kratzfurie": 20,
+      "Sandgrab": 23,
+      "Schlitzer": 26,
+      "Schaufler": 30,
+      "Gyroball": 34,
+      "Schwerttanz": 38,
+      "Sandsturm": 42,
+      "Erdbeben": 46
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/027.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/027.png"
+  },
+  "028": {
+    "id": 28,
+    "name": "Sandamer",
+    "level": 1,
+    "pokedex_entry": "Wenn es schnell gräbt, können seine Stacheln und Krallen abbrechen. Sie wachsen binnen eines Tages nach.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Boden"
+    ],
+    "base_stats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 110,
+      "special_attack": 45,
+      "special_defense": 55,
+      "speed": 65
+    },
+    "expected_stats_level_50": {
+      "hp": 150,
+      "attack": 120,
+      "defense": 130,
+      "special_attack": 65,
+      "special_defense": 75,
+      "speed": 85
+    },
+    "expected_stats_level_100": {
+      "hp": 291,
+      "attack": 236,
+      "defense": 256,
+      "special_attack": 126,
+      "special_defense": 146,
+      "speed": 166
+    },
+    "level_up_attacks": {
+      "Kratzer": 1,
+      "Sandwirbel": 1,
+      "Einigler": 1,
+      "Giftstachel": 1,
+      "Turbodreher": 9,
+      "Sternschauer": 11,
+      "Zornklinge": 14,
+      "Intensität": 17,
+      "Kratzfurie": 20,
+      "Zermalmklaue": 22,
+      "Sandgrab": 23,
+      "Schlitzer": 26,
+      "Schaufler": 30,
+      "Gyroball": 34,
+      "Schwerttanz": 38,
+      "Sandsturm": 42,
+      "Erdbeben": 46
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/028.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/028.png"
+  },
+  "029": {
+    "id": 29,
+    "name": "Nidoran♀",
+    "level": 1,
+    "pokedex_entry": "Dieses Pokémon ist sehr klein, verfügt aber über starke Gifte. Das Weibchen hat ein kleineres Horn.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 47,
+      "defense": 52,
+      "special_attack": 40,
+      "special_defense": 40,
+      "speed": 41
+    },
+    "expected_stats_level_50": {
+      "hp": 130,
+      "attack": 67,
+      "defense": 72,
+      "special_attack": 60,
+      "special_defense": 60,
+      "speed": 61
+    },
+    "expected_stats_level_100": {
+      "hp": 251,
+      "attack": 130,
+      "defense": 140,
+      "special_attack": 116,
+      "special_defense": 116,
+      "speed": 118
+    },
+    "level_up_attacks": {
+      "Kratzer": 1,
+      "Heuler": 1,
+      "Rutenschlag": 7,
+      "Doppelkick": 9,
+      "Giftstachel": 13,
+      "Kratzfurie": 19,
+      "Biss": 21,
+      "Rechte Hand": 25,
+      "Giftspitzen": 1,
+      "Schmeichler": 31,
+      "Knirscher": 33,
+      "Liebreiz": 37,
+      "Giftzahn": 43
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/029.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/029.png"
+  },
+  "030": {
+    "id": 30,
+    "name": "Nidorina",
+    "level": 1,
+    "pokedex_entry": "Das Weibchen ist ausgeglichener. Es stößt Schreie im Ultraschallwellenbereich aus, die den Gegner verwirren können.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 62,
+      "defense": 67,
+      "special_attack": 55,
+      "special_defense": 55,
+      "speed": 56
+    },
+    "expected_stats_level_50": {
+      "hp": 145,
+      "attack": 82,
+      "defense": 87,
+      "special_attack": 75,
+      "special_defense": 75,
+      "speed": 76
+    },
+    "expected_stats_level_100": {
+      "hp": 281,
+      "attack": 160,
+      "defense": 170,
+      "special_attack": 146,
+      "special_defense": 146,
+      "speed": 148
+    },
+    "level_up_attacks": {
+      "Kratzer": 1,
+      "Heuler": 1,
+      "Rutenschlag": 7,
+      "Doppelkick": 9,
+      "Giftstachel": 13,
+      "Kratzfurie": 20,
+      "Biss": 23,
+      "Rechte Hand": 28,
+      "Giftspitzen": 35,
+      "Schmeichler": 38,
+      "Knirscher": 43,
+      "Liebreiz": 50,
+      "Giftzahn": 58
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/030.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/030.png"
+  },
+  "031": {
+    "id": 31,
+    "name": "Nidoqueen",
+    "level": 1,
+    "pokedex_entry": "Es benutzt seinen schuppigen Körper, um den Höhleneingang als Schutz für seine Jungen zu sperren.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gift",
+      "Boden"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 92,
+      "defense": 87,
+      "special_attack": 75,
+      "special_defense": 85,
+      "speed": 76
+    },
+    "expected_stats_level_50": {
+      "hp": 165,
+      "attack": 112,
+      "defense": 107,
+      "special_attack": 95,
+      "special_defense": 105,
+      "speed": 96
+    },
+    "expected_stats_level_100": {
+      "hp": 321,
+      "attack": 220,
+      "defense": 210,
+      "special_attack": 186,
+      "special_defense": 206,
+      "speed": 188
+    },
+    "level_up_attacks": {
+      "Kraftkoloss": 1,
+      "Kratzer": 1,
+      "Rutenschlag": 1,
+      "Doppelkick": 1,
+      "Giftstachel": 1,
+      "Zermürben": 23,
+      "Bodyslam": 35,
+      "Erdkräfte": 43
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/031.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/031.png"
+  },
+  "032": {
+    "id": 32,
+    "name": "Nidoran♂",
+    "level": 1,
+    "pokedex_entry": "Es untersucht die Umgebung, indem es die Ohren spitzt und lauscht. Sein giftiges Horn schützt es.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 46,
+      "attack": 57,
+      "defense": 40,
+      "special_attack": 40,
+      "special_defense": 40,
+      "speed": 50
+    },
+    "expected_stats_level_50": {
+      "hp": 121,
+      "attack": 77,
+      "defense": 60,
+      "special_attack": 60,
+      "special_defense": 60,
+      "speed": 70
+    },
+    "expected_stats_level_100": {
+      "hp": 233,
+      "attack": 150,
+      "defense": 116,
+      "special_attack": 116,
+      "special_defense": 116,
+      "speed": 136
+    },
+    "level_up_attacks": {
+      "Silberblick": 1,
+      "Schnabel": 1,
+      "Energiefokus": 7,
+      "Doppelkick": 9,
+      "Giftstachel": 13,
+      "Furienschlag": 19,
+      "Hornattacke": 21,
+      "Rechte Hand": 25,
+      "Giftspitzen": 31,
+      "Schmeichler": 33,
+      "Gifthieb": 37,
+      "Liebreiz": 43,
+      "Hornbohrer": 45
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/032.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/032.png"
+  },
+  "033": {
+    "id": 33,
+    "name": "Nidorino",
+    "level": 1,
+    "pokedex_entry": "Es überwacht mit seinen riesigen Ohren die Umgebung. Registriert es eine Bewegung, greift es an.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 61,
+      "attack": 72,
+      "defense": 57,
+      "special_attack": 55,
+      "special_defense": 55,
+      "speed": 65
+    },
+    "expected_stats_level_50": {
+      "hp": 136,
+      "attack": 92,
+      "defense": 77,
+      "special_attack": 75,
+      "special_defense": 75,
+      "speed": 85
+    },
+    "expected_stats_level_100": {
+      "hp": 263,
+      "attack": 180,
+      "defense": 150,
+      "special_attack": 146,
+      "special_defense": 146,
+      "speed": 166
+    },
+    "level_up_attacks": {
+      "Silberblick": 1,
+      "Schnabel": 1,
+      "Energiefokus": 7,
+      "Doppelkick": 9,
+      "Giftstachel": 13,
+      "Furienschlag": 20,
+      "Hornattacke": 23,
+      "Rechte Hand": 28,
+      "Giftspitzen": 35,
+      "Schmeichler": 38,
+      "Gifthieb": 43,
+      "Liebreiz": 50,
+      "Hornbohrer": 58
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/033.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/033.png"
+  },
+  "034": {
+    "id": 34,
+    "name": "Nidoking",
+    "level": 1,
+    "pokedex_entry": "Seine steinharte Haut und sein ausgeprägtes Horn sind seine Markenzeichen. Achte auf das Horn, denn es enthält Gift.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gift",
+      "Boden"
+    ],
+    "base_stats": {
+      "hp": 81,
+      "attack": 102,
+      "defense": 77,
+      "special_attack": 85,
+      "special_defense": 75,
+      "speed": 85
+    },
+    "expected_stats_level_50": {
+      "hp": 156,
+      "attack": 122,
+      "defense": 97,
+      "special_attack": 105,
+      "special_defense": 95,
+      "speed": 105
+    },
+    "expected_stats_level_100": {
+      "hp": 303,
+      "attack": 240,
+      "defense": 190,
+      "special_attack": 206,
+      "special_defense": 186,
+      "speed": 206
+    },
+    "level_up_attacks": {
+      "Doppelkick": 1,
+      "Giftstachel": 1,
+      "Schnabel": 1,
+      "Energiefokus": 1,
+      "Vielender": 1,
+      "Zermürben": 23,
+      "Fuchtler": 35,
+      "Erdkräfte": 43
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/034.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/034.png"
+  },
+  "035": {
+    "id": 35,
+    "name": "Piepi",
+    "level": 1,
+    "pokedex_entry": "Eine Ansammlung von Piepi bei Vollmond tanzen zu sehen, soll Freude verheißen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Fee",
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 45,
+      "defense": 48,
+      "special_attack": 60,
+      "special_defense": 65,
+      "speed": 35
+    },
+    "expected_stats_level_50": {
+      "hp": 145,
+      "attack": 65,
+      "defense": 68,
+      "special_attack": 80,
+      "special_defense": 85,
+      "speed": 55
+    },
+    "expected_stats_level_100": {
+      "hp": 281,
+      "attack": 126,
+      "defense": 132,
+      "special_attack": 156,
+      "special_defense": 166,
+      "speed": 106
+    },
+    "level_up_attacks": {
+      "Säuselstimme": 1,
+      "Pfund": 1,
+      "Heuler": 1,
+      "Heilopfer": 1,
+      "Charme": 1,
+      "Galanterie": 1,
+      "Zugabe": 4,
+      "Gesang": 7,
+      "Duplexhieb": 10,
+      "Einigler": 13,
+      "Spotlight": 16,
+      "Offerte": 19,
+      "Weckruf": 22,
+      "Komprimator": 25,
+      "Kraftvorrat": 28,
+      "Metronom": 31,
+      "Kosmik-Kraft": 34,
+      "Beschwörung": 37,
+      "Bodyslam": 40,
+      "Mondschein": 43,
+      "Mondgewalt": 46,
+      "Erdanziehung": 49,
+      "Sternenhieb": 50
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/035.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/035.png"
+  },
+  "036": {
+    "id": 36,
+    "name": "Pixi",
+    "level": 1,
+    "pokedex_entry": "Es kann eine Nadel hören, die in 1 km Entfernung zu Boden fällt. Es lebt in der Stille der Berge.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Fee",
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 95,
+      "attack": 70,
+      "defense": 73,
+      "special_attack": 95,
+      "special_defense": 90,
+      "speed": 60
+    },
+    "expected_stats_level_50": {
+      "hp": 170,
+      "attack": 90,
+      "defense": 93,
+      "special_attack": 115,
+      "special_defense": 110,
+      "speed": 80
+    },
+    "expected_stats_level_100": {
+      "hp": 331,
+      "attack": 176,
+      "defense": 182,
+      "special_attack": 226,
+      "special_defense": 216,
+      "speed": 156
+    },
+    "level_up_attacks": {
+      "Duplexhieb": 1,
+      "Gesang": 1,
+      "Komprimator": 1,
+      "Metronom": 1,
+      "Säuselstimme": 1
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/036.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/036.png"
+  },
+  "037": {
+    "id": 37,
+    "name": "Vulpix",
+    "level": 1,
+    "pokedex_entry": "Dieses Pokémon hat bei seiner Geburt nur einen Schweif, der sich mit zunehmenden Alter aufspaltet.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Feuer"
+    ],
+    "base_stats": {
+      "hp": 38,
+      "attack": 41,
+      "defense": 40,
+      "special_attack": 50,
+      "special_defense": 65,
+      "speed": 65
+    },
+    "expected_stats_level_50": {
+      "hp": 113,
+      "attack": 61,
+      "defense": 60,
+      "special_attack": 70,
+      "special_defense": 85,
+      "speed": 85
+    },
+    "expected_stats_level_100": {
+      "hp": 217,
+      "attack": 118,
+      "defense": 116,
+      "special_attack": 136,
+      "special_defense": 166,
+      "speed": 166
+    },
+    "level_up_attacks": {
+      "Glut": 1,
+      "Rutenschlag": 4,
+      "Brüller": 7,
+      "Kulleraugen": 9,
+      "Ruckzuckhieb": 10,
+      "Feuerwirbel": 12,
+      "Konfustrahl": 16,
+      "Begrenzer": 16,
+      "Finte": 20,
+      "Funkenflug": 23,
+      "Irrlicht": 26,
+      "Bürde": 28,
+      "Gegenstoß": 31,
+      "Flammenwurf": 34,
+      "Bodyguard": 36,
+      "Sondersensor": 39,
+      "Feuersturm": 42,
+      "Nachspiel": 44,
+      "Liebreiz": 47,
+      "Inferno": 50
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/037.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/037.png"
+  },
+  "038": {
+    "id": 38,
+    "name": "Vulnona",
+    "level": 1,
+    "pokedex_entry": "Es hat neun lange Schweife und sein Fell glänzt gülden. Man sagt, es soll 1 000 Jahre alt werden.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Feuer"
+    ],
+    "base_stats": {
+      "hp": 73,
+      "attack": 76,
+      "defense": 75,
+      "special_attack": 81,
+      "special_defense": 100,
+      "speed": 100
+    },
+    "expected_stats_level_50": {
+      "hp": 148,
+      "attack": 96,
+      "defense": 95,
+      "special_attack": 101,
+      "special_defense": 120,
+      "speed": 120
+    },
+    "expected_stats_level_100": {
+      "hp": 287,
+      "attack": 188,
+      "defense": 186,
+      "special_attack": 198,
+      "special_defense": 236,
+      "speed": 236
+    },
+    "level_up_attacks": {
+      "Glut": 1,
+      "Ruckzuckhieb": 1,
+      "Konfustrahl": 1,
+      "Bodyguard": 1,
+      "Ränkeschmied": 1,
+      "Flammenwurf": 1
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/038.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/038.png"
+  },
+  "039": {
+    "id": 39,
+    "name": "Pummeluff",
+    "level": 1,
+    "pokedex_entry": "Es fesselt die Gegner mit seinen großen, runden Augen und versetzt sie in Schlaf, indem es eine beruhigende Melodie singt.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal",
+      "Fee"
+    ],
+    "base_stats": {
+      "hp": 115,
+      "attack": 45,
+      "defense": 20,
+      "special_attack": 45,
+      "special_defense": 25,
+      "speed": 20
+    },
+    "expected_stats_level_50": {
+      "hp": 190,
+      "attack": 65,
+      "defense": 40,
+      "special_attack": 65,
+      "special_defense": 45,
+      "speed": 40
+    },
+    "expected_stats_level_100": {
+      "hp": 371,
+      "attack": 126,
+      "defense": 76,
+      "special_attack": 126,
+      "special_defense": 86,
+      "speed": 76
+    },
+    "level_up_attacks": {
+      "Gesang": 1,
+      "Einigler": 5,
+      "Pfund": 7,
+      "Kameradschaft": 10,
+      "Aussetzer": 13,
+      "Kanon": 17,
+      "Walzer": 21,
+      "Duplexhieb": 25,
+      "Erholung": 29,
+      "Bodyslam": 33,
+      "Gyroball": 37,
+      "Weckruf": 41,
+      "Mimikry": 45,
+      "Schallwelle": 48,
+      "Säuselstimme": 50,
+      "Risikotackle": 53
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/039.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/039.png"
+  },
+  "040": {
+    "id": 40,
+    "name": "Knuddeluff",
+    "level": 1,
+    "pokedex_entry": "Sein Fell ist so flauschig, dass, wenn zwei zusammenstehen, sie nicht getrennt werden möchten.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal",
+      "Fee"
+    ],
+    "base_stats": {
+      "hp": 140,
+      "attack": 70,
+      "defense": 45,
+      "special_attack": 85,
+      "special_defense": 50,
+      "speed": 45
+    },
+    "expected_stats_level_50": {
+      "hp": 215,
+      "attack": 90,
+      "defense": 65,
+      "special_attack": 105,
+      "special_defense": 70,
+      "speed": 65
+    },
+    "expected_stats_level_100": {
+      "hp": 421,
+      "attack": 176,
+      "defense": 126,
+      "special_attack": 206,
+      "special_defense": 136,
+      "speed": 126
+    },
+    "level_up_attacks": {
+      "Knuddler": 1,
+      "Risikotackle": 1,
+      "Duplexhieb": 1,
+      "Gesang": 1,
+      "Aussetzer": 1,
+      "Einigler": 1
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/040.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/040.png"
+  },
+  "041": {
+    "id": 41,
+    "name": "Zubat",
+    "level": 1,
+    "pokedex_entry": "Obwohl es keine Augen hat, kann es Hindernisse mithilfe von Ultraschallwellen wahrnehmen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gift",
+      "Flug"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "special_attack": 30,
+      "special_defense": 40,
+      "speed": 55
+    },
+    "expected_stats_level_50": {
+      "hp": 115,
+      "attack": 65,
+      "defense": 55,
+      "special_attack": 50,
+      "special_defense": 60,
+      "speed": 75
+    },
+    "expected_stats_level_100": {
+      "hp": 221,
+      "attack": 126,
+      "defense": 106,
+      "special_attack": 96,
+      "special_defense": 116,
+      "speed": 146
+    },
+    "level_up_attacks": {
+      "Blutsauger": 1,
+      "Superschall": 4,
+      "Erstauner": 8,
+      "Biss": 12,
+      "Flügelschlag": 15,
+      "Konfustrahl": 19,
+      "Sternschauer": 23,
+      "Windschnitt": 26,
+      "Akrobatik": 30,
+      "Horrorblick": 34,
+      "Giftzahn": 37,
+      "Dunkelnebel": 41,
+      "Luftschnitt": 45
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/041.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/041.png"
+  },
+  "042": {
+    "id": 42,
+    "name": "Golbat",
+    "level": 1,
+    "pokedex_entry": "Dieses Pokémon saugt dem Gegner selbst dann noch Energie ab, wenn es zu schwer zum Fliegen wird.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gift",
+      "Flug"
+    ],
+    "base_stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 70,
+      "special_attack": 65,
+      "special_defense": 75,
+      "speed": 90
+    },
+    "expected_stats_level_50": {
+      "hp": 150,
+      "attack": 100,
+      "defense": 90,
+      "special_attack": 85,
+      "special_defense": 95,
+      "speed": 110
+    },
+    "expected_stats_level_100": {
+      "hp": 291,
+      "attack": 196,
+      "defense": 176,
+      "special_attack": 166,
+      "special_defense": 186,
+      "speed": 216
+    },
+    "level_up_attacks": {
+      "Blutsauger": 1,
+      "Superschall": 1,
+      "Kreideschrei": 1,
+      "Erstauner": 1,
+      "Biss": 12,
+      "Flügelschlag": 15,
+      "Konfustrahl": 19,
+      "Sternschauer": 24,
+      "Windschnitt": 28,
+      "Akrobatik": 33,
+      "Horrorblick": 38,
+      "Giftzahn": 42,
+      "Dunkelnebel": 47,
+      "Luftschnitt": 52
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/042.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/042.png"
+  },
+  "043": {
+    "id": 43,
+    "name": "Myrapla",
+    "level": 1,
+    "pokedex_entry": "Tagsüber versteckt es sich in der kalten Erde, um die Sonne zu meiden. Es wächst im Mondschein.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Pflanze",
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 55,
+      "special_attack": 75,
+      "special_defense": 65,
+      "speed": 30
+    },
+    "expected_stats_level_50": {
+      "hp": 120,
+      "attack": 70,
+      "defense": 75,
+      "special_attack": 95,
+      "special_defense": 85,
+      "speed": 50
+    },
+    "expected_stats_level_100": {
+      "hp": 231,
+      "attack": 136,
+      "defense": 146,
+      "special_attack": 186,
+      "special_defense": 166,
+      "speed": 96
+    },
+    "level_up_attacks": {
+      "Absorber": 1,
+      "Lockduft": 5,
+      "Säure": 9,
+      "Giftpuder": 13,
+      "Stachelspore": 15,
+      "Schlafpuder": 17,
+      "Megasauger": 21,
+      "Beschwörung": 25,
+      "Beerenkräfte": 29,
+      "Mondschein": 33,
+      "Gigasauger": 37,
+      "Blättertanz": 41,
+      "Grasfeld": 45
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/043.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/043.png"
+  },
+  "044": {
+    "id": 44,
+    "name": "Duflor",
+    "level": 1,
+    "pokedex_entry": "Dieses Pokémon sondert einen übelriechenden Geruch ab. Trotzdem halten einige Leute es im Haus.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Pflanze",
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 70,
+      "special_attack": 85,
+      "special_defense": 75,
+      "speed": 40
+    },
+    "expected_stats_level_50": {
+      "hp": 135,
+      "attack": 85,
+      "defense": 90,
+      "special_attack": 105,
+      "special_defense": 95,
+      "speed": 60
+    },
+    "expected_stats_level_100": {
+      "hp": 261,
+      "attack": 166,
+      "defense": 176,
+      "special_attack": 206,
+      "special_defense": 186,
+      "speed": 116
+    },
+    "level_up_attacks": {
+      "Absorber": 1,
+      "Lockduft": 1,
+      "Säure": 1,
+      "Giftpuder": 13,
+      "Stachelspore": 15,
+      "Schlafpuder": 17,
+      "Megasauger": 23,
+      "Beschwörung": 29,
+      "Beerenkräfte": 35,
+      "Mondschein": 41,
+      "Gigasauger": 47,
+      "Blütenwirbel": 50,
+      "Blättertanz": 53,
+      "Grasfeld": 56
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/044.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/044.png"
+  },
+  "045": {
+    "id": 45,
+    "name": "Giflor",
+    "level": 1,
+    "pokedex_entry": "Je größer die Blütenblätter, desto mehr giftige Pollen sind in der Blüte enthalten.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Pflanze",
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 85,
+      "special_attack": 110,
+      "special_defense": 90,
+      "speed": 50
+    },
+    "expected_stats_level_50": {
+      "hp": 150,
+      "attack": 100,
+      "defense": 105,
+      "special_attack": 130,
+      "special_defense": 110,
+      "speed": 70
+    },
+    "expected_stats_level_100": {
+      "hp": 291,
+      "attack": 196,
+      "defense": 206,
+      "special_attack": 256,
+      "special_defense": 216,
+      "speed": 136
+    },
+    "level_up_attacks": {
+      "Megasauger": 1,
+      "Aromakur": 1,
+      "Stachelspore": 1,
+      "Giftpuder": 1,
+      "Blütenwirbel": 50,
+      "Blättertanz": 53,
+      "Solarstrahl": 65
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/045.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/045.png"
+  },
+  "046": {
+    "id": 46,
+    "name": "Paras",
+    "level": 1,
+    "pokedex_entry": "Auf seinem Rücken wachsen Pilze, die man Tochukaso nennt. Die Pilze wachsen mit ihrem Wirt.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Kaefer",
+      "Pflanze"
+    ],
+    "base_stats": {
+      "hp": 35,
+      "attack": 70,
+      "defense": 55,
+      "special_attack": 45,
+      "special_defense": 55,
+      "speed": 25
+    },
+    "expected_stats_level_50": {
+      "hp": 110,
+      "attack": 90,
+      "defense": 75,
+      "special_attack": 65,
+      "special_defense": 75,
+      "speed": 45
+    },
+    "expected_stats_level_100": {
+      "hp": 211,
+      "attack": 176,
+      "defense": 146,
+      "special_attack": 126,
+      "special_defense": 146,
+      "speed": 86
+    },
+    "level_up_attacks": {
+      "Kratzer": 1,
+      "Stachelspore": 6,
+      "Giftpuder": 6,
+      "Blutsauger": 11,
+      "Zornklinge": 17,
+      "Pilzspore": 22,
+      "Schlitzer": 27,
+      "Wachstum": 33,
+      "Gigasauger": 38,
+      "Aromakur": 43,
+      "Wutpulver": 49,
+      "Kreuzschere": 54
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/046.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/046.png"
+  },
+  "047": {
+    "id": 47,
+    "name": "Parasek",
+    "level": 1,
+    "pokedex_entry": "Parasek wird von einem Pilz, der größer als das Pokémon ist, kontrolliert. Er gibt Giftsporen ab.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Kaefer",
+      "Pflanze"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 95,
+      "defense": 80,
+      "special_attack": 60,
+      "special_defense": 80,
+      "speed": 30
+    },
+    "expected_stats_level_50": {
+      "hp": 135,
+      "attack": 115,
+      "defense": 100,
+      "special_attack": 80,
+      "special_defense": 100,
+      "speed": 50
+    },
+    "expected_stats_level_100": {
+      "hp": 261,
+      "attack": 226,
+      "defense": 196,
+      "special_attack": 156,
+      "special_defense": 196,
+      "speed": 96
+    },
+    "level_up_attacks": {
+      "Giftstreich": 1,
+      "Kratzer": 1,
+      "Stachelspore": 1,
+      "Giftpuder": 1,
+      "Blutsauger": 1,
+      "Zornklinge": 17,
+      "Pilzspore": 22,
+      "Schlitzer": 29,
+      "Wachstum": 37,
+      "Gigasauger": 44,
+      "Aromakur": 51,
+      "Wutpulver": 59,
+      "Kreuzschere": 66
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/047.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/047.png"
+  },
+  "048": {
+    "id": 48,
+    "name": "Bluzuk",
+    "level": 1,
+    "pokedex_entry": "Seine großen Augen bestehen aus vielen kleinen Augen. Nachts wird es von Licht angezogen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Kaefer",
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 55,
+      "defense": 50,
+      "special_attack": 40,
+      "special_defense": 55,
+      "speed": 45
+    },
+    "expected_stats_level_50": {
+      "hp": 135,
+      "attack": 75,
+      "defense": 70,
+      "special_attack": 60,
+      "special_defense": 75,
+      "speed": 65
+    },
+    "expected_stats_level_100": {
+      "hp": 261,
+      "attack": 146,
+      "defense": 136,
+      "special_attack": 116,
+      "special_defense": 146,
+      "speed": 126
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Aussetzer": 1,
+      "Gesichte": 1,
+      "Superschall": 5,
+      "Konfusion": 11,
+      "Giftpuder": 13,
+      "Blutsauger": 17,
+      "Stachelspore": 23,
+      "Psystrahl": 25,
+      "Schlafpuder": 29,
+      "Ampelleuchte": 35,
+      "Zen-Kopfstoß": 37,
+      "Giftzahn": 41,
+      "Psychokinese": 47
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/048.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/048.png"
+  },
+  "049": {
+    "id": 49,
+    "name": "Omot",
+    "level": 1,
+    "pokedex_entry": "Wer die von ihm verstreuten Schuppen berührt, wird gelähmt und muss sich setzten.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Kaefer",
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 65,
+      "defense": 60,
+      "special_attack": 90,
+      "special_defense": 75,
+      "speed": 90
+    },
+    "expected_stats_level_50": {
+      "hp": 145,
+      "attack": 85,
+      "defense": 80,
+      "special_attack": 110,
+      "special_defense": 95,
+      "speed": 110
+    },
+    "expected_stats_level_100": {
+      "hp": 281,
+      "attack": 166,
+      "defense": 156,
+      "special_attack": 216,
+      "special_defense": 186,
+      "speed": 216
+    },
+    "level_up_attacks": {
+      "Falterreigen": 1,
+      "Käfergebrumm": 1,
+      "Silberhauch": 1,
+      "Tackle": 1,
+      "Aussetzer": 1,
+      "Gesichte": 1,
+      "Superschall": 1,
+      "Konfusion": 11,
+      "Giftpuder": 13,
+      "Blutsauger": 17,
+      "Stachelspore": 23,
+      "Psystrahl": 25,
+      "Schlafpuder": 29,
+      "Windstoß": 31,
+      "Ampelleuchte": 37,
+      "Zen-Kopfstoß": 41,
+      "Giftzahn": 47,
+      "Psychokinese": 55
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/049.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/049.png"
+  },
+  "050": {
+    "id": 50,
+    "name": "Digda",
+    "level": 1,
+    "pokedex_entry": "Dieses Pokémon lebt 1 m unter der Erde. Es frisst Wurzeln und kommt nur selten an die Oberfläche.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Boden"
+    ],
+    "base_stats": {
+      "hp": 10,
+      "attack": 55,
+      "defense": 25,
+      "special_attack": 35,
+      "special_defense": 45,
+      "speed": 95
+    },
+    "expected_stats_level_50": {
+      "hp": 85,
+      "attack": 75,
+      "defense": 45,
+      "special_attack": 55,
+      "special_defense": 65,
+      "speed": 115
+    },
+    "expected_stats_level_100": {
+      "hp": 161,
+      "attack": 146,
+      "defense": 86,
+      "special_attack": 106,
+      "special_defense": 126,
+      "speed": 226
+    },
+    "level_up_attacks": {
+      "Kratzer": 1,
+      "Sandwirbel": 1,
+      "Heuler": 4,
+      "Erstauner": 7,
+      "Lehmschelle": 12,
+      "Intensität": 15,
+      "Dampfwalze": 18,
+      "Tiefschlag": 23,
+      "Schlammbombe": 26,
+      "Erdkräfte": 29,
+      "Schaufler": 34,
+      "Schlitzer": 37,
+      "Erdbeben": 40,
+      "Geofissur": 45
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/050.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/050.png"
+  },
+  "051": {
+    "id": 51,
+    "name": "Digdri",
+    "level": 1,
+    "pokedex_entry": "Im Kampf gräbt es sich ein und attackiert den Gegner aus einer unvorhersehbaren Richtung.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Boden"
+    ],
+    "base_stats": {
+      "hp": 35,
+      "attack": 100,
+      "defense": 50,
+      "special_attack": 50,
+      "special_defense": 70,
+      "speed": 120
+    },
+    "expected_stats_level_50": {
+      "hp": 110,
+      "attack": 120,
+      "defense": 70,
+      "special_attack": 70,
+      "special_defense": 90,
+      "speed": 140
+    },
+    "expected_stats_level_100": {
+      "hp": 211,
+      "attack": 236,
+      "defense": 136,
+      "special_attack": 136,
+      "special_defense": 176,
+      "speed": 276
+    },
+    "level_up_attacks": {
+      "Pflüger": 1,
+      "Nachthieb": 1,
+      "Triplette": 1,
+      "Kratzer": 1,
+      "Sandwirbel": 1,
+      "Heuler": 1,
+      "Erstauner": 7,
+      "Lehmschelle": 12,
+      "Intensität": 15,
+      "Dampfwalze": 18,
+      "Tiefschlag": 23,
+      "Sandgrab": 26,
+      "Schlammbombe": 28,
+      "Erdkräfte": 33,
+      "Schaufler": 40,
+      "Schlitzer": 45,
+      "Erdbeben": 50,
+      "Geofissur": 57
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/051.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/051.png"
+  },
+  "052": {
+    "id": 52,
+    "name": "Mauzi",
+    "level": 1,
+    "pokedex_entry": "Ein nachtaktives Pokémon. Sieht es etwas Schimmerndes, fangen seine Augen an zu glänzen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "special_attack": 40,
+      "special_defense": 40,
+      "speed": 90
+    },
+    "expected_stats_level_50": {
+      "hp": 115,
+      "attack": 65,
+      "defense": 55,
+      "special_attack": 60,
+      "special_defense": 60,
+      "speed": 110
+    },
+    "expected_stats_level_100": {
+      "hp": 221,
+      "attack": 126,
+      "defense": 106,
+      "special_attack": 116,
+      "special_defense": 116,
+      "speed": 216
+    },
+    "level_up_attacks": {
+      "Kratzer": 1,
+      "Heuler": 1,
+      "Biss": 6,
+      "Mogelhieb": 9,
+      "Kratzfurie": 14,
+      "Kreideschrei": 17,
+      "Finte": 22,
+      "Verhöhner": 25,
+      "Zahltag": 30,
+      "Schlitzer": 33,
+      "Ränkeschmied": 38,
+      "Gewissheit": 41,
+      "Liebreiz": 46,
+      "Nachthieb": 49,
+      "Offenlegung": 50
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/052.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/052.png"
+  },
+  "053": {
+    "id": 53,
+    "name": "Snobilikat",
+    "level": 1,
+    "pokedex_entry": "Dieses Pokémon hat sehr schönes Fell. Es ist jedoch ein schwer erziehbares Haustier.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 70,
+      "defense": 60,
+      "special_attack": 65,
+      "special_defense": 65,
+      "speed": 115
+    },
+    "expected_stats_level_50": {
+      "hp": 140,
+      "attack": 90,
+      "defense": 80,
+      "special_attack": 85,
+      "special_defense": 85,
+      "speed": 135
+    },
+    "expected_stats_level_100": {
+      "hp": 271,
+      "attack": 176,
+      "defense": 156,
+      "special_attack": 166,
+      "special_defense": 166,
+      "speed": 266
+    },
+    "level_up_attacks": {
+      "Knuddler": 1,
+      "Wechseldich": 1,
+      "Kratzer": 1,
+      "Heuler": 1,
+      "Biss": 1,
+      "Mogelhieb": 1,
+      "Kratzfurie": 14,
+      "Kreideschrei": 17,
+      "Finte": 22,
+      "Verhöhner": 25,
+      "Sternschauer": 28,
+      "Juwelenkraft": 32,
+      "Schlitzer": 37,
+      "Ränkeschmied": 44,
+      "Gewissheit": 49,
+      "Liebreiz": 56,
+      "Nachthieb": 61,
+      "Offenlegung": 65
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/053.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/053.png"
+  },
+  "054": {
+    "id": 54,
+    "name": "Enton",
+    "level": 1,
+    "pokedex_entry": "Es wird permanent von Kopfsschmerzen geplagt. Wird der Schmerz stärker, setzt es geheimnisvolle Kräfte ein.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 52,
+      "defense": 48,
+      "special_attack": 65,
+      "special_defense": 50,
+      "speed": 55
+    },
+    "expected_stats_level_50": {
+      "hp": 125,
+      "attack": 72,
+      "defense": 68,
+      "special_attack": 85,
+      "special_defense": 70,
+      "speed": 75
+    },
+    "expected_stats_level_100": {
+      "hp": 241,
+      "attack": 140,
+      "defense": 132,
+      "special_attack": 166,
+      "special_defense": 136,
+      "speed": 146
+    },
+    "level_up_attacks": {
+      "Kratzer": 1,
+      "Nassmacher": 1,
+      "Rutenschlag": 4,
+      "Aquaknarre": 8,
+      "Aussetzer": 11,
+      "Konfusion": 15,
+      "Aquawelle": 18,
+      "Kratzfurie": 22,
+      "Kreideschrei": 25,
+      "Zen-Kopfstoß": 29,
+      "Nassschweif": 32,
+      "Überflutung": 36,
+      "Psycho-Plus": 39,
+      "Amnesie": 43,
+      "Hydropumpe": 46,
+      "Wunderraum": 50
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/054.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/054.png"
+  },
+  "055": {
+    "id": 55,
+    "name": "Entoron",
+    "level": 1,
+    "pokedex_entry": "Es taucht bei Sonnenuntergang am Wasser auf. Leuchtet seine Stirn, setzt es telekinetische Kräfte ein.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 78,
+      "special_attack": 95,
+      "special_defense": 80,
+      "speed": 85
+    },
+    "expected_stats_level_50": {
+      "hp": 155,
+      "attack": 102,
+      "defense": 98,
+      "special_attack": 115,
+      "special_defense": 100,
+      "speed": 105
+    },
+    "expected_stats_level_100": {
+      "hp": 301,
+      "attack": 200,
+      "defense": 192,
+      "special_attack": 226,
+      "special_defense": 196,
+      "speed": 206
+    },
+    "level_up_attacks": {
+      "Kratzer": 1,
+      "Nassmacher": 1,
+      "Rutenschlag": 4,
+      "Aquaknarre": 8,
+      "Aussetzer": 11,
+      "Konfusion": 15,
+      "Aquawelle": 18,
+      "Kratzfurie": 22,
+      "Kreideschrei": 25,
+      "Zen-Kopfstoß": 29,
+      "Nassschweif": 32,
+      "Überflutung": 38,
+      "Psycho-Plus": 43,
+      "Amnesie": 49,
+      "Hydropumpe": 54,
+      "Wunderraum": 60
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/055.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/055.png"
+  },
+  "056": {
+    "id": 56,
+    "name": "Menki",
+    "level": 1,
+    "pokedex_entry": "Da es grundlos angreift und nicht zwischen Freund oder Feind unterscheidet, ist es sehr gefährlich.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Kampf"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 35,
+      "special_attack": 35,
+      "special_defense": 45,
+      "speed": 70
+    },
+    "expected_stats_level_50": {
+      "hp": 115,
+      "attack": 100,
+      "defense": 55,
+      "special_attack": 55,
+      "special_defense": 65,
+      "speed": 90
+    },
+    "expected_stats_level_100": {
+      "hp": 221,
+      "attack": 196,
+      "defense": 106,
+      "special_attack": 106,
+      "special_defense": 126,
+      "speed": 176
+    },
+    "level_up_attacks": {
+      "Energiefokus": 1,
+      "Kratzer": 1,
+      "Bezirzer": 1,
+      "Silberblick": 1,
+      "Fußkick": 1,
+      "Kratzfurie": 9,
+      "Karateschlag": 13,
+      "Geowurf": 17,
+      "Kreideschrei": 21,
+      "Gewissheit": 25,
+      "Angeberei": 33,
+      "Kreuzhieb": 37,
+      "Fuchtler": 41,
+      "Strafattacke": 45,
+      "Nahkampf": 49,
+      "Wagemut": 53
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/056.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/056.png"
+  },
+  "057": {
+    "id": 57,
+    "name": "Rasaff",
+    "level": 1,
+    "pokedex_entry": "In ganz seltenen Fällen beruhigt sich dieses sehr jähzornige Pokémon und ist für einen Moment friedlich.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Kampf"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 105,
+      "defense": 60,
+      "special_attack": 60,
+      "special_defense": 70,
+      "speed": 95
+    },
+    "expected_stats_level_50": {
+      "hp": 140,
+      "attack": 125,
+      "defense": 80,
+      "special_attack": 80,
+      "special_defense": 90,
+      "speed": 115
+    },
+    "expected_stats_level_100": {
+      "hp": 271,
+      "attack": 246,
+      "defense": 156,
+      "special_attack": 156,
+      "special_defense": 176,
+      "speed": 226
+    },
+    "level_up_attacks": {
+      "Energiefokus": 1,
+      "Kratzer": 1,
+      "Bezirzer": 1,
+      "Silberblick": 1,
+      "Fußkick": 1,
+      "Kratzfurie": 9,
+      "Karateschlag": 13,
+      "Geowurf": 17,
+      "Kreideschrei": 21,
+      "Gewissheit": 25,
+      "Angeberei": 33,
+      "Kreuzhieb": 37,
+      "Fuchtler": 41,
+      "Strafattacke": 45,
+      "Nahkampf": 49,
+      "Wagemut": 53
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/057.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/057.png"
+  },
+  "058": {
+    "id": 58,
+    "name": "Fukano",
+    "level": 1,
+    "pokedex_entry": "Es ist sehr freundlich und bleibt den Menschen treu. Durch Bellen und Beißen versucht es, Gegner zu verscheuchen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Feuer"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 45,
+      "special_attack": 70,
+      "special_defense": 50,
+      "speed": 60
+    },
+    "expected_stats_level_50": {
+      "hp": 130,
+      "attack": 90,
+      "defense": 65,
+      "special_attack": 90,
+      "special_defense": 70,
+      "speed": 80
+    },
+    "expected_stats_level_100": {
+      "hp": 251,
+      "attack": 176,
+      "defense": 126,
+      "special_attack": 176,
+      "special_defense": 136,
+      "speed": 156
+    },
+    "level_up_attacks": {
+      "Biss": 1,
+      "Brüller": 1,
+      "Glut": 6,
+      "Silberblick": 8,
+      "Schnüffler": 10,
+      "Rechte Hand": 12,
+      "Flammenrad": 17,
+      "Gegenschlag": 19,
+      "Feuerzahn": 21,
+      "Bodycheck": 23,
+      "Funkenflug": 28,
+      "Agilität": 30,
+      "Heimzahlung": 32,
+      "Flammenwurf": 34,
+      "Knirscher": 39,
+      "Hitzewelle": 41,
+      "Wutanfall": 43,
+      "Flammenblitz": 45
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/058.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/058.png"
+  },
+  "059": {
+    "id": 59,
+    "name": "Arkani",
+    "level": 1,
+    "pokedex_entry": "Dieses Pokémon trägt ein wunderschönes Fell. Es ist obendrein schnell und sehr wendig.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Feuer"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 110,
+      "defense": 80,
+      "special_attack": 100,
+      "special_defense": 80,
+      "speed": 95
+    },
+    "expected_stats_level_50": {
+      "hp": 165,
+      "attack": 130,
+      "defense": 100,
+      "special_attack": 120,
+      "special_defense": 100,
+      "speed": 115
+    },
+    "expected_stats_level_100": {
+      "hp": 321,
+      "attack": 256,
+      "defense": 196,
+      "special_attack": 236,
+      "special_defense": 196,
+      "speed": 226
+    },
+    "level_up_attacks": {
+      "Biss": 1,
+      "Brüller": 1,
+      "Schnüffler": 1,
+      "Donnerzahn": 1,
+      "Feuerzahn": 1,
+      "Turbotempo": 34
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/059.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/059.png"
+  },
+  "060": {
+    "id": 60,
+    "name": "Quapsel",
+    "level": 1,
+    "pokedex_entry": "Seine glatte, schwarze Haut ist dünn und feucht. Teilweise sind seine Innereien als spiralförmige Muster sichtbar.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 50,
+      "defense": 40,
+      "special_attack": 40,
+      "special_defense": 40,
+      "speed": 90
+    },
+    "expected_stats_level_50": {
+      "hp": 115,
+      "attack": 70,
+      "defense": 60,
+      "special_attack": 60,
+      "special_defense": 60,
+      "speed": 110
+    },
+    "expected_stats_level_100": {
+      "hp": 221,
+      "attack": 136,
+      "defense": 116,
+      "special_attack": 116,
+      "special_defense": 116,
+      "speed": 216
+    },
+    "level_up_attacks": {
+      "Nassmacher": 1,
+      "Aquaknarre": 5,
+      "Hypnose": 8,
+      "Blubber": 11,
+      "Duplexhieb": 15,
+      "Regentanz": 18,
+      "Bodyslam": 21,
+      "Blubbstrahl": 25,
+      "Lehmschuss": 28,
+      "Bauchtrommel": 31,
+      "Weckruf": 35,
+      "Hydropumpe": 38,
+      "Schlammbombe": 41
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/060.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/060.png"
+  },
+  "061": {
+    "id": 61,
+    "name": "Quaputzi",
+    "level": 1,
+    "pokedex_entry": "Dieses Pokémon kann im Wasser und auch an Land leben. An Land schwitzt es sich den Körper nass.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 65,
+      "special_attack": 50,
+      "special_defense": 50,
+      "speed": 90
+    },
+    "expected_stats_level_50": {
+      "hp": 140,
+      "attack": 85,
+      "defense": 85,
+      "special_attack": 70,
+      "special_defense": 70,
+      "speed": 110
+    },
+    "expected_stats_level_100": {
+      "hp": 271,
+      "attack": 166,
+      "defense": 166,
+      "special_attack": 136,
+      "special_defense": 136,
+      "speed": 216
+    },
+    "level_up_attacks": {
+      "Blubber": 1,
+      "Nassmacher": 1,
+      "Hypnose": 1,
+      "Aquaknarre": 5,
+      "Duplexhieb": 15,
+      "Regentanz": 18,
+      "Bodyslam": 21,
+      "Blubbstrahl": 27,
+      "Lehmschuss": 32,
+      "Bauchtrommel": 37,
+      "Weckruf": 43,
+      "Hydropumpe": 48,
+      "Schlammbombe": 53
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/061.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/061.png"
+  },
+  "062": {
+    "id": 62,
+    "name": "Quappo",
+    "level": 1,
+    "pokedex_entry": "Es hat extrem starke Muskeln und kann durch den Ozean schwimmen, ohne dich ausruhen zu müssen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser",
+      "Kampf"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 95,
+      "defense": 95,
+      "special_attack": 70,
+      "special_defense": 90,
+      "speed": 70
+    },
+    "expected_stats_level_50": {
+      "hp": 165,
+      "attack": 115,
+      "defense": 115,
+      "special_attack": 90,
+      "special_defense": 110,
+      "speed": 90
+    },
+    "expected_stats_level_100": {
+      "hp": 321,
+      "attack": 226,
+      "defense": 226,
+      "special_attack": 176,
+      "special_defense": 216,
+      "speed": 176
+    },
+    "level_up_attacks": {
+      "Duplexhieb": 1,
+      "Blubbstrahl": 1,
+      "Überroller": 1,
+      "Hypnose": 1,
+      "Wuchtschlag": 32,
+      "Willensleser": 43,
+      "Überkopfwurf": 53
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/062.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/062.png"
+  },
+  "063": {
+    "id": 63,
+    "name": "Abra",
+    "level": 1,
+    "pokedex_entry": "Es schläft 18 Stunden am Tag. Währenddessen setzt es eine Vielzahl zusätzlicher sensorischer Kräfte ein.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Psycho"
+    ],
+    "base_stats": {
+      "hp": 25,
+      "attack": 20,
+      "defense": 15,
+      "special_attack": 105,
+      "special_defense": 55,
+      "speed": 90
+    },
+    "expected_stats_level_50": {
+      "hp": 100,
+      "attack": 40,
+      "defense": 35,
+      "special_attack": 125,
+      "special_defense": 75,
+      "speed": 110
+    },
+    "expected_stats_level_100": {
+      "hp": 191,
+      "attack": 76,
+      "defense": 66,
+      "special_attack": 246,
+      "special_defense": 146,
+      "speed": 216
+    },
+    "level_up_attacks": {
+      "Teleport": 1
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/063.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/063.png"
+  },
+  "064": {
+    "id": 64,
+    "name": "Kadabra",
+    "level": 1,
+    "pokedex_entry": "Setzt es seine Psycho-Kräfte ein, sondert es Alphawellen ab, die Präzisionsgeräten schaden können.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Psycho"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 35,
+      "defense": 30,
+      "special_attack": 120,
+      "special_defense": 70,
+      "speed": 105
+    },
+    "expected_stats_level_50": {
+      "hp": 115,
+      "attack": 55,
+      "defense": 50,
+      "special_attack": 140,
+      "special_defense": 90,
+      "speed": 125
+    },
+    "expected_stats_level_100": {
+      "hp": 221,
+      "attack": 106,
+      "defense": 96,
+      "special_attack": 276,
+      "special_defense": 176,
+      "speed": 246
+    },
+    "level_up_attacks": {
+      "Konfusion": 1,
+      "Teleport": 1,
+      "Psykraft": 1,
+      "Aussetzer": 18,
+      "Wunderauge": 22,
+      "Seitentausch": 24,
+      "Psystrahl": 28,
+      "Reflektor": 30,
+      "Telekinese": 34,
+      "Genesung": 36,
+      "Psychoklinge": 40,
+      "Rollentausch": 42,
+      "Psychokinese": 46,
+      "Seher": 48,
+      "Trickbetrug": 50
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/064.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/064.png"
+  },
+  "065": {
+    "id": 65,
+    "name": "Simsala",
+    "level": 1,
+    "pokedex_entry": "Seine Gehirnzellen vervielfachen sich sein ganzes Leben lang. Daher kann es sich immer an alles erinnern.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Psycho"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 50,
+      "defense": 45,
+      "special_attack": 135,
+      "special_defense": 95,
+      "speed": 120
+    },
+    "expected_stats_level_50": {
+      "hp": 130,
+      "attack": 70,
+      "defense": 65,
+      "special_attack": 155,
+      "special_defense": 115,
+      "speed": 140
+    },
+    "expected_stats_level_100": {
+      "hp": 251,
+      "attack": 136,
+      "defense": 126,
+      "special_attack": 306,
+      "special_defense": 226,
+      "speed": 276
+    },
+    "level_up_attacks": {
+      "Konfusion": 1,
+      "Teleport": 1,
+      "Psykraft": 1,
+      "Aussetzer": 18,
+      "Wunderauge": 22,
+      "Seitentausch": 24,
+      "Psystrahl": 28,
+      "Reflektor": 30,
+      "Telekinese": 34,
+      "Genesung": 36,
+      "Psychoklinge": 40,
+      "Rollentausch": 42,
+      "Psychokinese": 46,
+      "Seher": 48,
+      "Trickbetrug": 50
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/065.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/065.png"
+  },
+  "066": {
+    "id": 66,
+    "name": "Machollo",
+    "level": 1,
+    "pokedex_entry": "Es hebt Georok hoch, um seinen Körper zu trainieren. Außerdem übt es sich in jeder Art von Kampfsport.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Kampf"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 80,
+      "defense": 50,
+      "special_attack": 35,
+      "special_defense": 35,
+      "speed": 35
+    },
+    "expected_stats_level_50": {
+      "hp": 145,
+      "attack": 100,
+      "defense": 70,
+      "special_attack": 55,
+      "special_defense": 55,
+      "speed": 55
+    },
+    "expected_stats_level_100": {
+      "hp": 281,
+      "attack": 196,
+      "defense": 136,
+      "special_attack": 106,
+      "special_defense": 106,
+      "speed": 106
+    },
+    "level_up_attacks": {
+      "Silberblick": 1,
+      "Fußkick": 1,
+      "Energiefokus": 7,
+      "Karateschlag": 10,
+      "Fußtritt": 13,
+      "Gesichte": 19,
+      "Geowurf": 22,
+      "Vergeltung": 25,
+      "Überwurf": 31,
+      "Überroller": 34,
+      "Weckruf": 37,
+      "Kreuzhieb": 43,
+      "Grimasse": 46,
+      "Wuchtschlag": 49
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/066.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/066.png"
+  },
+  "067": {
+    "id": 67,
+    "name": "Maschock",
+    "level": 1,
+    "pokedex_entry": "Dieses Pokémon ist superstark. Es kann sich nur mit einem Kraft regulierenden Gürtel bewegen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Kampf"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 70,
+      "special_attack": 50,
+      "special_defense": 60,
+      "speed": 45
+    },
+    "expected_stats_level_50": {
+      "hp": 155,
+      "attack": 120,
+      "defense": 90,
+      "special_attack": 70,
+      "special_defense": 80,
+      "speed": 65
+    },
+    "expected_stats_level_100": {
+      "hp": 301,
+      "attack": 236,
+      "defense": 176,
+      "special_attack": 136,
+      "special_defense": 156,
+      "speed": 126
+    },
+    "level_up_attacks": {
+      "Energiefokus": 1,
+      "Silberblick": 1,
+      "Fußkick": 1,
+      "Karateschlag": 1,
+      "Fußtritt": 13,
+      "Gesichte": 19,
+      "Geowurf": 22,
+      "Vergeltung": 25,
+      "Überwurf": 32,
+      "Überroller": 36,
+      "Weckruf": 40,
+      "Kreuzhieb": 44,
+      "Grimasse": 51,
+      "Wuchtschlag": 55
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/067.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/067.png"
+  },
+  "068": {
+    "id": 68,
+    "name": "Machomei",
+    "level": 1,
+    "pokedex_entry": "Seine markigen Arme können innerhalb von nur zwei Sekunden 1 000 Schläge verteilen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Kampf"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 130,
+      "defense": 80,
+      "special_attack": 65,
+      "special_defense": 85,
+      "speed": 55
+    },
+    "expected_stats_level_50": {
+      "hp": 165,
+      "attack": 150,
+      "defense": 100,
+      "special_attack": 85,
+      "special_defense": 105,
+      "speed": 75
+    },
+    "expected_stats_level_100": {
+      "hp": 321,
+      "attack": 296,
+      "defense": 196,
+      "special_attack": 166,
+      "special_defense": 206,
+      "speed": 146
+    },
+    "level_up_attacks": {
+      "Energiefokus": 1,
+      "Silberblick": 1,
+      "Fußkick": 1,
+      "Rundumschutz": 1,
+      "Karateschlag": 1,
+      "Fußtritt": 13,
+      "Gesichte": 19,
+      "Geowurf": 22,
+      "Vergeltung": 25,
+      "Überwurf": 32,
+      "Überroller": 36,
+      "Weckruf": 40,
+      "Kreuzhieb": 44,
+      "Grimasse": 51,
+      "Wuchtschlag": 55
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/068.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/068.png"
+  },
+  "069": {
+    "id": 69,
+    "name": "Knofensa",
+    "level": 1,
+    "pokedex_entry": "Obwohl sein Körper sehr schmal ist, schnappt es blitzschnell nach Beute.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Pflanze",
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 35,
+      "special_attack": 70,
+      "special_defense": 30,
+      "speed": 40
+    },
+    "expected_stats_level_50": {
+      "hp": 125,
+      "attack": 95,
+      "defense": 55,
+      "special_attack": 90,
+      "special_defense": 50,
+      "speed": 60
+    },
+    "expected_stats_level_100": {
+      "hp": 241,
+      "attack": 186,
+      "defense": 106,
+      "special_attack": 176,
+      "special_defense": 96,
+      "speed": 116
+    },
+    "level_up_attacks": {
+      "Rankenhieb": 1,
+      "Wachstum": 7,
+      "Wickel": 11,
+      "Schlafpuder": 13,
+      "Giftpuder": 15,
+      "Stachelspore": 17,
+      "Säure": 23,
+      "Abschlag": 27,
+      "Lockduft": 29,
+      "Magensäfte": 35,
+      "Rasierblatt": 39,
+      "Slam": 41,
+      "Auswringen": 47
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/069.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/069.png"
+  },
+  "070": {
+    "id": 70,
+    "name": "Ultrigaria",
+    "level": 1,
+    "pokedex_entry": "Die Blätter werden eingesetzt, um Gegner aufzuschlitzen. Dieses Pokémon spuckt eine Flüssigkeit, die alles auflöst.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Pflanze",
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 50,
+      "special_attack": 85,
+      "special_defense": 45,
+      "speed": 55
+    },
+    "expected_stats_level_50": {
+      "hp": 140,
+      "attack": 110,
+      "defense": 70,
+      "special_attack": 105,
+      "special_defense": 65,
+      "speed": 75
+    },
+    "expected_stats_level_100": {
+      "hp": 271,
+      "attack": 216,
+      "defense": 136,
+      "special_attack": 206,
+      "special_defense": 126,
+      "speed": 146
+    },
+    "level_up_attacks": {
+      "Wachstum": 1,
+      "Rankenhieb": 1,
+      "Wickel": 1,
+      "Schlafpuder": 13,
+      "Giftpuder": 15,
+      "Stachelspore": 17,
+      "Säure": 23,
+      "Abschlag": 27,
+      "Lockduft": 29,
+      "Magensäfte": 35,
+      "Rasierblatt": 39,
+      "Slam": 41,
+      "Auswringen": 47
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/070.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/070.png"
+  },
+  "071": {
+    "id": 71,
+    "name": "Sarzenia",
+    "level": 1,
+    "pokedex_entry": "Dieses Pokémon soll in großen Kolonien tief im Dschungel leben, doch niemand kann dies bestätigen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Pflanze",
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "special_attack": 100,
+      "special_defense": 70,
+      "speed": 70
+    },
+    "expected_stats_level_50": {
+      "hp": 155,
+      "attack": 125,
+      "defense": 85,
+      "special_attack": 120,
+      "special_defense": 90,
+      "speed": 90
+    },
+    "expected_stats_level_100": {
+      "hp": 301,
+      "attack": 246,
+      "defense": 166,
+      "special_attack": 236,
+      "special_defense": 176,
+      "speed": 176
+    },
+    "level_up_attacks": {
+      "Rankenhieb": 1,
+      "Rasierblatt": 1,
+      "Schlafpuder": 1,
+      "Lockduft": 1,
+      "Horter": 1,
+      "Entfessler": 1,
+      "Verzehrer": 1,
+      "Grasmixer": 27,
+      "Blättersturm": 47,
+      "Laubklinge": 47
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/071.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/071.png"
+  },
+  "072": {
+    "id": 72,
+    "name": "Tentacha",
+    "level": 1,
+    "pokedex_entry": "Sein Körper besteht aus Wasser. Aus seinen kristallartigen Augen verschießt es eigenartige Strahlen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser",
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 35,
+      "special_attack": 50,
+      "special_defense": 100,
+      "speed": 70
+    },
+    "expected_stats_level_50": {
+      "hp": 115,
+      "attack": 60,
+      "defense": 55,
+      "special_attack": 70,
+      "special_defense": 120,
+      "speed": 90
+    },
+    "expected_stats_level_100": {
+      "hp": 221,
+      "attack": 116,
+      "defense": 106,
+      "special_attack": 136,
+      "special_defense": 236,
+      "speed": 176
+    },
+    "level_up_attacks": {
+      "Giftstachel": 1,
+      "Superschall": 5,
+      "Umklammerung": 8,
+      "Säure": 12,
+      "Giftspitzen": 15,
+      "Blubbstrahl": 19,
+      "Wickel": 22,
+      "Säurespeier": 26,
+      "Barriere": 29,
+      "Aquawelle": 33,
+      "Gifthieb": 36,
+      "Kreideschrei": 40,
+      "Bürde": 43,
+      "Hydropumpe": 47,
+      "Schlammwoge": 50,
+      "Auswringen": 54
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/072.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/072.png"
+  },
+  "073": {
+    "id": 73,
+    "name": "Tentoxa",
+    "level": 1,
+    "pokedex_entry": "Dieses Pokémon kann die Tentakel bei der Jagd ausfahren, um die Beute leichter zu fangen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser",
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 70,
+      "defense": 65,
+      "special_attack": 80,
+      "special_defense": 120,
+      "speed": 100
+    },
+    "expected_stats_level_50": {
+      "hp": 155,
+      "attack": 90,
+      "defense": 85,
+      "special_attack": 100,
+      "special_defense": 140,
+      "speed": 120
+    },
+    "expected_stats_level_100": {
+      "hp": 301,
+      "attack": 176,
+      "defense": 166,
+      "special_attack": 196,
+      "special_defense": 276,
+      "speed": 236
+    },
+    "level_up_attacks": {
+      "Auswringen": 1,
+      "Giftstachel": 1,
+      "Superschall": 1,
+      "Typenspiegel": 1,
+      "Umklammerung": 1,
+      "Säure": 12,
+      "Giftspitzen": 15,
+      "Blubbstrahl": 19,
+      "Wickel": 22,
+      "Säurespeier": 26,
+      "Barriere": 29,
+      "Aquawelle": 34,
+      "Gifthieb": 38,
+      "Kreideschrei": 43,
+      "Bürde": 47,
+      "Hydropumpe": 52,
+      "Schlammwoge": 56
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/073.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/073.png"
+  },
+  "074": {
+    "id": 74,
+    "name": "Kleinstein",
+    "level": 1,
+    "pokedex_entry": "Wandere stolpern in den Bergen häufig über dieses Pokémon, da es wie ein Stein aussieht.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gestein",
+      "Boden"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 100,
+      "special_attack": 30,
+      "special_defense": 30,
+      "speed": 20
+    },
+    "expected_stats_level_50": {
+      "hp": 115,
+      "attack": 100,
+      "defense": 120,
+      "special_attack": 50,
+      "special_defense": 50,
+      "speed": 40
+    },
+    "expected_stats_level_100": {
+      "hp": 221,
+      "attack": 196,
+      "defense": 236,
+      "special_attack": 96,
+      "special_defense": 96,
+      "speed": 76
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Einigler": 1,
+      "Lehmsuhler": 4,
+      "Steinpolitur": 8,
+      "Walzer": 11,
+      "Intensität": 15,
+      "Steinwurf": 18,
+      "Felswurf": 22,
+      "Katapult": 25,
+      "Finale": 29,
+      "Dampfwalze": 32,
+      "Tarnsteine": 36,
+      "Erdbeben": 39,
+      "Explosion": 43,
+      "Risikotackle": 46,
+      "Steinkante": 50
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/074.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/074.png"
+  },
+  "075": {
+    "id": 75,
+    "name": "Georok",
+    "level": 1,
+    "pokedex_entry": "Es ist ihm völlig gleichgültig, wenn Stücke aus ihm herausbrechen, während es Berge hinabrollt.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gestein",
+      "Boden"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 95,
+      "defense": 115,
+      "special_attack": 45,
+      "special_defense": 45,
+      "speed": 35
+    },
+    "expected_stats_level_50": {
+      "hp": 130,
+      "attack": 115,
+      "defense": 135,
+      "special_attack": 65,
+      "special_defense": 65,
+      "speed": 55
+    },
+    "expected_stats_level_100": {
+      "hp": 251,
+      "attack": 226,
+      "defense": 266,
+      "special_attack": 126,
+      "special_defense": 126,
+      "speed": 106
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Steinpolitur": 1,
+      "Einigler": 1,
+      "Lehmsuhler": 1,
+      "Walzer": 11,
+      "Intensität": 15,
+      "Steinwurf": 18,
+      "Felswurf": 22,
+      "Katapult": 27,
+      "Finale": 31,
+      "Dampfwalze": 36,
+      "Tarnsteine": 42,
+      "Erdbeben": 47,
+      "Explosion": 53,
+      "Risikotackle": 58,
+      "Steinkante": 64
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/075.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/075.png"
+  },
+  "076": {
+    "id": 76,
+    "name": "Geowaz",
+    "level": 1,
+    "pokedex_entry": "Sie rollen Berge hinunter und hinterlassen Spurrillen. Halte dich von diesen Rillen fern.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gestein",
+      "Boden"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 130,
+      "special_attack": 55,
+      "special_defense": 65,
+      "speed": 45
+    },
+    "expected_stats_level_50": {
+      "hp": 155,
+      "attack": 140,
+      "defense": 150,
+      "special_attack": 75,
+      "special_defense": 85,
+      "speed": 65
+    },
+    "expected_stats_level_100": {
+      "hp": 301,
+      "attack": 276,
+      "defense": 296,
+      "special_attack": 146,
+      "special_defense": 166,
+      "speed": 126
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Steinpolitur": 1,
+      "Einigler": 1,
+      "Lehmsuhler": 1,
+      "Rammboss": 1,
+      "Quetschwalze": 11,
+      "Intensität": 15,
+      "Steinwurf": 18,
+      "Felswurf": 22,
+      "Katapult": 27,
+      "Finale": 31,
+      "Dampfwalze": 36,
+      "Tarnsteine": 42,
+      "Erdbeben": 47,
+      "Explosion": 53,
+      "Risikotackle": 58,
+      "Steinkante": 64
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/076.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/076.png"
+  },
+  "077": {
+    "id": 77,
+    "name": "Ponita",
+    "level": 1,
+    "pokedex_entry": "Neugeboren kann es kaum stehen. Durch das Galoppieren werden seine Beine aber schneller und kräftiger.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Feuer"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 85,
+      "defense": 55,
+      "special_attack": 65,
+      "special_defense": 65,
+      "speed": 90
+    },
+    "expected_stats_level_50": {
+      "hp": 125,
+      "attack": 105,
+      "defense": 75,
+      "special_attack": 85,
+      "special_defense": 85,
+      "speed": 110
+    },
+    "expected_stats_level_100": {
+      "hp": 241,
+      "attack": 206,
+      "defense": 146,
+      "special_attack": 166,
+      "special_defense": 166,
+      "speed": 216
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Heuler": 1,
+      "Rutenschlag": 4,
+      "Glut": 9,
+      "Flammenrad": 13,
+      "Stampfer": 17,
+      "Nitroladung": 21,
+      "Feuerwirbel": 25,
+      "Bodycheck": 29,
+      "Inferno": 33,
+      "Agilität": 37,
+      "Feuersturm": 41,
+      "Sprungfeder": 45,
+      "Flammenblitz": 49
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/077.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/077.png"
+  },
+  "078": {
+    "id": 78,
+    "name": "Gallopa",
+    "level": 1,
+    "pokedex_entry": "Dieses Pokémon verfolgt schnelle Objekte in der Hoffnung, ein Wettrennen gegen sie zu gewinnen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Feuer"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 100,
+      "defense": 70,
+      "special_attack": 80,
+      "special_defense": 80,
+      "speed": 105
+    },
+    "expected_stats_level_50": {
+      "hp": 140,
+      "attack": 120,
+      "defense": 90,
+      "special_attack": 100,
+      "special_defense": 100,
+      "speed": 125
+    },
+    "expected_stats_level_100": {
+      "hp": 271,
+      "attack": 236,
+      "defense": 176,
+      "special_attack": 196,
+      "special_defense": 196,
+      "speed": 246
+    },
+    "level_up_attacks": {
+      "Gifthieb": 1,
+      "Vielender": 1,
+      "Ruckzuckhieb": 1,
+      "Rutenschlag": 1,
+      "Heuler": 1,
+      "Glut": 1,
+      "Flammenrad": 13,
+      "Stampfer": 17,
+      "Nitroladung": 21,
+      "Feuerwirbel": 25,
+      "Bodycheck": 29,
+      "Inferno": 33,
+      "Agilität": 37,
+      "Furienschlag": 40,
+      "Feuersturm": 41,
+      "Sprungfeder": 45,
+      "Flammenblitz": 49
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/078.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/078.png"
+  },
+  "079": {
+    "id": 79,
+    "name": "Flegmon",
+    "level": 1,
+    "pokedex_entry": "Es ist stets in Gedanken versunken und niemand weiß, worüber es nachdenkt. Es kann mit seiner Rute gut angeln.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser",
+      "Psycho"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 65,
+      "defense": 65,
+      "special_attack": 40,
+      "special_defense": 40,
+      "speed": 15
+    },
+    "expected_stats_level_50": {
+      "hp": 165,
+      "attack": 85,
+      "defense": 85,
+      "special_attack": 60,
+      "special_defense": 60,
+      "speed": 35
+    },
+    "expected_stats_level_100": {
+      "hp": 321,
+      "attack": 166,
+      "defense": 166,
+      "special_attack": 116,
+      "special_defense": 116,
+      "speed": 66
+    },
+    "level_up_attacks": {
+      "Fluch": 1,
+      "Tackle": 1,
+      "Gähner": 1,
+      "Heuler": 5,
+      "Aquaknarre": 9,
+      "Konfusion": 14,
+      "Aussetzer": 19,
+      "Kopfnuss": 23,
+      "Aquawelle": 28,
+      "Zen-Kopfstoß": 32,
+      "Tagedieb": 36,
+      "Amnesie": 41,
+      "Psychokinese": 45,
+      "Regentanz": 49,
+      "Psycho-Plus": 54,
+      "Heilwoge": 58
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/079.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/079.png"
+  },
+  "080": {
+    "id": 80,
+    "name": "Lahmus",
+    "level": 1,
+    "pokedex_entry": "Das Muschas an seiner Rute lässt nicht locker, da ein leckerer Geschmack aus seiner Rute strömt.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser",
+      "Psycho"
+    ],
+    "base_stats": {
+      "hp": 95,
+      "attack": 75,
+      "defense": 110,
+      "special_attack": 100,
+      "special_defense": 80,
+      "speed": 30
+    },
+    "expected_stats_level_50": {
+      "hp": 170,
+      "attack": 95,
+      "defense": 130,
+      "special_attack": 120,
+      "special_defense": 100,
+      "speed": 50
+    },
+    "expected_stats_level_100": {
+      "hp": 331,
+      "attack": 186,
+      "defense": 256,
+      "special_attack": 236,
+      "special_defense": 196,
+      "speed": 96
+    },
+    "level_up_attacks": {
+      "Fluch": 1,
+      "Tackle": 1,
+      "Heuler": 1,
+      "Gähner": 1,
+      "Heilwoge": 1,
+      "Aquaknarre": 9,
+      "Konfusion": 14,
+      "Aussetzer": 19,
+      "Kopfnuss": 23,
+      "Aquawelle": 28,
+      "Zen-Kopfstoß": 32,
+      "Tagedieb": 36,
+      "Panzerschutz": 37,
+      "Amnesie": 43,
+      "Psychokinese": 49,
+      "Regentanz": 55,
+      "Psycho-Plus": 62
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/080.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/080.png"
+  },
+  "081": {
+    "id": 81,
+    "name": "Magnetilo",
+    "level": 1,
+    "pokedex_entry": "Die Magneten an seinem Körper erzeugen ein Antigravitationsfeld, um es ständig in der Schwebe zu halten.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Elektro",
+      "Stahl"
+    ],
+    "base_stats": {
+      "hp": 25,
+      "attack": 35,
+      "defense": 70,
+      "special_attack": 95,
+      "special_defense": 55,
+      "speed": 45
+    },
+    "expected_stats_level_50": {
+      "hp": 100,
+      "attack": 55,
+      "defense": 90,
+      "special_attack": 115,
+      "special_defense": 75,
+      "speed": 65
+    },
+    "expected_stats_level_100": {
+      "hp": 191,
+      "attack": 106,
+      "defense": 176,
+      "special_attack": 226,
+      "special_defense": 146,
+      "speed": 126
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Superschall": 4,
+      "Donnerschock": 7,
+      "Elektrofeld": 11,
+      "Donnerwelle": 15,
+      "Magnetbombe": 18,
+      "Funkensprung": 21,
+      "Spiegelsalve": 25,
+      "Metallsound": 29,
+      "Elektroball": 32,
+      "Lichtkanone": 35,
+      "Kreideschrei": 39,
+      "Ladungsstoß": 43,
+      "Zielschuss": 46,
+      "Magnetflug": 49,
+      "Gyroball": 53,
+      "Blitzkanone": 57
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/081.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/081.png"
+  },
+  "082": {
+    "id": 82,
+    "name": "Magneton",
+    "level": 1,
+    "pokedex_entry": "Schließen sich mehrere Magnetilo zusammen, entsteht dieses Pokémon. Es entlädt kräftige Hochspannungsmagnetwellen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Elektro",
+      "Stahl"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 60,
+      "defense": 95,
+      "special_attack": 120,
+      "special_defense": 70,
+      "speed": 70
+    },
+    "expected_stats_level_50": {
+      "hp": 125,
+      "attack": 80,
+      "defense": 115,
+      "special_attack": 140,
+      "special_defense": 90,
+      "speed": 90
+    },
+    "expected_stats_level_100": {
+      "hp": 241,
+      "attack": 156,
+      "defense": 226,
+      "special_attack": 276,
+      "special_defense": 176,
+      "speed": 176
+    },
+    "level_up_attacks": {
+      "Blitzkanone": 1,
+      "Tackle": 1,
+      "Superschall": 1,
+      "Triplette": 1,
+      "Donnerschock": 1,
+      "Ultraschall": 1,
+      "Elektrofeld": 11,
+      "Donnerwelle": 15,
+      "Magnetbombe": 18,
+      "Funkensprung": 21,
+      "Spiegelsalve": 25,
+      "Metallsound": 29,
+      "Elektroball": 34,
+      "Lichtkanone": 39,
+      "Kreideschrei": 45,
+      "Ladungsstoß": 51,
+      "Zielschuss": 56,
+      "Magnetflug": 62,
+      "Gyroball": 67
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/082.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/082.png"
+  },
+  "083": {
+    "id": 83,
+    "name": "Porenta",
+    "level": 1,
+    "pokedex_entry": "Dieses Pokémon nutzt eine Lauchstange als Waffe. Es setzt sie wie ein Schwert ein.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal",
+      "Flug"
+    ],
+    "base_stats": {
+      "hp": 52,
+      "attack": 90,
+      "defense": 55,
+      "special_attack": 58,
+      "special_defense": 62,
+      "speed": 60
+    },
+    "expected_stats_level_50": {
+      "hp": 127,
+      "attack": 110,
+      "defense": 75,
+      "special_attack": 78,
+      "special_defense": 82,
+      "speed": 80
+    },
+    "expected_stats_level_100": {
+      "hp": 245,
+      "attack": 216,
+      "defense": 146,
+      "special_attack": 152,
+      "special_defense": 160,
+      "speed": 156
+    },
+    "level_up_attacks": {
+      "Sturzflug": 1,
+      "Gifthieb": 1,
+      "Sandwirbel": 1,
+      "Silberblick": 1,
+      "Schnabel": 1,
+      "Zornklinge": 1,
+      "Furienschlag": 7,
+      "Aero-Ass": 9,
+      "Abschlag": 13,
+      "Schlitzer": 19,
+      "Windschnitt": 21,
+      "Schwerttanz": 25,
+      "Agilität": 31,
+      "Nachthieb": 33,
+      "Akrobatik": 37,
+      "Offenlegung": 43,
+      "Trugschlag": 45,
+      "Luftschnitt": 49
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/083.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/083.png"
+  },
+  "084": {
+    "id": 84,
+    "name": "Dodu",
+    "level": 1,
+    "pokedex_entry": "Dieses zweiköpfige Pokémon gilt als plötzliche Mutation. Es rennt bis zu 100 km/h schnell.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal",
+      "Flug"
+    ],
+    "base_stats": {
+      "hp": 35,
+      "attack": 85,
+      "defense": 45,
+      "special_attack": 35,
+      "special_defense": 35,
+      "speed": 75
+    },
+    "expected_stats_level_50": {
+      "hp": 110,
+      "attack": 105,
+      "defense": 65,
+      "special_attack": 55,
+      "special_defense": 55,
+      "speed": 95
+    },
+    "expected_stats_level_100": {
+      "hp": 211,
+      "attack": 206,
+      "defense": 126,
+      "special_attack": 106,
+      "special_defense": 106,
+      "speed": 186
+    },
+    "level_up_attacks": {
+      "Heuler": 1,
+      "Schnabel": 1,
+      "Ruckzuckhieb": 5,
+      "Raserei": 10,
+      "Furienschlag": 14,
+      "Verfolgung": 19,
+      "Aufruhr": 23,
+      "Akupressur": 28,
+      "Doppelschlag": 32,
+      "Agilität": 37,
+      "Bohrschnabel": 41,
+      "Notsituation": 46,
+      "Fuchtler": 50
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/084.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/084.png"
+  },
+  "085": {
+    "id": 85,
+    "name": "Dodri",
+    "level": 1,
+    "pokedex_entry": "Lässt ein Feind auch nur einen der drei Köpfe für nur eine Sekunde aus den Augen, wird er sofort gepickt.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal",
+      "Flug"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 110,
+      "defense": 70,
+      "special_attack": 60,
+      "special_defense": 60,
+      "speed": 110
+    },
+    "expected_stats_level_50": {
+      "hp": 135,
+      "attack": 130,
+      "defense": 90,
+      "special_attack": 80,
+      "special_defense": 80,
+      "speed": 130
+    },
+    "expected_stats_level_100": {
+      "hp": 261,
+      "attack": 256,
+      "defense": 176,
+      "special_attack": 156,
+      "special_defense": 156,
+      "speed": 256
+    },
+    "level_up_attacks": {
+      "Raserei": 1,
+      "Heuler": 1,
+      "Schnabel": 1,
+      "Pflücker": 1,
+      "Ruckzuckhieb": 1,
+      "Furienschlag": 14,
+      "Verfolgung": 19,
+      "Aufruhr": 23,
+      "Akupressur": 28,
+      "Triplette": 34,
+      "Agilität": 41,
+      "Bohrschnabel": 47,
+      "Notsituation": 54,
+      "Fuchtler": 60
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/085.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/085.png"
+  },
+  "086": {
+    "id": 86,
+    "name": "Jurob",
+    "level": 1,
+    "pokedex_entry": "Dieses Pokémon lebt auf Eisbergen. Es schwimmt im Eiswasser und bricht das Eis mithilfe seines Horns.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 45,
+      "defense": 55,
+      "special_attack": 45,
+      "special_defense": 70,
+      "speed": 45
+    },
+    "expected_stats_level_50": {
+      "hp": 140,
+      "attack": 65,
+      "defense": 75,
+      "special_attack": 65,
+      "special_defense": 90,
+      "speed": 65
+    },
+    "expected_stats_level_100": {
+      "hp": 271,
+      "attack": 126,
+      "defense": 146,
+      "special_attack": 126,
+      "special_defense": 176,
+      "speed": 126
+    },
+    "level_up_attacks": {
+      "Kopfnuss": 1,
+      "Heuler": 3,
+      "Nassmacher": 7,
+      "Eissturm": 11,
+      "Zugabe": 13,
+      "Eissplitter": 17,
+      "Erholung": 21,
+      "Wasserring": 23,
+      "Aurorastrahl": 27,
+      "Wasserdüse": 31,
+      "Lake": 33,
+      "Bodycheck": 37,
+      "Taucher": 41,
+      "Nassschweif": 43,
+      "Eisstrahl": 47,
+      "Bodyguard": 51,
+      "Hagelsturm": 53
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/086.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/086.png"
+  },
+  "087": {
+    "id": 87,
+    "name": "Jugong",
+    "level": 1,
+    "pokedex_entry": "Sein Körper ist mit reinem, weißem Fell überzogen. Je kälter es wird, desto aktiver wird dieses Pokémon.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser",
+      "Eis"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 70,
+      "defense": 80,
+      "special_attack": 70,
+      "special_defense": 95,
+      "speed": 70
+    },
+    "expected_stats_level_50": {
+      "hp": 165,
+      "attack": 90,
+      "defense": 100,
+      "special_attack": 90,
+      "special_defense": 115,
+      "speed": 90
+    },
+    "expected_stats_level_100": {
+      "hp": 321,
+      "attack": 176,
+      "defense": 196,
+      "special_attack": 176,
+      "special_defense": 226,
+      "speed": 176
+    },
+    "level_up_attacks": {
+      "Kopfnuss": 1,
+      "Heuler": 1,
+      "Ampelleuchte": 1,
+      "Eissturm": 1,
+      "Zugabe": 13,
+      "Eissplitter": 17,
+      "Erholung": 21,
+      "Wasserring": 23,
+      "Aurorastrahl": 27,
+      "Wasserdüse": 31,
+      "Lake": 33,
+      "Eiseskälte": 34,
+      "Bodycheck": 39,
+      "Taucher": 45,
+      "Nassschweif": 49,
+      "Eisstrahl": 55,
+      "Bodyguard": 61,
+      "Hagelsturm": 65
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/087.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/087.png"
+  },
+  "088": {
+    "id": 88,
+    "name": "Sleima",
+    "level": 1,
+    "pokedex_entry": "Schlamm, der Röntgenstrahlung vom Mond ausgesetzt war, wurde zu Sleima. Es isst am liebsten dreckige Dinge.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 50,
+      "special_attack": 40,
+      "special_defense": 50,
+      "speed": 25
+    },
+    "expected_stats_level_50": {
+      "hp": 155,
+      "attack": 100,
+      "defense": 70,
+      "special_attack": 60,
+      "special_defense": 70,
+      "speed": 45
+    },
+    "expected_stats_level_100": {
+      "hp": 301,
+      "attack": 196,
+      "defense": 136,
+      "special_attack": 116,
+      "special_defense": 136,
+      "speed": 86
+    },
+    "level_up_attacks": {
+      "Pfund": 1,
+      "Giftwolke": 1,
+      "Härtner": 4,
+      "Lehmschelle": 7,
+      "Aussetzer": 12,
+      "Schlammbad": 15,
+      "Komprimator": 18,
+      "Schlammbombe": 21,
+      "Matschbombe": 26,
+      "Schleuder": 29,
+      "Kreideschrei": 32,
+      "Schlammwoge": 37,
+      "Säurepanzer": 40,
+      "Mülltreffer": 43,
+      "Rülpser": 46,
+      "Memento-Mori": 48
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/088.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/088.png"
+  },
+  "089": {
+    "id": 89,
+    "name": "Sleimok",
+    "level": 1,
+    "pokedex_entry": "Sie treffen sich an stinkenden Orten, an denen der Schleim sich türmt. Dies merkt man am Gestank.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 105,
+      "attack": 105,
+      "defense": 75,
+      "special_attack": 65,
+      "special_defense": 100,
+      "speed": 50
+    },
+    "expected_stats_level_50": {
+      "hp": 180,
+      "attack": 125,
+      "defense": 95,
+      "special_attack": 85,
+      "special_defense": 120,
+      "speed": 70
+    },
+    "expected_stats_level_100": {
+      "hp": 351,
+      "attack": 246,
+      "defense": 186,
+      "special_attack": 166,
+      "special_defense": 236,
+      "speed": 136
+    },
+    "level_up_attacks": {
+      "Pfund": 1,
+      "Giftwolke": 1,
+      "Härtner": 1,
+      "Lehmschelle": 1,
+      "Aussetzer": 12,
+      "Schlammbad": 15,
+      "Komprimator": 18,
+      "Schlammbombe": 21,
+      "Matschbombe": 26,
+      "Schleuder": 29,
+      "Kreideschrei": 32,
+      "Schlammwoge": 37,
+      "Säurepanzer": 43,
+      "Mülltreffer": 49,
+      "Rülpser": 53,
+      "Memento-Mori": 57
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/089.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/089.png"
+  },
+  "090": {
+    "id": 90,
+    "name": "Muschas",
+    "level": 1,
+    "pokedex_entry": "Eine harte Schale schützt dieses Pokémon. Nur wenn es diese öffnet, wird es verwundbar.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 30,
+      "attack": 65,
+      "defense": 100,
+      "special_attack": 45,
+      "special_defense": 25,
+      "speed": 40
+    },
+    "expected_stats_level_50": {
+      "hp": 105,
+      "attack": 85,
+      "defense": 120,
+      "special_attack": 65,
+      "special_defense": 45,
+      "speed": 60
+    },
+    "expected_stats_level_100": {
+      "hp": 201,
+      "attack": 166,
+      "defense": 236,
+      "special_attack": 126,
+      "special_defense": 86,
+      "speed": 116
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Panzerschutz": 4,
+      "Superschall": 8,
+      "Eisspeer": 13,
+      "Schutzschild": 16,
+      "Silberblick": 20,
+      "Schnapper": 25,
+      "Eissplitter": 28,
+      "Kalkklinge": 32,
+      "Aurorastrahl": 37,
+      "Whirlpool": 40,
+      "Lake": 44,
+      "Eisenabwehr": 49,
+      "Eisstrahl": 52,
+      "Hausbruch": 56,
+      "Hydropumpe": 61
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/090.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/090.png"
+  },
+  "091": {
+    "id": 91,
+    "name": "Austos",
+    "level": 1,
+    "pokedex_entry": "Austos, die im Meer mit starker Strömung leben, werden groß und entwickeln scharfe Stacheln.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser",
+      "Eis"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 95,
+      "defense": 180,
+      "special_attack": 85,
+      "special_defense": 45,
+      "speed": 70
+    },
+    "expected_stats_level_50": {
+      "hp": 125,
+      "attack": 115,
+      "defense": 200,
+      "special_attack": 105,
+      "special_defense": 65,
+      "speed": 90
+    },
+    "expected_stats_level_100": {
+      "hp": 241,
+      "attack": 226,
+      "defense": 396,
+      "special_attack": 206,
+      "special_defense": 126,
+      "speed": 176
+    },
+    "level_up_attacks": {
+      "Hydropumpe": 1,
+      "Hausbruch": 1,
+      "Superschall": 1,
+      "Aurorastrahl": 1,
+      "Panzerschutz": 1,
+      "Schutzschild": 1,
+      "Giftspitzen": 1,
+      "Dornkanone": 13,
+      "Stachler": 28,
+      "Eiszapfhagel": 50
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/091.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/091.png"
+  },
+  "092": {
+    "id": 92,
+    "name": "Nebulak",
+    "level": 1,
+    "pokedex_entry": "Es hat einen gasförmigen Körper. Es kann jeden Gegner mit Giftgas einnebeln und dadurch ersticken.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Geist",
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 30,
+      "attack": 35,
+      "defense": 30,
+      "special_attack": 100,
+      "special_defense": 35,
+      "speed": 80
+    },
+    "expected_stats_level_50": {
+      "hp": 105,
+      "attack": 55,
+      "defense": 50,
+      "special_attack": 120,
+      "special_defense": 55,
+      "speed": 100
+    },
+    "expected_stats_level_100": {
+      "hp": 201,
+      "attack": 106,
+      "defense": 96,
+      "special_attack": 236,
+      "special_defense": 106,
+      "speed": 196
+    },
+    "level_up_attacks": {
+      "Hypnose": 1,
+      "Schlecker": 1,
+      "Groll": 5,
+      "Horrorblick": 8,
+      "Fluch": 12,
+      "Nachtnebel": 15,
+      "Konfustrahl": 19,
+      "Tiefschlag": 22,
+      "Gegenstoß": 26,
+      "Spukball": 29,
+      "Traumfresser": 33,
+      "Finsteraura": 36,
+      "Abgangsbund": 40,
+      "Bürde": 43,
+      "Nachtmahr": 47
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/092.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/092.png"
+  },
+  "093": {
+    "id": 93,
+    "name": "Alpollo",
+    "level": 1,
+    "pokedex_entry": "Falls du im Dunkeln das Gefühl hast, beobachtet zu werden und niemand ist zu sehen, ist es bestimmt Alpollo.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Geist",
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 45,
+      "special_attack": 115,
+      "special_defense": 55,
+      "speed": 95
+    },
+    "expected_stats_level_50": {
+      "hp": 120,
+      "attack": 70,
+      "defense": 65,
+      "special_attack": 135,
+      "special_defense": 75,
+      "speed": 115
+    },
+    "expected_stats_level_100": {
+      "hp": 231,
+      "attack": 136,
+      "defense": 126,
+      "special_attack": 266,
+      "special_defense": 146,
+      "speed": 226
+    },
+    "level_up_attacks": {
+      "Hypnose": 1,
+      "Groll": 1,
+      "Schlecker": 1,
+      "Horrorblick": 8,
+      "Fluch": 12,
+      "Nachtnebel": 15,
+      "Konfustrahl": 19,
+      "Tiefschlag": 22,
+      "Finsterfaust": 25,
+      "Gegenstoß": 28,
+      "Spukball": 33,
+      "Traumfresser": 39,
+      "Finsteraura": 44,
+      "Abgangsbund": 50,
+      "Bürde": 55,
+      "Nachtmahr": 61
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/093.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/093.png"
+  },
+  "094": {
+    "id": 94,
+    "name": "Gengar",
+    "level": 1,
+    "pokedex_entry": "Es versteckt sich im Schatten. Man sagt, wenn sich ein Gengar versteckt, kühlt es sich um 5 °C ab.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Geist",
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 60,
+      "special_attack": 130,
+      "special_defense": 75,
+      "speed": 110
+    },
+    "expected_stats_level_50": {
+      "hp": 135,
+      "attack": 85,
+      "defense": 80,
+      "special_attack": 150,
+      "special_defense": 95,
+      "speed": 130
+    },
+    "expected_stats_level_100": {
+      "hp": 261,
+      "attack": 166,
+      "defense": 156,
+      "special_attack": 296,
+      "special_defense": 186,
+      "speed": 256
+    },
+    "level_up_attacks": {
+      "Hypnose": 1,
+      "Groll": 1,
+      "Schlecker": 1,
+      "Horrorblick": 8,
+      "Fluch": 12,
+      "Nachtnebel": 15,
+      "Konfustrahl": 19,
+      "Tiefschlag": 22,
+      "Finsterfaust": 25,
+      "Gegenstoß": 28,
+      "Spukball": 33,
+      "Traumfresser": 39,
+      "Finsteraura": 44,
+      "Abgangsbund": 50,
+      "Bürde": 55,
+      "Nachtmahr": 61
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/094.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/094.png"
+  },
+  "095": {
+    "id": 95,
+    "name": "Onix",
+    "level": 1,
+    "pokedex_entry": "Dieses Pokémon gräbt auf seiner Suche nach Futter lange Tunnel, in denen sich später Digda einnisten.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gestein",
+      "Boden"
+    ],
+    "base_stats": {
+      "hp": 35,
+      "attack": 45,
+      "defense": 160,
+      "special_attack": 30,
+      "special_defense": 45,
+      "speed": 70
+    },
+    "expected_stats_level_50": {
+      "hp": 110,
+      "attack": 65,
+      "defense": 180,
+      "special_attack": 50,
+      "special_defense": 65,
+      "speed": 90
+    },
+    "expected_stats_level_100": {
+      "hp": 211,
+      "attack": 126,
+      "defense": 356,
+      "special_attack": 96,
+      "special_defense": 126,
+      "speed": 176
+    },
+    "level_up_attacks": {
+      "Klammergriff": 1,
+      "Tackle": 1,
+      "Lehmsuhler": 1,
+      "Härtner": 1,
+      "Fluch": 4,
+      "Steinwurf": 7,
+      "Felsgrab": 10,
+      "Raserei": 13,
+      "Tarnsteine": 16,
+      "Steinpolitur": 19,
+      "Gyroball": 20,
+      "Katapult": 22,
+      "Feuerodem": 25,
+      "Slam": 28,
+      "Kreideschrei": 31,
+      "Steinhagel": 34,
+      "Sandgrab": 37,
+      "Eisenschweif": 40,
+      "Schaufler": 43,
+      "Steinkante": 46,
+      "Risikotackle": 49,
+      "Sandsturm": 52
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/095.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/095.png"
+  },
+  "096": {
+    "id": 96,
+    "name": "Traumato",
+    "level": 1,
+    "pokedex_entry": "Traumato versetzt Gegner in den Schlaf und frisst deren Träume. Von Alpträumen wird ihm aber übel.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Psycho"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 48,
+      "defense": 45,
+      "special_attack": 43,
+      "special_defense": 90,
+      "speed": 42
+    },
+    "expected_stats_level_50": {
+      "hp": 135,
+      "attack": 68,
+      "defense": 65,
+      "special_attack": 63,
+      "special_defense": 110,
+      "speed": 62
+    },
+    "expected_stats_level_100": {
+      "hp": 261,
+      "attack": 132,
+      "defense": 126,
+      "special_attack": 122,
+      "special_defense": 216,
+      "speed": 120
+    },
+    "level_up_attacks": {
+      "Pfund": 1,
+      "Hypnose": 1,
+      "Aussetzer": 5,
+      "Konfusion": 9,
+      "Kopfnuss": 13,
+      "Giftwolke": 17,
+      "Meditation": 21,
+      "Psystrahl": 25,
+      "Psycho-Plus": 33,
+      "Synchrolärm": 37,
+      "Zen-Kopfstoß": 41,
+      "Angeberei": 45,
+      "Psychokinese": 49,
+      "Ränkeschmied": 53,
+      "Psychoschock": 57,
+      "Seher": 61
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/096.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/096.png"
+  },
+  "097": {
+    "id": 97,
+    "name": "Hypno",
+    "level": 1,
+    "pokedex_entry": "Es trägt ein Pendel. Man berichtet von einem Vorfall, bei dem es ein Kind mitnahm, das es zuvor hypnotisiert hatte.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Psycho"
+    ],
+    "base_stats": {
+      "hp": 85,
+      "attack": 73,
+      "defense": 70,
+      "special_attack": 73,
+      "special_defense": 115,
+      "speed": 67
+    },
+    "expected_stats_level_50": {
+      "hp": 160,
+      "attack": 93,
+      "defense": 90,
+      "special_attack": 93,
+      "special_defense": 135,
+      "speed": 87
+    },
+    "expected_stats_level_100": {
+      "hp": 311,
+      "attack": 182,
+      "defense": 176,
+      "special_attack": 182,
+      "special_defense": 266,
+      "speed": 170
+    },
+    "level_up_attacks": {
+      "Pfund": 1,
+      "Wechseldich": 1,
+      "Nachtmahr": 1,
+      "Hypnose": 1,
+      "Konfusion": 1,
+      "Aussetzer": 1,
+      "Ränkeschmied": 1,
+      "Seher": 1,
+      "Kopfnuss": 13,
+      "Giftwolke": 17,
+      "Meditation": 21,
+      "Psystrahl": 25,
+      "Psycho-Plus": 33,
+      "Synchrolärm": 37,
+      "Zen-Kopfstoß": 41,
+      "Angeberei": 45,
+      "Psychokinese": 49,
+      "Psychoschock": 57
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/097.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/097.png"
+  },
+  "098": {
+    "id": 98,
+    "name": "Krabby",
+    "level": 1,
+    "pokedex_entry": "Es kommt vor allem nahe des Meeres vor. Die großen Scheren wachsen nach, wenn sie vom Körper abgetrennt wurden.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 30,
+      "attack": 105,
+      "defense": 90,
+      "special_attack": 25,
+      "special_defense": 25,
+      "speed": 50
+    },
+    "expected_stats_level_50": {
+      "hp": 105,
+      "attack": 125,
+      "defense": 110,
+      "special_attack": 45,
+      "special_defense": 45,
+      "speed": 70
+    },
+    "expected_stats_level_100": {
+      "hp": 201,
+      "attack": 246,
+      "defense": 216,
+      "special_attack": 86,
+      "special_defense": 86,
+      "speed": 136
+    },
+    "level_up_attacks": {
+      "Blubber": 1,
+      "Lehmsuhler": 1,
+      "Klammer": 5,
+      "Silberblick": 9,
+      "Härtner": 11,
+      "Blubbstrahl": 15,
+      "Lehmschuss": 19,
+      "Metallklaue": 21,
+      "Stampfer": 25,
+      "Schutzschild": 29,
+      "Guillotine": 31,
+      "Slam": 25,
+      "Lake": 39,
+      "Krabbhammer": 41,
+      "Dreschflegel": 45
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/098.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/098.png"
+  },
+  "099": {
+    "id": 99,
+    "name": "Kingler",
+    "level": 1,
+    "pokedex_entry": "Die Kraft seiner großen und harten Schere entspricht 10 000 PS. Durch die Größe ist sie aber auch äußerst unhandlich und sperrig.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 130,
+      "defense": 115,
+      "special_attack": 50,
+      "special_defense": 50,
+      "speed": 75
+    },
+    "expected_stats_level_50": {
+      "hp": 130,
+      "attack": 150,
+      "defense": 135,
+      "special_attack": 70,
+      "special_defense": 70,
+      "speed": 95
+    },
+    "expected_stats_level_100": {
+      "hp": 251,
+      "attack": 296,
+      "defense": 266,
+      "special_attack": 136,
+      "special_defense": 136,
+      "speed": 186
+    },
+    "level_up_attacks": {
+      "Klammer": 1,
+      "Silberblick": 1,
+      "Rundumschutz": 1,
+      "Lehmsuhler": 1,
+      "Blubber": 1,
+      "Härtner": 11,
+      "Blubbstrahl": 15,
+      "Lehmschuss": 19,
+      "Metallklaue": 21,
+      "Stampfer": 25,
+      "Schutzschild": 32,
+      "Guillotine": 37,
+      "Slam": 44,
+      "Lake": 51,
+      "Krabbhammer": 56,
+      "Dreschflegel": 63
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/099.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/099.png"
+  },
+  "100": {
+    "id": 100,
+    "name": "Voltobal",
+    "level": 1,
+    "pokedex_entry": "Es wurde entdeckt, als man Pokébälle einführte. Es scheint, als gäbe es da einen Zusammenhang.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Elektro"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 50,
+      "special_attack": 55,
+      "special_defense": 55,
+      "speed": 100
+    },
+    "expected_stats_level_50": {
+      "hp": 115,
+      "attack": 50,
+      "defense": 70,
+      "special_attack": 75,
+      "special_defense": 75,
+      "speed": 120
+    },
+    "expected_stats_level_100": {
+      "hp": 221,
+      "attack": 96,
+      "defense": 136,
+      "special_attack": 146,
+      "special_defense": 146,
+      "speed": 236
+    },
+    "level_up_attacks": {
+      "Ladevorgang": 1,
+      "Tackle": 5,
+      "Ultraschall": 8,
+      "Mystowellen": 10,
+      "Funkensprung": 12,
+      "Walzer": 15,
+      "Kreideschrei": 19,
+      "Ladestrahl": 22,
+      "Lichtschild": 26,
+      "Elektroball": 29,
+      "Finale": 33,
+      "Sternschauer": 36,
+      "Magnetflug": 40,
+      "Gyroball": 43,
+      "Explosion": 47,
+      "Spiegelcape": 50
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/100.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/100.png"
+  },
+  "101": {
+    "id": 101,
+    "name": "Lektrobal",
+    "level": 1,
+    "pokedex_entry": "Es explodiert schon bei kleinsten Reizen. Sein Spitzname \"Die Bombenkugel\" spiegelt die Furcht der Menschen wieder.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Elektro"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 70,
+      "special_attack": 80,
+      "special_defense": 80,
+      "speed": 150
+    },
+    "expected_stats_level_50": {
+      "hp": 135,
+      "attack": 70,
+      "defense": 90,
+      "special_attack": 100,
+      "special_defense": 100,
+      "speed": 170
+    },
+    "expected_stats_level_100": {
+      "hp": 261,
+      "attack": 136,
+      "defense": 176,
+      "special_attack": 196,
+      "special_defense": 196,
+      "speed": 336
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Ultraschall": 1,
+      "Funkensprung": 1,
+      "Ladevorgang": 1,
+      "Magnetregler": 1,
+      "Mystowellen": 8,
+      "Walzer": 15,
+      "Kreideschrei": 19,
+      "Ladestrahl": 22,
+      "Lichtschild": 26,
+      "Elektroball": 29,
+      "Finale": 35,
+      "Sternschauer": 40,
+      "Magnetflug": 46,
+      "Gyroball": 51,
+      "Explosion": 57,
+      "Spiegelcape": 62
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/101.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/101.png"
+  },
+  "102": {
+    "id": 102,
+    "name": "Owei",
+    "level": 1,
+    "pokedex_entry": "Die sechs Eier kommunizieren telepathisch. Werden sie getrennt, finden sie sich schnell wieder.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Pflanze",
+      "Psycho"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 40,
+      "defense": 80,
+      "special_attack": 60,
+      "special_defense": 45,
+      "speed": 40
+    },
+    "expected_stats_level_50": {
+      "hp": 135,
+      "attack": 60,
+      "defense": 100,
+      "special_attack": 80,
+      "special_defense": 65,
+      "speed": 60
+    },
+    "expected_stats_level_100": {
+      "hp": 261,
+      "attack": 116,
+      "defense": 196,
+      "special_attack": 156,
+      "special_defense": 126,
+      "speed": 116
+    },
+    "level_up_attacks": {
+      "Hypnose": 1,
+      "Aufruhr": 1,
+      "Stakkato": 1,
+      "Reflektor": 7,
+      "Egelsamen": 11,
+      "Kugelsaat": 17,
+      "Stachelspore": 19,
+      "Giftpuder": 21,
+      "Schlafpuder": 23,
+      "Konfusion": 27,
+      "Sorgensamen": 33,
+      "Beerenkräfte": 37,
+      "Solarstrahl": 43,
+      "Sondersensor": 47,
+      "Offerte": 50
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/102.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/102.png"
+  },
+  "103": {
+    "id": 103,
+    "name": "Kokowei",
+    "level": 1,
+    "pokedex_entry": "Seine drei Köpfe denken unabhängig voneinander. Dennoch sind sie nett zueinander und streiten nie.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Pflanze",
+      "Psycho"
+    ],
+    "base_stats": {
+      "hp": 95,
+      "attack": 95,
+      "defense": 85,
+      "special_attack": 125,
+      "special_defense": 75,
+      "speed": 55
+    },
+    "expected_stats_level_50": {
+      "hp": 170,
+      "attack": 115,
+      "defense": 105,
+      "special_attack": 145,
+      "special_defense": 95,
+      "speed": 75
+    },
+    "expected_stats_level_100": {
+      "hp": 331,
+      "attack": 226,
+      "defense": 206,
+      "special_attack": 286,
+      "special_defense": 186,
+      "speed": 146
+    },
+    "level_up_attacks": {
+      "Stampfer": 1,
+      "Konfusion": 1,
+      "Hypnose": 1,
+      "Stakkato": 1,
+      "Samenbomben": 1,
+      "Psychoschock": 17,
+      "Eierbombe": 27,
+      "Holzhammer": 37,
+      "Blättersturm": 47
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/103.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/103.png"
+  },
+  "104": {
+    "id": 104,
+    "name": "Tragosso",
+    "level": 1,
+    "pokedex_entry": "Es trägt den Schädel seiner verstorbenen Mutter auf seinem Kopf. Fühlt es sich einsam, soll es laut weinen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Boden"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 95,
+      "special_attack": 40,
+      "special_defense": 50,
+      "speed": 35
+    },
+    "expected_stats_level_50": {
+      "hp": 125,
+      "attack": 70,
+      "defense": 115,
+      "special_attack": 60,
+      "special_defense": 70,
+      "speed": 55
+    },
+    "expected_stats_level_100": {
+      "hp": 241,
+      "attack": 136,
+      "defense": 226,
+      "special_attack": 116,
+      "special_defense": 136,
+      "speed": 106
+    },
+    "level_up_attacks": {
+      "Heuler": 1,
+      "Rutenschlag": 3,
+      "Knochenkeule": 7,
+      "Kopfnuss": 11,
+      "Silberblick": 13,
+      "Energiefokus": 17,
+      "Knochmerang": 21,
+      "Raserei": 23,
+      "Trugschlag": 27,
+      "Fuchtler": 31,
+      "Schleuder": 33,
+      "Knochenhatz": 37,
+      "Notsituation": 41,
+      "Risikotackle": 43,
+      "Heimzahlung": 47
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/104.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/104.png"
+  },
+  "105": {
+    "id": 105,
+    "name": "Knogga",
+    "level": 1,
+    "pokedex_entry": "Es ist klein und war ursprünglich sehr schwach. Erst als es anfing Knochen einzusetzen, wurde es wild.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Boden"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 80,
+      "defense": 110,
+      "special_attack": 50,
+      "special_defense": 80,
+      "speed": 45
+    },
+    "expected_stats_level_50": {
+      "hp": 135,
+      "attack": 100,
+      "defense": 130,
+      "special_attack": 70,
+      "special_defense": 100,
+      "speed": 65
+    },
+    "expected_stats_level_100": {
+      "hp": 261,
+      "attack": 196,
+      "defense": 256,
+      "special_attack": 136,
+      "special_defense": 196,
+      "speed": 126
+    },
+    "level_up_attacks": {
+      "Kopfnuss": 1,
+      "Knochenkeule": 1,
+      "Heuler": 1,
+      "Rutenschlag": 1,
+      "Silberblick": 13,
+      "Energiefokus": 17,
+      "Knochmerang": 21,
+      "Raserei": 23,
+      "Trugschlag": 27,
+      "Fuchtler": 33,
+      "Schleuder": 37,
+      "Knochenhatz": 43,
+      "Notsituation": 49,
+      "Risikotackle": 53,
+      "Heimzahlung": 59
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/105.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/105.png"
+  },
+  "106": {
+    "id": 106,
+    "name": "Kicklee",
+    "level": 1,
+    "pokedex_entry": "Die Beine ziehen und strecken sich unabhängig voneinander. Mit seinen dehnbaren Beinen kann es einen entfernten Gegner treffen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Kampf"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 120,
+      "defense": 53,
+      "special_attack": 35,
+      "special_defense": 110,
+      "speed": 87
+    },
+    "expected_stats_level_50": {
+      "hp": 125,
+      "attack": 140,
+      "defense": 73,
+      "special_attack": 55,
+      "special_defense": 130,
+      "speed": 107
+    },
+    "expected_stats_level_100": {
+      "hp": 241,
+      "attack": 276,
+      "defense": 142,
+      "special_attack": 106,
+      "special_defense": 256,
+      "speed": 210
+    },
+    "level_up_attacks": {
+      "Doppelkick": 1,
+      "Gegenschlag": 1,
+      "Megakick": 1,
+      "Nahkampf": 1,
+      "Vergeltung": 1,
+      "Meditation": 5,
+      "Fegekick": 9,
+      "Sprungkick": 13,
+      "Durchbruch": 17,
+      "Energiefokus": 21,
+      "Offenlegung": 25,
+      "Turmkick": 29,
+      "Willensleser": 33,
+      "Gesichte": 37,
+      "Rundumschutz": 41,
+      "Feuerfeger": 45,
+      "Ausdauer": 49
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/106.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/106.png"
+  },
+  "107": {
+    "id": 107,
+    "name": "Nockchan",
+    "level": 1,
+    "pokedex_entry": "Die Schläge, die es austeilt, können Beton pulverisieren. Es muss sich im Kampf alle 3 Minuten ausruhen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Kampf"
+    ],
+    "base_stats": {
+      "hp": 50,
+      "attack": 105,
+      "defense": 79,
+      "special_attack": 35,
+      "special_defense": 110,
+      "speed": 76
+    },
+    "expected_stats_level_50": {
+      "hp": 125,
+      "attack": 125,
+      "defense": 99,
+      "special_attack": 55,
+      "special_defense": 130,
+      "speed": 96
+    },
+    "expected_stats_level_100": {
+      "hp": 241,
+      "attack": 246,
+      "defense": 194,
+      "special_attack": 106,
+      "special_defense": 256,
+      "speed": 188
+    },
+    "level_up_attacks": {
+      "Kometenhieb": 1,
+      "Vergeltung": 1,
+      "Nahkampf": 1,
+      "Power-Punch": 1,
+      "Agilität": 6,
+      "Verfolgung": 11,
+      "Patronenhieb": 16,
+      "Tempohieb": 16,
+      "Offenlegung": 21,
+      "Vakuumwelle": 26,
+      "Rapidschutz": 31,
+      "Donnerschlag": 36,
+      "Eishieb": 36,
+      "Feuerschlag": 36,
+      "Himmelhieb": 41,
+      "Megahieb": 46,
+      "Scanner": 50,
+      "Konter": 61
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/107.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/107.png"
+  },
+  "108": {
+    "id": 108,
+    "name": "Schlurp",
+    "level": 1,
+    "pokedex_entry": "Seine Zunge ist mit klebrigem Speichel bedeckt, der überall haftet. Dies ist sehr nützlich.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 90,
+      "attack": 55,
+      "defense": 75,
+      "special_attack": 60,
+      "special_defense": 75,
+      "speed": 30
+    },
+    "expected_stats_level_50": {
+      "hp": 165,
+      "attack": 75,
+      "defense": 95,
+      "special_attack": 80,
+      "special_defense": 95,
+      "speed": 50
+    },
+    "expected_stats_level_100": {
+      "hp": 321,
+      "attack": 146,
+      "defense": 186,
+      "special_attack": 156,
+      "special_defense": 186,
+      "speed": 96
+    },
+    "level_up_attacks": {
+      "Schlecker": 1,
+      "Superschall": 5,
+      "Einigler": 9,
+      "Abschlag": 13,
+      "Wickel": 17,
+      "Stampfer": 21,
+      "Aussetzer": 25,
+      "Slam": 29,
+      "Walzer": 33,
+      "Zermürben": 37,
+      "Egotrip": 41,
+      "Heilung": 45,
+      "Kreideschrei": 49,
+      "Blattgeißel": 53,
+      "Auswringen": 57
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/108.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/108.png"
+  },
+  "109": {
+    "id": 109,
+    "name": "Smogon",
+    "level": 1,
+    "pokedex_entry": "Sein dünner, ballonartiger Körper ist mit schrecklichem Giftgas gefüllt. Es verbreitet einen heftigen Gestank, wenn es in der Nähe ist.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 65,
+      "defense": 95,
+      "special_attack": 60,
+      "special_defense": 45,
+      "speed": 35
+    },
+    "expected_stats_level_50": {
+      "hp": 115,
+      "attack": 85,
+      "defense": 115,
+      "special_attack": 80,
+      "special_defense": 65,
+      "speed": 55
+    },
+    "expected_stats_level_100": {
+      "hp": 221,
+      "attack": 166,
+      "defense": 226,
+      "special_attack": 156,
+      "special_defense": 126,
+      "speed": 106
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Giftwolke": 1,
+      "Smog": 46,
+      "Rauchwolke": 7,
+      "Gewissheit": 12,
+      "Klärsmog": 15,
+      "Schlammbad": 18,
+      "Finale": 23,
+      "Dunkelnebel": 26,
+      "Gyroball": 29,
+      "Matschbombe": 34,
+      "Explosion": 37,
+      "Abgangsbund": 40,
+      "Memento-Mori": 45
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/109.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/109.png"
+  },
+  "110": {
+    "id": 110,
+    "name": "Smogmog",
+    "level": 1,
+    "pokedex_entry": "Pumpt sich eines der zwei Smogon auf, lässt eines Luft ab. So findet ein Giftgasaustausch statt.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gift"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 120,
+      "special_attack": 85,
+      "special_defense": 70,
+      "speed": 60
+    },
+    "expected_stats_level_50": {
+      "hp": 140,
+      "attack": 110,
+      "defense": 140,
+      "special_attack": 105,
+      "special_defense": 90,
+      "speed": 80
+    },
+    "expected_stats_level_100": {
+      "hp": 271,
+      "attack": 216,
+      "defense": 276,
+      "special_attack": 206,
+      "special_defense": 176,
+      "speed": 156
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Rauchwolke": 1,
+      "Smog": 1,
+      "Giftwolke": 1,
+      "Gewissheit": 12,
+      "Klärsmog": 15,
+      "Schlammbad": 18,
+      "Finale": 23,
+      "Dunkelnebel": 26,
+      "Doppelschlag": 29,
+      "Matschbombe": 34,
+      "Explosion": 40,
+      "Abgangsbund": 46,
+      "Rülpser": 50,
+      "Memento-Mori": 54
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/110.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/110.png"
+  },
+  "111": {
+    "id": 111,
+    "name": "Rihorn",
+    "level": 1,
+    "pokedex_entry": "Stark, aber nicht allzu klug, kann dieses Pokémon sogar Hochhäuser mit seinem Tackle-Angriff zum Einsturz bringen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Boden",
+      "Gestein"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 85,
+      "defense": 95,
+      "special_attack": 30,
+      "special_defense": 30,
+      "speed": 25
+    },
+    "expected_stats_level_50": {
+      "hp": 155,
+      "attack": 105,
+      "defense": 115,
+      "special_attack": 50,
+      "special_defense": 50,
+      "speed": 45
+    },
+    "expected_stats_level_100": {
+      "hp": 301,
+      "attack": 206,
+      "defense": 226,
+      "special_attack": 96,
+      "special_defense": 96,
+      "speed": 86
+    },
+    "level_up_attacks": {
+      "Rutenschlag": 1,
+      "Hornattacke": 1,
+      "Stampfer": 8,
+      "Furienschlag": 12,
+      "Grimasse": 19,
+      "Felswurf": 23,
+      "Dampfwalze": 30,
+      "Zermürben": 34,
+      "Bodycheck": 41,
+      "Schlagbohrer": 45,
+      "Steinkante": 52,
+      "Erdbeben": 56,
+      "Hornbohrer": 63,
+      "Vielender": 67
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/111.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/111.png"
+  },
+  "112": {
+    "id": 112,
+    "name": "Rizeros",
+    "level": 1,
+    "pokedex_entry": "Durch seine panzerähnliche Körperhülle kann es in bis zu 2000 Grad heißer Lava leben.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Boden",
+      "Gestein"
+    ],
+    "base_stats": {
+      "hp": 105,
+      "attack": 130,
+      "defense": 120,
+      "special_attack": 45,
+      "special_defense": 45,
+      "speed": 40
+    },
+    "expected_stats_level_50": {
+      "hp": 180,
+      "attack": 150,
+      "defense": 140,
+      "special_attack": 65,
+      "special_defense": 65,
+      "speed": 60
+    },
+    "expected_stats_level_100": {
+      "hp": 351,
+      "attack": 296,
+      "defense": 276,
+      "special_attack": 126,
+      "special_defense": 126,
+      "speed": 116
+    },
+    "level_up_attacks": {
+      "Stampfer": 1,
+      "Rutenschlag": 1,
+      "Furienschlag": 1,
+      "Hornattacke": 1,
+      "Vielender": 1,
+      "Hornbohrer": 1,
+      "Grimasse": 19,
+      "Felswurf": 23,
+      "Dampfwalze": 30,
+      "Zermürben": 34,
+      "Bodycheck": 41,
+      "Hammerarm": 42,
+      "Schlagbohrer": 47,
+      "Steinkante": 56,
+      "Erdbeben": 62
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/112.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/112.png"
+  },
+  "113": {
+    "id": 113,
+    "name": "Chaneira",
+    "level": 1,
+    "pokedex_entry": "Man sagt, es bringe Glück. Es ist sehr mitfühlend und teilt seine Eier mit Verletzten.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 250,
+      "attack": 5,
+      "defense": 5,
+      "special_attack": 35,
+      "special_defense": 105,
+      "speed": 50
+    },
+    "expected_stats_level_50": {
+      "hp": 325,
+      "attack": 25,
+      "defense": 25,
+      "special_attack": 55,
+      "special_defense": 125,
+      "speed": 70
+    },
+    "expected_stats_level_100": {
+      "hp": 641,
+      "attack": 46,
+      "defense": 46,
+      "special_attack": 106,
+      "special_defense": 246,
+      "speed": 136
+    },
+    "level_up_attacks": {
+      "Pfund": 1,
+      "Heuler": 1,
+      "Einigler": 1,
+      "Risikotackle": 1,
+      "Rutenschlag": 5,
+      "Heilung": 9,
+      "Duplexhieb": 12,
+      "Weichei": 16,
+      "Offerte": 20,
+      "Komprimator": 23,
+      "Bodycheck": 27,
+      "Gesang": 31,
+      "Schleuder": 34,
+      "Heilwoge": 38,
+      "Eierbombe": 42,
+      "Lichtschild": 46,
+      "Heilopfer": 50
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/113.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/113.png"
+  },
+  "114": {
+    "id": 114,
+    "name": "Tangela",
+    "level": 1,
+    "pokedex_entry": "Aufgrund der Ranken, die seinen Körper bedecken, kennt keiner seine wahre Form. Die blauen Ranken wachsen immer weiter.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Pflanze"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 55,
+      "defense": 115,
+      "special_attack": 100,
+      "special_defense": 40,
+      "speed": 60
+    },
+    "expected_stats_level_50": {
+      "hp": 140,
+      "attack": 75,
+      "defense": 135,
+      "special_attack": 120,
+      "special_defense": 60,
+      "speed": 80
+    },
+    "expected_stats_level_100": {
+      "hp": 271,
+      "attack": 146,
+      "defense": 266,
+      "special_attack": 236,
+      "special_defense": 116,
+      "speed": 156
+    },
+    "level_up_attacks": {
+      "Verwurzler": 1,
+      "Umklammerung": 1,
+      "Schlafpuder": 4,
+      "Rankenhieb": 7,
+      "Absorber": 10,
+      "Giftpuder": 14,
+      "Klammergriff": 17,
+      "Wachstum": 20,
+      "Megasauger": 23,
+      "Abschlag": 27,
+      "Stachelspore": 30,
+      "Beerenkräfte": 33,
+      "Gigasauger": 36,
+      "Antik-Kraft": 38,
+      "Slam": 41,
+      "Spaßkanone": 44,
+      "Auswringen": 46,
+      "Grasfeld": 48,
+      "Blattgeißel": 50
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/114.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/114.png"
+  },
+  "115": {
+    "id": 115,
+    "name": "Kangama",
+    "level": 1,
+    "pokedex_entry": "Sein Nachwuchs wächst in seinem Beutel heran. Nur wenn es sicher ist, darf das Junge aus dem Beutel.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 105,
+      "attack": 95,
+      "defense": 80,
+      "special_attack": 40,
+      "special_defense": 80,
+      "speed": 90
+    },
+    "expected_stats_level_50": {
+      "hp": 180,
+      "attack": 115,
+      "defense": 100,
+      "special_attack": 60,
+      "special_defense": 100,
+      "speed": 110
+    },
+    "expected_stats_level_100": {
+      "hp": 351,
+      "attack": 226,
+      "defense": 196,
+      "special_attack": 116,
+      "special_defense": 196,
+      "speed": 216
+    },
+    "level_up_attacks": {
+      "Kometenhieb": 1,
+      "Silberblick": 1,
+      "Mogelhieb": 7,
+      "Rutenschlag": 10,
+      "Biss": 13,
+      "Doppelschlag": 19,
+      "Raserei": 22,
+      "Megahieb": 25,
+      "Zermürben": 31,
+      "Irrschlag": 34,
+      "Knirscher": 37,
+      "Ausdauer": 43,
+      "Wutanfall": 46,
+      "Tiefschlag": 49,
+      "Gegenschlag": 55
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/115.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/115.png"
+  },
+  "116": {
+    "id": 116,
+    "name": "Seeper",
+    "level": 1,
+    "pokedex_entry": "Dieses Pokémon schießt mit Tinte auf über der Wasseroberfläche fliegende Insekten.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 30,
+      "attack": 40,
+      "defense": 70,
+      "special_attack": 70,
+      "special_defense": 25,
+      "speed": 60
+    },
+    "expected_stats_level_50": {
+      "hp": 105,
+      "attack": 60,
+      "defense": 90,
+      "special_attack": 90,
+      "special_defense": 45,
+      "speed": 80
+    },
+    "expected_stats_level_100": {
+      "hp": 201,
+      "attack": 116,
+      "defense": 176,
+      "special_attack": 176,
+      "special_defense": 86,
+      "speed": 156
+    },
+    "level_up_attacks": {
+      "Aquaknarre": 1,
+      "Rauchwolke": 4,
+      "Silberblick": 8,
+      "Blubber": 11,
+      "Energiefokus": 14,
+      "Blubbstrahl": 18,
+      "Agilität": 23,
+      "Windhose": 26,
+      "Lake": 30,
+      "Hydropumpe": 35,
+      "Drachentanz": 38,
+      "Drachenpuls": 42
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/116.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/116.png"
+  },
+  "117": {
+    "id": 117,
+    "name": "Seemon",
+    "level": 1,
+    "pokedex_entry": "Sein Körper ist mit scharfen Stacheln gespickt. Wenn man sorglos ist und es berührt, kann man durch die Stacheln bewusstlos werden.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 65,
+      "defense": 95,
+      "special_attack": 95,
+      "special_defense": 45,
+      "speed": 85
+    },
+    "expected_stats_level_50": {
+      "hp": 130,
+      "attack": 85,
+      "defense": 115,
+      "special_attack": 115,
+      "special_defense": 65,
+      "speed": 105
+    },
+    "expected_stats_level_100": {
+      "hp": 251,
+      "attack": 166,
+      "defense": 226,
+      "special_attack": 226,
+      "special_defense": 126,
+      "speed": 206
+    },
+    "level_up_attacks": {
+      "Silberblick": 1,
+      "Blubber": 1,
+      "Rauchwolke": 1,
+      "Aquaknarre": 1,
+      "Energiefokus": 14,
+      "Blubbstrahl": 18,
+      "Agilität": 23,
+      "Windhose": 26,
+      "Lake": 30,
+      "Hydropumpe": 40,
+      "Drachentanz": 48,
+      "Drachenpuls": 57
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/117.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/117.png"
+  },
+  "118": {
+    "id": 118,
+    "name": "Goldini",
+    "level": 1,
+    "pokedex_entry": "Es schwimmt mit fünf Knoten. Wird es angegriffen, wehrt es sich mit seinem scharfen Horn.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 45,
+      "attack": 67,
+      "defense": 60,
+      "special_attack": 35,
+      "special_defense": 50,
+      "speed": 63
+    },
+    "expected_stats_level_50": {
+      "hp": 120,
+      "attack": 87,
+      "defense": 80,
+      "special_attack": 55,
+      "special_defense": 70,
+      "speed": 83
+    },
+    "expected_stats_level_100": {
+      "hp": 231,
+      "attack": 170,
+      "defense": 156,
+      "special_attack": 106,
+      "special_defense": 136,
+      "speed": 162
+    },
+    "level_up_attacks": {
+      "Nassmacher": 1,
+      "Rutenschlag": 1,
+      "Schnabel": 1,
+      "Superschall": 7,
+      "Hornattacke": 11,
+      "Aquawelle": 17,
+      "Dreschflegel": 21,
+      "Wasserring": 27,
+      "Furienschlag": 31,
+      "Kaskade": 37,
+      "Hornbohrer": 41,
+      "Agilität": 47,
+      "Überflutung": 51,
+      "Vielender": 57
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/118.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/118.png"
+  },
+  "119": {
+    "id": 119,
+    "name": "Golking",
+    "level": 1,
+    "pokedex_entry": "Im Herbst, zur Paarungszeit, sieht man diese Pokémon kraftvoll Bäche und Flüsse hinaufschwimmen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 92,
+      "defense": 65,
+      "special_attack": 65,
+      "special_defense": 80,
+      "speed": 68
+    },
+    "expected_stats_level_50": {
+      "hp": 155,
+      "attack": 112,
+      "defense": 85,
+      "special_attack": 85,
+      "special_defense": 100,
+      "speed": 88
+    },
+    "expected_stats_level_100": {
+      "hp": 301,
+      "attack": 220,
+      "defense": 166,
+      "special_attack": 166,
+      "special_defense": 196,
+      "speed": 172
+    },
+    "level_up_attacks": {
+      "Gifthieb": 1,
+      "Nassmacher": 1,
+      "Rutenschlag": 1,
+      "Superschall": 1,
+      "Schnabel": 1,
+      "Hornattacke": 11,
+      "Aquawelle": 17,
+      "Dreschflegel": 21,
+      "Wasserring": 27,
+      "Furienschlag": 31,
+      "Kaskade": 40,
+      "Hornbohrer": 47,
+      "Agilität": 56,
+      "Überflutung": 63,
+      "Vielender": 72
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/119.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/119.png"
+  },
+  "120": {
+    "id": 120,
+    "name": "Sterndu",
+    "level": 1,
+    "pokedex_entry": "Auch wenn sein Körper nicht mehr intakt ist, kann es sich regenerieren, wenn der Kern leuchtet.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 30,
+      "attack": 45,
+      "defense": 55,
+      "special_attack": 70,
+      "special_defense": 55,
+      "speed": 85
+    },
+    "expected_stats_level_50": {
+      "hp": 105,
+      "attack": 65,
+      "defense": 75,
+      "special_attack": 90,
+      "special_defense": 75,
+      "speed": 105
+    },
+    "expected_stats_level_100": {
+      "hp": 201,
+      "attack": 126,
+      "defense": 146,
+      "special_attack": 176,
+      "special_defense": 146,
+      "speed": 206
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Härtner": 1,
+      "Aquaknarre": 6,
+      "Turbodreher": 10,
+      "Genesung": 12,
+      "Tarnung": 15,
+      "Sternschauer": 18,
+      "Blubbstrahl": 22,
+      "Komprimator": 25,
+      "Gyroball": 30,
+      "Lichtschild": 33,
+      "Lake": 36,
+      "Typenspiegel": 40,
+      "Juwelenkraft": 43,
+      "Kosmik-Kraft": 48,
+      "Hydropumpe": 52
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/120.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/120.png"
+  },
+  "121": {
+    "id": 121,
+    "name": "Starmie",
+    "level": 1,
+    "pokedex_entry": "Der Kern dieses Pokémon leuchtet in den Farben des Regenbogens. Sein KErn gilt als Edelstein.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser",
+      "Psycho"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 85,
+      "special_attack": 100,
+      "special_defense": 85,
+      "speed": 115
+    },
+    "expected_stats_level_50": {
+      "hp": 135,
+      "attack": 95,
+      "defense": 105,
+      "special_attack": 120,
+      "special_defense": 105,
+      "speed": 135
+    },
+    "expected_stats_level_100": {
+      "hp": 261,
+      "attack": 186,
+      "defense": 206,
+      "special_attack": 236,
+      "special_defense": 206,
+      "speed": 266
+    },
+    "level_up_attacks": {
+      "Aquaknarre": 1,
+      "Genesung": 1,
+      "Hydropumpe": 1,
+      "Sternschauer": 1,
+      "Turbodreher": 1,
+      "Konfustrahl": 22
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/121.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/121.png"
+  },
+  "122": {
+    "id": 122,
+    "name": "Pantimos",
+    "level": 1,
+    "pokedex_entry": "Seine Fingerspitzen sondern etwas ab, das die Luft zu einer schützenden Wand werden lässt.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Psycho",
+      "Fee"
+    ],
+    "base_stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 65,
+      "special_attack": 100,
+      "special_defense": 120,
+      "speed": 90
+    },
+    "expected_stats_level_50": {
+      "hp": 115,
+      "attack": 65,
+      "defense": 85,
+      "special_attack": 120,
+      "special_defense": 140,
+      "speed": 110
+    },
+    "expected_stats_level_100": {
+      "hp": 221,
+      "attack": 126,
+      "defense": 166,
+      "special_attack": 236,
+      "special_defense": 276,
+      "speed": 216
+    },
+    "level_up_attacks": {
+      "Rapidschutz": 1,
+      "Rundumschutz": 1,
+      "Zauberblatt": 1,
+      "Schutztausch": 1,
+      "Krafttausch": 1,
+      "Konfusion": 1,
+      "Barriere": 1,
+      "Nebelfeld": 1,
+      "Imitator": 4,
+      "Meditation": 8,
+      "Duplexhieb": 11,
+      "Mimikry": 15,
+      "Psywelle": 15,
+      "Zugabe": 18,
+      "Reflektor": 22,
+      "Lichtschild": 22,
+      "Psystrahl": 25,
+      "Delegator": 29,
+      "Aufbereitung": 32,
+      "Trickbetrug": 36,
+      "Psychokinese": 39,
+      "Rollentausch": 43,
+      "Staffette": 46,
+      "Bodyguard": 50
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/122.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/122.png"
+  },
+  "123": {
+    "id": 123,
+    "name": "Sichlor",
+    "level": 1,
+    "pokedex_entry": "Es zerreißt und zerkleinert seine Beute mit seinen unglaublich scharfen Sicheln. Selten breitet es seine Flügel aus, um zu fliegen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Kaefer",
+      "Flug"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 80,
+      "special_attack": 55,
+      "special_defense": 80,
+      "speed": 105
+    },
+    "expected_stats_level_50": {
+      "hp": 145,
+      "attack": 130,
+      "defense": 100,
+      "special_attack": 75,
+      "special_defense": 100,
+      "speed": 125
+    },
+    "expected_stats_level_100": {
+      "hp": 281,
+      "attack": 256,
+      "defense": 196,
+      "special_attack": 146,
+      "special_defense": 196,
+      "speed": 246
+    },
+    "level_up_attacks": {
+      "Vakuumwelle": 1,
+      "Silberblick": 1,
+      "Ruckzuckhieb": 1,
+      "Energiefokus": 5,
+      "Verfolgung": 9,
+      "Trugschlag": 13,
+      "Agilität": 17,
+      "Flügelschlag": 21,
+      "Zornklinge": 25,
+      "Schlitzer": 29,
+      "Klingensturm": 33,
+      "Doppelteam": 37,
+      "Kreuzschere": 41,
+      "Nachthieb": 45,
+      "Doppelschlag": 49,
+      "Luftschnitt": 50,
+      "Schwerttanz": 57,
+      "Offenlegung": 61
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/123.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/123.png"
+  },
+  "124": {
+    "id": 124,
+    "name": "Rossana",
+    "level": 1,
+    "pokedex_entry": "Der beschwingte Gang dieses Pokémon bezaubert Zuschauer und lässt sie im Takt dazu tanzen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Eis",
+      "Psycho"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 50,
+      "defense": 35,
+      "special_attack": 115,
+      "special_defense": 95,
+      "speed": 95
+    },
+    "expected_stats_level_50": {
+      "hp": 140,
+      "attack": 70,
+      "defense": 55,
+      "special_attack": 135,
+      "special_defense": 115,
+      "speed": 115
+    },
+    "expected_stats_level_100": {
+      "hp": 271,
+      "attack": 136,
+      "defense": 106,
+      "special_attack": 266,
+      "special_defense": 226,
+      "speed": 226
+    },
+    "level_up_attacks": {
+      "Abgesang": 1,
+      "Diebeskuss": 1,
+      "Pfund": 1,
+      "Pulverschnee": 1,
+      "Todeskuss": 1,
+      "Schlecker": 1,
+      "Duplexhieb": 15,
+      "Eishieb": 18,
+      "Herzstempel": 21,
+      "Horrorblick": 25,
+      "Trugträne": 28,
+      "Weckruf": 33,
+      "Lawine": 39,
+      "Bodyslam": 44,
+      "Auswringen": 49,
+      "Blizzard": 60
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/124.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/124.png"
+  },
+  "125": {
+    "id": 125,
+    "name": "Elektek",
+    "level": 1,
+    "pokedex_entry": "Elektrizität bedeckt seinen Körper. Im Dunkeln erstrahlt es in einem bläulichen Ton.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Elektro"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 83,
+      "defense": 57,
+      "special_attack": 95,
+      "special_defense": 85,
+      "speed": 105
+    },
+    "expected_stats_level_50": {
+      "hp": 140,
+      "attack": 103,
+      "defense": 77,
+      "special_attack": 115,
+      "special_defense": 105,
+      "speed": 125
+    },
+    "expected_stats_level_100": {
+      "hp": 271,
+      "attack": 202,
+      "defense": 150,
+      "special_attack": 226,
+      "special_defense": 206,
+      "speed": 246
+    },
+    "level_up_attacks": {
+      "Silberblick": 1,
+      "Donnerschock": 1,
+      "Ruckzuckhieb": 1,
+      "Fußkick": 8,
+      "Sternschauer": 12,
+      "Schockwelle": 15,
+      "Donnerwelle": 19,
+      "Elektroball": 22,
+      "Lichtschild": 26,
+      "Donnerschlag": 29,
+      "Ladungsstoß": 36,
+      "Kreideschrei": 44,
+      "Donnerblitz": 49,
+      "Donner": 55
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/125.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/125.png"
+  },
+  "126": {
+    "id": 126,
+    "name": "Magmar",
+    "level": 1,
+    "pokedex_entry": "Es wurde in der Nähe eines Vulkans gefunden. Die Körpertemperatur dieses Feuerspuckers liegt bei fast 1200 °C.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Feuer"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 95,
+      "defense": 57,
+      "special_attack": 100,
+      "special_defense": 85,
+      "speed": 93
+    },
+    "expected_stats_level_50": {
+      "hp": 140,
+      "attack": 115,
+      "defense": 77,
+      "special_attack": 120,
+      "special_defense": 105,
+      "speed": 113
+    },
+    "expected_stats_level_100": {
+      "hp": 271,
+      "attack": 226,
+      "defense": 150,
+      "special_attack": 236,
+      "special_defense": 206,
+      "speed": 222
+    },
+    "level_up_attacks": {
+      "Silberblick": 1,
+      "Glut": 1,
+      "Smog": 1,
+      "Rauchwolke": 8,
+      "Finte": 12,
+      "Feuerwirbel": 15,
+      "Klärsmog": 19,
+      "Funkenflug": 22,
+      "Konfustrahl": 26,
+      "Feuerschlag": 29,
+      "Flammensturm": 36,
+      "Sonnentag": 42,
+      "Flammenwurf": 49,
+      "Feuersturm": 55
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/126.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/126.png"
+  },
+  "127": {
+    "id": 127,
+    "name": "Pinsir",
+    "level": 1,
+    "pokedex_entry": "Es hält seine Beute mit seiner Zange fest und teilt sie dann. Was es nicht teilen kann, wirft es fort.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Kaefer"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 125,
+      "defense": 100,
+      "special_attack": 55,
+      "special_defense": 70,
+      "speed": 85
+    },
+    "expected_stats_level_50": {
+      "hp": 140,
+      "attack": 145,
+      "defense": 120,
+      "special_attack": 75,
+      "special_defense": 90,
+      "speed": 105
+    },
+    "expected_stats_level_100": {
+      "hp": 271,
+      "attack": 286,
+      "defense": 236,
+      "special_attack": 146,
+      "special_defense": 176,
+      "speed": 206
+    },
+    "level_up_attacks": {
+      "Klammer": 1,
+      "Energiefokus": 1,
+      "Klammergriff": 4,
+      "Geowurf": 8,
+      "Härtner": 11,
+      "Vergeltung": 15,
+      "Durchbruch": 18,
+      "Überwurf": 22,
+      "Überroller": 26,
+      "Kreuzschere": 29,
+      "Bergsturm": 33,
+      "Fuchtler": 36,
+      "Schwerttanz": 40,
+      "Kraftkoloss": 43,
+      "Guillotine": 47
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/127.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/127.png"
+  },
+  "128": {
+    "id": 128,
+    "name": "Tauros",
+    "level": 1,
+    "pokedex_entry": "Es kämpft mit vollem Einsatz, nachdem es sich mit seinen Schweifen auspeitscht, um sich anzustacheln",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 95,
+      "special_attack": 40,
+      "special_defense": 70,
+      "speed": 110
+    },
+    "expected_stats_level_50": {
+      "hp": 150,
+      "attack": 120,
+      "defense": 115,
+      "special_attack": 60,
+      "special_defense": 90,
+      "speed": 130
+    },
+    "expected_stats_level_100": {
+      "hp": 291,
+      "attack": 236,
+      "defense": 226,
+      "special_attack": 116,
+      "special_defense": 176,
+      "speed": 256
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Rutenschlag": 3,
+      "Raserei": 5,
+      "Hornattacke": 8,
+      "Grimasse": 11,
+      "Verfolgung": 15,
+      "Erholung": 19,
+      "Gegenstoß": 24,
+      "Kraftschub": 29,
+      "Zen-Kopfstoß": 35,
+      "Bodycheck": 41,
+      "Angeberei": 48,
+      "Fuchtler": 50,
+      "Gigastoß": 63
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/128.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/128.png"
+  },
+  "129": {
+    "id": 129,
+    "name": "Karpador",
+    "level": 1,
+    "pokedex_entry": "Es ist nutzlos, was Kraft und Geschwindigkeit angeht. Dieses ist das schwächste und erbärmlichste Pokémon der Welt.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 20,
+      "attack": 10,
+      "defense": 55,
+      "special_attack": 15,
+      "special_defense": 20,
+      "speed": 80
+    },
+    "expected_stats_level_50": {
+      "hp": 95,
+      "attack": 30,
+      "defense": 75,
+      "special_attack": 35,
+      "special_defense": 40,
+      "speed": 100
+    },
+    "expected_stats_level_100": {
+      "hp": 181,
+      "attack": 56,
+      "defense": 146,
+      "special_attack": 66,
+      "special_defense": 76,
+      "speed": 196
+    },
+    "level_up_attacks": {
+      "Platscher": 1,
+      "Tackle": 15,
+      "Dreschflegel": 30
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/129.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/129.png"
+  },
+  "130": {
+    "id": 130,
+    "name": "Garados",
+    "level": 1,
+    "pokedex_entry": "In alten Schriften wird von einem Garados berichtet, das in einem Wutanfall ein Dorf zerstörte.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser",
+      "Flug"
+    ],
+    "base_stats": {
+      "hp": 95,
+      "attack": 125,
+      "defense": 79,
+      "special_attack": 60,
+      "special_defense": 100,
+      "speed": 81
+    },
+    "expected_stats_level_50": {
+      "hp": 170,
+      "attack": 145,
+      "defense": 99,
+      "special_attack": 80,
+      "special_defense": 120,
+      "speed": 101
+    },
+    "expected_stats_level_100": {
+      "hp": 331,
+      "attack": 286,
+      "defense": 194,
+      "special_attack": 156,
+      "special_defense": 236,
+      "speed": 198
+    },
+    "level_up_attacks": {
+      "Fuchtler": 1,
+      "Biss": 20,
+      "Drachenwut": 23,
+      "Silberblick": 26,
+      "Windhose": 29,
+      "Eiszahn": 32,
+      "Nassschweif": 35,
+      "Regentanz": 38,
+      "Hydropumpe": 41,
+      "Drachentanz": 44,
+      "Hyperstrahl": 47
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/130.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/130.png"
+  },
+  "131": {
+    "id": 131,
+    "name": "Lapras",
+    "level": 1,
+    "pokedex_entry": "Sie sind gutmütig. Da sie selten kämpfen, wurden sie oft gefangen. Ihre Anzahl ist stark reduziert.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser",
+      "Eis"
+    ],
+    "base_stats": {
+      "hp": 130,
+      "attack": 85,
+      "defense": 80,
+      "special_attack": 85,
+      "special_defense": 95,
+      "speed": 60
+    },
+    "expected_stats_level_50": {
+      "hp": 205,
+      "attack": 105,
+      "defense": 100,
+      "special_attack": 105,
+      "special_defense": 115,
+      "speed": 80
+    },
+    "expected_stats_level_100": {
+      "hp": 401,
+      "attack": 206,
+      "defense": 196,
+      "special_attack": 206,
+      "special_defense": 226,
+      "speed": 156
+    },
+    "level_up_attacks": {
+      "Heuler": 1,
+      "Gesang": 1,
+      "Aquaknarre": 1,
+      "Weißnebel": 4,
+      "Konfustrahl": 7,
+      "Eissplitter": 10,
+      "Aquawelle": 14,
+      "Bodyslam": 18,
+      "Regentanz": 22,
+      "Abgesang": 27,
+      "Eisstrahl": 32,
+      "Lake": 37,
+      "Bodyguard": 43,
+      "Hydropumpe": 47,
+      "Eiseskälte": 50
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/131.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/131.png"
+  },
+  "132": {
+    "id": 132,
+    "name": "Ditto",
+    "level": 1,
+    "pokedex_entry": "Es kann seine Zellstruktur so verändern, dass es sich in alles verwandeln kann, was es sieht.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 48,
+      "attack": 48,
+      "defense": 48,
+      "special_attack": 48,
+      "special_defense": 48,
+      "speed": 48
+    },
+    "expected_stats_level_50": {
+      "hp": 123,
+      "attack": 68,
+      "defense": 68,
+      "special_attack": 68,
+      "special_defense": 68,
+      "speed": 68
+    },
+    "expected_stats_level_100": {
+      "hp": 237,
+      "attack": 132,
+      "defense": 132,
+      "special_attack": 132,
+      "special_defense": 132,
+      "speed": 132
+    },
+    "level_up_attacks": {
+      "Wandler": 1
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/132.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/132.png"
+  },
+  "133": {
+    "id": 133,
+    "name": "Evoli",
+    "level": 1,
+    "pokedex_entry": "Ein seltenes Pokémon, das sich seiner Umgebung anpasst, indem es sich in unterschiedlicher Form entwickelt.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 50,
+      "special_attack": 45,
+      "special_defense": 65,
+      "speed": 55
+    },
+    "expected_stats_level_50": {
+      "hp": 130,
+      "attack": 75,
+      "defense": 70,
+      "special_attack": 65,
+      "special_defense": 85,
+      "speed": 75
+    },
+    "expected_stats_level_100": {
+      "hp": 251,
+      "attack": 146,
+      "defense": 136,
+      "special_attack": 126,
+      "special_defense": 166,
+      "speed": 146
+    },
+    "level_up_attacks": {
+      "Rechte Hand": 1,
+      "Heuler": 1,
+      "Tackle": 1,
+      "Rutenschlag": 1,
+      "Sandwirbel": 5,
+      "Kulleraugen": 9,
+      "Sternschauer": 10,
+      "Ruckzuckhieb": 13,
+      "Biss": 17,
+      "Heilung": 20,
+      "Bezirzer": 23,
+      "Bodycheck": 25,
+      "Charme": 29,
+      "Staffette": 33,
+      "Risikotackle": 37,
+      "Zuflucht": 41,
+      "Trumpfkarte": 45
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/133.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/133.png"
+  },
+  "134": {
+    "id": 134,
+    "name": "Aquana",
+    "level": 1,
+    "pokedex_entry": "Es liebt schöne Ufer. Da seine Zellstruktur Wassermolekülen ähnlich ist, kann es mit Wasser verschmelzen.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 130,
+      "attack": 65,
+      "defense": 60,
+      "special_attack": 110,
+      "special_defense": 95,
+      "speed": 65
+    },
+    "expected_stats_level_50": {
+      "hp": 205,
+      "attack": 85,
+      "defense": 80,
+      "special_attack": 130,
+      "special_defense": 115,
+      "speed": 85
+    },
+    "expected_stats_level_100": {
+      "hp": 401,
+      "attack": 166,
+      "defense": 156,
+      "special_attack": 256,
+      "special_defense": 226,
+      "speed": 166
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Rutenschlag": 1,
+      "Rechte Hand": 1,
+      "Sandwirbel": 5,
+      "Aquaknarre": 9,
+      "Ruckzuckhieb": 13,
+      "Aquawelle": 17,
+      "Aurorastrahl": 20,
+      "Wasserring": 25,
+      "Säurepanzer": 29,
+      "Dunkelnebel": 33,
+      "Lehmbrühe": 37,
+      "Zuflucht": 41,
+      "Hydropumpe": 45
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/134.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/134.png"
+  },
+  "135": {
+    "id": 135,
+    "name": "Blitza",
+    "level": 1,
+    "pokedex_entry": "Lädt es sich mit Elektrizität auf, steht jedes einzelne seiner Körperhaare steil nach oben.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Elektro"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "special_attack": 110,
+      "special_defense": 95,
+      "speed": 130
+    },
+    "expected_stats_level_50": {
+      "hp": 140,
+      "attack": 85,
+      "defense": 80,
+      "special_attack": 130,
+      "special_defense": 115,
+      "speed": 150
+    },
+    "expected_stats_level_100": {
+      "hp": 271,
+      "attack": 166,
+      "defense": 156,
+      "special_attack": 256,
+      "special_defense": 226,
+      "speed": 296
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Rutenschlag": 1,
+      "Rechte Hand": 1,
+      "Sandwirbel": 5,
+      "Donnerschock": 9,
+      "Ruckzuckhieb": 13,
+      "Doppelkick": 17,
+      "Donnerzahn": 20,
+      "Nadelrakete": 25,
+      "Agilität": 29,
+      "Donnerwelle": 33,
+      "Ladungsstoß": 37,
+      "Zuflucht": 41,
+      "Donner": 45
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/135.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/135.png"
+  },
+  "136": {
+    "id": 136,
+    "name": "Flamara",
+    "level": 1,
+    "pokedex_entry": "In seinem Körper befindet sich eine Flamme. Seine Körpertemperatur liegt vor dem Kampf bei 900 °C.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Feuer"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "special_attack": 95,
+      "special_defense": 110,
+      "speed": 65
+    },
+    "expected_stats_level_50": {
+      "hp": 140,
+      "attack": 150,
+      "defense": 80,
+      "special_attack": 115,
+      "special_defense": 130,
+      "speed": 85
+    },
+    "expected_stats_level_100": {
+      "hp": 271,
+      "attack": 296,
+      "defense": 156,
+      "special_attack": 226,
+      "special_defense": 256,
+      "speed": 166
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Rutenschlag": 1,
+      "Rechte Hand": 1,
+      "Sandwirbel": 5,
+      "Glut": 9,
+      "Ruckzuckhieb": 13,
+      "Biss": 17,
+      "Feuerzahn": 20,
+      "Feuerwirbel": 25,
+      "Grimasse": 29,
+      "Smog": 33,
+      "Flammensturm": 37,
+      "Zuflucht": 41,
+      "Flammenblitz": 45
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/136.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/136.png"
+  },
+  "137": {
+    "id": 137,
+    "name": "Porygon",
+    "level": 1,
+    "pokedex_entry": "Ein künstlich produziertes Pokémon, welches das Ergebnis von Forschungen war. Es ist simpel aufgebaut.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 70,
+      "special_attack": 85,
+      "special_defense": 75,
+      "speed": 40
+    },
+    "expected_stats_level_50": {
+      "hp": 140,
+      "attack": 80,
+      "defense": 90,
+      "special_attack": 105,
+      "special_defense": 95,
+      "speed": 60
+    },
+    "expected_stats_level_100": {
+      "hp": 271,
+      "attack": 156,
+      "defense": 176,
+      "special_attack": 206,
+      "special_defense": 186,
+      "speed": 116
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Umwandlung": 1,
+      "Umwandlung2": 1,
+      "Schärfer": 1,
+      "Psystrahl": 7,
+      "Agilität": 12,
+      "Genesung": 18,
+      "Magnetflug": 23,
+      "Ampelleuchte": 29,
+      "Aufbereitung": 34,
+      "Ladungsstoß": 40,
+      "Zielschuss": 45,
+      "Triplette": 50,
+      "Magiemantel": 56,
+      "Blitzkanone": 62
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/137.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/137.png"
+  },
+  "138": {
+    "id": 138,
+    "name": "Amonitas",
+    "level": 1,
+    "pokedex_entry": "Ein prähistorisches Pokémon, das zur Urzeit im Wasser lebte. Es schwimmt, indem es seine zehn Tentakel bewegt.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gestein",
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 35,
+      "attack": 40,
+      "defense": 100,
+      "special_attack": 90,
+      "special_defense": 55,
+      "speed": 35
+    },
+    "expected_stats_level_50": {
+      "hp": 110,
+      "attack": 60,
+      "defense": 120,
+      "special_attack": 110,
+      "special_defense": 75,
+      "speed": 55
+    },
+    "expected_stats_level_100": {
+      "hp": 211,
+      "attack": 116,
+      "defense": 236,
+      "special_attack": 216,
+      "special_defense": 146,
+      "speed": 106
+    },
+    "level_up_attacks": {
+      "Panzerschutz": 1,
+      "Umklammerung": 1,
+      "Biss": 7,
+      "Aquaknarre": 10,
+      "Walzer": 16,
+      "Silberblick": 19,
+      "Lehmschuss": 25,
+      "Lake": 28,
+      "Schutzschild": 34,
+      "Antik-Kraft": 37,
+      "Spaßkanone": 43,
+      "Felswurf": 46,
+      "Hausbruch": 50,
+      "Hydropumpe": 55
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/138.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/138.png"
+  },
+  "139": {
+    "id": 139,
+    "name": "Amoroso",
+    "level": 1,
+    "pokedex_entry": "Seine Tentakel sind hoch entwickelt und es setzt sie ähnlich Händen und Füßen ein. Sobald es Beute ergriffen hat, beißt es zu.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gestein",
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 70,
+      "attack": 60,
+      "defense": 125,
+      "special_attack": 115,
+      "special_defense": 70,
+      "speed": 55
+    },
+    "expected_stats_level_50": {
+      "hp": 145,
+      "attack": 80,
+      "defense": 145,
+      "special_attack": 135,
+      "special_defense": 90,
+      "speed": 75
+    },
+    "expected_stats_level_100": {
+      "hp": 281,
+      "attack": 156,
+      "defense": 286,
+      "special_attack": 266,
+      "special_defense": 176,
+      "speed": 146
+    },
+    "level_up_attacks": {
+      "Hydropumpe": 1,
+      "Umklammerung": 1,
+      "Biss": 1,
+      "Panzerschutz": 1,
+      "Aquaknarre": 10,
+      "Walzer": 16,
+      "Silberblick": 19,
+      "Lehmschuss": 25,
+      "Lake": 28,
+      "Schutzschild": 34,
+      "Antik-Kraft": 37,
+      "Dornkanone": 40,
+      "Spaßkanone": 48,
+      "Felswurf": 56,
+      "Hausbruch": 67
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/139.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/139.png"
+  },
+  "140": {
+    "id": 140,
+    "name": "Kabuto",
+    "level": 1,
+    "pokedex_entry": "Man geht davon aus, dass dieses Pokémon vor 300 Millionen Jahren die Strände bevölkerte.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gestein",
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 30,
+      "attack": 80,
+      "defense": 90,
+      "special_attack": 55,
+      "special_defense": 45,
+      "speed": 55
+    },
+    "expected_stats_level_50": {
+      "hp": 105,
+      "attack": 100,
+      "defense": 110,
+      "special_attack": 75,
+      "special_defense": 65,
+      "speed": 75
+    },
+    "expected_stats_level_100": {
+      "hp": 201,
+      "attack": 196,
+      "defense": 216,
+      "special_attack": 146,
+      "special_defense": 126,
+      "speed": 146
+    },
+    "level_up_attacks": {
+      "Kratzer": 1,
+      "Härtner": 1,
+      "Absorber": 6,
+      "Silberblick": 11,
+      "Lehmschuss": 16,
+      "Sandwirbel": 21,
+      "Ausdauer": 26,
+      "Wasserdüse": 31,
+      "Megasauger": 36,
+      "Metallsound": 41,
+      "Antik-Kraft": 46,
+      "Auswringen": 50
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/140.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/140.png"
+  },
+  "141": {
+    "id": 141,
+    "name": "Kabutops",
+    "level": 1,
+    "pokedex_entry": "Im Wasser zieht es seine Beine an und bewegt seinen Panzer, um so schneller schwimmen zu können.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gestein",
+      "Wasser"
+    ],
+    "base_stats": {
+      "hp": 60,
+      "attack": 115,
+      "defense": 105,
+      "special_attack": 65,
+      "special_defense": 70,
+      "speed": 80
+    },
+    "expected_stats_level_50": {
+      "hp": 135,
+      "attack": 135,
+      "defense": 125,
+      "special_attack": 85,
+      "special_defense": 90,
+      "speed": 100
+    },
+    "expected_stats_level_100": {
+      "hp": 261,
+      "attack": 266,
+      "defense": 246,
+      "special_attack": 166,
+      "special_defense": 176,
+      "speed": 196
+    },
+    "level_up_attacks": {
+      "Nachthieb": 1,
+      "Offenlegung": 1,
+      "Absorber": 1,
+      "Kratzer": 1,
+      "Härtner": 1,
+      "Silberblick": 1,
+      "Lehmschuss": 16,
+      "Sandwirbel": 21,
+      "Ausdauer": 26,
+      "Wasserdüse": 31,
+      "Megasauger": 36,
+      "Schlitzer": 40,
+      "Metallsound": 45,
+      "Antik-Kraft": 54,
+      "Auswringen": 63
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/141.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/141.png"
+  },
+  "142": {
+    "id": 142,
+    "name": "Aerodactyl",
+    "level": 1,
+    "pokedex_entry": "In Bernstein eingeschlossenes genetisches Material eines Dinosauriers war der Ursprung dieses Pokémon. Beim Fliegen schreit es schrill.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Gestein",
+      "Flug"
+    ],
+    "base_stats": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "special_attack": 60,
+      "special_defense": 75,
+      "speed": 130
+    },
+    "expected_stats_level_50": {
+      "hp": 155,
+      "attack": 125,
+      "defense": 85,
+      "special_attack": 80,
+      "special_defense": 95,
+      "speed": 150
+    },
+    "expected_stats_level_100": {
+      "hp": 301,
+      "attack": 246,
+      "defense": 166,
+      "special_attack": 156,
+      "special_defense": 186,
+      "speed": 296
+    },
+    "level_up_attacks": {
+      "Flügelschlag": 1,
+      "Feuerzahn": 1,
+      "Eiszahn": 1,
+      "Donnerzahn": 1,
+      "Grimasse": 1,
+      "Superschall": 1,
+      "Biss": 1,
+      "Brüller": 9,
+      "Agilität": 17,
+      "Antik-Kraft": 25,
+      "Knirscher": 33,
+      "Bodycheck": 41,
+      "Freier Fall": 49,
+      "Eisenschädel": 57,
+      "Hyperstrahl": 65,
+      "Steinhagel": 73,
+      "Gigastoß": 81
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/142.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/142.png"
+  },
+  "143": {
+    "id": 143,
+    "name": "Relaxo",
+    "level": 1,
+    "pokedex_entry": "Es ist erst satt, wenn es über 400 kg Nahrung am Tag gefressen hat. Ist es mit dem Essen fertig, schläft es sofort ein.",
+    "pokedex_source": "Pokémon X",
+    "types": [
+      "Normal"
+    ],
+    "base_stats": {
+      "hp": 160,
+      "attack": 110,
+      "defense": 65,
+      "special_attack": 65,
+      "special_defense": 110,
+      "speed": 30
+    },
+    "expected_stats_level_50": {
+      "hp": 235,
+      "attack": 130,
+      "defense": 85,
+      "special_attack": 85,
+      "special_defense": 130,
+      "speed": 50
+    },
+    "expected_stats_level_100": {
+      "hp": 461,
+      "attack": 256,
+      "defense": 166,
+      "special_attack": 166,
+      "special_defense": 256,
+      "speed": 96
+    },
+    "level_up_attacks": {
+      "Tackle": 1,
+      "Einigler": 4,
+      "Amnesie": 9,
+      "Schlecker": 12,
+      "Zermürben": 17,
+      "Gähner": 20,
+      "Bodyslam": 25,
+      "Erholung": 28,
+      "Schnarcher": 28,
+      "Schlafrede": 33,
+      "Walzer": 36,
+      "Rückentzug": 41,
+      "Bauchtrommel": 44,
+      "Knirscher": 49,
+      "Rammboss": 50,
+      "Gigastoß": 57
+    },
+    "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/143.png",
+    "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/143.png"
+  }
+}

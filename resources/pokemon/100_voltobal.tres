@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/100.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/100.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Voltobal"
+Id = 100
+Description = "Es wurde entdeckt, als man Pokébälle einführte. Es scheint, als gäbe es da einen Zusammenhang."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 5
+TypeTwo = 0
+BaseHp = 40
+BaseAttack = 30
+BaseDefense = 50
+BaseSpecialAttack = 55
+BaseSpecialDefense = 55
+BaseSpeed = 100
+ExpectedStatsLevel50 = {"hp": 115, "attack": 50, "defense": 70, "special_attack": 75, "special_defense": 75, "speed": 120}
+ExpectedStatsLevel100 = {"hp": 221, "attack": 96, "defense": 136, "special_attack": 146, "special_defense": 146, "speed": 236}
+LearnableMoves = ["Ladevorgang", "Tackle", "Ultraschall", "Mystowellen", "Funkensprung", "Walzer", "Kreideschrei", "Ladestrahl", "Lichtschild", "Elektroball", "Finale", "Sternschauer", "Magnetflug", "Gyroball", "Explosion", "Spiegelcape"]
+LevelUpMoves = {"Ladevorgang": 1, "Tackle": 5, "Ultraschall": 8, "Mystowellen": 10, "Funkensprung": 12, "Walzer": 15, "Kreideschrei": 19, "Ladestrahl": 22, "Lichtschild": 26, "Elektroball": 29, "Finale": 33, "Sternschauer": 36, "Magnetflug": 40, "Gyroball": 43, "Explosion": 47, "Spiegelcape": 50}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

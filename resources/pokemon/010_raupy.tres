@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/010.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/010.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Raupy"
+Id = 10
+Description = "Als Schutz vor Feinden sondert es einen übel riechenden Gestank mit seinen Antennen ab."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 12
+TypeTwo = 0
+BaseHp = 45
+BaseAttack = 30
+BaseDefense = 35
+BaseSpecialAttack = 20
+BaseSpecialDefense = 20
+BaseSpeed = 45
+ExpectedStatsLevel50 = {"hp": 120, "attack": 50, "defense": 55, "special_attack": 40, "special_defense": 40, "speed": 65}
+ExpectedStatsLevel100 = {"hp": 231, "attack": 96, "defense": 106, "special_attack": 76, "special_defense": 76, "speed": 126}
+LearnableMoves = ["Tackle", "Fadenschuss", "Käferbiss"]
+LevelUpMoves = {"Tackle": 1, "Fadenschuss": 1, "Käferbiss": 15}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

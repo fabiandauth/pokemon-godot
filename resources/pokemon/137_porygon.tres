@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/137.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/137.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Porygon"
+Id = 137
+Description = "Ein künstlich produziertes Pokémon, welches das Ergebnis von Forschungen war. Es ist simpel aufgebaut."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 1
+TypeTwo = 0
+BaseHp = 65
+BaseAttack = 60
+BaseDefense = 70
+BaseSpecialAttack = 85
+BaseSpecialDefense = 75
+BaseSpeed = 40
+ExpectedStatsLevel50 = {"hp": 140, "attack": 80, "defense": 90, "special_attack": 105, "special_defense": 95, "speed": 60}
+ExpectedStatsLevel100 = {"hp": 271, "attack": 156, "defense": 176, "special_attack": 206, "special_defense": 186, "speed": 116}
+LearnableMoves = ["Tackle", "Umwandlung", "Umwandlung2", "Schärfer", "Psystrahl", "Agilität", "Genesung", "Magnetflug", "Ampelleuchte", "Aufbereitung", "Ladungsstoß", "Zielschuss", "Triplette", "Magiemantel", "Blitzkanone"]
+LevelUpMoves = {"Tackle": 1, "Umwandlung": 1, "Umwandlung2": 1, "Schärfer": 1, "Psystrahl": 7, "Agilität": 12, "Genesung": 18, "Magnetflug": 23, "Ampelleuchte": 29, "Aufbereitung": 34, "Ladungsstoß": 40, "Zielschuss": 45, "Triplette": 50, "Magiemantel": 56, "Blitzkanone": 62}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="PokemonResource" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/pokemon/PokemonResource.cs" id="1"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/front/142.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/pokemon/gen6/back/142.png" id="3"]
+
+[resource]
+script = ExtResource("1")
+Name = "Aerodactyl"
+Id = 142
+Description = "In Bernstein eingeschlossenes genetisches Material eines Dinosauriers war der Ursprung dieses Pokémon. Beim Fliegen schreit es schrill."
+PokedexSource = "Pokémon X"
+DefaultLevel = 1
+TypeOne = 13
+TypeTwo = 10
+BaseHp = 80
+BaseAttack = 105
+BaseDefense = 65
+BaseSpecialAttack = 60
+BaseSpecialDefense = 75
+BaseSpeed = 130
+ExpectedStatsLevel50 = {"hp": 155, "attack": 125, "defense": 85, "special_attack": 80, "special_defense": 95, "speed": 150}
+ExpectedStatsLevel100 = {"hp": 301, "attack": 246, "defense": 166, "special_attack": 156, "special_defense": 186, "speed": 296}
+LearnableMoves = ["Flügelschlag", "Feuerzahn", "Eiszahn", "Donnerzahn", "Grimasse", "Superschall", "Biss", "Brüller", "Agilität", "Antik-Kraft", "Knirscher", "Bodycheck", "Freier Fall", "Eisenschädel", "Hyperstrahl", "Steinhagel", "Gigastoß"]
+LevelUpMoves = {"Flügelschlag": 1, "Feuerzahn": 1, "Eiszahn": 1, "Donnerzahn": 1, "Grimasse": 1, "Superschall": 1, "Biss": 1, "Brüller": 9, "Agilität": 17, "Antik-Kraft": 25, "Knirscher": 33, "Bodycheck": 41, "Freier Fall": 49, "Eisenschädel": 57, "Hyperstrahl": 65, "Steinhagel": 73, "Gigastoß": 81}
+FrontSprite = ExtResource("2")
+BackSprite = ExtResource("3")
