@@ -4,5 +4,5 @@ public enum NpcItemHandoverMode
 {
     None,
     AfterTalking,
-    AfterConvincing
+    AfterGoalSatisfied
 }
