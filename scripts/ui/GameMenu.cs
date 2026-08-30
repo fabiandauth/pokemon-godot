@@ -7,15 +7,17 @@ namespace Game.UI;
 
 public partial class GameMenu : CanvasLayer
 {
-    private enum MenuPage { Main, Items, Pokedex, PokemonDetail, Save }
+    private enum MenuPage { Main, Items, Party, Pokedex, PokemonDetail, Save }
 
     [Export] public Control Root;
     [Export] public Control MainPanel;
     [Export] public Control ItemsPanel;
+    [Export] public Control PartyPanel;
     [Export] public Control PokedexPanel;
     [Export] public Control PokemonDetailPanel;
     [Export] public Control SavePanel;
     [Export] public Button ItemsButton;
+    [Export] public Button PartyButton;
     [Export] public Button PokedexButton;
     [Export] public Button SaveButton;
     [Export] public Button CloseButton;
@@ -32,11 +34,15 @@ public partial class GameMenu : CanvasLayer
     [Export] public Label PokemonStats;
     [Export] public Label PokemonMoves;
     [Export] public Label PokemonDescription;
+    [Export] public ItemList PartyList;
+    [Export] public TextureRect PartySprite;
+    [Export] public Label PartyDetails;
+    [Export] public Label PartyMoves;
 
     private MenuPage currentPage = MenuPage.Main;
     private bool wasPaused;
     private Button[] mainButtons;
-    private string[] mainButtonLabels = { "ITEMS", "POKÉDEX", "SAVE", "CLOSE" };
+    private string[] mainButtonLabels = { "ITEMS", "POKÉMON", "POKÉDEX", "SAVE", "CLOSE" };
     private int mainSelection;
 
     public override void _Ready()
@@ -52,13 +58,14 @@ public partial class GameMenu : CanvasLayer
         ItemList.ItemSelected += ShowSelectedItem;
         UseButton.Pressed += UseSelectedItem;
         PokedexList.ItemSelected += PreviewPokemon;
+        PartyList.ItemSelected += PreviewPartyPokemon;
         PokedexList.ItemActivated += index =>
         {
             Logger.Info(new object[] { "GameMenu: Pokédex item activated by GUI:", index });
             OpenPokemonDetail(index);
         };
         Signals.Instance.InventoryChanged += RefreshItems;
-        mainButtons = new[] { ItemsButton, PokedexButton, SaveButton, CloseButton };
+        mainButtons = new[] { ItemsButton, PartyButton, PokedexButton, SaveButton, CloseButton };
         for (int index = 0; index < mainButtons.Length; index++)
         {
             int selectedIndex = index;
@@ -68,6 +75,7 @@ public partial class GameMenu : CanvasLayer
         }
         ItemList.FocusMode = Control.FocusModeEnum.None;
         PokedexList.FocusMode = Control.FocusModeEnum.None;
+        PartyList.FocusMode = Control.FocusModeEnum.None;
         ShowPage(MenuPage.Main);
         Logger.Info("GameMenu: ready; global keyboard polling enabled");
     }
@@ -117,6 +125,7 @@ public partial class GameMenu : CanvasLayer
         }
 
         ItemList list = currentPage == MenuPage.Pokedex ? PokedexList
+            : currentPage == MenuPage.Party ? PartyList
             : currentPage == MenuPage.Items ? ItemList : null;
         if (list == null || list.ItemCount == 0)
             return;
@@ -127,6 +136,7 @@ public partial class GameMenu : CanvasLayer
         list.Select(next);
         list.EnsureCurrentIsVisible();
         if (currentPage == MenuPage.Pokedex) PreviewPokemon(next);
+        else if (currentPage == MenuPage.Party) PreviewPartyPokemon(next);
         else ShowSelectedItem(next);
         Logger.Info(new object[] { "GameMenu selection:", currentPage, next });
     }
@@ -140,6 +150,7 @@ public partial class GameMenu : CanvasLayer
         }
 
         int[] selected = currentPage == MenuPage.Pokedex ? PokedexList.GetSelectedItems()
+            : currentPage == MenuPage.Party ? PartyList.GetSelectedItems()
             : currentPage == MenuPage.Items ? ItemList.GetSelectedItems() : System.Array.Empty<int>();
         if (selected.Length == 0)
             return;
@@ -154,9 +165,10 @@ public partial class GameMenu : CanvasLayer
         switch (index)
         {
             case 0: ShowItems(); break;
-            case 1: ShowPokedex(); break;
-            case 2: ShowSave(); break;
-            case 3: Close(); break;
+            case 1: ShowParty(); break;
+            case 2: ShowPokedex(); break;
+            case 3: ShowSave(); break;
+            case 4: Close(); break;
         }
     }
 
@@ -188,6 +200,12 @@ public partial class GameMenu : CanvasLayer
         RefreshPokedex();
     }
 
+    public void ShowParty()
+    {
+        ShowPage(MenuPage.Party);
+        RefreshParty();
+    }
+
     public void ShowSave() => ShowPage(MenuPage.Save);
 
     private void Back()
@@ -206,12 +224,54 @@ public partial class GameMenu : CanvasLayer
         currentPage = page;
         MainPanel.Visible = page == MenuPage.Main;
         ItemsPanel.Visible = page == MenuPage.Items;
+        PartyPanel.Visible = page == MenuPage.Party;
         PokedexPanel.Visible = page == MenuPage.Pokedex;
         PokemonDetailPanel.Visible = page == MenuPage.PokemonDetail;
         SavePanel.Visible = page == MenuPage.Save;
         StatusLabel.Text = string.Empty;
         if (page == MenuPage.Main) SelectMainEntry(0);
     }
+
+    private void RefreshParty()
+    {
+        PartyList.Clear();
+        PartySprite.Texture = null;
+        PartyDetails.Text = "This trainer is not carrying any Pokémon.";
+        PartyMoves.Text = string.Empty;
+        TrainerParty party = GetPlayerParty();
+        if (party == null) return;
+        for (int index = 0; index < party.Pokemon.Count; index++)
+        {
+            PokemonInstance pokemon = party.Pokemon[index];
+            int listIndex = PartyList.AddItem($"{index + 1}. {pokemon.DisplayName}   Lv. {pokemon.Level}", pokemon.Species?.FrontSprite);
+            PartyList.SetItemMetadata(listIndex, index);
+        }
+        if (PartyList.ItemCount > 0)
+        {
+            PartyList.Select(0);
+            PreviewPartyPokemon(0);
+        }
+    }
+
+    private void PreviewPartyPokemon(long listIndex)
+    {
+        TrainerParty party = GetPlayerParty();
+        if (party == null || listIndex < 0 || listIndex >= PartyList.ItemCount) return;
+        int partyIndex = PartyList.GetItemMetadata((int)listIndex).AsInt32();
+        if (partyIndex < 0 || partyIndex >= party.Pokemon.Count) return;
+        PokemonInstance pokemon = party.Pokemon[partyIndex];
+        PartySprite.Texture = pokemon.Species?.FrontSprite;
+        PartyDetails.Text = $"{pokemon.DisplayName}   Lv. {pokemon.Level}\n" +
+            $"Ability: {pokemon.Ability}\nHP: {pokemon.CurrentHp}/{pokemon.Stats.Hp}\n" +
+            $"ATK {pokemon.Stats.Attack}   DEF {pokemon.Stats.Defense}\n" +
+            $"SP.ATK {pokemon.Stats.SpecialAttack}   SP.DEF {pokemon.Stats.SpecialDefense}\nSPD {pokemon.Stats.Speed}";
+        PartyMoves.Text = pokemon.Moves.Count == 0 ? "No moves learned."
+            : "Moves\n" + string.Join("\n", pokemon.Moves.Select(move =>
+                $"{move.MoveName}   PP {move.CurrentPp}/{move.MaxPp}"));
+    }
+
+    private static TrainerParty GetPlayerParty() =>
+        GameManager.GetPlayer()?.GetNodeOrNull<TrainerPartyComponent>("TrainerParty")?.Party;
 
     private void SelectMainEntry(int index)
     {

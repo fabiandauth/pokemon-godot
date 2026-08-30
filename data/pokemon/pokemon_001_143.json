@@ -9,6 +9,10 @@
       "Pflanze",
       "Gift"
     ],
+    "abilities": [
+      "Notdünger"
+    ],
+    "hidden_ability": "Chlorophyll",
     "base_stats": {
       "hp": 45,
       "attack": 49,
@@ -49,6 +53,22 @@
       "Synthese": 33,
       "Samenbomben": 37
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Heuler": 40,
+      "Egelsamen": 10,
+      "Rankenhieb": 25,
+      "Giftpuder": 35,
+      "Schlafpuder": 15,
+      "Bodycheck": 20,
+      "Rasierblatt": 25,
+      "Lockduft": 20,
+      "Wachstum": 20,
+      "Risikotackle": 15,
+      "Sorgensamen": 10,
+      "Synthese": 5,
+      "Samenbomben": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/001.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/001.png"
   },
@@ -62,6 +82,10 @@
       "Pflanze",
       "Gift"
     ],
+    "abilities": [
+      "Notdünger"
+    ],
+    "hidden_ability": "Chlorophyll",
     "base_stats": {
       "hp": 60,
       "attack": 62,
@@ -102,6 +126,22 @@
       "Synthese": 39,
       "Solarstrahl": 44
     },
+    "level_up_move_pp": {
+      "Egelsamen": 10,
+      "Tackle": 35,
+      "Heuler": 40,
+      "Rankenhieb": 25,
+      "Schlafpuder": 15,
+      "Giftpuder": 35,
+      "Bodycheck": 20,
+      "Rasierblatt": 25,
+      "Lockduft": 20,
+      "Wachstum": 20,
+      "Risikotackle": 15,
+      "Sorgensamen": 10,
+      "Synthese": 5,
+      "Solarstrahl": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/002.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/002.png"
   },
@@ -115,6 +155,10 @@
       "Pflanze",
       "Gift"
     ],
+    "abilities": [
+      "Notdünger"
+    ],
+    "hidden_ability": "Chlorophyll",
     "base_stats": {
       "hp": 80,
       "attack": 82,
@@ -157,6 +201,24 @@
       "Blütenwirbel": 50,
       "Solarstrahl": 53
     },
+    "level_up_move_pp": {
+      "Rankenhieb": 25,
+      "Egelsamen": 10,
+      "Tackle": 35,
+      "Heuler": 40,
+      "Schlafpuder": 15,
+      "Giftpuder": 35,
+      "Bodycheck": 20,
+      "Rasierblatt": 25,
+      "Lockduft": 20,
+      "Wachstum": 20,
+      "Risikotackle": 15,
+      "Blättertanz": 10,
+      "Sorgensamen": 10,
+      "Synthese": 5,
+      "Blütenwirbel": 15,
+      "Solarstrahl": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/003.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/003.png"
   },
@@ -169,6 +231,10 @@
     "types": [
       "Feuer"
     ],
+    "abilities": [
+      "Großbrand"
+    ],
+    "hidden_ability": "Solarkraft",
     "base_stats": {
       "hp": 39,
       "attack": 52,
@@ -207,6 +273,20 @@
       "Feuerwirbel": 43,
       "Inferno": 46
     },
+    "level_up_move_pp": {
+      "Kratzer": 35,
+      "Heuler": 40,
+      "Glut": 25,
+      "Rauchwolke": 20,
+      "Drachenwut": 10,
+      "Grimasse": 10,
+      "Feuerzahn": 15,
+      "Funkenflug": 15,
+      "Schlitzer": 20,
+      "Flammenwurf": 15,
+      "Feuerwirbel": 15,
+      "Inferno": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/004.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/004.png"
   },
@@ -219,6 +299,10 @@
     "types": [
       "Feuer"
     ],
+    "abilities": [
+      "Großbrand"
+    ],
+    "hidden_ability": "Solarkraft",
     "base_stats": {
       "hp": 58,
       "attack": 64,
@@ -257,6 +341,20 @@
       "Feuerwirbel": 50,
       "Inferno": 54
     },
+    "level_up_move_pp": {
+      "Kratzer": 35,
+      "Heuler": 40,
+      "Glut": 25,
+      "Rauchwolke": 20,
+      "Drachenwut": 10,
+      "Grimasse": 10,
+      "Feuerzahn": 15,
+      "Funkenflug": 15,
+      "Schlitzer": 20,
+      "Flammenwurf": 15,
+      "Feuerwirbel": 15,
+      "Inferno": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/005.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/005.png"
   },
@@ -270,6 +368,10 @@
       "Feuer",
       "Flug"
     ],
+    "abilities": [
+      "Großbrand"
+    ],
+    "hidden_ability": "Solarkraft",
     "base_stats": {
       "hp": 78,
       "attack": 84,
@@ -314,6 +416,26 @@
       "Hitzewelle": 71,
       "Flammenblitz": 77
     },
+    "level_up_move_pp": {
+      "Kratzer": 35,
+      "Dunkelklaue": 15,
+      "Heuler": 40,
+      "Glut": 25,
+      "Luftschnitt": 20,
+      "Drachenklaue": 15,
+      "Rauchwolke": 20,
+      "Drachenwut": 10,
+      "Grimasse": 10,
+      "Feuerzahn": 15,
+      "Funkenflug": 15,
+      "Flügelschlag": 35,
+      "Schlitzer": 20,
+      "Flammenwurf": 15,
+      "Feuerwirbel": 15,
+      "Inferno": 5,
+      "Hitzewelle": 10,
+      "Flammenblitz": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/006.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/006.png"
   },
@@ -326,6 +448,10 @@
     "types": [
       "Wasser"
     ],
+    "abilities": [
+      "Sturzbach"
+    ],
+    "hidden_ability": "Regengenuss",
     "base_stats": {
       "hp": 44,
       "attack": 48,
@@ -366,6 +492,22 @@
       "Regentanz": 37,
       "Hydropumpe": 40
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Rutenschlag": 30,
+      "Aquaknarre": 25,
+      "Panzerschutz": 40,
+      "Blubber": 30,
+      "Biss": 25,
+      "Turbodreher": 40,
+      "Schutzschild": 10,
+      "Aquawelle": 20,
+      "Nassschweif": 10,
+      "Schädelwumme": 10,
+      "Eisenabwehr": 5,
+      "Regentanz": 5,
+      "Hydropumpe": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/007.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/007.png"
   },
@@ -378,6 +520,10 @@
     "types": [
       "Wasser"
     ],
+    "abilities": [
+      "Sturzbach"
+    ],
+    "hidden_ability": "Regengenuss",
     "base_stats": {
       "hp": 59,
       "attack": 63,
@@ -418,6 +564,22 @@
       "Regentanz": 44,
       "Hydropumpe": 48
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Rutenschlag": 30,
+      "Aquaknarre": 25,
+      "Panzerschutz": 40,
+      "Blubber": 30,
+      "Biss": 25,
+      "Turbodreher": 40,
+      "Schutzschild": 10,
+      "Aquawelle": 20,
+      "Nassschweif": 10,
+      "Schädelwumme": 10,
+      "Eisenabwehr": 5,
+      "Regentanz": 5,
+      "Hydropumpe": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/008.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/008.png"
   },
@@ -430,6 +592,10 @@
     "types": [
       "Wasser"
     ],
+    "abilities": [
+      "Sturzbach"
+    ],
+    "hidden_ability": "Regengenuss",
     "base_stats": {
       "hp": 79,
       "attack": 83,
@@ -471,6 +637,23 @@
       "Regentanz": 53,
       "Hydropumpe": 60
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Lichtkanone": 10,
+      "Panzerschutz": 40,
+      "Aquaknarre": 25,
+      "Rutenschlag": 30,
+      "Blubber": 30,
+      "Biss": 25,
+      "Turbodreher": 40,
+      "Schutzschild": 10,
+      "Aquawelle": 20,
+      "Nassschweif": 10,
+      "Schädelwumme": 10,
+      "Eisenabwehr": 5,
+      "Regentanz": 5,
+      "Hydropumpe": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/009.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/009.png"
   },
@@ -483,6 +666,10 @@
     "types": [
       "Kaefer"
     ],
+    "abilities": [
+      "Puderabwehr"
+    ],
+    "hidden_ability": "Angsthase",
     "base_stats": {
       "hp": 45,
       "attack": 30,
@@ -512,6 +699,11 @@
       "Fadenschuss": 1,
       "Käferbiss": 15
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Fadenschuss": 40,
+      "Käferbiss": 20
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/010.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/010.png"
   },
@@ -524,6 +716,10 @@
     "types": [
       "Kaefer"
     ],
+    "abilities": [
+      "Expidermis"
+    ],
+    "hidden_ability": "",
     "base_stats": {
       "hp": 50,
       "attack": 20,
@@ -551,6 +747,9 @@
     "level_up_attacks": {
       "Härtner": 1
     },
+    "level_up_move_pp": {
+      "Härtner": 30
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/011.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/011.png"
   },
@@ -564,6 +763,10 @@
       "Kaefer",
       "Flug"
     ],
+    "abilities": [
+      "Facettenauge"
+    ],
+    "hidden_ability": "Aufwertung",
     "base_stats": {
       "hp": 60,
       "attack": 45,
@@ -605,6 +808,23 @@
       "Käfergebrumm": 42,
       "Falterreigen": 46
     },
+    "level_up_move_pp": {
+      "Konfusion": 25,
+      "Schlafpuder": 15,
+      "Giftpuder": 35,
+      "Stachelspore": 30,
+      "Windstoß": 35,
+      "Superschall": 20,
+      "Wirbelwind": 20,
+      "Psystrahl": 20,
+      "Silberhauch": 5,
+      "Rückenwind": 20,
+      "Wutpulver": 20,
+      "Bodyguard": 25,
+      "Liebreiz": 20,
+      "Käfergebrumm": 10,
+      "Falterreigen": 20
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/012.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/012.png"
   },
@@ -618,6 +838,10 @@
       "Kaefer",
       "Gift"
     ],
+    "abilities": [
+      "Puderabwehr"
+    ],
+    "hidden_ability": "Angsthase",
     "base_stats": {
       "hp": 40,
       "attack": 35,
@@ -647,6 +871,11 @@
       "Fadenschuss": 1,
       "Käferbiss": 15
     },
+    "level_up_move_pp": {
+      "Giftstachel": 35,
+      "Fadenschuss": 40,
+      "Käferbiss": 20
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/013.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/013.png"
   },
@@ -660,6 +889,10 @@
       "Kaefer",
       "Gift"
     ],
+    "abilities": [
+      "Expidermis"
+    ],
+    "hidden_ability": "",
     "base_stats": {
       "hp": 45,
       "attack": 25,
@@ -687,6 +920,9 @@
     "level_up_attacks": {
       "Härtner": 1
     },
+    "level_up_move_pp": {
+      "Härtner": 30
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/014.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/014.png"
   },
@@ -700,6 +936,10 @@
       "Kaefer",
       "Gift"
     ],
+    "abilities": [
+      "Hexaplaga"
+    ],
+    "hidden_ability": "Superschütze",
     "base_stats": {
       "hp": 65,
       "attack": 90,
@@ -738,6 +978,20 @@
       "Notsituation": 40,
       "Stachelfinale": 45
     },
+    "level_up_move_pp": {
+      "Furienschlag": 20,
+      "Energiefokus": 30,
+      "Duonadel": 20,
+      "Raserei": 20,
+      "Verfolgung": 20,
+      "Giftspitzen": 20,
+      "Nadelrakete": 20,
+      "Agilität": 30,
+      "Gewissheit": 10,
+      "Gifthieb": 20,
+      "Notsituation": 5,
+      "Stachelfinale": 25
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/015.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/015.png"
   },
@@ -751,6 +1005,11 @@
       "Normal",
       "Flug"
     ],
+    "abilities": [
+      "Adlerauge",
+      "Taumelschritt"
+    ],
+    "hidden_ability": "Brustbieter",
     "base_stats": {
       "hp": 40,
       "attack": 45,
@@ -791,6 +1050,22 @@
       "Luftschnitt": 49,
       "Orkan": 53
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Sandwirbel": 15,
+      "Windstoß": 35,
+      "Ruckzuckhieb": 30,
+      "Wirbelwind": 20,
+      "Windhose": 20,
+      "Daunenreigen": 15,
+      "Agilität": 30,
+      "Flügelschlag": 35,
+      "Ruheort": 10,
+      "Rückenwind": 20,
+      "Spiegeltrick": 20,
+      "Luftschnitt": 20,
+      "Orkan": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/016.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/016.png"
   },
@@ -804,6 +1079,11 @@
       "Normal",
       "Flug"
     ],
+    "abilities": [
+      "Adlerauge",
+      "Taumelschritt"
+    ],
+    "hidden_ability": "Brustbieter",
     "base_stats": {
       "hp": 63,
       "attack": 60,
@@ -843,6 +1123,21 @@
       "Luftschnitt": 57,
       "Orkan": 62
     },
+    "level_up_move_pp": {
+      "Windstoß": 35,
+      "Sandwirbel": 15,
+      "Tackle": 35,
+      "Wirbelwind": 20,
+      "Windhose": 20,
+      "Daunenreigen": 15,
+      "Agilität": 30,
+      "Flügelschlag": 35,
+      "Ruheort": 10,
+      "Rückenwind": 20,
+      "Spiegeltrick": 20,
+      "Luftschnitt": 20,
+      "Orkan": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/017.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/017.png"
   },
@@ -856,6 +1151,11 @@
       "Normal",
       "Flug"
     ],
+    "abilities": [
+      "Adlerauge",
+      "Taumelschritt"
+    ],
+    "hidden_ability": "Brustbieter",
     "base_stats": {
       "hp": 83,
       "attack": 80,
@@ -896,6 +1196,22 @@
       "Spiegeltrick": 56,
       "Luftschnitt": 62
     },
+    "level_up_move_pp": {
+      "Orkan": 10,
+      "Ruckzuckhieb": 30,
+      "Tackle": 35,
+      "Sandwirbel": 15,
+      "Windstoß": 35,
+      "Wirbelwind": 20,
+      "Windhose": 20,
+      "Daunenreigen": 15,
+      "Agilität": 30,
+      "Flügelschlag": 35,
+      "Ruheort": 10,
+      "Rückenwind": 20,
+      "Spiegeltrick": 20,
+      "Luftschnitt": 20
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/018.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/018.png"
   },
@@ -908,6 +1224,11 @@
     "types": [
       "Normal"
     ],
+    "abilities": [
+      "Angsthase",
+      "Adrenalin"
+    ],
+    "hidden_ability": "Übereifer",
     "base_stats": {
       "hp": 30,
       "attack": 56,
@@ -947,6 +1268,21 @@
       "Risikotackle": 31,
       "Notsituation": 34
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Rutenschlag": 30,
+      "Ruckzuckhieb": 30,
+      "Energiefokus": 30,
+      "Biss": 25,
+      "Verfolgung": 20,
+      "Hyperzahn": 15,
+      "Tiefschlag": 5,
+      "Knirscher": 15,
+      "Gewissheit": 10,
+      "Superzahn": 10,
+      "Risikotackle": 15,
+      "Notsituation": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/019.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/019.png"
   },
@@ -959,6 +1295,11 @@
     "types": [
       "Normal"
     ],
+    "abilities": [
+      "Angsthase",
+      "Adrenalin"
+    ],
+    "hidden_ability": "Übereifer",
     "base_stats": {
       "hp": 55,
       "attack": 81,
@@ -1000,6 +1341,23 @@
       "Risikotackle": 39,
       "Notsituation": 44
     },
+    "level_up_move_pp": {
+      "Schwerttanz": 20,
+      "Tackle": 35,
+      "Rutenschlag": 30,
+      "Energiefokus": 30,
+      "Ruckzuckhieb": 30,
+      "Biss": 25,
+      "Verfolgung": 20,
+      "Hyperzahn": 15,
+      "Tiefschlag": 5,
+      "Grimasse": 10,
+      "Knirscher": 15,
+      "Gewissheit": 10,
+      "Superzahn": 10,
+      "Risikotackle": 15,
+      "Notsituation": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/020.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/020.png"
   },
@@ -1013,6 +1371,10 @@
       "Normal",
       "Flug"
     ],
+    "abilities": [
+      "Adlerauge"
+    ],
+    "hidden_ability": "Superschütze",
     "base_stats": {
       "hp": 40,
       "attack": 60,
@@ -1050,6 +1412,19 @@
       "Ruheort": 33,
       "Bohrschnabel": 37
     },
+    "level_up_move_pp": {
+      "Heuler": 40,
+      "Schnabel": 35,
+      "Silberblick": 30,
+      "Furienschlag": 20,
+      "Verfolgung": 20,
+      "Aero-Ass": 20,
+      "Spiegeltrick": 20,
+      "Agilität": 30,
+      "Gewissheit": 10,
+      "Ruheort": 10,
+      "Bohrschnabel": 20
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/021.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/021.png"
   },
@@ -1063,6 +1438,10 @@
       "Normal",
       "Flug"
     ],
+    "abilities": [
+      "Adlerauge"
+    ],
+    "hidden_ability": "Superschütze",
     "base_stats": {
       "hp": 65,
       "attack": 90,
@@ -1102,6 +1481,21 @@
       "Ruheort": 41,
       "Bohrschnabel": 47
     },
+    "level_up_move_pp": {
+      "Furienschlag": 20,
+      "Heuler": 40,
+      "Pflücker": 20,
+      "Schlagbohrer": 10,
+      "Schnabel": 35,
+      "Silberblick": 30,
+      "Verfolgung": 20,
+      "Aero-Ass": 20,
+      "Spiegeltrick": 20,
+      "Agilität": 30,
+      "Gewissheit": 10,
+      "Ruheort": 10,
+      "Bohrschnabel": 20
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/022.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/022.png"
   },
@@ -1114,6 +1508,11 @@
     "types": [
       "Gift"
     ],
+    "abilities": [
+      "Bedroher",
+      "Expidermis"
+    ],
+    "hidden_ability": "Anspannung",
     "base_stats": {
       "hp": 35,
       "attack": 60,
@@ -1157,6 +1556,25 @@
       "Einrollen": 44,
       "Mülltreffer": 49
     },
+    "level_up_move_pp": {
+      "Wickel": 20,
+      "Silberblick": 30,
+      "Giftstachel": 35,
+      "Biss": 25,
+      "Giftblick": 30,
+      "Kreideschrei": 40,
+      "Säure": 30,
+      "Horter": 10,
+      "Entfessler": 10,
+      "Verzehrer": 10,
+      "Säurespeier": 20,
+      "Schlammbombe": 10,
+      "Magensäfte": 10,
+      "Rülpser": 10,
+      "Dunkelnebel": 30,
+      "Einrollen": 20,
+      "Mülltreffer": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/023.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/023.png"
   },
@@ -1169,6 +1587,11 @@
     "types": [
       "Gift"
     ],
+    "abilities": [
+      "Bedroher",
+      "Expidermis"
+    ],
+    "hidden_ability": "Anspannung",
     "base_stats": {
       "hp": 60,
       "attack": 95,
@@ -1216,6 +1639,29 @@
       "Einrollen": 56,
       "Mülltreffer": 63
     },
+    "level_up_move_pp": {
+      "Wickel": 20,
+      "Eiszahn": 15,
+      "Feuerzahn": 15,
+      "Donnerzahn": 15,
+      "Biss": 25,
+      "Silberblick": 30,
+      "Giftstachel": 35,
+      "Giftblick": 30,
+      "Kreideschrei": 40,
+      "Säure": 30,
+      "Knirscher": 15,
+      "Entfessler": 10,
+      "Verzehrer": 10,
+      "Horter": 10,
+      "Säurespeier": 20,
+      "Schlammbombe": 10,
+      "Magensäfte": 10,
+      "Rülpser": 10,
+      "Dunkelnebel": 30,
+      "Einrollen": 20,
+      "Mülltreffer": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/024.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/024.png"
   },
@@ -1228,6 +1674,10 @@
     "types": [
       "Elektro"
     ],
+    "abilities": [
+      "Statik"
+    ],
+    "hidden_ability": "Blitzfänger",
     "base_stats": {
       "hp": 35,
       "attack": 55,
@@ -1270,6 +1720,24 @@
       "Lichtschild": 45,
       "Donner": 50
     },
+    "level_up_move_pp": {
+      "Donnerschock": 30,
+      "Rutenschlag": 30,
+      "Heuler": 40,
+      "Kameradschaft": 20,
+      "Ruckzuckhieb": 30,
+      "Donnerwelle": 20,
+      "Elektroball": 10,
+      "Doppelteam": 15,
+      "Wangenrubbler": 20,
+      "Slam": 20,
+      "Donnerblitz": 15,
+      "Offenlegung": 10,
+      "Agilität": 30,
+      "Ladungsstoß": 15,
+      "Lichtschild": 30,
+      "Donner": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/025.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/025.png"
   },
@@ -1282,6 +1750,10 @@
     "types": [
       "Elektro"
     ],
+    "abilities": [
+      "Statik"
+    ],
+    "hidden_ability": "Blitzfänger",
     "base_stats": {
       "hp": 60,
       "attack": 90,
@@ -1312,6 +1784,12 @@
       "Ruckzuckhieb": 1,
       "Donnerblitz": 1
     },
+    "level_up_move_pp": {
+      "Donnerschock": 30,
+      "Rutenschlag": 30,
+      "Ruckzuckhieb": 30,
+      "Donnerblitz": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/026.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/026.png"
   },
@@ -1324,6 +1802,10 @@
     "types": [
       "Boden"
     ],
+    "abilities": [
+      "Sandschleier"
+    ],
+    "hidden_ability": "Sandscharrer",
     "base_stats": {
       "hp": 50,
       "attack": 75,
@@ -1367,6 +1849,25 @@
       "Sandsturm": 42,
       "Erdbeben": 46
     },
+    "level_up_move_pp": {
+      "Kratzer": 35,
+      "Einigler": 40,
+      "Sandwirbel": 15,
+      "Giftstachel": 35,
+      "Walzer": 20,
+      "Turbodreher": 40,
+      "Sternschauer": 20,
+      "Zornklinge": 20,
+      "Intensität": 30,
+      "Kratzfurie": 15,
+      "Sandgrab": 15,
+      "Schlitzer": 20,
+      "Schaufler": 10,
+      "Gyroball": 5,
+      "Schwerttanz": 20,
+      "Sandsturm": 10,
+      "Erdbeben": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/027.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/027.png"
   },
@@ -1379,6 +1880,10 @@
     "types": [
       "Boden"
     ],
+    "abilities": [
+      "Sandschleier"
+    ],
+    "hidden_ability": "Sandscharrer",
     "base_stats": {
       "hp": 75,
       "attack": 100,
@@ -1422,6 +1927,25 @@
       "Sandsturm": 42,
       "Erdbeben": 46
     },
+    "level_up_move_pp": {
+      "Kratzer": 35,
+      "Sandwirbel": 15,
+      "Einigler": 40,
+      "Giftstachel": 35,
+      "Turbodreher": 40,
+      "Sternschauer": 20,
+      "Zornklinge": 20,
+      "Intensität": 30,
+      "Kratzfurie": 15,
+      "Zermalmklaue": 10,
+      "Sandgrab": 15,
+      "Schlitzer": 20,
+      "Schaufler": 10,
+      "Gyroball": 5,
+      "Schwerttanz": 20,
+      "Sandsturm": 10,
+      "Erdbeben": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/028.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/028.png"
   },
@@ -1434,6 +1958,11 @@
     "types": [
       "Gift"
     ],
+    "abilities": [
+      "Giftdorn",
+      "Rivalität"
+    ],
+    "hidden_ability": "Übereifer",
     "base_stats": {
       "hp": 55,
       "attack": 47,
@@ -1473,6 +2002,21 @@
       "Liebreiz": 37,
       "Giftzahn": 43
     },
+    "level_up_move_pp": {
+      "Kratzer": 35,
+      "Heuler": 40,
+      "Rutenschlag": 30,
+      "Doppelkick": 30,
+      "Giftstachel": 35,
+      "Kratzfurie": 15,
+      "Biss": 25,
+      "Rechte Hand": 20,
+      "Giftspitzen": 20,
+      "Schmeichler": 15,
+      "Knirscher": 15,
+      "Liebreiz": 20,
+      "Giftzahn": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/029.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/029.png"
   },
@@ -1485,6 +2029,11 @@
     "types": [
       "Gift"
     ],
+    "abilities": [
+      "Giftdorn",
+      "Rivalität"
+    ],
+    "hidden_ability": "Übereifer",
     "base_stats": {
       "hp": 70,
       "attack": 62,
@@ -1524,6 +2073,21 @@
       "Liebreiz": 50,
       "Giftzahn": 58
     },
+    "level_up_move_pp": {
+      "Kratzer": 35,
+      "Heuler": 40,
+      "Rutenschlag": 30,
+      "Doppelkick": 30,
+      "Giftstachel": 35,
+      "Kratzfurie": 15,
+      "Biss": 25,
+      "Rechte Hand": 20,
+      "Giftspitzen": 20,
+      "Schmeichler": 15,
+      "Knirscher": 15,
+      "Liebreiz": 20,
+      "Giftzahn": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/030.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/030.png"
   },
@@ -1537,6 +2101,11 @@
       "Gift",
       "Boden"
     ],
+    "abilities": [
+      "Giftdorn",
+      "Rivalität"
+    ],
+    "hidden_ability": "Rohe Gewalt",
     "base_stats": {
       "hp": 90,
       "attack": 92,
@@ -1571,6 +2140,16 @@
       "Bodyslam": 35,
       "Erdkräfte": 43
     },
+    "level_up_move_pp": {
+      "Kraftkoloss": 5,
+      "Kratzer": 35,
+      "Rutenschlag": 30,
+      "Doppelkick": 30,
+      "Giftstachel": 35,
+      "Zermürben": 20,
+      "Bodyslam": 15,
+      "Erdkräfte": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/031.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/031.png"
   },
@@ -1583,6 +2162,11 @@
     "types": [
       "Gift"
     ],
+    "abilities": [
+      "Giftdorn",
+      "Rivalität"
+    ],
+    "hidden_ability": "Übereifer",
     "base_stats": {
       "hp": 46,
       "attack": 57,
@@ -1622,6 +2206,21 @@
       "Liebreiz": 43,
       "Hornbohrer": 45
     },
+    "level_up_move_pp": {
+      "Silberblick": 30,
+      "Schnabel": 35,
+      "Energiefokus": 30,
+      "Doppelkick": 30,
+      "Giftstachel": 35,
+      "Furienschlag": 20,
+      "Hornattacke": 25,
+      "Rechte Hand": 20,
+      "Giftspitzen": 20,
+      "Schmeichler": 15,
+      "Gifthieb": 20,
+      "Liebreiz": 20,
+      "Hornbohrer": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/032.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/032.png"
   },
@@ -1634,6 +2233,11 @@
     "types": [
       "Gift"
     ],
+    "abilities": [
+      "Giftdorn",
+      "Rivalität"
+    ],
+    "hidden_ability": "Übereifer",
     "base_stats": {
       "hp": 61,
       "attack": 72,
@@ -1673,6 +2277,21 @@
       "Liebreiz": 50,
       "Hornbohrer": 58
     },
+    "level_up_move_pp": {
+      "Silberblick": 30,
+      "Schnabel": 35,
+      "Energiefokus": 30,
+      "Doppelkick": 30,
+      "Giftstachel": 35,
+      "Furienschlag": 20,
+      "Hornattacke": 25,
+      "Rechte Hand": 20,
+      "Giftspitzen": 20,
+      "Schmeichler": 15,
+      "Gifthieb": 20,
+      "Liebreiz": 20,
+      "Hornbohrer": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/033.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/033.png"
   },
@@ -1686,6 +2305,11 @@
       "Gift",
       "Boden"
     ],
+    "abilities": [
+      "Giftdorn",
+      "Rivalität"
+    ],
+    "hidden_ability": "Rohe Gewalt",
     "base_stats": {
       "hp": 81,
       "attack": 102,
@@ -1720,6 +2344,16 @@
       "Fuchtler": 35,
       "Erdkräfte": 43
     },
+    "level_up_move_pp": {
+      "Doppelkick": 30,
+      "Giftstachel": 35,
+      "Schnabel": 35,
+      "Energiefokus": 30,
+      "Vielender": 10,
+      "Zermürben": 20,
+      "Fuchtler": 20,
+      "Erdkräfte": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/034.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/034.png"
   },
@@ -1733,6 +2367,11 @@
       "Fee",
       "Normal"
     ],
+    "abilities": [
+      "Charmebolzen",
+      "Magieschild"
+    ],
+    "hidden_ability": "Freundeshut",
     "base_stats": {
       "hp": 70,
       "attack": 45,
@@ -1782,6 +2421,31 @@
       "Erdanziehung": 49,
       "Sternenhieb": 50
     },
+    "level_up_move_pp": {
+      "Säuselstimme": 15,
+      "Pfund": 35,
+      "Heuler": 40,
+      "Heilopfer": 10,
+      "Charme": 20,
+      "Galanterie": 15,
+      "Zugabe": 5,
+      "Gesang": 15,
+      "Duplexhieb": 10,
+      "Einigler": 40,
+      "Spotlight": 20,
+      "Offerte": 15,
+      "Weckruf": 10,
+      "Komprimator": 10,
+      "Kraftvorrat": 10,
+      "Metronom": 10,
+      "Kosmik-Kraft": 20,
+      "Beschwörung": 30,
+      "Bodyslam": 15,
+      "Mondschein": 5,
+      "Mondgewalt": 15,
+      "Erdanziehung": 5,
+      "Sternenhieb": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/035.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/035.png"
   },
@@ -1795,6 +2459,11 @@
       "Fee",
       "Normal"
     ],
+    "abilities": [
+      "Charmebolzen",
+      "Magieschild"
+    ],
+    "hidden_ability": "Unkenntnis",
     "base_stats": {
       "hp": 95,
       "attack": 70,
@@ -1826,6 +2495,13 @@
       "Metronom": 1,
       "Säuselstimme": 1
     },
+    "level_up_move_pp": {
+      "Duplexhieb": 10,
+      "Gesang": 15,
+      "Komprimator": 10,
+      "Metronom": 10,
+      "Säuselstimme": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/036.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/036.png"
   },
@@ -1838,6 +2514,10 @@
     "types": [
       "Feuer"
     ],
+    "abilities": [
+      "Feuerfänger"
+    ],
+    "hidden_ability": "Dürre",
     "base_stats": {
       "hp": 38,
       "attack": 41,
@@ -1884,6 +2564,28 @@
       "Liebreiz": 47,
       "Inferno": 50
     },
+    "level_up_move_pp": {
+      "Glut": 25,
+      "Rutenschlag": 30,
+      "Brüller": 20,
+      "Kulleraugen": 30,
+      "Ruckzuckhieb": 30,
+      "Feuerwirbel": 15,
+      "Konfustrahl": 10,
+      "Begrenzer": 20,
+      "Finte": 20,
+      "Funkenflug": 15,
+      "Irrlicht": 15,
+      "Bürde": 10,
+      "Gegenstoß": 10,
+      "Flammenwurf": 15,
+      "Bodyguard": 25,
+      "Sondersensor": 20,
+      "Feuersturm": 5,
+      "Nachspiel": 5,
+      "Liebreiz": 20,
+      "Inferno": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/037.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/037.png"
   },
@@ -1896,6 +2598,10 @@
     "types": [
       "Feuer"
     ],
+    "abilities": [
+      "Feuerfänger"
+    ],
+    "hidden_ability": "Dürre",
     "base_stats": {
       "hp": 73,
       "attack": 76,
@@ -1928,6 +2634,14 @@
       "Ränkeschmied": 1,
       "Flammenwurf": 1
     },
+    "level_up_move_pp": {
+      "Glut": 25,
+      "Ruckzuckhieb": 30,
+      "Konfustrahl": 10,
+      "Bodyguard": 25,
+      "Ränkeschmied": 20,
+      "Flammenwurf": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/038.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/038.png"
   },
@@ -1941,6 +2655,11 @@
       "Normal",
       "Fee"
     ],
+    "abilities": [
+      "Charmebolzen",
+      "Unbeugsamkeit"
+    ],
+    "hidden_ability": "Freundeshut",
     "base_stats": {
       "hp": 115,
       "attack": 45,
@@ -1983,6 +2702,24 @@
       "Säuselstimme": 50,
       "Risikotackle": 53
     },
+    "level_up_move_pp": {
+      "Gesang": 15,
+      "Einigler": 40,
+      "Pfund": 35,
+      "Kameradschaft": 20,
+      "Aussetzer": 20,
+      "Kanon": 15,
+      "Walzer": 20,
+      "Duplexhieb": 10,
+      "Erholung": 10,
+      "Bodyslam": 15,
+      "Gyroball": 5,
+      "Weckruf": 10,
+      "Mimikry": 10,
+      "Schallwelle": 10,
+      "Säuselstimme": 15,
+      "Risikotackle": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/039.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/039.png"
   },
@@ -1996,6 +2733,11 @@
       "Normal",
       "Fee"
     ],
+    "abilities": [
+      "Charmebolzen",
+      "Unbeugsamkeit"
+    ],
+    "hidden_ability": "Schnüffler",
     "base_stats": {
       "hp": 140,
       "attack": 70,
@@ -2028,6 +2770,14 @@
       "Aussetzer": 1,
       "Einigler": 1
     },
+    "level_up_move_pp": {
+      "Knuddler": 10,
+      "Risikotackle": 15,
+      "Duplexhieb": 10,
+      "Gesang": 15,
+      "Aussetzer": 20,
+      "Einigler": 40
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/040.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/040.png"
   },
@@ -2041,6 +2791,10 @@
       "Gift",
       "Flug"
     ],
+    "abilities": [
+      "Konzentrator"
+    ],
+    "hidden_ability": "Schwebedurch",
     "base_stats": {
       "hp": 40,
       "attack": 45,
@@ -2080,6 +2834,21 @@
       "Dunkelnebel": 41,
       "Luftschnitt": 45
     },
+    "level_up_move_pp": {
+      "Blutsauger": 15,
+      "Superschall": 20,
+      "Erstauner": 15,
+      "Biss": 25,
+      "Flügelschlag": 35,
+      "Konfustrahl": 10,
+      "Sternschauer": 20,
+      "Windschnitt": 25,
+      "Akrobatik": 15,
+      "Horrorblick": 5,
+      "Giftzahn": 15,
+      "Dunkelnebel": 30,
+      "Luftschnitt": 20
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/041.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/041.png"
   },
@@ -2093,6 +2862,10 @@
       "Gift",
       "Flug"
     ],
+    "abilities": [
+      "Konzentrator"
+    ],
+    "hidden_ability": "Schwebedurch",
     "base_stats": {
       "hp": 75,
       "attack": 80,
@@ -2133,6 +2906,22 @@
       "Dunkelnebel": 47,
       "Luftschnitt": 52
     },
+    "level_up_move_pp": {
+      "Blutsauger": 15,
+      "Superschall": 20,
+      "Kreideschrei": 40,
+      "Erstauner": 15,
+      "Biss": 25,
+      "Flügelschlag": 35,
+      "Konfustrahl": 10,
+      "Sternschauer": 20,
+      "Windschnitt": 25,
+      "Akrobatik": 15,
+      "Horrorblick": 5,
+      "Giftzahn": 15,
+      "Dunkelnebel": 30,
+      "Luftschnitt": 20
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/042.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/042.png"
   },
@@ -2146,6 +2935,10 @@
       "Pflanze",
       "Gift"
     ],
+    "abilities": [
+      "Chlorophyll"
+    ],
+    "hidden_ability": "Angsthase",
     "base_stats": {
       "hp": 45,
       "attack": 50,
@@ -2185,6 +2978,21 @@
       "Blättertanz": 41,
       "Grasfeld": 45
     },
+    "level_up_move_pp": {
+      "Absorber": 25,
+      "Lockduft": 20,
+      "Säure": 30,
+      "Giftpuder": 35,
+      "Stachelspore": 30,
+      "Schlafpuder": 15,
+      "Megasauger": 15,
+      "Beschwörung": 30,
+      "Beerenkräfte": 15,
+      "Mondschein": 5,
+      "Gigasauger": 10,
+      "Blättertanz": 10,
+      "Grasfeld": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/043.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/043.png"
   },
@@ -2198,6 +3006,10 @@
       "Pflanze",
       "Gift"
     ],
+    "abilities": [
+      "Chlorophyll"
+    ],
+    "hidden_ability": "Duftnote",
     "base_stats": {
       "hp": 60,
       "attack": 65,
@@ -2238,6 +3050,22 @@
       "Blättertanz": 53,
       "Grasfeld": 56
     },
+    "level_up_move_pp": {
+      "Absorber": 25,
+      "Lockduft": 20,
+      "Säure": 30,
+      "Giftpuder": 35,
+      "Stachelspore": 30,
+      "Schlafpuder": 15,
+      "Megasauger": 15,
+      "Beschwörung": 30,
+      "Beerenkräfte": 15,
+      "Mondschein": 5,
+      "Gigasauger": 10,
+      "Blütenwirbel": 15,
+      "Blättertanz": 10,
+      "Grasfeld": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/044.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/044.png"
   },
@@ -2251,6 +3079,10 @@
       "Pflanze",
       "Gift"
     ],
+    "abilities": [
+      "Chlorophyll"
+    ],
+    "hidden_ability": "Sporenwirt",
     "base_stats": {
       "hp": 75,
       "attack": 80,
@@ -2284,6 +3116,15 @@
       "Blättertanz": 53,
       "Solarstrahl": 65
     },
+    "level_up_move_pp": {
+      "Megasauger": 15,
+      "Aromakur": 5,
+      "Stachelspore": 30,
+      "Giftpuder": 35,
+      "Blütenwirbel": 15,
+      "Blättertanz": 10,
+      "Solarstrahl": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/045.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/045.png"
   },
@@ -2297,6 +3138,11 @@
       "Kaefer",
       "Pflanze"
     ],
+    "abilities": [
+      "Sporenwirt",
+      "Trockenheit"
+    ],
+    "hidden_ability": "Feuchtigkeit",
     "base_stats": {
       "hp": 35,
       "attack": 70,
@@ -2335,6 +3181,20 @@
       "Wutpulver": 49,
       "Kreuzschere": 54
     },
+    "level_up_move_pp": {
+      "Kratzer": 35,
+      "Stachelspore": 30,
+      "Giftpuder": 35,
+      "Blutsauger": 15,
+      "Zornklinge": 20,
+      "Pilzspore": 15,
+      "Schlitzer": 20,
+      "Wachstum": 20,
+      "Gigasauger": 10,
+      "Aromakur": 5,
+      "Wutpulver": 20,
+      "Kreuzschere": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/046.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/046.png"
   },
@@ -2348,6 +3208,11 @@
       "Kaefer",
       "Pflanze"
     ],
+    "abilities": [
+      "Sporenwirt",
+      "Trockenheit"
+    ],
+    "hidden_ability": "Feuchtigkeit",
     "base_stats": {
       "hp": 60,
       "attack": 95,
@@ -2387,6 +3252,21 @@
       "Wutpulver": 59,
       "Kreuzschere": 66
     },
+    "level_up_move_pp": {
+      "Giftstreich": 20,
+      "Kratzer": 35,
+      "Stachelspore": 30,
+      "Giftpuder": 35,
+      "Blutsauger": 15,
+      "Zornklinge": 20,
+      "Pilzspore": 15,
+      "Schlitzer": 20,
+      "Wachstum": 20,
+      "Gigasauger": 10,
+      "Aromakur": 5,
+      "Wutpulver": 20,
+      "Kreuzschere": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/047.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/047.png"
   },
@@ -2400,6 +3280,11 @@
       "Kaefer",
       "Gift"
     ],
+    "abilities": [
+      "Facettenauge",
+      "Aufwertung"
+    ],
+    "hidden_ability": "Angsthase",
     "base_stats": {
       "hp": 60,
       "attack": 55,
@@ -2440,6 +3325,22 @@
       "Giftzahn": 41,
       "Psychokinese": 47
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Aussetzer": 20,
+      "Gesichte": 40,
+      "Superschall": 20,
+      "Konfusion": 25,
+      "Giftpuder": 35,
+      "Blutsauger": 15,
+      "Stachelspore": 30,
+      "Psystrahl": 20,
+      "Schlafpuder": 15,
+      "Ampelleuchte": 15,
+      "Zen-Kopfstoß": 15,
+      "Giftzahn": 15,
+      "Psychokinese": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/048.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/048.png"
   },
@@ -2453,6 +3354,11 @@
       "Kaefer",
       "Gift"
     ],
+    "abilities": [
+      "Puderabwehr",
+      "Aufwertung"
+    ],
+    "hidden_ability": "Wunderhaut",
     "base_stats": {
       "hp": 70,
       "attack": 65,
@@ -2497,6 +3403,26 @@
       "Giftzahn": 47,
       "Psychokinese": 55
     },
+    "level_up_move_pp": {
+      "Falterreigen": 20,
+      "Käfergebrumm": 10,
+      "Silberhauch": 5,
+      "Tackle": 35,
+      "Aussetzer": 20,
+      "Gesichte": 40,
+      "Superschall": 20,
+      "Konfusion": 25,
+      "Giftpuder": 35,
+      "Blutsauger": 15,
+      "Stachelspore": 30,
+      "Psystrahl": 20,
+      "Schlafpuder": 15,
+      "Windstoß": 35,
+      "Ampelleuchte": 15,
+      "Zen-Kopfstoß": 15,
+      "Giftzahn": 15,
+      "Psychokinese": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/049.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/049.png"
   },
@@ -2509,6 +3435,11 @@
     "types": [
       "Boden"
     ],
+    "abilities": [
+      "Sandschleier",
+      "Ausweglos"
+    ],
+    "hidden_ability": "Sandgewalt",
     "base_stats": {
       "hp": 10,
       "attack": 55,
@@ -2549,6 +3480,22 @@
       "Erdbeben": 40,
       "Geofissur": 45
     },
+    "level_up_move_pp": {
+      "Kratzer": 35,
+      "Sandwirbel": 15,
+      "Heuler": 40,
+      "Erstauner": 15,
+      "Lehmschelle": 10,
+      "Intensität": 30,
+      "Dampfwalze": 20,
+      "Tiefschlag": 5,
+      "Schlammbombe": 10,
+      "Erdkräfte": 10,
+      "Schaufler": 10,
+      "Schlitzer": 20,
+      "Erdbeben": 10,
+      "Geofissur": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/050.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/050.png"
   },
@@ -2561,6 +3508,11 @@
     "types": [
       "Boden"
     ],
+    "abilities": [
+      "Sandschleier",
+      "Ausweglos"
+    ],
+    "hidden_ability": "Sandgewalt",
     "base_stats": {
       "hp": 35,
       "attack": 100,
@@ -2605,6 +3557,26 @@
       "Erdbeben": 50,
       "Geofissur": 57
     },
+    "level_up_move_pp": {
+      "Pflüger": 10,
+      "Nachthieb": 15,
+      "Triplette": 10,
+      "Kratzer": 35,
+      "Sandwirbel": 15,
+      "Heuler": 40,
+      "Erstauner": 15,
+      "Lehmschelle": 10,
+      "Intensität": 30,
+      "Dampfwalze": 20,
+      "Tiefschlag": 5,
+      "Sandgrab": 15,
+      "Schlammbombe": 10,
+      "Erdkräfte": 10,
+      "Schaufler": 10,
+      "Schlitzer": 20,
+      "Erdbeben": 10,
+      "Geofissur": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/051.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/051.png"
   },
@@ -2617,6 +3589,11 @@
     "types": [
       "Normal"
     ],
+    "abilities": [
+      "Mitnahme",
+      "Techniker"
+    ],
+    "hidden_ability": "Anspannung",
     "base_stats": {
       "hp": 40,
       "attack": 45,
@@ -2658,6 +3635,23 @@
       "Nachthieb": 49,
       "Offenlegung": 50
     },
+    "level_up_move_pp": {
+      "Kratzer": 35,
+      "Heuler": 40,
+      "Biss": 25,
+      "Mogelhieb": 10,
+      "Kratzfurie": 15,
+      "Kreideschrei": 40,
+      "Finte": 20,
+      "Verhöhner": 20,
+      "Zahltag": 20,
+      "Schlitzer": 20,
+      "Ränkeschmied": 20,
+      "Gewissheit": 10,
+      "Liebreiz": 20,
+      "Nachthieb": 15,
+      "Offenlegung": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/052.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/052.png"
   },
@@ -2670,6 +3664,11 @@
     "types": [
       "Normal"
     ],
+    "abilities": [
+      "Flexibilität",
+      "Techniker"
+    ],
+    "hidden_ability": "Anspannung",
     "base_stats": {
       "hp": 65,
       "attack": 70,
@@ -2714,6 +3713,26 @@
       "Nachthieb": 61,
       "Offenlegung": 65
     },
+    "level_up_move_pp": {
+      "Knuddler": 10,
+      "Wechseldich": 10,
+      "Kratzer": 35,
+      "Heuler": 40,
+      "Biss": 25,
+      "Mogelhieb": 10,
+      "Kratzfurie": 15,
+      "Kreideschrei": 40,
+      "Finte": 20,
+      "Verhöhner": 20,
+      "Sternschauer": 20,
+      "Juwelenkraft": 20,
+      "Schlitzer": 20,
+      "Ränkeschmied": 20,
+      "Gewissheit": 10,
+      "Liebreiz": 20,
+      "Nachthieb": 15,
+      "Offenlegung": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/053.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/053.png"
   },
@@ -2726,6 +3745,11 @@
     "types": [
       "Wasser"
     ],
+    "abilities": [
+      "Feuchtigkeit",
+      "Wolke Sieben"
+    ],
+    "hidden_ability": "Wassertempo",
     "base_stats": {
       "hp": 50,
       "attack": 52,
@@ -2768,6 +3792,24 @@
       "Hydropumpe": 46,
       "Wunderraum": 50
     },
+    "level_up_move_pp": {
+      "Kratzer": 35,
+      "Nassmacher": 15,
+      "Rutenschlag": 30,
+      "Aquaknarre": 25,
+      "Aussetzer": 20,
+      "Konfusion": 25,
+      "Aquawelle": 20,
+      "Kratzfurie": 15,
+      "Kreideschrei": 40,
+      "Zen-Kopfstoß": 15,
+      "Nassschweif": 10,
+      "Überflutung": 20,
+      "Psycho-Plus": 10,
+      "Amnesie": 20,
+      "Hydropumpe": 5,
+      "Wunderraum": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/054.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/054.png"
   },
@@ -2780,6 +3822,11 @@
     "types": [
       "Wasser"
     ],
+    "abilities": [
+      "Feuchtigkeit",
+      "Wolke Sieben"
+    ],
+    "hidden_ability": "Wassertempo",
     "base_stats": {
       "hp": 80,
       "attack": 82,
@@ -2822,6 +3869,24 @@
       "Hydropumpe": 54,
       "Wunderraum": 60
     },
+    "level_up_move_pp": {
+      "Kratzer": 35,
+      "Nassmacher": 15,
+      "Rutenschlag": 30,
+      "Aquaknarre": 25,
+      "Aussetzer": 20,
+      "Konfusion": 25,
+      "Aquawelle": 20,
+      "Kratzfurie": 15,
+      "Kreideschrei": 40,
+      "Zen-Kopfstoß": 15,
+      "Nassschweif": 10,
+      "Überflutung": 20,
+      "Psycho-Plus": 10,
+      "Amnesie": 20,
+      "Hydropumpe": 5,
+      "Wunderraum": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/055.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/055.png"
   },
@@ -2834,6 +3899,11 @@
     "types": [
       "Kampf"
     ],
+    "abilities": [
+      "Munterkeit",
+      "Kurzschluss"
+    ],
+    "hidden_ability": "Siegeswille",
     "base_stats": {
       "hp": 40,
       "attack": 80,
@@ -2876,6 +3946,24 @@
       "Nahkampf": 49,
       "Wagemut": 53
     },
+    "level_up_move_pp": {
+      "Energiefokus": 30,
+      "Kratzer": 35,
+      "Bezirzer": 25,
+      "Silberblick": 30,
+      "Fußkick": 20,
+      "Kratzfurie": 15,
+      "Karateschlag": 25,
+      "Geowurf": 20,
+      "Kreideschrei": 40,
+      "Gewissheit": 10,
+      "Angeberei": 15,
+      "Kreuzhieb": 5,
+      "Fuchtler": 20,
+      "Strafattacke": 5,
+      "Nahkampf": 5,
+      "Wagemut": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/056.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/056.png"
   },
@@ -2888,6 +3976,11 @@
     "types": [
       "Kampf"
     ],
+    "abilities": [
+      "Munterkeit",
+      "Kurzschluss"
+    ],
+    "hidden_ability": "Siegeswille",
     "base_stats": {
       "hp": 65,
       "attack": 105,
@@ -2930,6 +4023,24 @@
       "Nahkampf": 49,
       "Wagemut": 53
     },
+    "level_up_move_pp": {
+      "Energiefokus": 30,
+      "Kratzer": 35,
+      "Bezirzer": 25,
+      "Silberblick": 30,
+      "Fußkick": 20,
+      "Kratzfurie": 15,
+      "Karateschlag": 25,
+      "Geowurf": 20,
+      "Kreideschrei": 40,
+      "Gewissheit": 10,
+      "Angeberei": 15,
+      "Kreuzhieb": 5,
+      "Fuchtler": 20,
+      "Strafattacke": 5,
+      "Nahkampf": 5,
+      "Wagemut": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/057.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/057.png"
   },
@@ -2942,6 +4053,11 @@
     "types": [
       "Feuer"
     ],
+    "abilities": [
+      "Feuerfänger",
+      "Bedroher"
+    ],
+    "hidden_ability": "Redlichkeit",
     "base_stats": {
       "hp": 55,
       "attack": 70,
@@ -2986,6 +4102,26 @@
       "Wutanfall": 43,
       "Flammenblitz": 45
     },
+    "level_up_move_pp": {
+      "Biss": 25,
+      "Brüller": 20,
+      "Glut": 25,
+      "Silberblick": 30,
+      "Schnüffler": 40,
+      "Rechte Hand": 20,
+      "Flammenrad": 25,
+      "Gegenschlag": 15,
+      "Feuerzahn": 15,
+      "Bodycheck": 20,
+      "Funkenflug": 15,
+      "Agilität": 30,
+      "Heimzahlung": 5,
+      "Flammenwurf": 15,
+      "Knirscher": 15,
+      "Hitzewelle": 10,
+      "Wutanfall": 10,
+      "Flammenblitz": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/058.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/058.png"
   },
@@ -2998,6 +4134,11 @@
     "types": [
       "Feuer"
     ],
+    "abilities": [
+      "Feuerfänger",
+      "Bedroher"
+    ],
+    "hidden_ability": "Redlichkeit",
     "base_stats": {
       "hp": 90,
       "attack": 110,
@@ -3030,6 +4171,14 @@
       "Feuerzahn": 1,
       "Turbotempo": 34
     },
+    "level_up_move_pp": {
+      "Biss": 25,
+      "Brüller": 20,
+      "Schnüffler": 40,
+      "Donnerzahn": 15,
+      "Feuerzahn": 15,
+      "Turbotempo": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/059.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/059.png"
   },
@@ -3042,6 +4191,11 @@
     "types": [
       "Wasser"
     ],
+    "abilities": [
+      "Feuchtigkeit",
+      "H2O-Absorber"
+    ],
+    "hidden_ability": "Wassertempo",
     "base_stats": {
       "hp": 40,
       "attack": 50,
@@ -3081,6 +4235,21 @@
       "Hydropumpe": 38,
       "Schlammbombe": 41
     },
+    "level_up_move_pp": {
+      "Nassmacher": 15,
+      "Aquaknarre": 25,
+      "Hypnose": 20,
+      "Blubber": 30,
+      "Duplexhieb": 10,
+      "Regentanz": 5,
+      "Bodyslam": 15,
+      "Blubbstrahl": 20,
+      "Lehmschuss": 15,
+      "Bauchtrommel": 10,
+      "Weckruf": 10,
+      "Hydropumpe": 5,
+      "Schlammbombe": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/060.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/060.png"
   },
@@ -3093,6 +4262,11 @@
     "types": [
       "Wasser"
     ],
+    "abilities": [
+      "Feuchtigkeit",
+      "H2O-Absorber"
+    ],
+    "hidden_ability": "Wassertempo",
     "base_stats": {
       "hp": 65,
       "attack": 65,
@@ -3132,6 +4306,21 @@
       "Hydropumpe": 48,
       "Schlammbombe": 53
     },
+    "level_up_move_pp": {
+      "Blubber": 30,
+      "Nassmacher": 15,
+      "Hypnose": 20,
+      "Aquaknarre": 25,
+      "Duplexhieb": 10,
+      "Regentanz": 5,
+      "Bodyslam": 15,
+      "Blubbstrahl": 20,
+      "Lehmschuss": 15,
+      "Bauchtrommel": 10,
+      "Weckruf": 10,
+      "Hydropumpe": 5,
+      "Schlammbombe": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/061.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/061.png"
   },
@@ -3145,6 +4334,11 @@
       "Wasser",
       "Kampf"
     ],
+    "abilities": [
+      "Feuchtigkeit",
+      "H2O-Absorber"
+    ],
+    "hidden_ability": "Wassertempo",
     "base_stats": {
       "hp": 90,
       "attack": 95,
@@ -3178,6 +4372,15 @@
       "Willensleser": 43,
       "Überkopfwurf": 53
     },
+    "level_up_move_pp": {
+      "Duplexhieb": 10,
+      "Blubbstrahl": 20,
+      "Überroller": 25,
+      "Hypnose": 20,
+      "Wuchtschlag": 5,
+      "Willensleser": 5,
+      "Überkopfwurf": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/062.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/062.png"
   },
@@ -3190,6 +4393,11 @@
     "types": [
       "Psycho"
     ],
+    "abilities": [
+      "Synchro",
+      "Konzentrator"
+    ],
+    "hidden_ability": "Magieschild",
     "base_stats": {
       "hp": 25,
       "attack": 20,
@@ -3217,6 +4425,9 @@
     "level_up_attacks": {
       "Teleport": 1
     },
+    "level_up_move_pp": {
+      "Teleport": 20
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/063.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/063.png"
   },
@@ -3229,6 +4440,11 @@
     "types": [
       "Psycho"
     ],
+    "abilities": [
+      "Synchro",
+      "Konzentrator"
+    ],
+    "hidden_ability": "Magieschild",
     "base_stats": {
       "hp": 40,
       "attack": 35,
@@ -3270,6 +4486,23 @@
       "Seher": 48,
       "Trickbetrug": 50
     },
+    "level_up_move_pp": {
+      "Konfusion": 25,
+      "Teleport": 20,
+      "Psykraft": 15,
+      "Aussetzer": 20,
+      "Wunderauge": 40,
+      "Seitentausch": 15,
+      "Psystrahl": 20,
+      "Reflektor": 20,
+      "Telekinese": 15,
+      "Genesung": 10,
+      "Psychoklinge": 20,
+      "Rollentausch": 10,
+      "Psychokinese": 10,
+      "Seher": 10,
+      "Trickbetrug": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/064.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/064.png"
   },
@@ -3282,6 +4515,11 @@
     "types": [
       "Psycho"
     ],
+    "abilities": [
+      "Synchro",
+      "Konzentrator"
+    ],
+    "hidden_ability": "Magieschild",
     "base_stats": {
       "hp": 55,
       "attack": 50,
@@ -3323,6 +4561,23 @@
       "Seher": 48,
       "Trickbetrug": 50
     },
+    "level_up_move_pp": {
+      "Konfusion": 25,
+      "Teleport": 20,
+      "Psykraft": 15,
+      "Aussetzer": 20,
+      "Wunderauge": 40,
+      "Seitentausch": 15,
+      "Psystrahl": 20,
+      "Reflektor": 20,
+      "Telekinese": 15,
+      "Genesung": 10,
+      "Psychoklinge": 20,
+      "Rollentausch": 10,
+      "Psychokinese": 10,
+      "Seher": 10,
+      "Trickbetrug": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/065.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/065.png"
   },
@@ -3335,6 +4590,11 @@
     "types": [
       "Kampf"
     ],
+    "abilities": [
+      "Adrenalin",
+      "Schildlos"
+    ],
+    "hidden_ability": "Felsenfest",
     "base_stats": {
       "hp": 70,
       "attack": 80,
@@ -3375,6 +4635,22 @@
       "Grimasse": 46,
       "Wuchtschlag": 49
     },
+    "level_up_move_pp": {
+      "Silberblick": 30,
+      "Fußkick": 20,
+      "Energiefokus": 30,
+      "Karateschlag": 25,
+      "Fußtritt": 20,
+      "Gesichte": 40,
+      "Geowurf": 20,
+      "Vergeltung": 10,
+      "Überwurf": 10,
+      "Überroller": 25,
+      "Weckruf": 10,
+      "Kreuzhieb": 5,
+      "Grimasse": 10,
+      "Wuchtschlag": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/066.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/066.png"
   },
@@ -3387,6 +4663,11 @@
     "types": [
       "Kampf"
     ],
+    "abilities": [
+      "Adrenalin",
+      "Schildlos"
+    ],
+    "hidden_ability": "Felsenfest",
     "base_stats": {
       "hp": 80,
       "attack": 100,
@@ -3427,6 +4708,22 @@
       "Grimasse": 51,
       "Wuchtschlag": 55
     },
+    "level_up_move_pp": {
+      "Energiefokus": 30,
+      "Silberblick": 30,
+      "Fußkick": 20,
+      "Karateschlag": 25,
+      "Fußtritt": 20,
+      "Gesichte": 40,
+      "Geowurf": 20,
+      "Vergeltung": 10,
+      "Überwurf": 10,
+      "Überroller": 25,
+      "Weckruf": 10,
+      "Kreuzhieb": 5,
+      "Grimasse": 10,
+      "Wuchtschlag": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/067.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/067.png"
   },
@@ -3439,6 +4736,11 @@
     "types": [
       "Kampf"
     ],
+    "abilities": [
+      "Adrenalin",
+      "Schildlos"
+    ],
+    "hidden_ability": "Felsenfest",
     "base_stats": {
       "hp": 90,
       "attack": 130,
@@ -3480,6 +4782,23 @@
       "Grimasse": 51,
       "Wuchtschlag": 55
     },
+    "level_up_move_pp": {
+      "Energiefokus": 30,
+      "Silberblick": 30,
+      "Fußkick": 20,
+      "Rundumschutz": 10,
+      "Karateschlag": 25,
+      "Fußtritt": 20,
+      "Gesichte": 40,
+      "Geowurf": 20,
+      "Vergeltung": 10,
+      "Überwurf": 10,
+      "Überroller": 25,
+      "Weckruf": 10,
+      "Kreuzhieb": 5,
+      "Grimasse": 10,
+      "Wuchtschlag": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/068.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/068.png"
   },
@@ -3493,6 +4812,10 @@
       "Pflanze",
       "Gift"
     ],
+    "abilities": [
+      "Chlorophyll"
+    ],
+    "hidden_ability": "Völlerei",
     "base_stats": {
       "hp": 50,
       "attack": 75,
@@ -3532,6 +4855,21 @@
       "Slam": 41,
       "Auswringen": 47
     },
+    "level_up_move_pp": {
+      "Rankenhieb": 25,
+      "Wachstum": 20,
+      "Wickel": 20,
+      "Schlafpuder": 15,
+      "Giftpuder": 35,
+      "Stachelspore": 30,
+      "Säure": 30,
+      "Abschlag": 20,
+      "Lockduft": 20,
+      "Magensäfte": 10,
+      "Rasierblatt": 25,
+      "Slam": 20,
+      "Auswringen": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/069.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/069.png"
   },
@@ -3545,6 +4883,10 @@
       "Pflanze",
       "Gift"
     ],
+    "abilities": [
+      "Chlorophyll"
+    ],
+    "hidden_ability": "Völlerei",
     "base_stats": {
       "hp": 65,
       "attack": 90,
@@ -3584,6 +4926,21 @@
       "Slam": 41,
       "Auswringen": 47
     },
+    "level_up_move_pp": {
+      "Wachstum": 20,
+      "Rankenhieb": 25,
+      "Wickel": 20,
+      "Schlafpuder": 15,
+      "Giftpuder": 35,
+      "Stachelspore": 30,
+      "Säure": 30,
+      "Abschlag": 20,
+      "Lockduft": 20,
+      "Magensäfte": 10,
+      "Rasierblatt": 25,
+      "Slam": 20,
+      "Auswringen": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/070.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/070.png"
   },
@@ -3597,6 +4954,10 @@
       "Pflanze",
       "Gift"
     ],
+    "abilities": [
+      "Chlorophyll"
+    ],
+    "hidden_ability": "Völlerei",
     "base_stats": {
       "hp": 80,
       "attack": 105,
@@ -3633,6 +4994,18 @@
       "Blättersturm": 47,
       "Laubklinge": 47
     },
+    "level_up_move_pp": {
+      "Rankenhieb": 25,
+      "Rasierblatt": 25,
+      "Schlafpuder": 15,
+      "Lockduft": 20,
+      "Horter": 10,
+      "Entfessler": 10,
+      "Verzehrer": 10,
+      "Grasmixer": 10,
+      "Blättersturm": 5,
+      "Laubklinge": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/071.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/071.png"
   },
@@ -3646,6 +5019,11 @@
       "Wasser",
       "Gift"
     ],
+    "abilities": [
+      "Neutraltorso",
+      "Kloakensoße"
+    ],
+    "hidden_ability": "Regengenuss",
     "base_stats": {
       "hp": 40,
       "attack": 40,
@@ -3688,6 +5066,24 @@
       "Schlammwoge": 50,
       "Auswringen": 54
     },
+    "level_up_move_pp": {
+      "Giftstachel": 35,
+      "Superschall": 20,
+      "Umklammerung": 35,
+      "Säure": 30,
+      "Giftspitzen": 20,
+      "Blubbstrahl": 20,
+      "Wickel": 20,
+      "Säurespeier": 20,
+      "Barriere": 20,
+      "Aquawelle": 20,
+      "Gifthieb": 20,
+      "Kreideschrei": 40,
+      "Bürde": 10,
+      "Hydropumpe": 5,
+      "Schlammwoge": 10,
+      "Auswringen": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/072.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/072.png"
   },
@@ -3701,6 +5097,11 @@
       "Wasser",
       "Gift"
     ],
+    "abilities": [
+      "Neutraltorso",
+      "Kloakensoße"
+    ],
+    "hidden_ability": "Regengenuss",
     "base_stats": {
       "hp": 80,
       "attack": 70,
@@ -3744,6 +5145,25 @@
       "Hydropumpe": 52,
       "Schlammwoge": 56
     },
+    "level_up_move_pp": {
+      "Auswringen": 5,
+      "Giftstachel": 35,
+      "Superschall": 20,
+      "Typenspiegel": 15,
+      "Umklammerung": 35,
+      "Säure": 30,
+      "Giftspitzen": 20,
+      "Blubbstrahl": 20,
+      "Wickel": 20,
+      "Säurespeier": 20,
+      "Barriere": 20,
+      "Aquawelle": 20,
+      "Gifthieb": 20,
+      "Kreideschrei": 40,
+      "Bürde": 10,
+      "Hydropumpe": 5,
+      "Schlammwoge": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/073.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/073.png"
   },
@@ -3757,6 +5177,11 @@
       "Gestein",
       "Boden"
     ],
+    "abilities": [
+      "Robustheit",
+      "Steinhaupt"
+    ],
+    "hidden_ability": "Sandschleier",
     "base_stats": {
       "hp": 40,
       "attack": 80,
@@ -3799,6 +5224,24 @@
       "Risikotackle": 46,
       "Steinkante": 50
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Einigler": 40,
+      "Lehmsuhler": 15,
+      "Steinpolitur": 20,
+      "Walzer": 20,
+      "Intensität": 30,
+      "Steinwurf": 15,
+      "Felswurf": 10,
+      "Katapult": 15,
+      "Finale": 5,
+      "Dampfwalze": 20,
+      "Tarnsteine": 20,
+      "Erdbeben": 10,
+      "Explosion": 5,
+      "Risikotackle": 15,
+      "Steinkante": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/074.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/074.png"
   },
@@ -3812,6 +5255,11 @@
       "Gestein",
       "Boden"
     ],
+    "abilities": [
+      "Robustheit",
+      "Steinhaupt"
+    ],
+    "hidden_ability": "Sandschleier",
     "base_stats": {
       "hp": 55,
       "attack": 95,
@@ -3854,6 +5302,24 @@
       "Risikotackle": 58,
       "Steinkante": 64
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Steinpolitur": 20,
+      "Einigler": 40,
+      "Lehmsuhler": 15,
+      "Walzer": 20,
+      "Intensität": 30,
+      "Steinwurf": 15,
+      "Felswurf": 10,
+      "Katapult": 15,
+      "Finale": 5,
+      "Dampfwalze": 20,
+      "Tarnsteine": 20,
+      "Erdbeben": 10,
+      "Explosion": 5,
+      "Risikotackle": 15,
+      "Steinkante": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/075.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/075.png"
   },
@@ -3867,6 +5333,11 @@
       "Gestein",
       "Boden"
     ],
+    "abilities": [
+      "Robustheit",
+      "Steinhaupt"
+    ],
+    "hidden_ability": "Sandschleier",
     "base_stats": {
       "hp": 80,
       "attack": 120,
@@ -3910,6 +5381,25 @@
       "Risikotackle": 58,
       "Steinkante": 64
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Steinpolitur": 20,
+      "Einigler": 40,
+      "Lehmsuhler": 15,
+      "Rammboss": 10,
+      "Quetschwalze": 20,
+      "Intensität": 30,
+      "Steinwurf": 15,
+      "Felswurf": 10,
+      "Katapult": 15,
+      "Finale": 5,
+      "Dampfwalze": 20,
+      "Tarnsteine": 20,
+      "Erdbeben": 10,
+      "Explosion": 5,
+      "Risikotackle": 15,
+      "Steinkante": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/076.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/076.png"
   },
@@ -3922,6 +5412,11 @@
     "types": [
       "Feuer"
     ],
+    "abilities": [
+      "Feuerfänger",
+      "Angsthase"
+    ],
+    "hidden_ability": "Flammkörper",
     "base_stats": {
       "hp": 50,
       "attack": 85,
@@ -3962,6 +5457,22 @@
       "Sprungfeder": 45,
       "Flammenblitz": 49
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Heuler": 40,
+      "Rutenschlag": 30,
+      "Glut": 25,
+      "Flammenrad": 25,
+      "Stampfer": 20,
+      "Nitroladung": 20,
+      "Feuerwirbel": 15,
+      "Bodycheck": 20,
+      "Inferno": 5,
+      "Agilität": 30,
+      "Feuersturm": 5,
+      "Sprungfeder": 5,
+      "Flammenblitz": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/077.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/077.png"
   },
@@ -3974,6 +5485,11 @@
     "types": [
       "Feuer"
     ],
+    "abilities": [
+      "Feuerfänger",
+      "Angsthase"
+    ],
+    "hidden_ability": "Flammkörper",
     "base_stats": {
       "hp": 65,
       "attack": 100,
@@ -4017,6 +5533,25 @@
       "Sprungfeder": 45,
       "Flammenblitz": 49
     },
+    "level_up_move_pp": {
+      "Gifthieb": 20,
+      "Vielender": 10,
+      "Ruckzuckhieb": 30,
+      "Rutenschlag": 30,
+      "Heuler": 40,
+      "Glut": 25,
+      "Flammenrad": 25,
+      "Stampfer": 20,
+      "Nitroladung": 20,
+      "Feuerwirbel": 15,
+      "Bodycheck": 20,
+      "Inferno": 5,
+      "Agilität": 30,
+      "Furienschlag": 20,
+      "Feuersturm": 5,
+      "Sprungfeder": 5,
+      "Flammenblitz": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/078.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/078.png"
   },
@@ -4030,6 +5565,11 @@
       "Wasser",
       "Psycho"
     ],
+    "abilities": [
+      "Dösigkeit",
+      "Gleichmut"
+    ],
+    "hidden_ability": "Belebekraft",
     "base_stats": {
       "hp": 90,
       "attack": 65,
@@ -4072,6 +5612,24 @@
       "Psycho-Plus": 54,
       "Heilwoge": 58
     },
+    "level_up_move_pp": {
+      "Fluch": 10,
+      "Tackle": 35,
+      "Gähner": 10,
+      "Heuler": 40,
+      "Aquaknarre": 25,
+      "Konfusion": 25,
+      "Aussetzer": 20,
+      "Kopfnuss": 15,
+      "Aquawelle": 20,
+      "Zen-Kopfstoß": 15,
+      "Tagedieb": 10,
+      "Amnesie": 20,
+      "Psychokinese": 10,
+      "Regentanz": 5,
+      "Psycho-Plus": 10,
+      "Heilwoge": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/079.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/079.png"
   },
@@ -4085,6 +5643,11 @@
       "Wasser",
       "Psycho"
     ],
+    "abilities": [
+      "Dösigkeit",
+      "Gleichmut"
+    ],
+    "hidden_ability": "Belebekraft",
     "base_stats": {
       "hp": 95,
       "attack": 75,
@@ -4128,6 +5691,25 @@
       "Regentanz": 55,
       "Psycho-Plus": 62
     },
+    "level_up_move_pp": {
+      "Fluch": 10,
+      "Tackle": 35,
+      "Heuler": 40,
+      "Gähner": 10,
+      "Heilwoge": 10,
+      "Aquaknarre": 25,
+      "Konfusion": 25,
+      "Aussetzer": 20,
+      "Kopfnuss": 15,
+      "Aquawelle": 20,
+      "Zen-Kopfstoß": 15,
+      "Tagedieb": 10,
+      "Panzerschutz": 40,
+      "Amnesie": 20,
+      "Psychokinese": 10,
+      "Regentanz": 5,
+      "Psycho-Plus": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/080.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/080.png"
   },
@@ -4141,6 +5723,11 @@
       "Elektro",
       "Stahl"
     ],
+    "abilities": [
+      "Robustheit",
+      "Magnetfalle"
+    ],
+    "hidden_ability": "Analyse",
     "base_stats": {
       "hp": 25,
       "attack": 35,
@@ -4184,6 +5771,25 @@
       "Gyroball": 53,
       "Blitzkanone": 57
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Superschall": 20,
+      "Donnerschock": 30,
+      "Elektrofeld": 10,
+      "Donnerwelle": 20,
+      "Magnetbombe": 20,
+      "Funkensprung": 20,
+      "Spiegelsalve": 10,
+      "Metallsound": 40,
+      "Elektroball": 10,
+      "Lichtkanone": 10,
+      "Kreideschrei": 40,
+      "Ladungsstoß": 15,
+      "Zielschuss": 5,
+      "Magnetflug": 10,
+      "Gyroball": 5,
+      "Blitzkanone": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/081.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/081.png"
   },
@@ -4197,6 +5803,11 @@
       "Elektro",
       "Stahl"
     ],
+    "abilities": [
+      "Robustheit",
+      "Magnetfalle"
+    ],
+    "hidden_ability": "Analyse",
     "base_stats": {
       "hp": 50,
       "attack": 60,
@@ -4242,6 +5853,27 @@
       "Magnetflug": 62,
       "Gyroball": 67
     },
+    "level_up_move_pp": {
+      "Blitzkanone": 5,
+      "Tackle": 35,
+      "Superschall": 20,
+      "Triplette": 10,
+      "Donnerschock": 30,
+      "Ultraschall": 20,
+      "Elektrofeld": 10,
+      "Donnerwelle": 20,
+      "Magnetbombe": 20,
+      "Funkensprung": 20,
+      "Spiegelsalve": 10,
+      "Metallsound": 40,
+      "Elektroball": 10,
+      "Lichtkanone": 10,
+      "Kreideschrei": 40,
+      "Ladungsstoß": 15,
+      "Zielschuss": 5,
+      "Magnetflug": 10,
+      "Gyroball": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/082.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/082.png"
   },
@@ -4255,6 +5887,11 @@
       "Normal",
       "Flug"
     ],
+    "abilities": [
+      "Konzentrator",
+      "Adlerauge"
+    ],
+    "hidden_ability": "Siegeswille",
     "base_stats": {
       "hp": 52,
       "attack": 90,
@@ -4299,6 +5936,26 @@
       "Trugschlag": 45,
       "Luftschnitt": 49
     },
+    "level_up_move_pp": {
+      "Sturzflug": 15,
+      "Gifthieb": 20,
+      "Sandwirbel": 15,
+      "Silberblick": 30,
+      "Schnabel": 35,
+      "Zornklinge": 20,
+      "Furienschlag": 20,
+      "Aero-Ass": 20,
+      "Abschlag": 20,
+      "Schlitzer": 20,
+      "Windschnitt": 25,
+      "Schwerttanz": 20,
+      "Agilität": 30,
+      "Nachthieb": 15,
+      "Akrobatik": 15,
+      "Offenlegung": 10,
+      "Trugschlag": 40,
+      "Luftschnitt": 20
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/083.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/083.png"
   },
@@ -4312,6 +5969,11 @@
       "Normal",
       "Flug"
     ],
+    "abilities": [
+      "Angsthase",
+      "Frühwecker"
+    ],
+    "hidden_ability": "Taumelschritt",
     "base_stats": {
       "hp": 35,
       "attack": 85,
@@ -4351,6 +6013,21 @@
       "Notsituation": 46,
       "Fuchtler": 50
     },
+    "level_up_move_pp": {
+      "Heuler": 40,
+      "Schnabel": 35,
+      "Ruckzuckhieb": 30,
+      "Raserei": 20,
+      "Furienschlag": 20,
+      "Verfolgung": 20,
+      "Aufruhr": 10,
+      "Akupressur": 30,
+      "Doppelschlag": 10,
+      "Agilität": 30,
+      "Bohrschnabel": 20,
+      "Notsituation": 5,
+      "Fuchtler": 20
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/084.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/084.png"
   },
@@ -4364,6 +6041,11 @@
       "Normal",
       "Flug"
     ],
+    "abilities": [
+      "Angsthase",
+      "Frühwecker"
+    ],
+    "hidden_ability": "Taumelschritt",
     "base_stats": {
       "hp": 60,
       "attack": 110,
@@ -4404,6 +6086,22 @@
       "Notsituation": 54,
       "Fuchtler": 60
     },
+    "level_up_move_pp": {
+      "Raserei": 20,
+      "Heuler": 40,
+      "Schnabel": 35,
+      "Pflücker": 20,
+      "Ruckzuckhieb": 30,
+      "Furienschlag": 20,
+      "Verfolgung": 20,
+      "Aufruhr": 10,
+      "Akupressur": 30,
+      "Triplette": 10,
+      "Agilität": 30,
+      "Bohrschnabel": 20,
+      "Notsituation": 5,
+      "Fuchtler": 20
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/085.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/085.png"
   },
@@ -4416,6 +6114,11 @@
     "types": [
       "Wasser"
     ],
+    "abilities": [
+      "Speckschicht",
+      "Hydration"
+    ],
+    "hidden_ability": "Eishaut",
     "base_stats": {
       "hp": 65,
       "attack": 45,
@@ -4459,6 +6162,25 @@
       "Bodyguard": 51,
       "Hagelsturm": 53
     },
+    "level_up_move_pp": {
+      "Kopfnuss": 15,
+      "Heuler": 40,
+      "Nassmacher": 15,
+      "Eissturm": 15,
+      "Zugabe": 5,
+      "Eissplitter": 30,
+      "Erholung": 10,
+      "Wasserring": 20,
+      "Aurorastrahl": 20,
+      "Wasserdüse": 20,
+      "Lake": 10,
+      "Bodycheck": 20,
+      "Taucher": 10,
+      "Nassschweif": 10,
+      "Eisstrahl": 10,
+      "Bodyguard": 25,
+      "Hagelsturm": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/086.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/086.png"
   },
@@ -4472,6 +6194,11 @@
       "Wasser",
       "Eis"
     ],
+    "abilities": [
+      "Speckschicht",
+      "Hydration"
+    ],
+    "hidden_ability": "Eishaut",
     "base_stats": {
       "hp": 90,
       "attack": 70,
@@ -4516,6 +6243,26 @@
       "Bodyguard": 61,
       "Hagelsturm": 65
     },
+    "level_up_move_pp": {
+      "Kopfnuss": 15,
+      "Heuler": 40,
+      "Ampelleuchte": 15,
+      "Eissturm": 15,
+      "Zugabe": 5,
+      "Eissplitter": 30,
+      "Erholung": 10,
+      "Wasserring": 20,
+      "Aurorastrahl": 20,
+      "Wasserdüse": 20,
+      "Lake": 10,
+      "Eiseskälte": 5,
+      "Bodycheck": 20,
+      "Taucher": 10,
+      "Nassschweif": 10,
+      "Eisstrahl": 10,
+      "Bodyguard": 25,
+      "Hagelsturm": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/087.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/087.png"
   },
@@ -4528,6 +6275,11 @@
     "types": [
       "Gift"
     ],
+    "abilities": [
+      "Duftnote",
+      "Klebekörper"
+    ],
+    "hidden_ability": "Giftgriff",
     "base_stats": {
       "hp": 80,
       "attack": 80,
@@ -4570,6 +6322,24 @@
       "Rülpser": 46,
       "Memento-Mori": 48
     },
+    "level_up_move_pp": {
+      "Pfund": 35,
+      "Giftwolke": 40,
+      "Härtner": 30,
+      "Lehmschelle": 10,
+      "Aussetzer": 20,
+      "Schlammbad": 20,
+      "Komprimator": 10,
+      "Schlammbombe": 10,
+      "Matschbombe": 10,
+      "Schleuder": 10,
+      "Kreideschrei": 40,
+      "Schlammwoge": 10,
+      "Säurepanzer": 20,
+      "Mülltreffer": 5,
+      "Rülpser": 10,
+      "Memento-Mori": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/088.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/088.png"
   },
@@ -4582,6 +6352,11 @@
     "types": [
       "Gift"
     ],
+    "abilities": [
+      "Duftnote",
+      "Klebekörper"
+    ],
+    "hidden_ability": "Giftgriff",
     "base_stats": {
       "hp": 105,
       "attack": 105,
@@ -4624,6 +6399,24 @@
       "Rülpser": 53,
       "Memento-Mori": 57
     },
+    "level_up_move_pp": {
+      "Pfund": 35,
+      "Giftwolke": 40,
+      "Härtner": 30,
+      "Lehmschelle": 10,
+      "Aussetzer": 20,
+      "Schlammbad": 20,
+      "Komprimator": 10,
+      "Schlammbombe": 10,
+      "Matschbombe": 10,
+      "Schleuder": 10,
+      "Kreideschrei": 40,
+      "Schlammwoge": 10,
+      "Säurepanzer": 20,
+      "Mülltreffer": 5,
+      "Rülpser": 10,
+      "Memento-Mori": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/089.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/089.png"
   },
@@ -4636,6 +6429,11 @@
     "types": [
       "Wasser"
     ],
+    "abilities": [
+      "Panzerhaut",
+      "Wertelink"
+    ],
+    "hidden_ability": "Partikelschutz",
     "base_stats": {
       "hp": 30,
       "attack": 65,
@@ -4678,6 +6476,24 @@
       "Hausbruch": 56,
       "Hydropumpe": 61
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Panzerschutz": 40,
+      "Superschall": 20,
+      "Eisspeer": 30,
+      "Schutzschild": 10,
+      "Silberblick": 30,
+      "Schnapper": 15,
+      "Eissplitter": 30,
+      "Kalkklinge": 10,
+      "Aurorastrahl": 20,
+      "Whirlpool": 15,
+      "Lake": 10,
+      "Eisenabwehr": 5,
+      "Eisstrahl": 10,
+      "Hausbruch": 15,
+      "Hydropumpe": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/090.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/090.png"
   },
@@ -4691,6 +6507,11 @@
       "Wasser",
       "Eis"
     ],
+    "abilities": [
+      "Panzerhaut",
+      "Wertelink"
+    ],
+    "hidden_ability": "Partikelschutz",
     "base_stats": {
       "hp": 50,
       "attack": 95,
@@ -4727,6 +6548,18 @@
       "Stachler": 28,
       "Eiszapfhagel": 50
     },
+    "level_up_move_pp": {
+      "Hydropumpe": 5,
+      "Hausbruch": 15,
+      "Superschall": 20,
+      "Aurorastrahl": 20,
+      "Panzerschutz": 40,
+      "Schutzschild": 10,
+      "Giftspitzen": 20,
+      "Dornkanone": 15,
+      "Stachler": 20,
+      "Eiszapfhagel": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/091.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/091.png"
   },
@@ -4740,6 +6573,10 @@
       "Geist",
       "Gift"
     ],
+    "abilities": [
+      "Schwebe"
+    ],
+    "hidden_ability": "",
     "base_stats": {
       "hp": 30,
       "attack": 35,
@@ -4781,6 +6618,23 @@
       "Bürde": 43,
       "Nachtmahr": 47
     },
+    "level_up_move_pp": {
+      "Hypnose": 20,
+      "Schlecker": 30,
+      "Groll": 10,
+      "Horrorblick": 5,
+      "Fluch": 10,
+      "Nachtnebel": 15,
+      "Konfustrahl": 10,
+      "Tiefschlag": 5,
+      "Gegenstoß": 10,
+      "Spukball": 15,
+      "Traumfresser": 15,
+      "Finsteraura": 15,
+      "Abgangsbund": 5,
+      "Bürde": 10,
+      "Nachtmahr": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/092.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/092.png"
   },
@@ -4794,6 +6648,10 @@
       "Geist",
       "Gift"
     ],
+    "abilities": [
+      "Schwebe"
+    ],
+    "hidden_ability": "",
     "base_stats": {
       "hp": 45,
       "attack": 50,
@@ -4836,6 +6694,24 @@
       "Bürde": 55,
       "Nachtmahr": 61
     },
+    "level_up_move_pp": {
+      "Hypnose": 20,
+      "Groll": 10,
+      "Schlecker": 30,
+      "Horrorblick": 5,
+      "Fluch": 10,
+      "Nachtnebel": 15,
+      "Konfustrahl": 10,
+      "Tiefschlag": 5,
+      "Finsterfaust": 20,
+      "Gegenstoß": 10,
+      "Spukball": 15,
+      "Traumfresser": 15,
+      "Finsteraura": 15,
+      "Abgangsbund": 5,
+      "Bürde": 10,
+      "Nachtmahr": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/093.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/093.png"
   },
@@ -4849,6 +6725,10 @@
       "Geist",
       "Gift"
     ],
+    "abilities": [
+      "Tastfluch Schwebe Bis Gen VI"
+    ],
+    "hidden_ability": "",
     "base_stats": {
       "hp": 60,
       "attack": 65,
@@ -4891,6 +6771,24 @@
       "Bürde": 55,
       "Nachtmahr": 61
     },
+    "level_up_move_pp": {
+      "Hypnose": 20,
+      "Groll": 10,
+      "Schlecker": 30,
+      "Horrorblick": 5,
+      "Fluch": 10,
+      "Nachtnebel": 15,
+      "Konfustrahl": 10,
+      "Tiefschlag": 5,
+      "Finsterfaust": 20,
+      "Gegenstoß": 10,
+      "Spukball": 15,
+      "Traumfresser": 15,
+      "Finsteraura": 15,
+      "Abgangsbund": 5,
+      "Bürde": 10,
+      "Nachtmahr": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/094.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/094.png"
   },
@@ -4904,6 +6802,11 @@
       "Gestein",
       "Boden"
     ],
+    "abilities": [
+      "Robustheit",
+      "Steinhaupt"
+    ],
+    "hidden_ability": "Bruchrüstung",
     "base_stats": {
       "hp": 35,
       "attack": 45,
@@ -4952,6 +6855,30 @@
       "Risikotackle": 49,
       "Sandsturm": 52
     },
+    "level_up_move_pp": {
+      "Klammergriff": 20,
+      "Tackle": 35,
+      "Lehmsuhler": 15,
+      "Härtner": 30,
+      "Fluch": 10,
+      "Steinwurf": 15,
+      "Felsgrab": 15,
+      "Raserei": 20,
+      "Tarnsteine": 20,
+      "Steinpolitur": 20,
+      "Gyroball": 5,
+      "Katapult": 15,
+      "Feuerodem": 20,
+      "Slam": 20,
+      "Kreideschrei": 40,
+      "Steinhagel": 10,
+      "Sandgrab": 15,
+      "Eisenschweif": 15,
+      "Schaufler": 10,
+      "Steinkante": 5,
+      "Risikotackle": 15,
+      "Sandsturm": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/095.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/095.png"
   },
@@ -4964,6 +6891,11 @@
     "types": [
       "Psycho"
     ],
+    "abilities": [
+      "Insomnia",
+      "Vorwarnung"
+    ],
+    "hidden_ability": "Konzentrator",
     "base_stats": {
       "hp": 60,
       "attack": 48,
@@ -5006,6 +6938,24 @@
       "Psychoschock": 57,
       "Seher": 61
     },
+    "level_up_move_pp": {
+      "Pfund": 35,
+      "Hypnose": 20,
+      "Aussetzer": 20,
+      "Konfusion": 25,
+      "Kopfnuss": 15,
+      "Giftwolke": 40,
+      "Meditation": 40,
+      "Psystrahl": 20,
+      "Psycho-Plus": 10,
+      "Synchrolärm": 10,
+      "Zen-Kopfstoß": 15,
+      "Angeberei": 15,
+      "Psychokinese": 10,
+      "Ränkeschmied": 20,
+      "Psychoschock": 10,
+      "Seher": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/096.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/096.png"
   },
@@ -5018,6 +6968,11 @@
     "types": [
       "Psycho"
     ],
+    "abilities": [
+      "Insomnia",
+      "Vorwarnung"
+    ],
+    "hidden_ability": "Konzentrator",
     "base_stats": {
       "hp": 85,
       "attack": 73,
@@ -5062,6 +7017,26 @@
       "Psychokinese": 49,
       "Psychoschock": 57
     },
+    "level_up_move_pp": {
+      "Pfund": 35,
+      "Wechseldich": 10,
+      "Nachtmahr": 15,
+      "Hypnose": 20,
+      "Konfusion": 25,
+      "Aussetzer": 20,
+      "Ränkeschmied": 20,
+      "Seher": 10,
+      "Kopfnuss": 15,
+      "Giftwolke": 40,
+      "Meditation": 40,
+      "Psystrahl": 20,
+      "Psycho-Plus": 10,
+      "Synchrolärm": 10,
+      "Zen-Kopfstoß": 15,
+      "Angeberei": 15,
+      "Psychokinese": 10,
+      "Psychoschock": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/097.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/097.png"
   },
@@ -5074,6 +7049,11 @@
     "types": [
       "Wasser"
     ],
+    "abilities": [
+      "Scherenmacht",
+      "Panzerhaut"
+    ],
+    "hidden_ability": "Rohe Gewalt",
     "base_stats": {
       "hp": 30,
       "attack": 105,
@@ -5115,6 +7095,23 @@
       "Krabbhammer": 41,
       "Dreschflegel": 45
     },
+    "level_up_move_pp": {
+      "Blubber": 30,
+      "Lehmsuhler": 15,
+      "Klammer": 30,
+      "Silberblick": 30,
+      "Härtner": 30,
+      "Blubbstrahl": 20,
+      "Lehmschuss": 15,
+      "Metallklaue": 35,
+      "Stampfer": 20,
+      "Schutzschild": 10,
+      "Guillotine": 5,
+      "Slam": 20,
+      "Lake": 10,
+      "Krabbhammer": 10,
+      "Dreschflegel": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/098.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/098.png"
   },
@@ -5127,6 +7124,11 @@
     "types": [
       "Wasser"
     ],
+    "abilities": [
+      "Scherenmacht",
+      "Panzerhaut"
+    ],
+    "hidden_ability": "Rohe Gewalt",
     "base_stats": {
       "hp": 55,
       "attack": 130,
@@ -5169,6 +7171,24 @@
       "Krabbhammer": 56,
       "Dreschflegel": 63
     },
+    "level_up_move_pp": {
+      "Klammer": 30,
+      "Silberblick": 30,
+      "Rundumschutz": 10,
+      "Lehmsuhler": 15,
+      "Blubber": 30,
+      "Härtner": 30,
+      "Blubbstrahl": 20,
+      "Lehmschuss": 15,
+      "Metallklaue": 35,
+      "Stampfer": 20,
+      "Schutzschild": 10,
+      "Guillotine": 5,
+      "Slam": 20,
+      "Lake": 10,
+      "Krabbhammer": 10,
+      "Dreschflegel": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/099.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/099.png"
   },
@@ -5181,6 +7201,11 @@
     "types": [
       "Elektro"
     ],
+    "abilities": [
+      "Statik",
+      "Lärmschutz"
+    ],
+    "hidden_ability": "Finalschlag",
     "base_stats": {
       "hp": 40,
       "attack": 30,
@@ -5223,6 +7248,24 @@
       "Explosion": 47,
       "Spiegelcape": 50
     },
+    "level_up_move_pp": {
+      "Ladevorgang": 20,
+      "Tackle": 35,
+      "Ultraschall": 20,
+      "Mystowellen": 15,
+      "Funkensprung": 20,
+      "Walzer": 20,
+      "Kreideschrei": 40,
+      "Ladestrahl": 10,
+      "Lichtschild": 30,
+      "Elektroball": 10,
+      "Finale": 5,
+      "Sternschauer": 20,
+      "Magnetflug": 10,
+      "Gyroball": 5,
+      "Explosion": 5,
+      "Spiegelcape": 20
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/100.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/100.png"
   },
@@ -5235,6 +7278,11 @@
     "types": [
       "Elektro"
     ],
+    "abilities": [
+      "Statik",
+      "Lärmschutz"
+    ],
+    "hidden_ability": "Finalschlag",
     "base_stats": {
       "hp": 60,
       "attack": 50,
@@ -5278,6 +7326,25 @@
       "Explosion": 57,
       "Spiegelcape": 62
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Ultraschall": 20,
+      "Funkensprung": 20,
+      "Ladevorgang": 20,
+      "Magnetregler": 20,
+      "Mystowellen": 15,
+      "Walzer": 20,
+      "Kreideschrei": 40,
+      "Ladestrahl": 10,
+      "Lichtschild": 30,
+      "Elektroball": 10,
+      "Finale": 5,
+      "Sternschauer": 20,
+      "Magnetflug": 10,
+      "Gyroball": 5,
+      "Explosion": 5,
+      "Spiegelcape": 20
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/101.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/101.png"
   },
@@ -5291,6 +7358,10 @@
       "Pflanze",
       "Psycho"
     ],
+    "abilities": [
+      "Chlorophyll"
+    ],
+    "hidden_ability": "Reiche Ernte",
     "base_stats": {
       "hp": 60,
       "attack": 40,
@@ -5332,6 +7403,23 @@
       "Sondersensor": 47,
       "Offerte": 50
     },
+    "level_up_move_pp": {
+      "Hypnose": 20,
+      "Aufruhr": 10,
+      "Stakkato": 20,
+      "Reflektor": 20,
+      "Egelsamen": 10,
+      "Kugelsaat": 30,
+      "Stachelspore": 30,
+      "Giftpuder": 35,
+      "Schlafpuder": 15,
+      "Konfusion": 25,
+      "Sorgensamen": 10,
+      "Beerenkräfte": 15,
+      "Solarstrahl": 10,
+      "Sondersensor": 20,
+      "Offerte": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/102.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/102.png"
   },
@@ -5345,6 +7433,10 @@
       "Pflanze",
       "Psycho"
     ],
+    "abilities": [
+      "Chlorophyll"
+    ],
+    "hidden_ability": "Reiche Ernte",
     "base_stats": {
       "hp": 95,
       "attack": 95,
@@ -5380,6 +7472,17 @@
       "Holzhammer": 37,
       "Blättersturm": 47
     },
+    "level_up_move_pp": {
+      "Stampfer": 20,
+      "Konfusion": 25,
+      "Hypnose": 20,
+      "Stakkato": 20,
+      "Samenbomben": 15,
+      "Psychoschock": 10,
+      "Eierbombe": 10,
+      "Holzhammer": 15,
+      "Blättersturm": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/103.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/103.png"
   },
@@ -5392,6 +7495,11 @@
     "types": [
       "Boden"
     ],
+    "abilities": [
+      "Blitzfänger",
+      "Steinhaupt"
+    ],
+    "hidden_ability": "Kampfpanzer",
     "base_stats": {
       "hp": 50,
       "attack": 50,
@@ -5433,6 +7541,23 @@
       "Risikotackle": 43,
       "Heimzahlung": 47
     },
+    "level_up_move_pp": {
+      "Heuler": 40,
+      "Rutenschlag": 30,
+      "Knochenkeule": 20,
+      "Kopfnuss": 15,
+      "Silberblick": 30,
+      "Energiefokus": 30,
+      "Knochmerang": 10,
+      "Raserei": 20,
+      "Trugschlag": 40,
+      "Fuchtler": 20,
+      "Schleuder": 10,
+      "Knochenhatz": 10,
+      "Notsituation": 5,
+      "Risikotackle": 15,
+      "Heimzahlung": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/104.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/104.png"
   },
@@ -5445,6 +7570,11 @@
     "types": [
       "Boden"
     ],
+    "abilities": [
+      "Blitzfänger",
+      "Steinhaupt"
+    ],
+    "hidden_ability": "Kampfpanzer",
     "base_stats": {
       "hp": 60,
       "attack": 80,
@@ -5486,6 +7616,23 @@
       "Risikotackle": 53,
       "Heimzahlung": 59
     },
+    "level_up_move_pp": {
+      "Kopfnuss": 15,
+      "Knochenkeule": 20,
+      "Heuler": 40,
+      "Rutenschlag": 30,
+      "Silberblick": 30,
+      "Energiefokus": 30,
+      "Knochmerang": 10,
+      "Raserei": 20,
+      "Trugschlag": 40,
+      "Fuchtler": 20,
+      "Schleuder": 10,
+      "Knochenhatz": 10,
+      "Notsituation": 5,
+      "Risikotackle": 15,
+      "Heimzahlung": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/105.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/105.png"
   },
@@ -5498,6 +7645,11 @@
     "types": [
       "Kampf"
     ],
+    "abilities": [
+      "Flexibilität",
+      "Achtlos"
+    ],
+    "hidden_ability": "Entlastung",
     "base_stats": {
       "hp": 50,
       "attack": 120,
@@ -5541,6 +7693,25 @@
       "Feuerfeger": 45,
       "Ausdauer": 49
     },
+    "level_up_move_pp": {
+      "Doppelkick": 30,
+      "Gegenschlag": 15,
+      "Megakick": 5,
+      "Nahkampf": 5,
+      "Vergeltung": 10,
+      "Meditation": 40,
+      "Fegekick": 15,
+      "Sprungkick": 10,
+      "Durchbruch": 15,
+      "Energiefokus": 30,
+      "Offenlegung": 10,
+      "Turmkick": 10,
+      "Willensleser": 5,
+      "Gesichte": 40,
+      "Rundumschutz": 10,
+      "Feuerfeger": 10,
+      "Ausdauer": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/106.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/106.png"
   },
@@ -5553,6 +7724,11 @@
     "types": [
       "Kampf"
     ],
+    "abilities": [
+      "Adlerauge",
+      "Eisenfaust"
+    ],
+    "hidden_ability": "Konzentrator",
     "base_stats": {
       "hp": 50,
       "attack": 105,
@@ -5597,6 +7773,26 @@
       "Scanner": 50,
       "Konter": 61
     },
+    "level_up_move_pp": {
+      "Kometenhieb": 15,
+      "Vergeltung": 10,
+      "Nahkampf": 5,
+      "Power-Punch": 20,
+      "Agilität": 30,
+      "Verfolgung": 20,
+      "Patronenhieb": 30,
+      "Tempohieb": 30,
+      "Offenlegung": 10,
+      "Vakuumwelle": 30,
+      "Rapidschutz": 15,
+      "Donnerschlag": 15,
+      "Eishieb": 15,
+      "Feuerschlag": 15,
+      "Himmelhieb": 15,
+      "Megahieb": 20,
+      "Scanner": 5,
+      "Konter": 20
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/107.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/107.png"
   },
@@ -5609,6 +7805,11 @@
     "types": [
       "Normal"
     ],
+    "abilities": [
+      "Dösigkeit",
+      "Gleichmut"
+    ],
+    "hidden_ability": "Wolke Sieben",
     "base_stats": {
       "hp": 90,
       "attack": 55,
@@ -5650,6 +7851,23 @@
       "Blattgeißel": 53,
       "Auswringen": 57
     },
+    "level_up_move_pp": {
+      "Schlecker": 30,
+      "Superschall": 20,
+      "Einigler": 40,
+      "Abschlag": 20,
+      "Wickel": 20,
+      "Stampfer": 20,
+      "Aussetzer": 20,
+      "Slam": 20,
+      "Walzer": 20,
+      "Zermürben": 20,
+      "Egotrip": 20,
+      "Heilung": 20,
+      "Kreideschrei": 40,
+      "Blattgeißel": 10,
+      "Auswringen": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/108.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/108.png"
   },
@@ -5662,6 +7880,11 @@
     "types": [
       "Gift"
     ],
+    "abilities": [
+      "Schwebe",
+      "Reaktionsgas"
+    ],
+    "hidden_ability": "Duftnote",
     "base_stats": {
       "hp": 40,
       "attack": 65,
@@ -5702,6 +7925,22 @@
       "Abgangsbund": 40,
       "Memento-Mori": 45
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Giftwolke": 40,
+      "Smog": 20,
+      "Rauchwolke": 20,
+      "Gewissheit": 10,
+      "Klärsmog": 15,
+      "Schlammbad": 20,
+      "Finale": 5,
+      "Dunkelnebel": 30,
+      "Gyroball": 5,
+      "Matschbombe": 10,
+      "Explosion": 5,
+      "Abgangsbund": 5,
+      "Memento-Mori": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/109.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/109.png"
   },
@@ -5714,6 +7953,11 @@
     "types": [
       "Gift"
     ],
+    "abilities": [
+      "Schwebe",
+      "Reaktionsgas"
+    ],
+    "hidden_ability": "Duftnote",
     "base_stats": {
       "hp": 65,
       "attack": 90,
@@ -5755,6 +7999,23 @@
       "Rülpser": 50,
       "Memento-Mori": 54
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Rauchwolke": 20,
+      "Smog": 20,
+      "Giftwolke": 40,
+      "Gewissheit": 10,
+      "Klärsmog": 15,
+      "Schlammbad": 20,
+      "Finale": 5,
+      "Dunkelnebel": 30,
+      "Doppelschlag": 10,
+      "Matschbombe": 10,
+      "Explosion": 5,
+      "Abgangsbund": 5,
+      "Rülpser": 10,
+      "Memento-Mori": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/110.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/110.png"
   },
@@ -5768,6 +8029,11 @@
       "Boden",
       "Gestein"
     ],
+    "abilities": [
+      "Blitzfänger",
+      "Steinhaupt"
+    ],
+    "hidden_ability": "Achtlos",
     "base_stats": {
       "hp": 80,
       "attack": 85,
@@ -5808,6 +8074,22 @@
       "Hornbohrer": 63,
       "Vielender": 67
     },
+    "level_up_move_pp": {
+      "Rutenschlag": 30,
+      "Hornattacke": 25,
+      "Stampfer": 20,
+      "Furienschlag": 20,
+      "Grimasse": 10,
+      "Felswurf": 10,
+      "Dampfwalze": 20,
+      "Zermürben": 20,
+      "Bodycheck": 20,
+      "Schlagbohrer": 10,
+      "Steinkante": 5,
+      "Erdbeben": 10,
+      "Hornbohrer": 5,
+      "Vielender": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/111.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/111.png"
   },
@@ -5821,6 +8103,11 @@
       "Boden",
       "Gestein"
     ],
+    "abilities": [
+      "Blitzfänger",
+      "Steinhaupt"
+    ],
+    "hidden_ability": "Achtlos",
     "base_stats": {
       "hp": 105,
       "attack": 130,
@@ -5862,6 +8149,23 @@
       "Steinkante": 56,
       "Erdbeben": 62
     },
+    "level_up_move_pp": {
+      "Stampfer": 20,
+      "Rutenschlag": 30,
+      "Furienschlag": 20,
+      "Hornattacke": 25,
+      "Vielender": 10,
+      "Hornbohrer": 5,
+      "Grimasse": 10,
+      "Felswurf": 10,
+      "Dampfwalze": 20,
+      "Zermürben": 20,
+      "Bodycheck": 20,
+      "Hammerarm": 10,
+      "Schlagbohrer": 10,
+      "Steinkante": 5,
+      "Erdbeben": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/112.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/112.png"
   },
@@ -5874,6 +8178,11 @@
     "types": [
       "Normal"
     ],
+    "abilities": [
+      "Innere Kraft",
+      "Edelmut"
+    ],
+    "hidden_ability": "Heilherz",
     "base_stats": {
       "hp": 250,
       "attack": 5,
@@ -5917,6 +8226,25 @@
       "Lichtschild": 46,
       "Heilopfer": 50
     },
+    "level_up_move_pp": {
+      "Pfund": 35,
+      "Heuler": 40,
+      "Einigler": 40,
+      "Risikotackle": 15,
+      "Rutenschlag": 30,
+      "Heilung": 20,
+      "Duplexhieb": 10,
+      "Weichei": 10,
+      "Offerte": 15,
+      "Komprimator": 10,
+      "Bodycheck": 20,
+      "Gesang": 15,
+      "Schleuder": 10,
+      "Heilwoge": 10,
+      "Eierbombe": 10,
+      "Lichtschild": 30,
+      "Heilopfer": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/113.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/113.png"
   },
@@ -5929,6 +8257,11 @@
     "types": [
       "Pflanze"
     ],
+    "abilities": [
+      "Chlorophyll",
+      "Floraschild"
+    ],
+    "hidden_ability": "Belebekraft",
     "base_stats": {
       "hp": 65,
       "attack": 55,
@@ -5974,6 +8307,27 @@
       "Grasfeld": 48,
       "Blattgeißel": 50
     },
+    "level_up_move_pp": {
+      "Verwurzler": 20,
+      "Umklammerung": 35,
+      "Schlafpuder": 15,
+      "Rankenhieb": 25,
+      "Absorber": 25,
+      "Giftpuder": 35,
+      "Klammergriff": 20,
+      "Wachstum": 20,
+      "Megasauger": 15,
+      "Abschlag": 20,
+      "Stachelspore": 30,
+      "Beerenkräfte": 15,
+      "Gigasauger": 10,
+      "Antik-Kraft": 5,
+      "Slam": 20,
+      "Spaßkanone": 20,
+      "Auswringen": 5,
+      "Grasfeld": 10,
+      "Blattgeißel": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/114.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/114.png"
   },
@@ -5986,6 +8340,11 @@
     "types": [
       "Normal"
     ],
+    "abilities": [
+      "Frühwecker",
+      "Rauflust"
+    ],
+    "hidden_ability": "Konzentrator",
     "base_stats": {
       "hp": 105,
       "attack": 95,
@@ -6027,6 +8386,23 @@
       "Tiefschlag": 49,
       "Gegenschlag": 55
     },
+    "level_up_move_pp": {
+      "Kometenhieb": 15,
+      "Silberblick": 30,
+      "Mogelhieb": 10,
+      "Rutenschlag": 30,
+      "Biss": 25,
+      "Doppelschlag": 10,
+      "Raserei": 20,
+      "Megahieb": 20,
+      "Zermürben": 20,
+      "Irrschlag": 10,
+      "Knirscher": 15,
+      "Ausdauer": 10,
+      "Wutanfall": 10,
+      "Tiefschlag": 5,
+      "Gegenschlag": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/115.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/115.png"
   },
@@ -6039,6 +8415,11 @@
     "types": [
       "Wasser"
     ],
+    "abilities": [
+      "Wassertempo",
+      "Superschütze"
+    ],
+    "hidden_ability": "Feuchtigkeit",
     "base_stats": {
       "hp": 30,
       "attack": 40,
@@ -6077,6 +8458,20 @@
       "Drachentanz": 38,
       "Drachenpuls": 42
     },
+    "level_up_move_pp": {
+      "Aquaknarre": 25,
+      "Rauchwolke": 20,
+      "Silberblick": 30,
+      "Blubber": 30,
+      "Energiefokus": 30,
+      "Blubbstrahl": 20,
+      "Agilität": 30,
+      "Windhose": 20,
+      "Lake": 10,
+      "Hydropumpe": 5,
+      "Drachentanz": 20,
+      "Drachenpuls": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/116.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/116.png"
   },
@@ -6089,6 +8484,11 @@
     "types": [
       "Wasser"
     ],
+    "abilities": [
+      "Giftdorn",
+      "Superschütze"
+    ],
+    "hidden_ability": "Feuchtigkeit",
     "base_stats": {
       "hp": 55,
       "attack": 65,
@@ -6127,6 +8527,20 @@
       "Drachentanz": 48,
       "Drachenpuls": 57
     },
+    "level_up_move_pp": {
+      "Silberblick": 30,
+      "Blubber": 30,
+      "Rauchwolke": 20,
+      "Aquaknarre": 25,
+      "Energiefokus": 30,
+      "Blubbstrahl": 20,
+      "Agilität": 30,
+      "Windhose": 20,
+      "Lake": 10,
+      "Hydropumpe": 5,
+      "Drachentanz": 20,
+      "Drachenpuls": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/117.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/117.png"
   },
@@ -6139,6 +8553,11 @@
     "types": [
       "Wasser"
     ],
+    "abilities": [
+      "Wassertempo",
+      "Aquahülle"
+    ],
+    "hidden_ability": "Blitzfänger",
     "base_stats": {
       "hp": 45,
       "attack": 67,
@@ -6179,6 +8598,22 @@
       "Überflutung": 51,
       "Vielender": 57
     },
+    "level_up_move_pp": {
+      "Nassmacher": 15,
+      "Rutenschlag": 30,
+      "Schnabel": 35,
+      "Superschall": 20,
+      "Hornattacke": 25,
+      "Aquawelle": 20,
+      "Dreschflegel": 15,
+      "Wasserring": 20,
+      "Furienschlag": 20,
+      "Kaskade": 15,
+      "Hornbohrer": 5,
+      "Agilität": 30,
+      "Überflutung": 20,
+      "Vielender": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/118.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/118.png"
   },
@@ -6191,6 +8626,11 @@
     "types": [
       "Wasser"
     ],
+    "abilities": [
+      "Wassertempo",
+      "Aquahülle"
+    ],
+    "hidden_ability": "Blitzfänger",
     "base_stats": {
       "hp": 80,
       "attack": 92,
@@ -6232,6 +8672,23 @@
       "Überflutung": 63,
       "Vielender": 72
     },
+    "level_up_move_pp": {
+      "Gifthieb": 20,
+      "Nassmacher": 15,
+      "Rutenschlag": 30,
+      "Superschall": 20,
+      "Schnabel": 35,
+      "Hornattacke": 25,
+      "Aquawelle": 20,
+      "Dreschflegel": 15,
+      "Wasserring": 20,
+      "Furienschlag": 20,
+      "Kaskade": 15,
+      "Hornbohrer": 5,
+      "Agilität": 30,
+      "Überflutung": 20,
+      "Vielender": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/119.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/119.png"
   },
@@ -6244,6 +8701,11 @@
     "types": [
       "Wasser"
     ],
+    "abilities": [
+      "Innere Kraft",
+      "Erleuchtung"
+    ],
+    "hidden_ability": "Analyse",
     "base_stats": {
       "hp": 30,
       "attack": 45,
@@ -6286,6 +8748,24 @@
       "Kosmik-Kraft": 48,
       "Hydropumpe": 52
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Härtner": 30,
+      "Aquaknarre": 25,
+      "Turbodreher": 40,
+      "Genesung": 10,
+      "Tarnung": 20,
+      "Sternschauer": 20,
+      "Blubbstrahl": 20,
+      "Komprimator": 10,
+      "Gyroball": 5,
+      "Lichtschild": 30,
+      "Lake": 10,
+      "Typenspiegel": 15,
+      "Juwelenkraft": 20,
+      "Kosmik-Kraft": 20,
+      "Hydropumpe": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/120.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/120.png"
   },
@@ -6299,6 +8779,11 @@
       "Wasser",
       "Psycho"
     ],
+    "abilities": [
+      "Innere Kraft",
+      "Erleuchtung"
+    ],
+    "hidden_ability": "Analyse",
     "base_stats": {
       "hp": 60,
       "attack": 75,
@@ -6331,6 +8816,14 @@
       "Turbodreher": 1,
       "Konfustrahl": 22
     },
+    "level_up_move_pp": {
+      "Aquaknarre": 25,
+      "Genesung": 10,
+      "Hydropumpe": 5,
+      "Sternschauer": 20,
+      "Turbodreher": 40,
+      "Konfustrahl": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/121.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/121.png"
   },
@@ -6344,6 +8837,11 @@
       "Psycho",
       "Fee"
     ],
+    "abilities": [
+      "Lärmschutz",
+      "Filter"
+    ],
+    "hidden_ability": "Techniker",
     "base_stats": {
       "hp": 40,
       "attack": 45,
@@ -6394,6 +8892,32 @@
       "Staffette": 46,
       "Bodyguard": 50
     },
+    "level_up_move_pp": {
+      "Rapidschutz": 15,
+      "Rundumschutz": 10,
+      "Zauberblatt": 20,
+      "Schutztausch": 10,
+      "Krafttausch": 10,
+      "Konfusion": 25,
+      "Barriere": 20,
+      "Nebelfeld": 10,
+      "Imitator": 20,
+      "Meditation": 40,
+      "Duplexhieb": 10,
+      "Mimikry": 10,
+      "Psywelle": 15,
+      "Zugabe": 5,
+      "Reflektor": 20,
+      "Lichtschild": 30,
+      "Psystrahl": 20,
+      "Delegator": 10,
+      "Aufbereitung": 10,
+      "Trickbetrug": 10,
+      "Psychokinese": 10,
+      "Rollentausch": 10,
+      "Staffette": 40,
+      "Bodyguard": 25
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/122.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/122.png"
   },
@@ -6407,6 +8931,11 @@
       "Kaefer",
       "Flug"
     ],
+    "abilities": [
+      "Hexaplaga",
+      "Techniker"
+    ],
+    "hidden_ability": "Felsenfest",
     "base_stats": {
       "hp": 70,
       "attack": 110,
@@ -6451,6 +8980,26 @@
       "Schwerttanz": 57,
       "Offenlegung": 61
     },
+    "level_up_move_pp": {
+      "Vakuumwelle": 30,
+      "Silberblick": 30,
+      "Ruckzuckhieb": 30,
+      "Energiefokus": 30,
+      "Verfolgung": 20,
+      "Trugschlag": 40,
+      "Agilität": 30,
+      "Flügelschlag": 35,
+      "Zornklinge": 20,
+      "Schlitzer": 20,
+      "Klingensturm": 10,
+      "Doppelteam": 15,
+      "Kreuzschere": 15,
+      "Nachthieb": 15,
+      "Doppelschlag": 10,
+      "Luftschnitt": 20,
+      "Schwerttanz": 20,
+      "Offenlegung": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/123.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/123.png"
   },
@@ -6464,6 +9013,11 @@
       "Eis",
       "Psycho"
     ],
+    "abilities": [
+      "Dösigkeit",
+      "Vorwarnung"
+    ],
+    "hidden_ability": "Trockenheit",
     "base_stats": {
       "hp": 65,
       "attack": 50,
@@ -6506,6 +9060,24 @@
       "Auswringen": 49,
       "Blizzard": 60
     },
+    "level_up_move_pp": {
+      "Abgesang": 5,
+      "Diebeskuss": 10,
+      "Pfund": 35,
+      "Pulverschnee": 25,
+      "Todeskuss": 15,
+      "Schlecker": 30,
+      "Duplexhieb": 10,
+      "Eishieb": 15,
+      "Herzstempel": 25,
+      "Horrorblick": 5,
+      "Trugträne": 20,
+      "Weckruf": 10,
+      "Lawine": 10,
+      "Bodyslam": 15,
+      "Auswringen": 5,
+      "Blizzard": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/124.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/124.png"
   },
@@ -6518,6 +9090,10 @@
     "types": [
       "Elektro"
     ],
+    "abilities": [
+      "Statik"
+    ],
+    "hidden_ability": "Munterkeit",
     "base_stats": {
       "hp": 65,
       "attack": 83,
@@ -6558,6 +9134,22 @@
       "Donnerblitz": 49,
       "Donner": 55
     },
+    "level_up_move_pp": {
+      "Silberblick": 30,
+      "Donnerschock": 30,
+      "Ruckzuckhieb": 30,
+      "Fußkick": 20,
+      "Sternschauer": 20,
+      "Schockwelle": 20,
+      "Donnerwelle": 20,
+      "Elektroball": 10,
+      "Lichtschild": 30,
+      "Donnerschlag": 15,
+      "Ladungsstoß": 15,
+      "Kreideschrei": 40,
+      "Donnerblitz": 15,
+      "Donner": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/125.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/125.png"
   },
@@ -6570,6 +9162,10 @@
     "types": [
       "Feuer"
     ],
+    "abilities": [
+      "Flammkörper"
+    ],
+    "hidden_ability": "Munterkeit",
     "base_stats": {
       "hp": 65,
       "attack": 95,
@@ -6610,6 +9206,22 @@
       "Flammenwurf": 49,
       "Feuersturm": 55
     },
+    "level_up_move_pp": {
+      "Silberblick": 30,
+      "Glut": 25,
+      "Smog": 20,
+      "Rauchwolke": 20,
+      "Finte": 20,
+      "Feuerwirbel": 15,
+      "Klärsmog": 15,
+      "Funkenflug": 15,
+      "Konfustrahl": 10,
+      "Feuerschlag": 15,
+      "Flammensturm": 15,
+      "Sonnentag": 5,
+      "Flammenwurf": 15,
+      "Feuersturm": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/126.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/126.png"
   },
@@ -6622,6 +9234,11 @@
     "types": [
       "Kaefer"
     ],
+    "abilities": [
+      "Scherenmacht",
+      "Überbrückung"
+    ],
+    "hidden_ability": "Hochmut",
     "base_stats": {
       "hp": 65,
       "attack": 125,
@@ -6663,6 +9280,23 @@
       "Kraftkoloss": 43,
       "Guillotine": 47
     },
+    "level_up_move_pp": {
+      "Klammer": 30,
+      "Energiefokus": 30,
+      "Klammergriff": 20,
+      "Geowurf": 20,
+      "Härtner": 30,
+      "Vergeltung": 10,
+      "Durchbruch": 15,
+      "Überwurf": 10,
+      "Überroller": 25,
+      "Kreuzschere": 15,
+      "Bergsturm": 10,
+      "Fuchtler": 20,
+      "Schwerttanz": 20,
+      "Kraftkoloss": 5,
+      "Guillotine": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/127.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/127.png"
   },
@@ -6675,6 +9309,11 @@
     "types": [
       "Normal"
     ],
+    "abilities": [
+      "Bedroher",
+      "Kurzschluss"
+    ],
+    "hidden_ability": "Rohe Gewalt",
     "base_stats": {
       "hp": 75,
       "attack": 100,
@@ -6715,6 +9354,22 @@
       "Fuchtler": 50,
       "Gigastoß": 63
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Rutenschlag": 30,
+      "Raserei": 20,
+      "Hornattacke": 25,
+      "Grimasse": 10,
+      "Verfolgung": 20,
+      "Erholung": 10,
+      "Gegenstoß": 10,
+      "Kraftschub": 30,
+      "Zen-Kopfstoß": 15,
+      "Bodycheck": 20,
+      "Angeberei": 15,
+      "Fuchtler": 20,
+      "Gigastoß": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/128.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/128.png"
   },
@@ -6727,6 +9382,10 @@
     "types": [
       "Wasser"
     ],
+    "abilities": [
+      "Wassertempo"
+    ],
+    "hidden_ability": "Hasenfuß",
     "base_stats": {
       "hp": 20,
       "attack": 10,
@@ -6756,6 +9415,11 @@
       "Tackle": 15,
       "Dreschflegel": 30
     },
+    "level_up_move_pp": {
+      "Platscher": 40,
+      "Tackle": 35,
+      "Dreschflegel": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/129.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/129.png"
   },
@@ -6769,6 +9433,10 @@
       "Wasser",
       "Flug"
     ],
+    "abilities": [
+      "Bedroher"
+    ],
+    "hidden_ability": "Hochmut",
     "base_stats": {
       "hp": 95,
       "attack": 125,
@@ -6806,6 +9474,19 @@
       "Drachentanz": 44,
       "Hyperstrahl": 47
     },
+    "level_up_move_pp": {
+      "Fuchtler": 20,
+      "Biss": 25,
+      "Drachenwut": 10,
+      "Silberblick": 30,
+      "Windhose": 20,
+      "Eiszahn": 15,
+      "Nassschweif": 10,
+      "Regentanz": 5,
+      "Hydropumpe": 5,
+      "Drachentanz": 20,
+      "Hyperstrahl": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/130.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/130.png"
   },
@@ -6819,6 +9500,11 @@
       "Wasser",
       "Eis"
     ],
+    "abilities": [
+      "H2O-Absorber",
+      "Panzerhaut"
+    ],
+    "hidden_ability": "Hydration",
     "base_stats": {
       "hp": 130,
       "attack": 85,
@@ -6860,6 +9546,23 @@
       "Hydropumpe": 47,
       "Eiseskälte": 50
     },
+    "level_up_move_pp": {
+      "Heuler": 40,
+      "Gesang": 15,
+      "Aquaknarre": 25,
+      "Weißnebel": 30,
+      "Konfustrahl": 10,
+      "Eissplitter": 30,
+      "Aquawelle": 20,
+      "Bodyslam": 15,
+      "Regentanz": 5,
+      "Abgesang": 5,
+      "Eisstrahl": 10,
+      "Lake": 10,
+      "Bodyguard": 25,
+      "Hydropumpe": 5,
+      "Eiseskälte": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/131.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/131.png"
   },
@@ -6872,6 +9575,10 @@
     "types": [
       "Normal"
     ],
+    "abilities": [
+      "Flexibilität"
+    ],
+    "hidden_ability": "Doppelgänger",
     "base_stats": {
       "hp": 48,
       "attack": 48,
@@ -6899,6 +9606,9 @@
     "level_up_attacks": {
       "Wandler": 1
     },
+    "level_up_move_pp": {
+      "Wandler": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/132.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/132.png"
   },
@@ -6911,6 +9621,11 @@
     "types": [
       "Normal"
     ],
+    "abilities": [
+      "Angsthase",
+      "Anpassung"
+    ],
+    "hidden_ability": "Vorahnung",
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -6954,6 +9669,25 @@
       "Zuflucht": 41,
       "Trumpfkarte": 45
     },
+    "level_up_move_pp": {
+      "Rechte Hand": 20,
+      "Heuler": 40,
+      "Tackle": 35,
+      "Rutenschlag": 30,
+      "Sandwirbel": 15,
+      "Kulleraugen": 30,
+      "Sternschauer": 20,
+      "Ruckzuckhieb": 30,
+      "Biss": 25,
+      "Heilung": 20,
+      "Bezirzer": 25,
+      "Bodycheck": 20,
+      "Charme": 20,
+      "Staffette": 40,
+      "Risikotackle": 15,
+      "Zuflucht": 5,
+      "Trumpfkarte": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/133.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/133.png"
   },
@@ -6966,6 +9700,10 @@
     "types": [
       "Wasser"
     ],
+    "abilities": [
+      "H2O-Absorber"
+    ],
+    "hidden_ability": "Hydration",
     "base_stats": {
       "hp": 130,
       "attack": 65,
@@ -7006,6 +9744,22 @@
       "Zuflucht": 41,
       "Hydropumpe": 45
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Rutenschlag": 30,
+      "Rechte Hand": 20,
+      "Sandwirbel": 15,
+      "Aquaknarre": 25,
+      "Ruckzuckhieb": 30,
+      "Aquawelle": 20,
+      "Aurorastrahl": 20,
+      "Wasserring": 20,
+      "Säurepanzer": 20,
+      "Dunkelnebel": 30,
+      "Lehmbrühe": 10,
+      "Zuflucht": 5,
+      "Hydropumpe": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/134.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/134.png"
   },
@@ -7018,6 +9772,10 @@
     "types": [
       "Elektro"
     ],
+    "abilities": [
+      "Voltabsorber"
+    ],
+    "hidden_ability": "Rasanz",
     "base_stats": {
       "hp": 65,
       "attack": 65,
@@ -7058,6 +9816,22 @@
       "Zuflucht": 41,
       "Donner": 45
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Rutenschlag": 30,
+      "Rechte Hand": 20,
+      "Sandwirbel": 15,
+      "Donnerschock": 30,
+      "Ruckzuckhieb": 30,
+      "Doppelkick": 30,
+      "Donnerzahn": 15,
+      "Nadelrakete": 20,
+      "Agilität": 30,
+      "Donnerwelle": 20,
+      "Ladungsstoß": 15,
+      "Zuflucht": 5,
+      "Donner": 10
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/135.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/135.png"
   },
@@ -7070,6 +9844,10 @@
     "types": [
       "Feuer"
     ],
+    "abilities": [
+      "Feuerfänger"
+    ],
+    "hidden_ability": "Adrenalin",
     "base_stats": {
       "hp": 65,
       "attack": 130,
@@ -7110,6 +9888,22 @@
       "Zuflucht": 41,
       "Flammenblitz": 45
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Rutenschlag": 30,
+      "Rechte Hand": 20,
+      "Sandwirbel": 15,
+      "Glut": 25,
+      "Ruckzuckhieb": 30,
+      "Biss": 25,
+      "Feuerzahn": 15,
+      "Feuerwirbel": 15,
+      "Grimasse": 10,
+      "Smog": 20,
+      "Flammensturm": 15,
+      "Zuflucht": 5,
+      "Flammenblitz": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/136.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/136.png"
   },
@@ -7122,6 +9916,11 @@
     "types": [
       "Normal"
     ],
+    "abilities": [
+      "Erfassen",
+      "Download"
+    ],
+    "hidden_ability": "Analyse",
     "base_stats": {
       "hp": 65,
       "attack": 60,
@@ -7163,6 +9962,23 @@
       "Magiemantel": 56,
       "Blitzkanone": 62
     },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Umwandlung": 30,
+      "Umwandlung2": 30,
+      "Schärfer": 30,
+      "Psystrahl": 20,
+      "Agilität": 30,
+      "Genesung": 10,
+      "Magnetflug": 10,
+      "Ampelleuchte": 15,
+      "Aufbereitung": 10,
+      "Ladungsstoß": 15,
+      "Zielschuss": 5,
+      "Triplette": 10,
+      "Magiemantel": 15,
+      "Blitzkanone": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/137.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/137.png"
   },
@@ -7176,6 +9992,11 @@
       "Gestein",
       "Wasser"
     ],
+    "abilities": [
+      "Wassertempo",
+      "Panzerhaut"
+    ],
+    "hidden_ability": "Bruchrüstung",
     "base_stats": {
       "hp": 35,
       "attack": 40,
@@ -7216,6 +10037,22 @@
       "Hausbruch": 50,
       "Hydropumpe": 55
     },
+    "level_up_move_pp": {
+      "Panzerschutz": 40,
+      "Umklammerung": 35,
+      "Biss": 25,
+      "Aquaknarre": 25,
+      "Walzer": 20,
+      "Silberblick": 30,
+      "Lehmschuss": 15,
+      "Lake": 10,
+      "Schutzschild": 10,
+      "Antik-Kraft": 5,
+      "Spaßkanone": 20,
+      "Felswurf": 10,
+      "Hausbruch": 15,
+      "Hydropumpe": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/138.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/138.png"
   },
@@ -7229,6 +10066,11 @@
       "Gestein",
       "Wasser"
     ],
+    "abilities": [
+      "Wassertempo",
+      "Panzerhaut"
+    ],
+    "hidden_ability": "Bruchrüstung",
     "base_stats": {
       "hp": 70,
       "attack": 60,
@@ -7270,6 +10112,23 @@
       "Felswurf": 56,
       "Hausbruch": 67
     },
+    "level_up_move_pp": {
+      "Hydropumpe": 5,
+      "Umklammerung": 35,
+      "Biss": 25,
+      "Panzerschutz": 40,
+      "Aquaknarre": 25,
+      "Walzer": 20,
+      "Silberblick": 30,
+      "Lehmschuss": 15,
+      "Lake": 10,
+      "Schutzschild": 10,
+      "Antik-Kraft": 5,
+      "Dornkanone": 15,
+      "Spaßkanone": 20,
+      "Felswurf": 10,
+      "Hausbruch": 15
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/139.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/139.png"
   },
@@ -7283,6 +10142,11 @@
       "Gestein",
       "Wasser"
     ],
+    "abilities": [
+      "Kampfpanzer",
+      "Wassertempo"
+    ],
+    "hidden_ability": "Bruchrüstung",
     "base_stats": {
       "hp": 30,
       "attack": 80,
@@ -7321,6 +10185,20 @@
       "Antik-Kraft": 46,
       "Auswringen": 50
     },
+    "level_up_move_pp": {
+      "Kratzer": 35,
+      "Härtner": 30,
+      "Absorber": 25,
+      "Silberblick": 30,
+      "Lehmschuss": 15,
+      "Sandwirbel": 15,
+      "Ausdauer": 10,
+      "Wasserdüse": 20,
+      "Megasauger": 15,
+      "Metallsound": 40,
+      "Antik-Kraft": 5,
+      "Auswringen": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/140.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/140.png"
   },
@@ -7334,6 +10212,11 @@
       "Gestein",
       "Wasser"
     ],
+    "abilities": [
+      "Kampfpanzer",
+      "Wassertempo"
+    ],
+    "hidden_ability": "Bruchrüstung",
     "base_stats": {
       "hp": 60,
       "attack": 115,
@@ -7375,6 +10258,23 @@
       "Antik-Kraft": 54,
       "Auswringen": 63
     },
+    "level_up_move_pp": {
+      "Nachthieb": 15,
+      "Offenlegung": 10,
+      "Absorber": 25,
+      "Kratzer": 35,
+      "Härtner": 30,
+      "Silberblick": 30,
+      "Lehmschuss": 15,
+      "Sandwirbel": 15,
+      "Ausdauer": 10,
+      "Wasserdüse": 20,
+      "Megasauger": 15,
+      "Schlitzer": 20,
+      "Metallsound": 40,
+      "Antik-Kraft": 5,
+      "Auswringen": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/141.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/141.png"
   },
@@ -7388,6 +10288,11 @@
       "Gestein",
       "Flug"
     ],
+    "abilities": [
+      "Erzwinger",
+      "Steinhaupt"
+    ],
+    "hidden_ability": "Anspannung",
     "base_stats": {
       "hp": 80,
       "attack": 105,
@@ -7431,6 +10336,25 @@
       "Steinhagel": 73,
       "Gigastoß": 81
     },
+    "level_up_move_pp": {
+      "Flügelschlag": 35,
+      "Feuerzahn": 15,
+      "Eiszahn": 15,
+      "Donnerzahn": 15,
+      "Grimasse": 10,
+      "Superschall": 20,
+      "Biss": 25,
+      "Brüller": 20,
+      "Agilität": 30,
+      "Antik-Kraft": 5,
+      "Knirscher": 15,
+      "Bodycheck": 20,
+      "Freier Fall": 10,
+      "Eisenschädel": 15,
+      "Hyperstrahl": 5,
+      "Steinhagel": 10,
+      "Gigastoß": 5
+    },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/142.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/142.png"
   },
@@ -7443,6 +10367,11 @@
     "types": [
       "Normal"
     ],
+    "abilities": [
+      "Immunität",
+      "Speckschicht"
+    ],
+    "hidden_ability": "Völlerei",
     "base_stats": {
       "hp": 160,
       "attack": 110,
@@ -7484,6 +10413,24 @@
       "Knirscher": 49,
       "Rammboss": 50,
       "Gigastoß": 57
+    },
+    "level_up_move_pp": {
+      "Tackle": 35,
+      "Einigler": 40,
+      "Amnesie": 20,
+      "Schlecker": 30,
+      "Zermürben": 20,
+      "Gähner": 10,
+      "Bodyslam": 15,
+      "Erholung": 10,
+      "Schnarcher": 15,
+      "Schlafrede": 10,
+      "Walzer": 20,
+      "Rückentzug": 5,
+      "Bauchtrommel": 10,
+      "Knirscher": 15,
+      "Rammboss": 10,
+      "Gigastoß": 5
     },
     "front_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/xy/normal/143.png",
     "back_sprite_source": "https://media.bisafans.de/3bf10a9/pokemon/gen6/backsprites/normal/143.png"
