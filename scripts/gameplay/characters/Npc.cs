@@ -133,16 +133,11 @@ public partial class Npc : CharacterBody2D
         if (StoryManager.HandleNpcInteraction(this))
             return;
         
-        // Initialize AI conversation if not already done
-        if (conversationContext == null)
-        {
-            Logger.Info(new object[] { Name, ": Initializing AI conversation context" });
-            conversationContext = CreateConversationContext();
-        }
-        else
-        {
-            Logger.Info(new object[] { Name, ": Using existing conversation context" });
-        }
+        // Every interaction is a new conversation. This reloads the complete
+        // system prompt, NPC role, and private convincing goal for Ollama.
+        Logger.Info(new object[] { Name, ": Starting with a fresh AI conversation context" });
+        conversationContext = CreateConversationContext();
+        convincingTurns = 0;
         
         // Start AI conversation
         Logger.Info(new object[] { Name, ": Starting AI talk" });

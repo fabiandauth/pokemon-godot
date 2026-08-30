@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using Godot;
 
 namespace Game.Core.AI;
@@ -14,7 +15,7 @@ namespace Game.Core.AI;
 /// </summary>
 public static class OllamaAI
 {
-    private const string DEFAULT_MODEL = "granite4:1b";
+    private const string DEFAULT_MODEL = "granite4:3b";
     private const int TIMEOUT_SECONDS = 30;
     
     /// <summary>
@@ -72,6 +73,10 @@ public static class OllamaAI
     private class OllamaRequest
     {
         public string Model { get; set; } = DEFAULT_MODEL;
+        // Ollama keeps the model weights resident between requests. Conversation
+        // history is still supplied explicitly and can be reset independently.
+        [JsonPropertyName("keep_alive")]
+        public int KeepAlive { get; set; } = -1;
         public List<Message> Messages { get; set; } = new();
         public OllamaOptions Options { get; set; } = new();
         public bool Stream { get; set; } = false;
