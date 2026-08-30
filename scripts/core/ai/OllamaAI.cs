@@ -139,6 +139,9 @@ Character description:
 {0}
 
 Response format (JSON only):
+The Convinced value MUST be a JSON boolean, never text. Silently judge the player's
+latest message against the private condition before choosing true or false. The value
+shown below only demonstrates valid JSON syntax; do not copy it without judging.
 {{
   ""Message"": ""Your response here"",
   ""Emotion"": ""friendly|happy|neutral|sad|angry"",
@@ -451,9 +454,8 @@ Begin conversation.";
                 Response = cleaned,
                 Message = message.Trim(),
                 Emotion = GetString(root, "Emotion") ?? GetString(root, "emotion") ?? "friendly",
-                ContinueConversation = !root.TryGetProperty("ContinueConversation", out var cont) || cont.ValueKind != JsonValueKind.False,
-                Convinced = (root.TryGetProperty("Convinced", out var convinced) || root.TryGetProperty("convinced", out convinced))
-                    && convinced.ValueKind == JsonValueKind.True,
+                ContinueConversation = GetBoolean(root, "ContinueConversation", true),
+                Convinced = GetBoolean(root, "Convinced", false),
                 FollowUpQuestions = Array.Empty<string>()
             };
         }
@@ -465,9 +467,41 @@ Begin conversation.";
     }
 
     private static string GetString(JsonElement root, string propertyName) =>
-        root.TryGetProperty(propertyName, out var value) && value.ValueKind == JsonValueKind.String
+        TryGetPropertyIgnoreCase(root, propertyName, out var value) && value.ValueKind == JsonValueKind.String
             ? value.GetString()
             : null;
+
+    private static bool GetBoolean(JsonElement root, string propertyName, bool fallback)
+    {
+        if (!TryGetPropertyIgnoreCase(root, propertyName, out JsonElement value))
+            return fallback;
+
+        if (value.ValueKind == JsonValueKind.True) return true;
+        if (value.ValueKind == JsonValueKind.False) return false;
+        if (value.ValueKind == JsonValueKind.Number && value.TryGetInt32(out int number)) return number != 0;
+        if (value.ValueKind == JsonValueKind.String)
+        {
+            string text = value.GetString()?.Trim();
+            if (bool.TryParse(text, out bool parsed)) return parsed;
+            if (text == "1" || text?.Equals("yes", StringComparison.OrdinalIgnoreCase) == true) return true;
+            if (text == "0" || text?.Equals("no", StringComparison.OrdinalIgnoreCase) == true) return false;
+        }
+        return fallback;
+    }
+
+    private static bool TryGetPropertyIgnoreCase(JsonElement root, string propertyName, out JsonElement value)
+    {
+        foreach (JsonProperty property in root.EnumerateObject())
+        {
+            if (property.Name.Equals(propertyName, StringComparison.OrdinalIgnoreCase))
+            {
+                value = property.Value;
+                return true;
+            }
+        }
+        value = default;
+        return false;
+    }
 
     /// <summary>
     /// Get a fallback response when AI is unavailable
