@@ -77,10 +77,13 @@ class PokemonData:
     pokedex_entry: str
     pokedex_source: str
     types: list[str]
+    abilities: list[str]
+    hidden_ability: str
     base_stats: dict[str, int]
     expected_stats_level_50: dict[str, int]
     expected_stats_level_100: dict[str, int]
     level_up_attacks: dict[str, int]
+    level_up_move_pp: dict[str, int]
     front_sprite_source: str
     back_sprite_source: str
 
@@ -133,6 +136,25 @@ def parse_types(soup: BeautifulSoup) -> list[str]:
     return [pokemon_type for pokemon_type in types if pokemon_type in TYPE_MAP][:2]
 
 
+def parse_abilities(soup: BeautifulSoup) -> tuple[list[str], str]:
+    infos = soup.find(id="infos")
+    abilities: list[str] = []
+    hidden = ""
+    if not isinstance(infos, Tag):
+        return abilities, hidden
+    for label in infos.find_all("dt"):
+        title = normalized_text(label.get_text())
+        if not title.startswith("Fähigkeit") and title != "Versteckte Fähigkeit":
+            continue
+        value_node = label.find_next_sibling("dd")
+        value = normalized_text(value_node.get_text(" ", strip=True)) if value_node else ""
+        if not value or value == "Keine":
+            continue
+        if title == "Versteckte Fähigkeit": hidden = value
+        elif value not in abilities: abilities.append(value)
+    return abilities, hidden
+
+
 def parse_stats(soup: BeautifulSoup) -> tuple[dict[str, int], dict[str, int], dict[str, int]]:
     table = section_by_heading(soup, "Statuswerte").find_next("table")
     base: dict[str, int] = {}
@@ -175,15 +197,16 @@ def parse_pokedex_entry(soup: BeautifulSoup) -> tuple[str, str]:
     raise ValueError("No Generation 6 Pokédex entry found")
 
 
-def parse_level_up_attacks(soup: BeautifulSoup) -> dict[str, int]:
+def parse_level_up_attacks(soup: BeautifulSoup) -> tuple[dict[str, int], dict[str, int]]:
     generation = soup.find(id="movetable-0-gen-6")
     if not isinstance(generation, Tag):
         raise ValueError("Missing Generation 6 move table")
     heading = generation.find("h4", string=lambda text: text and "Level-Up" in text)
     table = heading.find_next("table") if isinstance(heading, Tag) else None
     if table is None:
-        return {}
+        return {}, {}
     attacks: dict[str, int] = {}
+    move_pp: dict[str, int] = {}
     for row in table.select("tbody tr"):
         cells = row.find_all("td", recursive=False)
         if len(cells) < 2:
@@ -194,7 +217,10 @@ def parse_level_up_attacks(soup: BeautifulSoup) -> dict[str, int]:
         level = int(level_match.group()) if level_match else 1
         if attack:
             attacks.setdefault(attack, level)
-    return attacks
+            pp_match = re.search(r"\d+", normalized_text(cells[-1].get_text()))
+            if pp_match:
+                move_pp.setdefault(attack, int(pp_match.group()))
+    return attacks, move_pp
 
 
 def original_sprite_url(url: str) -> str:
@@ -219,6 +245,8 @@ def parse_page(number: int, html: bytes) -> PokemonData:
     base, expected_50, expected_100 = parse_stats(soup)
     entry, entry_source = parse_pokedex_entry(soup)
     front, back = parse_sprites(soup)
+    abilities, hidden_ability = parse_abilities(soup)
+    level_up_attacks, level_up_move_pp = parse_level_up_attacks(soup)
     return PokemonData(
         id=number,
         name=name,
@@ -226,10 +254,13 @@ def parse_page(number: int, html: bytes) -> PokemonData:
         pokedex_entry=entry,
         pokedex_source=entry_source,
         types=parse_types(soup),
+        abilities=abilities,
+        hidden_ability=hidden_ability,
         base_stats=base,
         expected_stats_level_50=expected_50,
         expected_stats_level_100=expected_100,
-        level_up_attacks=parse_level_up_attacks(soup),
+        level_up_attacks=level_up_attacks,
+        level_up_move_pp=level_up_move_pp,
         front_sprite_source=front,
         back_sprite_source=back,
     )
@@ -267,6 +298,8 @@ def write_resource(project: Path, pokemon: PokemonData) -> None:
         f"DefaultLevel = {pokemon.level}",
         f"TypeOne = {types[0]}",
         f"TypeTwo = {types[1]}",
+        f"Abilities = {godot_value(pokemon.abilities)}",
+        f"HiddenAbility = {godot_value(pokemon.hidden_ability)}",
     ]
     lines.extend(f"{RESOURCE_STATS[key]} = {value}" for key, value in pokemon.base_stats.items())
     lines.extend([
@@ -274,6 +307,7 @@ def write_resource(project: Path, pokemon: PokemonData) -> None:
         f"ExpectedStatsLevel100 = {godot_value(pokemon.expected_stats_level_100)}",
         f"LearnableMoves = {godot_value(list(pokemon.level_up_attacks))}",
         f"LevelUpMoves = {godot_value(pokemon.level_up_attacks)}",
+        f"LevelUpMovePp = {godot_value(pokemon.level_up_move_pp)}",
         'FrontSprite = ExtResource("2")',
         'BackSprite = ExtResource("3")',
         "",

@@ -51,16 +51,18 @@ corner_radius_top_right = 6
 corner_radius_bottom_right = 6
 corner_radius_bottom_left = 6
 
-[node name="GameMenu" type="CanvasLayer" node_paths=PackedStringArray("Root", "MainPanel", "ItemsPanel", "PokedexPanel", "PokemonDetailPanel", "SavePanel", "ItemsButton", "PokedexButton", "SaveButton", "CloseButton", "CategoryFilter", "ItemList", "ItemDescription", "StatusLabel", "UseButton", "PokedexList", "PokedexHint", "PokemonSprite", "PokemonName", "PokemonTypes", "PokemonStats", "PokemonMoves", "PokemonDescription")]
+[node name="GameMenu" type="CanvasLayer" node_paths=PackedStringArray("Root", "MainPanel", "ItemsPanel", "PartyPanel", "PokedexPanel", "PokemonDetailPanel", "SavePanel", "ItemsButton", "PartyButton", "PokedexButton", "SaveButton", "CloseButton", "CategoryFilter", "ItemList", "ItemDescription", "StatusLabel", "UseButton", "PokedexList", "PokedexHint", "PokemonSprite", "PokemonName", "PokemonTypes", "PokemonStats", "PokemonMoves", "PokemonDescription", "PartyList", "PartySprite", "PartyDetails", "PartyMoves")]
 layer = 20
 script = ExtResource("1")
 Root = NodePath("Root")
 MainPanel = NodePath("Root/Window/MainPanel")
 ItemsPanel = NodePath("Root/Window/ItemsPanel")
+PartyPanel = NodePath("Root/Window/PartyPanel")
 PokedexPanel = NodePath("Root/Window/PokedexPanel")
 PokemonDetailPanel = NodePath("Root/Window/PokemonDetailPanel")
 SavePanel = NodePath("Root/Window/SavePanel")
 ItemsButton = NodePath("Root/Window/MainPanel/MenuButtons/Items")
+PartyButton = NodePath("Root/Window/MainPanel/MenuButtons/Party")
 PokedexButton = NodePath("Root/Window/MainPanel/MenuButtons/Pokedex")
 SaveButton = NodePath("Root/Window/MainPanel/MenuButtons/Save")
 CloseButton = NodePath("Root/Window/MainPanel/MenuButtons/Close")
@@ -77,6 +79,10 @@ PokemonTypes = NodePath("Root/Window/PokemonDetailPanel/PokemonTypes")
 PokemonStats = NodePath("Root/Window/PokemonDetailPanel/PokemonStats")
 PokemonMoves = NodePath("Root/Window/PokemonDetailPanel/MovesScroll/PokemonMoves")
 PokemonDescription = NodePath("Root/Window/PokemonDetailPanel/PokemonDescription")
+PartyList = NodePath("Root/Window/PartyPanel/PartyList")
+PartySprite = NodePath("Root/Window/PartyPanel/PartySprite")
+PartyDetails = NodePath("Root/Window/PartyPanel/PartyDetails")
+PartyMoves = NodePath("Root/Window/PartyPanel/PartyMoves")
 
 [node name="Root" type="Control" parent="."]
 layout_mode = 3
@@ -134,10 +140,10 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_constants/separation = 18
+theme_override_constants/separation = 12
 
 [node name="Items" type="Button" parent="Root/Window/MainPanel/MenuButtons"]
-custom_minimum_size = Vector2(0, 88)
+custom_minimum_size = Vector2(0, 68)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2")
 theme_override_font_sizes/font_size = 38
@@ -145,8 +151,17 @@ theme_override_styles/normal = SubResource("button")
 theme_override_styles/focus = SubResource("button_focus")
 text = "ITEMS"
 
+[node name="Party" type="Button" parent="Root/Window/MainPanel/MenuButtons"]
+custom_minimum_size = Vector2(0, 68)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 34
+theme_override_styles/normal = SubResource("button")
+theme_override_styles/focus = SubResource("button_focus")
+text = "POKÉMON"
+
 [node name="Pokedex" type="Button" parent="Root/Window/MainPanel/MenuButtons"]
-custom_minimum_size = Vector2(0, 88)
+custom_minimum_size = Vector2(0, 68)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2")
 theme_override_font_sizes/font_size = 38
@@ -155,7 +170,7 @@ theme_override_styles/focus = SubResource("button_focus")
 text = "POKÉDEX"
 
 [node name="Save" type="Button" parent="Root/Window/MainPanel/MenuButtons"]
-custom_minimum_size = Vector2(0, 88)
+custom_minimum_size = Vector2(0, 68)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2")
 theme_override_font_sizes/font_size = 38
@@ -164,7 +179,7 @@ theme_override_styles/focus = SubResource("button_focus")
 text = "SAVE"
 
 [node name="Close" type="Button" parent="Root/Window/MainPanel/MenuButtons"]
-custom_minimum_size = Vector2(0, 88)
+custom_minimum_size = Vector2(0, 68)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2")
 theme_override_font_sizes/font_size = 38
@@ -216,6 +231,51 @@ theme_override_font_sizes/font_size = 32
 theme_override_styles/normal = SubResource("button")
 theme_override_styles/focus = SubResource("button_focus")
 text = "USE"
+
+[node name="PartyPanel" type="Control" parent="Root/Window"]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 30.0
+offset_right = 830.0
+offset_bottom = 510.0
+
+[node name="PartyList" type="ItemList" parent="Root/Window/PartyPanel"]
+layout_mode = 0
+offset_right = 390.0
+offset_bottom = 470.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_selected_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 29
+theme_override_styles/panel = SubResource("inner")
+fixed_icon_size = Vector2i(64, 64)
+
+[node name="PartySprite" type="TextureRect" parent="Root/Window/PartyPanel"]
+layout_mode = 0
+offset_left = 420.0
+offset_right = 590.0
+offset_bottom = 170.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="PartyDetails" type="Label" parent="Root/Window/PartyPanel"]
+layout_mode = 0
+offset_left = 420.0
+offset_top = 180.0
+offset_right = 790.0
+offset_bottom = 345.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 25
+
+[node name="PartyMoves" type="Label" parent="Root/Window/PartyPanel"]
+layout_mode = 0
+offset_left = 600.0
+offset_right = 790.0
+offset_bottom = 175.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 23
 
 [node name="PokedexPanel" type="Control" parent="Root/Window"]
 layout_mode = 0

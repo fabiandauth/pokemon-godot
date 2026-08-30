@@ -30,6 +30,13 @@ public partial class PokemonResource : Resource
     [Export]
     public PokemonType TypeTwo = PokemonType.None;
 
+    [ExportCategory("Abilities")]
+    [Export]
+    public Array<string> Abilities = new();
+
+    [Export]
+    public string HiddenAbility = string.Empty;
+
     [ExportCategory("Stats")]
     [Export]
     public int Height;
@@ -71,6 +78,9 @@ public partial class PokemonResource : Resource
 
     [Export]
     public Dictionary<string, int> LevelUpMoves;
+
+    [Export]
+    public Dictionary<string, int> LevelUpMovePp;
 
     [ExportCategory("Sprites")]
     [Export]

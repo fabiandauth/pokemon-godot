@@ -2,7 +2,7 @@
 
 The importer creates Pokémon `001` through `143` from the corresponding
 Bisafans Pokédex pages. It extracts German names and Pokédex text, types, base
-stats, expected neutral stats at levels 50 and 100, Generation 6 level-up
+stats, expected neutral stats at levels 50 and 100, abilities, Generation 6 level-up
 attacks, and normal Generation 6 front/back sprites.
 
 ```bash
