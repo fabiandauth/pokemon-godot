@@ -89,6 +89,7 @@ public partial class SceneManager : Node
 
 		GameManager.AddPlayer(player);
 		GameManager.GetPlayer().Position = spawnPoint.Position;
+		StoryManager.TryStartOpening(CurrentLevel);
 	}
 
 	public void Switch(int trigger)

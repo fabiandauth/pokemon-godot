@@ -29,7 +29,7 @@ public partial class GameManager : Node
 		
 		Logger.Info("Loading game manager ...");
 
-		SceneManager.ChangeLevel(spawn: true);
+		SceneManager.ChangeLevel(levelName: LevelName.small_town_greens_house, spawn: true);
 	}
 
 	public static SubViewport GetGameViewPort()

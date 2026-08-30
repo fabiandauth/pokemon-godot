@@ -47,6 +47,10 @@ public partial class Npc : CharacterBody2D
     [Export]
     public NpcInputConfig NpcInputConfig;
 
+    [ExportCategory("Story")]
+    [Export]
+    public NpcStoryRole StoryRole = NpcStoryRole.None;
+
     public override void _Ready()
     {
         if (Engine.IsEditorHint())
@@ -125,6 +129,9 @@ public partial class Npc : CharacterBody2D
 
         Logger.Info(new object[] { Name, ": Changing to Message state" });
         stateMachine.ChangeState("Message");
+
+        if (StoryManager.HandleNpcInteraction(this))
+            return;
         
         // Initialize AI conversation if not already done
         if (conversationContext == null)
@@ -140,6 +147,25 @@ public partial class Npc : CharacterBody2D
         // Start AI conversation
         Logger.Info(new object[] { Name, ": Starting AI talk" });
         StartAITalk();
+    }
+
+    public void StartAutomaticStoryTalk()
+    {
+        Player player = GameManager.GetPlayer();
+        if (player == null)
+            return;
+
+        Vector2 difference = GlobalPosition - player.GlobalPosition;
+        Vector2 direction = Mathf.Abs(difference.X) >= Mathf.Abs(difference.Y)
+            ? new Vector2(Mathf.Sign(difference.X), 0)
+            : new Vector2(0, Mathf.Sign(difference.Y));
+        PlayMessage(direction == Vector2.Zero ? Vector2.Up : direction);
+    }
+
+    public void StartScriptedAIConversation(string[] initialMessages, string aiRole)
+    {
+        conversationContext = OllamaAI.InitializeConversation(Name, aiRole);
+        MessageManager.StartAIConversation(this, initialMessages);
     }
     
     /// <summary>

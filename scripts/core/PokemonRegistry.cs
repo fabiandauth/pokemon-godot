@@ -32,6 +32,9 @@ public partial class PokemonRegistry : Node
 
     public static void MarkSeen(int pokedexNumber) => Instance?.seenPokemon.Add(pokedexNumber);
 
+    public static PokemonResource GetById(int pokedexNumber) =>
+        Instance?.pokemon.FirstOrDefault(entry => entry.Id == pokedexNumber);
+
     public static bool HasBeenSeen(int pokedexNumber) =>
         Instance != null && (Instance.ShowAllForDevelopment || Instance.seenPokemon.Contains(pokedexNumber));
 }
