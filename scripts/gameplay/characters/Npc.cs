@@ -14,7 +14,7 @@ public partial class Npc : CharacterBody2D
     
     // AI Conversation
     private OllamaAI.ConversationContext conversationContext;
-    private int convincingTurns;
+    private int goalSatisfiedTurns;
     private bool rewardGiven;
 
     [ExportCategory("Traits")]
@@ -46,6 +46,10 @@ public partial class Npc : CharacterBody2D
 
     [Export]
     public NpcInputConfig NpcInputConfig;
+
+    [ExportCategory("Story")]
+    [Export]
+    public NpcStoryRole StoryRole = NpcStoryRole.None;
 
     public override void _Ready()
     {
@@ -125,21 +129,38 @@ public partial class Npc : CharacterBody2D
 
         Logger.Info(new object[] { Name, ": Changing to Message state" });
         stateMachine.ChangeState("Message");
+
+        if (StoryManager.HandleNpcInteraction(this))
+            return;
         
-        // Initialize AI conversation if not already done
-        if (conversationContext == null)
-        {
-            Logger.Info(new object[] { Name, ": Initializing AI conversation context" });
-            conversationContext = CreateConversationContext();
-        }
-        else
-        {
-            Logger.Info(new object[] { Name, ": Using existing conversation context" });
-        }
+        // Every interaction is a new conversation. This reloads the complete
+        // system prompt and NPC role for Ollama.
+        Logger.Info(new object[] { Name, ": Starting with a fresh AI conversation context" });
+        conversationContext = CreateConversationContext();
+        goalSatisfiedTurns = 0;
         
         // Start AI conversation
         Logger.Info(new object[] { Name, ": Starting AI talk" });
         StartAITalk();
+    }
+
+    public void StartAutomaticStoryTalk()
+    {
+        Player player = GameManager.GetPlayer();
+        if (player == null)
+            return;
+
+        Vector2 difference = GlobalPosition - player.GlobalPosition;
+        Vector2 direction = Mathf.Abs(difference.X) >= Mathf.Abs(difference.Y)
+            ? new Vector2(Mathf.Sign(difference.X), 0)
+            : new Vector2(0, Mathf.Sign(difference.Y));
+        PlayMessage(direction == Vector2.Zero ? Vector2.Up : direction);
+    }
+
+    public void StartScriptedAIConversation(string[] initialMessages, string aiRole)
+    {
+        conversationContext = OllamaAI.InitializeConversation(Name, aiRole);
+        MessageManager.StartAIConversation(this, initialMessages);
     }
     
     /// <summary>
@@ -155,7 +176,7 @@ public partial class Npc : CharacterBody2D
             // Fallback to static messages
             Logger.Warning(new object[] { Name, ": Ollama not available, using fallback messages" });
             MessageManager.StartAIConversation(this, [.. NpcInputConfig.Messages]);
-            TryHandOverItem(talkCompleted: true, convinced: false);
+            TryHandOverItem(talkCompleted: true, goalSatisfied: false);
             return;
         }
         
@@ -167,14 +188,14 @@ public partial class Npc : CharacterBody2D
             "Hello there!"  // Initial greeting
         );
         
-        Logger.Info(new object[] { Name, ": StartAITalk - AI response received, success:", response.Success, "convinced:", response.Convinced, "message:", response.Message });
+        Logger.Info(new object[] { Name, ": StartAITalk - AI response received, success:", response.Success, "message:", response.Message });
         
         if (response.Success && !string.IsNullOrEmpty(response.Message))
         {
             // Display AI response
             Logger.Info(new object[] { Name, ": StartAITalk - Starting AI conversation with response" });
             MessageManager.StartAIConversation(this, new[] { response.Message });
-            TryHandOverItem(talkCompleted: true, response.Convinced);
+            TryHandOverItem(talkCompleted: true, goalSatisfied: false);
         }
         else
         {
@@ -206,17 +227,33 @@ public partial class Npc : CharacterBody2D
         
         Logger.Info(new object[] { Name, ": SendUserMessage - Sending to AI" });
         
-        // Send to AI
-        var response = await OllamaAI.SendMessageAsync(conversationContext, userMessage);
-        
-        Logger.Info(new object[] { Name, ": SendUserMessage - AI response:", response.Message, "convinced:", response.Convinced });
+        NpcItemRewardConfig reward = NpcInputConfig?.ItemReward;
+        var evaluationTask = reward?.Mode == NpcItemHandoverMode.AfterGoalSatisfied
+            ? OllamaAI.EvaluateGoalAsync(reward.InteractionGoal, userMessage)
+            : System.Threading.Tasks.Task.FromResult(new OllamaAI.GoalEvaluation { Success = true });
+
+        // Dialogue and goal evaluation are independent and can run concurrently.
+        var responseTask = OllamaAI.SendMessageAsync(conversationContext, userMessage);
+        var response = await responseTask;
+        var evaluation = await evaluationTask;
+
+        Logger.Info(new object[] { Name, ": SendUserMessage - AI response:", response.Message });
         
         if (response.Success && !string.IsNullOrEmpty(response.Message))
         {
+            Logger.Info(new object[]
+            {
+                Name,
+                ": interaction goal evaluation - success:", evaluation.Success,
+                "satisfied:", evaluation.GoalSatisfied,
+                "reason:", evaluation.Reason,
+                "error:", evaluation.Error
+            });
+
             // Display AI response - this will add it to the messages and display it
             Logger.Info(new object[] { Name, ": SendUserMessage - Adding AI response to message manager" });
             MessageManager.AddAIResponse(this, response.Message);
-            TryHandOverItem(talkCompleted: true, response.Convinced);
+            TryHandOverItem(talkCompleted: true, evaluation.Success && evaluation.GoalSatisfied);
         }
         else
         {
@@ -229,17 +266,12 @@ public partial class Npc : CharacterBody2D
 
     private OllamaAI.ConversationContext CreateConversationContext()
     {
-        string convincingGoal = NpcInputConfig?.ItemReward?.Mode == NpcItemHandoverMode.AfterConvincing
-            ? NpcInputConfig.ItemReward.ConvincingGoal
-            : string.Empty;
-
         return OllamaAI.InitializeConversation(
             Name,
-            NpcAppearance.ToString(),
-            convincingGoal: convincingGoal);
+            NpcAppearance.ToString());
     }
 
-    private void TryHandOverItem(bool talkCompleted, bool convinced)
+    private void TryHandOverItem(bool talkCompleted, bool goalSatisfied)
     {
         NpcItemRewardConfig reward = NpcInputConfig?.ItemReward;
         if (reward == null || rewardGiven || reward.Mode == NpcItemHandoverMode.None)
@@ -248,7 +280,7 @@ public partial class Npc : CharacterBody2D
         bool shouldGiveItem = reward.Mode switch
         {
             NpcItemHandoverMode.AfterTalking => talkCompleted,
-            NpcItemHandoverMode.AfterConvincing => RegisterConvincingTurn(convinced, reward.RequiredConvincingTurns),
+            NpcItemHandoverMode.AfterGoalSatisfied => RegisterGoalSatisfiedTurn(goalSatisfied, reward.RequiredGoalSatisfiedTurns),
             _ => false
         };
 
@@ -265,18 +297,18 @@ public partial class Npc : CharacterBody2D
         MessageManager.AddSystemMessage($"You received {quantity} x {itemName}!");
     }
 
-    private bool RegisterConvincingTurn(bool convinced, int requiredTurns)
+    private bool RegisterGoalSatisfiedTurn(bool goalSatisfied, int requiredTurns)
     {
-        if (convinced)
-            convincingTurns++;
+        if (goalSatisfied)
+            goalSatisfiedTurns++;
 
         int required = Mathf.Max(1, requiredTurns);
-        bool requirementMet = convincingTurns >= required;
+        bool requirementMet = goalSatisfiedTurns >= required;
         Logger.Info(new object[]
         {
             Name,
-            ": conviction debug - LLM convinced:", convinced,
-            "progress:", convincingTurns, "/", required,
+            ": interaction goal debug - satisfied:", goalSatisfied,
+            "progress:", goalSatisfiedTurns, "/", required,
             "reward condition met:", requirementMet
         });
         return requirementMet;

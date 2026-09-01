@@ -14,14 +14,15 @@ public partial class NpcItemRewardConfig : Resource
     public ItemDefinition Item;
 
     [Export(PropertyHint.MultilineText)]
-    public string ConvincingGoal = string.Empty;
+    public string InteractionGoal = string.Empty;
 
     [Export(PropertyHint.Range, "1,10,1")]
-    public int RequiredConvincingTurns = 1;
+    public int RequiredGoalSatisfiedTurns = 1;
 
     [Export]
     public int Quantity = 1;
 
     [Export(PropertyHint.MultilineText)]
     public string HandoverMessage = "Here, I want you to have this.";
+
 }

@@ -126,6 +126,6 @@ anchor_right = 0.22
 anchor_bottom = 0.94
 theme_override_styles/normal = SubResource("StyleBoxFlat_button")
 theme_override_styles/hover = SubResource("StyleBoxFlat_button_hover")
-text = "End"
+text = "Close"
 theme_override_fonts/normal_font = ExtResource("2_84ee0")
 theme_override_font_sizes/normal_font_size = 30

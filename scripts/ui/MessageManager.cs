@@ -41,6 +41,7 @@ public partial class MessageManager : CanvasLayer
     private Npc currentNPC;
     private bool isAIConversation = false;
     private bool waitingForAI = false;
+    private int conversationVersion;
 
     public override void _Ready()
     {
@@ -84,10 +85,27 @@ public partial class MessageManager : CanvasLayer
         ConnectInputSignals();
     }
 
+    public override void _UnhandledInput(InputEvent inputEvent)
+    {
+        if (!IsReading() || !inputEvent.IsActionPressed("ui_cancel"))
+            return;
+
+        CloseConversation();
+        GetViewport().SetInputAsHandled();
+    }
+
     public static void PlayText(params string[] payload)
     {
         if (IsReading()) return;
         if (payload.Length == 0) return;
+
+        Instance.currentNPC = null;
+        Instance.isAIConversation = false;
+        Instance.waitingForAI = false;
+        Instance.InputField.Visible = false;
+        Instance.SendButton.Visible = false;
+        Instance.CancelButton.Visible = true;
+        Instance.conversationVersion++;
 
         Signals.EmitGlobalSignal(Signals.SignalName.MessageBoxOpen, true);
 
@@ -97,6 +115,7 @@ public partial class MessageManager : CanvasLayer
 
     public static async void ScrollText()
     {
+        int version = Instance.conversationVersion;
         Logger.Info(new object[] { "MessageManager: ScrollText called. Messages count:", Instance.Messages.Count, "IsReading:", IsReading() });
         
         if (!IsReading())
@@ -124,6 +143,8 @@ public partial class MessageManager : CanvasLayer
         {
             Instance.Label.Text += letter;
             await Task.Delay(Instance.Delay);
+            if (version != Instance.conversationVersion)
+                return;
         }
 
         Instance.Messages.RemoveAt(0);
@@ -185,6 +206,7 @@ public partial class MessageManager : CanvasLayer
         
         Instance.currentNPC = npc;
         Instance.isAIConversation = true;
+        Instance.conversationVersion++;
         
         Logger.Info(new object[] { "MessageManager: Setting currentNPC to:", npc?.Name });
         
@@ -312,6 +334,32 @@ public partial class MessageManager : CanvasLayer
         Signals.EmitGlobalSignal(Signals.SignalName.MessageBoxOpen, false);
         Instance.Box.Visible = false;
     }
+
+    public static void CloseConversation()
+    {
+        if (Instance == null || !IsReading())
+            return;
+
+        Npc npc = Instance.currentNPC;
+        Instance.conversationVersion++;
+        Instance.Messages.Clear();
+        Instance.IsScrolling = false;
+
+        if (npc != null)
+        {
+            EndAIConversation(npc);
+            npc.GetNode<StateMachine>("StateMachine").ChangeState("Roam");
+            return;
+        }
+
+        Instance.isAIConversation = false;
+        Instance.waitingForAI = false;
+        Instance.InputField.Visible = false;
+        Instance.SendButton.Visible = false;
+        Instance.CancelButton.Visible = false;
+        Instance.Box.Visible = false;
+        Signals.EmitGlobalSignal(Signals.SignalName.MessageBoxOpen, false);
+    }
     
     /// <summary>
     /// End the current AI conversation
@@ -319,19 +367,8 @@ public partial class MessageManager : CanvasLayer
     public static void OnCancelConversation()
     {
         Logger.Info(new object[] { "MessageManager: OnCancelConversation called" });
-        
-        if (Instance.currentNPC != null)
-        {
-            Logger.Info(new object[] { "MessageManager: Ending AI conversation with NPC:", Instance.currentNPC.Name });
-            EndAIConversation(Instance.currentNPC);
-            
-            // Return NPC to roaming state
-            Instance.currentNPC.GetNode<StateMachine>("StateMachine").ChangeState("Roam");
-        }
-        else
-        {
-            Logger.Warning(new object[] { "MessageManager: OnCancelConversation - currentNPC is NULL" });
-        }
+
+        CloseConversation();
     }
     
     /// <summary>

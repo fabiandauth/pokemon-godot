@@ -22,8 +22,8 @@ size = Vector2(16, 64)
 script = ExtResource("10_reward")
 Mode = 2
 Item = ExtResource("11_flower")
-ConvincingGoal = "The player sincerely appreciates or compliments the gardener's flowers. Require a meaningful compliment about the flowers, not merely a greeting or a request for an item."
-RequiredConvincingTurns = 1
+InteractionGoal = "The player's latest message sincerely appreciates or compliments the gardener's flowers. A meaningful positive observation about the flowers satisfies this goal. A greeting, unrelated statement, or request for an item does not."
+RequiredGoalSatisfiedTurns = 1
 Quantity = 1
 HandoverMessage = "You truly appreciate my flowers. Please take this bouquet as a thank-you."
 
