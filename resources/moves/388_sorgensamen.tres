@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Sorgensamen"
+Aliases = []
+Generation = 4
+SourceUrl = "https://www.pokewiki.de/Sorgensamen"
+Category = 2
+PokemonType = 4
+Accuracy = 100
+Power = 0
+PP = 10
+StatusChange = "Sorgensamen ändert die Fähigkeit des Ziels in Insomnia. Durch diesen Effekt wird das Ziel am Einschlafen gehindert und bereits schlafende Pokémon werden aufgeweckt. Sorgensamen ist wirkungslos bei Pokémon mit der Fähigkeit Variabilität, Schnarchnase, Taktikwechsel oder Würggeschoss."

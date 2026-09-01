@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Egotrip"
+Aliases = []
+Generation = 4
+SourceUrl = "https://www.pokewiki.de/Egotrip"
+Category = 2
+PokemonType = 1
+Accuracy = 0
+Power = 0
+PP = 20
+StatusChange = "Wählt der Gegner eine Attacke aus, die Schaden zufügt, wird diese von Egotrip kopiert und mit 1,5-facher Stärke ausgeführt. Dies gelingt jedoch nur, wenn der Anwender vor dem Gegner agiert. Egotrip trifft unabhängig von Veränderungen an Genauigkeit und Fluchtwert immer."

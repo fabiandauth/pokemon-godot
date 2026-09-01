@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Goldene Zeiten"
+Aliases = []
+Generation = 6
+SourceUrl = "https://www.pokewiki.de/Goldene_Zeiten"
+Category = 2
+PokemonType = 1
+Accuracy = 0
+Power = 0
+PP = 30
+StatusChange = "Verdoppelt das Preisgeld, falls man den Kampf gegen einen Trainer gewinnt. Goldene Zeiten kann nicht mit sich selbst kombiniert werden, ein mehrfacher Einsatz erhöht den Gewinn also nicht. Gemeinsam mit einem Münzamulett oder Glücksrauch wird das Preisgeld jedoch vervierfacht. Zudem kann es mit der O-Kraft Kaufkraft, kombiniert werden."

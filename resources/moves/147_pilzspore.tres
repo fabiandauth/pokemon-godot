@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Pilzspore"
+Aliases = []
+Generation = 1
+SourceUrl = "https://www.pokewiki.de/Pilzspore"
+Category = 2
+PokemonType = 4
+Accuracy = 100
+Power = 0
+PP = 15
+StatusChange = "Der Gegner wird in Schlaf versetzt. Ab der 6. Generation ist die Attacke wirkungslos, wenn das Ziel dem Typ Pflanze angehört oder die Fähigkeit Partikelschutz besitzt."

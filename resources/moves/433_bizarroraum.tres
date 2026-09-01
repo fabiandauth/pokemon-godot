@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Bizarroraum"
+Aliases = []
+Generation = 4
+SourceUrl = "https://www.pokewiki.de/Bizarroraum"
+Category = 2
+PokemonType = 11
+Accuracy = 0
+Power = 0
+PP = 5
+StatusChange = "Erzeugt einen Raum, der für fünf Runden lang Pokémon mit geringerer Initiative zuerst angreifen lässt. In Mehrfachkämpfen fängt das langsamste Pokémon an und das schnellste greift zuletzt an. Die Priorität von Attacken wird allerdings nach wie vor eingehalten, eine Attacke mit höherer Priorität wird immer noch vor einer Attacke mit niedrigerer Priorität eingesetzt. So wird ein Pokémon immer noch zuerst angreifen, wenn es zum Beispiel Ruckzuckhieb einsetzt."

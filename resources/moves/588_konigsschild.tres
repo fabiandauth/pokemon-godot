@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Königsschild"
+Aliases = []
+Generation = 6
+SourceUrl = "https://www.pokewiki.de/K%C3%B6nigsschild"
+Category = 2
+PokemonType = 17
+Accuracy = 0
+Power = 0
+PP = 10
+StatusChange = "Königsschild schützt den Anwender in der Runde in der es eingesetzt wird vor allen physischen oder speziellen Attacken. Falls ein Pokémon, egal ob Mitstreiter oder Gegner, eine Attacke einsetzt, die Kontakt mit dem Anwender herstellen würde, sinkt dessen Angriff um eine Stufe. In der sechsten und siebten Generation betrug die Statuswertsenkung noch zwei Stufen."

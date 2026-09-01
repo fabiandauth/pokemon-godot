@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Pulverschleuder"
+Aliases = []
+Generation = 6
+SourceUrl = "https://www.pokewiki.de/Pulverschleuder"
+Category = 2
+PokemonType = 12
+Accuracy = 100
+Power = 0
+PP = 20
+StatusChange = "Pulverschleuder besitzt eine erhöhte Priorität. Setzt das Ziel, noch in derselben Runde in der Pulverschleuder eingesetzt wurde, eine Feuer -Attacke ein, wird die Attacke verhindert und dem Ziel werden 25 % seiner KP abgezogen. Jedoch wird nicht verhindert, dass sich das Ziel, sollte es eingefroren sein, z. B. durch Einsatz von Flammenrad wieder auftaut."

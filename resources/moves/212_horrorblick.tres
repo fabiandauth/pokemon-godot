@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Horrorblick"
+Aliases = []
+Generation = 2
+SourceUrl = "https://www.pokewiki.de/Horrorblick"
+Category = 2
+PokemonType = 1
+Accuracy = 0
+Power = 0
+PP = 5
+StatusChange = "Horrorblick verhindert den Austausch des Ziels. Dieser Effekt bleibt solange bestehen, wie der Anwender am Kampf teilnimmt und kann nicht durch Stafette übergeben werden. Wird allerdings das Ziel durch Stafette ausgewechselt, kann das eingewechselte Pokémon nicht mehr getauscht werden. Das Ziel kann immer noch durch Attacken wie Brüller, Wirbelwind, Drachenrute oder Überkopfwurf zum Austausch gezwungen werden."

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Psycho-Plus"
+Aliases = []
+Generation = 2
+SourceUrl = "https://www.pokewiki.de/Psycho-Plus"
+Category = 2
+PokemonType = 1
+Accuracy = 0
+Power = 0
+PP = 10
+StatusChange = "Beim Einsatz von Psycho-Plus werden die (positiven wie negativen) Veränderungen der Statuswerte des Zieles übernommen. Betroffen davon sind die Werte für Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung, Initiative, Genauigkeit und Fluchtwert. Modifikationen dieser Werte durch getragene Items oder Fähigkeiten werden nicht übernommen. Veränderungen der gegnerischen Statuswerte nach Einsatz von Psycho-Plus beeinflussen nicht die Statuswerte des Anwenders. Eventuelle Veränderungen der Werte, die der Anwender vor der Nutzung hatte, werden dabei durch die Werte des Ziels überschrieben. Hat also das Ziel beispielsweise Angriff + 2 und der Anwender Verteidigung + 2, so verliert letzterer nach dem Einsatz seine Statusveränderung für den Verteidigungswert."

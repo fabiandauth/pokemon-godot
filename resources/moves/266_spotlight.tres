@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Spotlight"
+Aliases = []
+Generation = 3
+SourceUrl = "https://www.pokewiki.de/Spotlight"
+Category = 2
+PokemonType = 1
+Accuracy = 0
+Power = 0
+PP = 20
+StatusChange = "Alle Attacken des gegnerischen Pokémon-Teams im Doppelkampf bzw. aller sich in der Nähe des Anwenders befindlichen Gegner im Dreierkampf, die nur ein einzelnes Pokémon als Ziel wählen, werden auf das ausführende Pokémon umgelenkt. Attacken von Gegnern, die sich nicht in der Nähe des Anwenders befinden, werden nur dann auf den Anwender von Spotlight umgelenkt, wenn diese auch entfernte Pokémon treffen können (z. B. Aero-Ass, Fliegen ). Spotlight hat eine erhöhte Priorität und wird deshalb vor den meisten anderen Attacken eingesetzt. Spotlight verhindert keine Angriffe von eigenen Pokémon auf eigene Pokémon."

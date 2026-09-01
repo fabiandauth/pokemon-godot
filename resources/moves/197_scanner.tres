@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Scanner"
+Aliases = []
+Generation = 2
+SourceUrl = "https://www.pokewiki.de/Scanner"
+Category = 2
+PokemonType = 7
+Accuracy = 0
+Power = 0
+PP = 5
+StatusChange = "Schützt den Anwender vor Schaden und Effekten von Attacken, die in derselben Runde gegen ihn eingesetzt werden. Die Attacke besitzt eine erhöhte Priorität."

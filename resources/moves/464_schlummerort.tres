@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Schlummerort"
+Aliases = []
+Generation = 4
+SourceUrl = "https://www.pokewiki.de/Schlummerort"
+Category = 2
+PokemonType = 16
+Accuracy = 80
+Power = 0
+PP = 10
+StatusChange = "Der Gegner wird in Schlaf versetzt. Wirkungslos, wenn der Gegner die Fähigkeiten Insomnia oder Munterkeit hat oder bereits von einer primären Statusveränderung betroffen ist."

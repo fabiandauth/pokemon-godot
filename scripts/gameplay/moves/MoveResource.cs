@@ -13,6 +13,15 @@ public partial class MoveResource : Resource
     public string Name = "";
 
     [Export]
+    public Array<string> Aliases = [];
+
+    [Export(PropertyHint.Range, "1,9,1")]
+    public int Generation = 1;
+
+    [Export]
+    public string SourceUrl = "";
+
+    [Export]
     public MoveTarget Target = MoveTarget.SelectedPokemon;
 
     [Export]
@@ -56,6 +65,9 @@ public partial class MoveResource : Resource
     public int PP;
 
     [ExportCategory("Move Effects")]
+    [Export(PropertyHint.MultilineText)]
+    public string StatusChange = "";
+
     [Export]
     public int AilmentChance;
 

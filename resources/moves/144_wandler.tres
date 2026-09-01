@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Wandler"
+Aliases = []
+Generation = 1
+SourceUrl = "https://www.pokewiki.de/Wandler"
+Category = 2
+PokemonType = 1
+Accuracy = 0
+Power = 0
+PP = 10
+StatusChange = "Wandler ändert den Typ, die Statuswerte, die Statuswertveränderungen, die Attacken, die Spezies, die Fähigkeit und den Ruf des Anwenders in die des Gegners. Jede Attacke, die kopiert wird, hat 5 AP. Wandler kopiert nicht die Statusveränderungen, den Level, die momentanen und maximalen KP und die Grunderfahrung. Bis zur 4. Generation eingeschlossen nimmt der Anwender auch die Fangrate des Zieles an. Wandler betrifft den Anwender und nicht das Ziel, es bleibt deshalb von Änderungen der Genauigkeit und des Fluchtwertes unbeeinflusst. Trotzdem kann es nicht eingesetzt werden, wenn der Gegner Fliegen, Schaufler, Taucher etc. einsetzt. Wird der Anwender ausgetauscht verwandelt er sich wieder zurück."

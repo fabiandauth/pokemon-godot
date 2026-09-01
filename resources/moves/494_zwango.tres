@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Zwango"
+Aliases = []
+Generation = 5
+SourceUrl = "https://www.pokewiki.de/Zwango"
+Category = 2
+PokemonType = 1
+Accuracy = 100
+Power = 0
+PP = 15
+StatusChange = "Das Ziel erhält zeitweise dieselbe Fähigkeit wie der Angreifer. Funktioniert nicht, wenn das Ziel die Fähigkeit Alpha-System, Dauerschlaf, Fischschwarm, Freundschaftsakt, Heißhunger, Kostümspuk, Limitschild, Reitgespann, Scharwandel, Schnarchnase, Superwechsel, Taktikwechsel, Tera-Wandel, Tiefkühlkopf, Trance-Modus, Variabilität oder Würggeschoss hat."

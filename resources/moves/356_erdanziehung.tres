@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Erdanziehung"
+Aliases = []
+Generation = 4
+SourceUrl = "https://www.pokewiki.de/Erdanziehung"
+Category = 2
+PokemonType = 11
+Accuracy = 0
+Power = 0
+PP = 5
+StatusChange = "Erdanziehung setzt das gesamte Kampffeld für fünf Runden lang einer sehr hohen Schwerkraft aus. Pokémon, die normalerweise nicht den Boden berühren, werden geerdet. Dadurch wird die Immunität der Flug -Pokémon und der Fähigkeit Schwebe gegen den Typ Boden aufgehoben. Die Attacken Magnetflug, Telekinese und das Item Luftballon sind nicht mehr wirksam. So werden Pokémon durch Attacken wie Stachler, Giftspitzen und Klebenetz beeinflusst, und können durch Ausweglos gefangen genommen werden. Auch wirken jegliche Feldeffekte auf sie."

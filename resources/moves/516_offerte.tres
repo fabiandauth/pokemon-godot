@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Offerte"
+Aliases = []
+Generation = 5
+SourceUrl = "https://www.pokewiki.de/Offerte"
+Category = 2
+PokemonType = 1
+Accuracy = 0
+Power = 0
+PP = 15
+StatusChange = "Der Anwender gibt dem Ziel sein getragenes Item, egal ob dem Gegner oder dem Partner. Die Attacke schlägt fehl, wenn der Anwender kein Item oder einen Brief hält. Es schlägt auch fehl, wenn das Ziel bereits ein Item hält oder sich hinter einem Delegator befindet. Offerte kann nicht eingesetzt werden, um Giratina ein Platinum-Orb zu geben, einem Pokémon mit der Fähigkeit Variabilität eine Tafel oder einem Pokémon mit der Fähigkeit Alpha-System eine Disc. Es schlägt außerdem fehl, wenn ein Z-Kristall oder ein Mega-Stein übertragen werden soll."

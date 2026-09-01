@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Händchenhalten"
+Aliases = []
+Generation = 6
+SourceUrl = "https://www.pokewiki.de/H%C3%A4ndchenhalten"
+Category = 2
+PokemonType = 1
+Accuracy = 0
+Power = 0
+PP = 40
+StatusChange = "Die Attacke trifft auch dann, wenn der Partner Schutzschild, Scanner oder Schutzstacheln einsetzt. Die Attacke schlägt im Einzelkampf und bei Massenbegegnungen fehl. Sie schlägt auch dann fehl, wenn der Partner Trickschutz einsetzt oder sich in der Vorbereitungsrunde von Fliegen, Taucher oder Schaufler befindet. Ein genauerer Effekt auf das Kampfgeschehen ist bislang unbekannt."

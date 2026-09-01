@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Begrenzer"
+Aliases = []
+Generation = 3
+SourceUrl = "https://www.pokewiki.de/Begrenzer"
+Category = 2
+PokemonType = 11
+Accuracy = 0
+Power = 0
+PP = 10
+StatusChange = "Nach dem Einsatz von Begrenzer kann der Gegner Attacken, die dem Anwender ebenfalls bekannt sind, nicht mehr einsetzen. Ändern sich die Attacken des Anwenders, während Begrenzer anhält, z. B. durch den Einsatz von Mimikry, Wandler oder Nachahmer, kann das Ziel auch die neuen Attacken nicht einsetzen. Wenn ein Gegner für seine übrigen Attacken keine AP mehr hat oder all seine Attacken blockiert sind, setzt es Verzweifler ein."

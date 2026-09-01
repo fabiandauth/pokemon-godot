@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Nachspiel"
+Aliases = []
+Generation = 3
+SourceUrl = "https://www.pokewiki.de/Nachspiel"
+Category = 2
+PokemonType = 14
+Accuracy = 0
+Power = 0
+PP = 5
+StatusChange = "Wird der Anwender von Nachspiel vom Gegner angegriffen und dadurch besiegt, sinken die AP dieser Attacke des Gegners auf 0. Die Attacke wirkt nicht, wenn zwischen dem Einsatz dieser Attacke und dem Besiegen des Anwenders mehr als 1 Runde vergangen sind oder wenn der Anwender eine andere Attacke einsetzt, bevor er besiegt wird. Des Weiteren schlägt die Attacke fehl, wenn das Pokémon durch bestimmte Effekte wie Statusveränderung, Egelsamen, Seher oder Wetter k. o. geht."

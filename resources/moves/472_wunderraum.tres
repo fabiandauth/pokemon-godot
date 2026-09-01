@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Wunderraum"
+Aliases = []
+Generation = 5
+SourceUrl = "https://www.pokewiki.de/Wunderraum"
+Category = 2
+PokemonType = 11
+Accuracy = 0
+Power = 0
+PP = 10
+StatusChange = "Fünf Runden lang wird bei jedem im Kampf befindlichen Pokémon der Wert der Verteidigung mit dem der Spezial-Verteidigung vertauscht. Dabei werden prozentuale Modifikationen der Statuswerte durch Trageitems und Fähigkeiten mitgetauscht, nicht aber Statuswertveränderungen innerhalb des Stufensystems. Wird Wunderraum erneut eingesetzt, während es noch wirkt, wird der Effekt sofort beendet."

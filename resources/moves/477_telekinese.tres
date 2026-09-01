@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Telekinese"
+Aliases = []
+Generation = 5
+SourceUrl = "https://www.pokewiki.de/Telekinese"
+Category = 2
+PokemonType = 11
+Accuracy = 0
+Power = 0
+PP = 15
+StatusChange = "Das Ziel ist drei Runden lang gegen Boden -Attacken, Stachler, Giftspitzen und Ausweglos immun. Dafür wird er drei Runden lang sicher von allen Attacken getroffen, unabhängig von Genauigkeit und Fluchtwert. Das gilt nicht für K.O.-Attacken."

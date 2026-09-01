@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Grasflöte"
+Aliases = []
+Generation = 3
+SourceUrl = "https://www.pokewiki.de/Grasfl%C3%B6te"
+Category = 2
+PokemonType = 4
+Accuracy = 55
+Power = 0
+PP = 15
+StatusChange = "Der Gegner wird in Schlaf versetzt. Wirkungslos, wenn der Gegner die Fähigkeiten Insomnia, Munterkeit oder Lärmschutz hat oder bereits einer primären Statusveränderung unterliegt. Seit der 6. Generation schützt ein Delegator nicht mehr vor dem Effekt von Grasflöte."

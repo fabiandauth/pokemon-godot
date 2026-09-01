@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Schlafrede"
+Aliases = []
+Generation = 2
+SourceUrl = "https://www.pokewiki.de/Schlafrede"
+Category = 2
+PokemonType = 1
+Accuracy = 0
+Power = 0
+PP = 10
+StatusChange = "Schlafrede kann nur verwendet werden, wenn der Anwender schläft oder die Fähigkeit Dauerschlaf besitzt, ansonsten schlägt es fehl. Dann benutzt der Anwender zufällig eine seiner übrigen Attacken. Wird Erholung durch Schlafrede eingesetzt, schlägt diese automatisch fehl. In Doppel- und Dreierkämpfen wird der Gegner gegenüber dem Anwender getroffen, wenn die Attacke nur ein Ziel hat, da man im Schlaf kein Ziel auswählen kann."

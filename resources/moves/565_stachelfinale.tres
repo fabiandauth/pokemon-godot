@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Stachelfinale"
+Aliases = []
+Generation = 6
+SourceUrl = "https://www.pokewiki.de/Stachelfinale"
+Category = 0
+PokemonType = 12
+Accuracy = 100
+Power = 30
+PP = 25
+StatusChange = ""

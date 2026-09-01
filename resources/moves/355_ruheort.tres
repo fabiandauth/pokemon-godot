@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Ruheort"
+Aliases = []
+Generation = 4
+SourceUrl = "https://www.pokewiki.de/Ruheort"
+Category = 2
+PokemonType = 10
+Accuracy = 0
+Power = 0
+PP = 10
+StatusChange = "Ruheort füllt die Kraftpunkte des Anwenders um die Hälfte seiner maximalen KP auf. Wird die Attacke von einem Flug -Pokémon eingesetzt, verliert es den Flug-Typ für diese Runde. Wenn es nur den Typ Flug besitzt, ändert sich dieser zu Normal. Pokémon mit der Fähigkeit Schwebe verlieren auch nach Einsatz von Ruheort ihre Immunität gegen Boden -Attacken nicht."

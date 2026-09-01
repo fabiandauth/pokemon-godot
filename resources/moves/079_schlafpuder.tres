@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Schlafpuder"
+Aliases = []
+Generation = 1
+SourceUrl = "https://www.pokewiki.de/Schlafpuder"
+Category = 2
+PokemonType = 4
+Accuracy = 75
+Power = 0
+PP = 15
+StatusChange = "Das Ziel wird in Schlaf versetzt. Die Attacke ist wirkungslos, wenn der Gegner die Fähigkeiten Insomnia, Munterkeit oder Partikelschutz hat, dem Typ Pflanze angehört oder bereits einer primären Statusveränderung unterliegt."

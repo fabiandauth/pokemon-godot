@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Überflutung"
+Aliases = []
+Generation = 5
+SourceUrl = "https://www.pokewiki.de/%C3%9Cberflutung"
+Category = 2
+PokemonType = 3
+Accuracy = 100
+Power = 0
+PP = 20
+StatusChange = "Ändert den Typ des Gegners zu Wasser. Dieser Effekt dauert so lange an, bis das Ziel ausgewechselt wird. Hat keine Wirkung auf Pokémon mit der Fähigkeit Variabilität oder Alpha-System sowie terakristallisierte Pokémon. Hat das Ziel die Fähigkeit H2O-Absorber oder Sturmsog, füllt diese Attacke stattdessen dessen KP auf."

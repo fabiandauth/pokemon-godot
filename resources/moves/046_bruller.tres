@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Brüller"
+Aliases = []
+Generation = 1
+SourceUrl = "https://www.pokewiki.de/Br%C3%BCller"
+Category = 2
+PokemonType = 1
+Accuracy = 0
+Power = 0
+PP = 20
+StatusChange = "Brüller tauscht in Trainerkämpfen das gegnerische Pokémon gegen ein zufällig ausgewähltes Pokémon des gegnerischen Teams aus. Sofern das Level des Anwenders höher ist als das des gegnerischen, beendet es Kämpfe gegen wilde Pokémon, außer der Spieler befindet sich in einem Kampf gegen mehrere Pokémon. Der Anwender erhält so keine EP und Basispunkte (FP)."

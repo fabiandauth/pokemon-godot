@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Giftwolke"
+Aliases = []
+Generation = 1
+SourceUrl = "https://www.pokewiki.de/Giftwolke"
+Category = 2
+PokemonType = 8
+Accuracy = 90
+Power = 0
+PP = 40
+StatusChange = "Vergiftet den Gegner. Das Ziel kann nicht vergiftet werden, wenn es einen Delegator benutzt, bereits einer primären Statusveränderung unterliegt, die Fähigkeit Immunität hat oder vom Typ Gift oder Stahl ist."

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Rechte Hand"
+Aliases = []
+Generation = 3
+SourceUrl = "https://www.pokewiki.de/Rechte_Hand"
+Category = 2
+PokemonType = 1
+Accuracy = 0
+Power = 0
+PP = 20
+StatusChange = "In einem Doppel-oder Dreierkampf wird die Basisstärke der Attacke des Partners durch Einsatz von Rechte Hand um 50% erhöht. Dies gelingt durch die sehr hohe Priorität von Rechte Hand immer, da die Attacke immer zuerst ausgeführt wird (Ausnahme: Verfolgung, wenn das gegnerische Pokémon ausgetauscht wird). Hat der Partner in einem Doppelkampf diese Attacke bereits in derselben Runde eingesetzt, schlägt Rechte Hand vom zweiten Partner fehl, in einem Dreierkampf allerdings nicht. Im Einzelkampf schlägt die Attacke immer fehl."

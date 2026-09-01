@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Nachahmer"
+Aliases = []
+Generation = 2
+SourceUrl = "https://www.pokewiki.de/Nachahmer"
+Category = 2
+PokemonType = 1
+Accuracy = 0
+Power = 0
+PP = 1
+StatusChange = "Die vom Ziel zuletzt eingesetzte Attacke wird dauerhaft erlernt, Nachahmer wird dafür vergessen. Farbeagle kann Nachahmer immer nur einmal erlernen. Es ist daher unmöglich ein Farbeagle zu haben, das die Attacke mehrmals beherrscht. Wird Nachahmer von einem verwandelten Pokémon eingesetzt, schlägt sie fehl. Wird eine Attacke in einem Link-Kampf erlernt, wird die Attacke nach dem Kampf wieder vergessen. Geschwätz, Verzweifler und Attacken, die Farbeagle bereits beherrscht, können nicht kopiert werden."

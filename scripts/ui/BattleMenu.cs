@@ -141,7 +141,14 @@ public partial class BattleMenu : CanvasLayer
         ShowSelection("Choose a move");
         foreach (PokemonMoveSlot move in activePokemon.Moves)
         {
-            int index = SelectionList.AddItem($"{move.MoveName}    PP {move.CurrentPp}/{move.MaxPp}");
+            string category = move.EffectiveCategory switch
+            {
+                MoveCategory.Special => "SP.",
+                MoveCategory.Physical => "PHY.",
+                _ => "STATUS"
+            };
+            int index = SelectionList.AddItem(
+                $"{move.MoveName}  {category} {move.EffectiveAttackStrength}  PP {move.CurrentPp}/{move.MaxPp}");
             SelectionList.SetItemMetadata(index, activePokemon.Moves.IndexOf(move));
             SelectionList.SetItemDisabled(index, move.CurrentPp <= 0);
         }
@@ -225,17 +232,32 @@ public partial class BattleMenu : CanvasLayer
         if (move.CurrentPp <= 0)
             return;
 
-        move.CurrentPp--;
-        int damage = CalculateDamage(activePokemon, wildPokemon, move);
-        wildPokemon.CurrentHp = Mathf.Max(0, wildPokemon.CurrentHp - damage);
-        BattleText.Text = $"{activePokemon.DisplayName} used {move.MoveName}! It dealt {damage} damage.";
-        RefreshCombatants();
-        if (wildPokemon.IsFainted)
+        PokemonMoveSlot wildMove = ChooseWildMove();
+        bool playerActsFirst = BattleMechanics.ActsFirst(
+            activePokemon,
+            wildPokemon,
+            Globals.GetRandomNumberGenerator());
+
+        BattleText.Text = string.Empty;
+        if (playerActsFirst)
         {
-            EndBattle($"The wild {wildPokemon.DisplayName} fainted!");
-            return;
+            ExecuteAttack(activePokemon, wildPokemon, move, isWildAttacker: false);
+            if (FinishTurnAfterFaint())
+                return;
+            ExecuteAttack(wildPokemon, activePokemon, wildMove, isWildAttacker: true);
         }
-        WildTurn();
+        else
+        {
+            ExecuteAttack(wildPokemon, activePokemon, wildMove, isWildAttacker: true);
+            if (FinishTurnAfterFaint())
+                return;
+            ExecuteAttack(activePokemon, wildPokemon, move, isWildAttacker: false);
+        }
+
+        if (FinishTurnAfterFaint())
+            return;
+        RefreshCombatants();
+        ShowCommands();
     }
 
     private void SwitchPokemon(int partyIndex)
@@ -316,39 +338,64 @@ public partial class BattleMenu : CanvasLayer
 
     private void WildTurn()
     {
-        PokemonMoveSlot move = wildPokemon.Moves.FirstOrDefault(slot => slot.CurrentPp > 0);
-        string moveName = move?.MoveName ?? "Struggle";
-        if (move != null)
-            move.CurrentPp--;
-        int damage = CalculateDamage(wildPokemon, activePokemon, move);
-        activePokemon.CurrentHp = Mathf.Max(0, activePokemon.CurrentHp - damage);
-        BattleText.Text += $"\nThe wild {wildPokemon.DisplayName} used {moveName} and dealt {damage} damage.";
+        ExecuteAttack(wildPokemon, activePokemon, ChooseWildMove(), isWildAttacker: true);
         RefreshCombatants();
 
-        if (activePokemon.IsFainted)
-        {
-            PokemonInstance replacement = party.Pokemon.FirstOrDefault(pokemon => pokemon != null && !pokemon.IsFainted);
-            if (replacement == null)
-            {
-                EndBattle(null);
-                DeathScreen.ShowAndRespawn();
-                return;
-            }
-            activePokemon = replacement;
-            BattleText.Text += $"\nGo, {activePokemon.DisplayName}!";
-            RefreshCombatants();
-        }
+        if (FinishTurnAfterFaint())
+            return;
         ShowCommands();
     }
 
-    private static int CalculateDamage(PokemonInstance attacker, PokemonInstance defender, PokemonMoveSlot move)
+    private PokemonMoveSlot ChooseWildMove()
     {
-        int power = move?.Move?.Power > 0 ? move.Move.Power : 40;
-        bool special = move?.Move?.Category == MoveCategory.Special;
-        int attack = special ? attacker.Stats.SpecialAttack : attacker.Stats.Attack;
-        int defense = Mathf.Max(1, special ? defender.Stats.SpecialDefense : defender.Stats.Defense);
-        float randomFactor = Globals.GetRandomNumberGenerator().RandfRange(0.85f, 1f);
-        return Mathf.Max(1, Mathf.RoundToInt((((2f * attacker.Level / 5f + 2f) * power * attack / defense) / 50f + 2f) * randomFactor));
+        var availableMoves = wildPokemon.Moves.Where(slot => slot.CurrentPp > 0).ToList();
+        if (availableMoves.Count == 0)
+            return null;
+        int index = Globals.GetRandomNumberGenerator().RandiRange(0, availableMoves.Count - 1);
+        return availableMoves[index];
+    }
+
+    private void ExecuteAttack(
+        PokemonInstance attacker,
+        PokemonInstance defender,
+        PokemonMoveSlot move,
+        bool isWildAttacker)
+    {
+        string moveName = move?.MoveName ?? "Struggle";
+        if (move != null)
+            move.CurrentPp--;
+        int damage = BattleMechanics.CalculateDamage(attacker, defender, move);
+        defender.CurrentHp = Mathf.Max(0, defender.CurrentHp - damage);
+        string attackerName = isWildAttacker ? $"The wild {attacker.DisplayName}" : attacker.DisplayName;
+        string result = $"{attackerName} used {moveName}! It dealt {damage} damage.";
+        BattleText.Text = string.IsNullOrEmpty(BattleText.Text) ? result : $"{BattleText.Text}\n{result}";
+        RefreshCombatants();
+    }
+
+    private bool FinishTurnAfterFaint()
+    {
+        if (wildPokemon.IsFainted)
+        {
+            EndBattle($"The wild {wildPokemon.DisplayName} fainted!");
+            return true;
+        }
+
+        if (!activePokemon.IsFainted)
+            return false;
+
+        PokemonInstance replacement = party.Pokemon.FirstOrDefault(pokemon => pokemon != null && !pokemon.IsFainted);
+        if (replacement == null)
+        {
+            EndBattle(null);
+            DeathScreen.ShowAndRespawn();
+            return true;
+        }
+
+        activePokemon = replacement;
+        BattleText.Text += $"\nGo, {activePokemon.DisplayName}!";
+        RefreshCombatants();
+        ShowCommands();
+        return true;
     }
 
     private void RefreshCombatants()

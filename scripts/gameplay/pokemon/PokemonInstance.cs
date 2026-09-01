@@ -1,4 +1,5 @@
 using System.Linq;
+using Game.Core;
 using Godot;
 using Godot.Collections;
 
@@ -84,13 +85,20 @@ public partial class PokemonInstance : Resource
             .Take(MaximumMoves)
             .OrderBy(entry => entry.Value))
         {
-            int maxPp = Species.LevelUpMovePp != null && Species.LevelUpMovePp.TryGetValue(move.Key, out int pp) ? pp : 0;
+            MoveResource moveResource = MoveRegistry.GetByName(move.Key);
+            int importedPp = moveResource?.PP ?? 0;
+            int maxPp = Species.LevelUpMovePp != null && Species.LevelUpMovePp.TryGetValue(move.Key, out int pp)
+                ? pp
+                : importedPp;
             Moves.Add(new PokemonMoveSlot
             {
                 MoveName = move.Key,
                 LearnedAtLevel = move.Value,
                 MaxPp = maxPp,
-                CurrentPp = maxPp
+                CurrentPp = maxPp,
+                Move = moveResource,
+                AttackStrength = moveResource?.Power ?? PokemonMoveSlot.DefaultAttackStrength,
+                Category = moveResource?.Category ?? MoveCategory.Physical
             });
         }
     }

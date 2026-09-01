@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Rundumschutz"
+Aliases = []
+Generation = 5
+SourceUrl = "https://www.pokewiki.de/Rundumschutz"
+Category = 2
+PokemonType = 13
+Accuracy = 0
+Power = 0
+PP = 10
+StatusChange = "Schützt alle im Kampf befindlichen und verbündeten Pokémon in der Runde, in der Rundumschutz eingesetzt wurde, vor Attacken, die mehrere Pokémon treffen, schützt aber nicht vor Attacken mit nur einem Ziel. Rundumschutz hat eine höhere Priorität und wird deshalb vor den meisten anderen Attacken eingesetzt. Offenlegung hebt den Effekt von Rundumschutz auf, wenn es auf das gegnerische Team eingesetzt wird, ebenso gilt das für Schemenkraft und Phantomkraft. Rundumschutz kann auch in aufeinanderfolgenden Runden eingesetzt werden, ohne dass die Trefferwahrscheinlichkeit darunter leidet, allerdings verringert der Einsatz die Wahrscheinlichkeit, dass Schutzschild, Scanner, Ausdauer, Königsschild, Bunker oder Schutzstacheln in der nächsten Runde erfolgreich eingesetzt wird, um 50%."

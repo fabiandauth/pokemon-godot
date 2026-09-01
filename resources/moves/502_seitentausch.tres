@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Seitentausch"
+Aliases = []
+Generation = 5
+SourceUrl = "https://www.pokewiki.de/Seitentausch"
+Category = 2
+PokemonType = 11
+Accuracy = 0
+Power = 0
+PP = 15
+StatusChange = "Tauscht den Platz des Anwenders mit dem des Partners. Seitentausch schlägt fehl, wenn der Anwender im Dreierkampf in der Mitte steht oder wenn die Attacke in einem Einzelkampf eingesetzt wird. Durch den Einsatz von Seitentausch wird der Effekt von Verfolgung nicht ausgelöst."

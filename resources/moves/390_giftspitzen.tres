@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Giftspitzen"
+Aliases = []
+Generation = 4
+SourceUrl = "https://www.pokewiki.de/Giftspitzen"
+Category = 2
+PokemonType = 8
+Accuracy = 0
+Power = 0
+PP = 20
+StatusChange = "Wird Giftspitzen eingesetzt und auf der gegnerischen Seite ein neues Pokémon in den Kampf geschickt, wird dieses sofort vergiftet. Wird Giftspitzen zweimal ausgeführt, wird jedes gegnerische Pokémon, das in den Kampf geschickt wird, sofort schwer vergiftet. Keine Wirkung bei Gift -, Stahl -, Flug-Typen und Gegnern mit der Fähigkeit Pastellhülle, Immunität und Schwebe sowie Gegnern mit dem Item Luftballon oder wenn das Ziel bereits einer primären Statusveränderung unterliegt."

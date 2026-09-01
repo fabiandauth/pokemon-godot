@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Autotomie"
+Aliases = []
+Generation = 5
+SourceUrl = "https://www.pokewiki.de/Autotomie"
+Category = 2
+PokemonType = 17
+Accuracy = 0
+Power = 0
+PP = 15
+StatusChange = "Erhöht die Initiative des Anwenders um 2 Stufen und verringert sein Gewicht mit jedem Einsatz um 100 kg. Das Gewicht des Anwenders kann dabei nicht unter 0,1 kg fallen."

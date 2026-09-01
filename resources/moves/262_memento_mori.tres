@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Memento-Mori"
+Aliases = []
+Generation = 3
+SourceUrl = "https://www.pokewiki.de/Memento-Mori"
+Category = 2
+PokemonType = 16
+Accuracy = 100
+Power = 0
+PP = 10
+StatusChange = "Der Anwender besiegt sich selbst. Dabei wird der Angriff und Spezial-Angriff des Gegners jeweils um zwei Stufen gesenkt. Trifft den Gegner auch, wenn er Fliegen eingesetzt hat."
