@@ -22,6 +22,10 @@ public partial class SceneManager : Node
 	[Export]
 	public Array<Level> AllLevels;
 
+	public LevelName LastSpawnLevelName { get; private set; }
+	public Vector2 LastSpawnPosition { get; private set; }
+	public bool HasRespawnPoint { get; private set; }
+
 	public override void _Ready()
 	{
 		Instance = this;
@@ -89,6 +93,7 @@ public partial class SceneManager : Node
 
 		GameManager.AddPlayer(player);
 		GameManager.GetPlayer().Position = spawnPoint.Position;
+		SetRespawnPoint(CurrentLevel.LevelName, spawnPoint.Position);
 		StoryManager.TryStartOpening(CurrentLevel);
 	}
 
@@ -122,5 +127,38 @@ public partial class SceneManager : Node
 	public static Level GetCurrentLevel()
 	{
 		return Instance.CurrentLevel;
+	}
+
+	public static void SetRespawnPoint(LevelName levelName, Vector2 position)
+	{
+		Instance.LastSpawnLevelName = levelName;
+		Instance.LastSpawnPosition = position;
+		Instance.HasRespawnPoint = true;
+	}
+
+	public static async Task RespawnAtLastSpawnPoint()
+	{
+		if (Instance == null || !Instance.HasRespawnPoint || GameManager.GetPlayer() == null)
+			return;
+
+		while (IsChanging)
+			await Instance.ToSignal(Instance.GetTree(), SceneTree.SignalName.ProcessFrame);
+
+		IsChanging = true;
+		Player player = GameManager.GetPlayer();
+		player.GetNode<CharacterMovement>("Movement").CancelMovement();
+		await Instance.GetLevel(Instance.LastSpawnLevelName);
+		player.Position = Instance.LastSpawnPosition;
+		player.GetNode<CharacterMovement>("Movement").TargetPosition = Instance.LastSpawnPosition;
+
+		TrainerParty party = player.GetNodeOrNull<TrainerPartyComponent>("TrainerParty")?.Party;
+		if (party != null)
+		{
+			foreach (PokemonInstance pokemon in party.Pokemon)
+				pokemon?.RecalculateStats(heal: true);
+		}
+
+		await Instance.FadeIn();
+		IsChanging = false;
 	}
 }

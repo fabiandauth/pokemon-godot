@@ -11,8 +11,15 @@ public partial class Level : Node2D
 	[Export]
 	public LevelName LevelName;
 
-	[Export(PropertyHint.Range, "0,100")]
-	public int EncounterRate;
+	[ExportCategory("Wild Pokemon")]
+	[Export(PropertyHint.Range, "0,100,0.1")]
+	public float TallGrassEncounterRate = 10f;
+
+	[Export(PropertyHint.Range, "0,100,0.1")]
+	public float CaveEncounterRate;
+
+	[Export]
+	public Array<WildPokemonEncounter> WildPokemon = [];
 
 	[ExportCategory("Camera Limits")]
 	[Export]
@@ -123,5 +130,39 @@ public partial class Level : Node2D
 	public void ReleaseTile(Vector2 position)
 	{
 		reserverdTiles.Remove(position);
+	}
+
+	public PokemonInstance TryCreateWildPokemon(EncounterTerrain terrain)
+	{
+		float encounterRate = terrain == EncounterTerrain.TallGrass
+			? TallGrassEncounterRate
+			: CaveEncounterRate;
+		RandomNumberGenerator random = Globals.GetRandomNumberGenerator();
+
+		if (encounterRate <= 0f || WildPokemon.Count == 0 || random.RandfRange(0f, 100f) >= encounterRate)
+			return null;
+
+		float totalWeight = 0f;
+		foreach (WildPokemonEncounter encounter in WildPokemon)
+		{
+			if (encounter?.Species != null && encounter.SpawnWeight > 0f)
+				totalWeight += encounter.SpawnWeight;
+		}
+
+		if (totalWeight <= 0f)
+			return null;
+
+		float roll = random.RandfRange(0f, totalWeight);
+		foreach (WildPokemonEncounter encounter in WildPokemon)
+		{
+			if (encounter?.Species == null || encounter.SpawnWeight <= 0f)
+				continue;
+
+			roll -= encounter.SpawnWeight;
+			if (roll <= 0f)
+				return encounter.Create(random);
+		}
+
+		return null;
 	}
 }

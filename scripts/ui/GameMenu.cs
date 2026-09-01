@@ -84,7 +84,7 @@ public partial class GameMenu : CanvasLayer
     {
         if (!Root.Visible)
         {
-            if (Input.IsActionJustPressed("menu") && !MessageManager.IsReading())
+            if (Input.IsActionJustPressed("menu") && !MessageManager.IsReading() && !BattleMenu.IsOpen)
             {
                 Logger.Info("GameMenu input: menu/open");
                 Open();

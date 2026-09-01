@@ -20,6 +20,7 @@ public partial class Inventory : Node
     public override void _Ready()
     {
         Instance = this;
+        AddItem(GD.Load<ItemDefinition>("res://resources/items/poke_ball.tres"), 5);
     }
 
     public static void AddItem(string itemId, string itemName, int quantity = 1)
@@ -72,5 +73,20 @@ public partial class Inventory : Node
     {
         if (Instance?.items.TryGetValue(itemId, out ItemStack stack) == true)
             stack.Item.Use(context);
+    }
+
+    public static bool TryConsumeItem(string itemId, out ItemDefinition item)
+    {
+        item = null;
+        if (Instance == null || string.IsNullOrWhiteSpace(itemId) ||
+            !Instance.items.TryGetValue(itemId, out ItemStack stack) || stack.Quantity <= 0)
+            return false;
+
+        item = stack.Item;
+        stack.Quantity--;
+        if (stack.Quantity == 0)
+            Instance.items.Remove(itemId);
+        Signals.EmitGlobalSignal(Signals.SignalName.InventoryChanged);
+        return true;
     }
 }
