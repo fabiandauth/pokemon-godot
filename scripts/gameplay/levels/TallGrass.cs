@@ -22,7 +22,7 @@ public partial class TallGrass : Area2D
         switch (className)
         {
             case "Player":
-                CalculateEncounterChance();
+                WildEncounterManager.TryStart(EncounterTerrain.TallGrass);
                 break;
         }
 
@@ -32,16 +32,5 @@ public partial class TallGrass : Area2D
     public void OnBodyExited(Node2D node2D)
     {
         AnimatedSprite2D.Play("up");
-    }
-
-    public void CalculateEncounterChance()
-    {
-        int rate = SceneManager.GetCurrentLevel().EncounterRate;
-        int chance = Globals.GetRandomNumberGenerator().RandiRange(0, 100);
-
-        if (chance <= rate)
-        {
-            Logger.Info($"Pokemon encountered! -> {chance} <= {rate}");
-        }
     }
 }

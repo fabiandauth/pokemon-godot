@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Metronom"
+Aliases = []
+Generation = 1
+SourceUrl = "https://www.pokewiki.de/Metronom"
+Category = 2
+PokemonType = 1
+Accuracy = 0
+Power = 0
+PP = 10
+StatusChange = "Metronom wählt zufällig eine Attacke aus und führt diese dann aus. Die durch Metronom ausgewählte Attacke zählt als die zuletzt ausgeführte Attacke. Durch Metronom kann man auch eine Attacke ausführen, die durch Aussetzer blockiert wird. Da Metronom eine normale Priorität besitzt, werden Attacken, die durch Metronom ausgeführt werden, unabhängig von ihren eventuell höheren oder niedrigeren Prioritäten ausgeführt. So werden zum Beispiel Ruckzuckhieb oder Überwurf, wenn sie per Metronom eingesetzt werden, möglicherweise nicht zuerst bzw. zuletzt ausgeführt."

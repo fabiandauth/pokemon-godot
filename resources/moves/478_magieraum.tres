@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Magieraum"
+Aliases = []
+Generation = 5
+SourceUrl = "https://www.pokewiki.de/Magieraum"
+Category = 2
+PokemonType = 11
+Accuracy = 0
+Power = 0
+PP = 10
+StatusChange = "Die Items aller Pokémon im Kampf haben 5 Runden lang keine Wirkung. Diese Attacke hatte in der 5. Generation eine niedrigere Priorität und wurde deshalb immer am Ende einer Runde eingesetzt. Ab der 6. Generation ist die Priorität der Attacke 0. Wird Magieraum eingesetzt, während Magieraum schon wirkt, wird der Effekt sofort beendet."

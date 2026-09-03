@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Fähigkeitstausch"
+Aliases = ["Wertewechsel"]
+Generation = 3
+SourceUrl = "https://www.pokewiki.de/F%C3%A4higkeitstausch"
+Category = 2
+PokemonType = 11
+Accuracy = 0
+Power = 0
+PP = 10
+StatusChange = "Die Fähigkeiten des Anwenders und des Ziels werden getauscht. Wirkungslos bei Taktikwechsel, Trance-Modus, Trugbild, Variabilität und Wunderwache. Fähigkeiten, die normalerweise aktiviert werden, wenn das Pokémon in den Kampf geschickt wird (z. B. Bedroher ), werden aktiviert, nachdem sie durch Fähigkeitstausch getauscht wurden. Wird der Anwender, nachdem er diese Attacke ausgeführt hat, ausgetauscht, erhält er seine ursprüngliche Fähigkeit zurück. Fähigkeitstausch funktioniert auch, wenn sich der Gegner hinter einem Delegator befindet. Fähigkeitstausch funktioniert nicht, wenn das Ziel dynamaximiert ist."

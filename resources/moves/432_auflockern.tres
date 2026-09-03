@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Auflockern"
+Aliases = []
+Generation = 4
+SourceUrl = "https://www.pokewiki.de/Auflockern"
+Category = 2
+PokemonType = 10
+Accuracy = 0
+Power = 0
+PP = 15
+StatusChange = "Senkt den Fluchtwert des Gegners um eine Stufe und trifft unabhängig von Veränderungen des Fluchtwerts und der Genauigkeit. Auflockern entfernt im Kampf die Effekte von Lichtschild, Reflektor, Auroraschleier, Bodyguard und Weißnebel auf der Seite des Ziels sowie Feldeffekte, Klebenetz, Stachler, Giftspitzen und Tarnsteine beider Kontrahenten."

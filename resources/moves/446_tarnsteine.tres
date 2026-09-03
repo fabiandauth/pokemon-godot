@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Tarnsteine"
+Aliases = []
+Generation = 4
+SourceUrl = "https://www.pokewiki.de/Tarnsteine"
+Category = 2
+PokemonType = 13
+Accuracy = 0
+Power = 0
+PP = 20
+StatusChange = "Wird ein neues Pokémon in den Kampf geschickt, nimmt es sofort Schaden. Der Schaden hängt vom Typ des angegriffenen Pokémon ab und kann nicht durch mehrmaliges Auslegen der Tarnsteine erhöht werden. Keine Wirkung bei Gegnern mit der Fähigkeit Magieschild. Wird die Attacke Turbodreher eingesetzt, so werden alle Steine um das ausführende Pokémon entfernt. Wird Auflockern eingesetzt, so werden alle Steine um beide Pokémon entfernt."

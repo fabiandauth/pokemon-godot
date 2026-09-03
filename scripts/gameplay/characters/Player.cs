@@ -12,5 +12,11 @@ public partial class Player : CharacterBody2D
     {
         StateMachine.Customer = this;
         StateMachine.ChangeState(StateMachine.GetNode<State>("Roam"));
+        GetNode<CharacterMovement>("Movement").MovementFinished += OnMovementFinished;
+    }
+
+    private void OnMovementFinished()
+    {
+        WildEncounterManager.TryStart(EncounterTerrain.Cave);
     }
 }

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Delegator"
+Aliases = []
+Generation = 1
+SourceUrl = "https://www.pokewiki.de/Delegator"
+Category = 2
+PokemonType = 1
+Accuracy = 0
+Power = 0
+PP = 10
+StatusChange = "Indem er 25 % seiner maximalen KP (abgerundet) verbraucht, erstellt der Anwender einen Delegator mit der verbrauchten Zahl an KP. Falls der Anwender durch diesen KP-Verbrauch besiegt werden würde, schlägt die Attacke fehl. Mit einigen später genannten Ausnahmen treffen nun alle Attacken, die auf den Delegator-Anwender zielen, stattdessen den Delegator. Dabei werden alle das Ziel betreffenden Attacken-Effekte abgesehen vom direkten Schaden ignoriert, also haben die meisten Status-Attacken und Nebeneffekte von offensiven Attacken (z. B. Statuswert-Senkung, Verbrennung, Zurückschrecken ) keine Wirkung. Der Delegator wird zerstört, wenn seine KP verbraucht sind. Wie viele KP dem Delegator verbleiben, kann weder vom Anwender noch vom Gegner eingesehen, sondern nur abgeschätzt werden."

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Wasserring"
+Aliases = []
+Generation = 4
+SourceUrl = "https://www.pokewiki.de/Wasserring"
+Category = 2
+PokemonType = 3
+Accuracy = 0
+Power = 0
+PP = 20
+StatusChange = "Wasserring füllt dem Anwender nach einem Einsatz am Ende jeder Runde 1/16 seiner maximalen KP auf. Wenn der Anwender Großwurzel trägt werden ihm 30% mehr KP wiederhergestellt."

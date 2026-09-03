@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Egelsamen"
+Aliases = []
+Generation = 1
+SourceUrl = "https://www.pokewiki.de/Egelsamen"
+Category = 2
+PokemonType = 4
+Accuracy = 90
+Power = 0
+PP = 10
+StatusChange = "Das Ziel wird bepflanzt. Am Ende jeder Runde verliert das Ziel 1/8 seiner maximalen KP und dieselbe Menge an KP werden dem aktiven Pokémon aufgefüllt (auch, wenn der ursprüngliche Anwender ausgetauscht wurde). Dies ist nicht in der Runde der Fall, in der das Pokémon auf der Anwenderseite besiegt wurde. Hat der Gegner weniger als 8 maximale KP, so wird ihm in jeder Runde nur 1 KP abgezogen. Wird ein Gegner mit der Fähigkeit Kloakensoße bepflanzt, verliert der Anwender KP, anstatt welche dazuzubekommen. Wenn der Anwender Großwurzel trägt, bekommt er 30% mehr KP als ohne getragenes Item; der angerichtete Schaden bleibt dabei gleich. Der Effekt von Egelsamen kann durch Turbodreher, Letalwirbler oder Austauschen des Ziels beendet werden."

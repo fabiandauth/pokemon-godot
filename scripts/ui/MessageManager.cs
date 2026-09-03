@@ -3,6 +3,7 @@ using Game.Gameplay;
 using Game.Utilities;
 using Godot;
 using Godot.Collections;
+using System;
 using System.Threading.Tasks;
 
 namespace Game.UI;
@@ -27,6 +28,15 @@ public partial class MessageManager : CanvasLayer
     [Export]
     public Button CancelButton;
 
+    [Export]
+    public HBoxContainer ChoiceButtons;
+
+    [Export]
+    public Button FirstChoiceButton;
+
+    [Export]
+    public Button SecondChoiceButton;
+
     [ExportCategory("Variables")]
     [Export]
     public bool IsScrolling = false;
@@ -41,6 +51,7 @@ public partial class MessageManager : CanvasLayer
     private Npc currentNPC;
     private bool isAIConversation = false;
     private bool waitingForAI = false;
+    private Action<int> choiceCallback;
     private int conversationVersion;
 
     public override void _Ready()
@@ -83,6 +94,7 @@ public partial class MessageManager : CanvasLayer
         // Connect signals
         Logger.Info(new object[] { "MessageManager: Connecting input signals" });
         ConnectInputSignals();
+        SetChoiceButtonsVisible(false);
     }
 
     public override void _UnhandledInput(InputEvent inputEvent)
@@ -90,7 +102,10 @@ public partial class MessageManager : CanvasLayer
         if (!IsReading() || !inputEvent.IsActionPressed("ui_cancel"))
             return;
 
-        CloseConversation();
+        if (choiceCallback != null)
+            SelectChoice(1);
+        else
+            CloseConversation();
         GetViewport().SetInputAsHandled();
     }
 
@@ -105,6 +120,8 @@ public partial class MessageManager : CanvasLayer
         Instance.InputField.Visible = false;
         Instance.SendButton.Visible = false;
         Instance.CancelButton.Visible = true;
+        Instance.choiceCallback = null;
+        Instance.SetChoiceButtonsVisible(false);
         Instance.conversationVersion++;
 
         Signals.EmitGlobalSignal(Signals.SignalName.MessageBoxOpen, true);
@@ -159,6 +176,13 @@ public partial class MessageManager : CanvasLayer
         }
         else
         {
+            if (Instance.choiceCallback != null)
+            {
+                Instance.SetChoiceButtonsVisible(true);
+                Instance.FirstChoiceButton.GrabFocus();
+                return;
+            }
+
             // If we're in AI conversation and no more messages, re-enable input
             if (Instance.isAIConversation && !Instance.waitingForAI && Instance.InputField != null)
             {
@@ -184,6 +208,42 @@ public partial class MessageManager : CanvasLayer
     public static bool IsAIConversation()
     {
         return Instance.isAIConversation;
+    }
+
+    public static bool IsAwaitingChoice() => Instance?.choiceCallback != null;
+
+    public static void PlayChoice(string prompt, string firstChoice, string secondChoice, Action<int> callback)
+    {
+        if (Instance == null || IsReading() || callback == null)
+            return;
+
+        Instance.currentNPC = null;
+        Instance.isAIConversation = false;
+        Instance.waitingForAI = false;
+        Instance.choiceCallback = callback;
+        Instance.InputField.Visible = false;
+        Instance.SendButton.Visible = false;
+        Instance.CancelButton.Visible = false;
+        Instance.FirstChoiceButton.Text = firstChoice;
+        Instance.SecondChoiceButton.Text = secondChoice;
+        Instance.SetChoiceButtonsVisible(false);
+        Instance.conversationVersion++;
+
+        Signals.EmitGlobalSignal(Signals.SignalName.MessageBoxOpen, true);
+        Instance.Messages = [prompt];
+        ScrollText();
+    }
+
+    public static void ContinueText(params string[] payload)
+    {
+        if (Instance == null || payload.Length == 0)
+            return;
+
+        Instance.choiceCallback = null;
+        Instance.SetChoiceButtonsVisible(false);
+        Instance.CancelButton.Visible = true;
+        Instance.Messages = [.. payload];
+        ScrollText();
     }
 
     public static Array<string> GetMessages()
@@ -319,6 +379,8 @@ public partial class MessageManager : CanvasLayer
         Instance.isAIConversation = false;
         Instance.waitingForAI = false;
         Instance.currentNPC = null;
+        Instance.choiceCallback = null;
+        Instance.SetChoiceButtonsVisible(false);
         
         // Hide input field
         if (Instance.InputField != null)
@@ -344,6 +406,8 @@ public partial class MessageManager : CanvasLayer
         Instance.conversationVersion++;
         Instance.Messages.Clear();
         Instance.IsScrolling = false;
+        Instance.choiceCallback = null;
+        Instance.SetChoiceButtonsVisible(false);
 
         if (npc != null)
         {
@@ -492,5 +556,28 @@ public partial class MessageManager : CanvasLayer
         {
             Logger.Error(new object[] { "MessageManager: ConnectInputSignals - CancelButton is NULL!" });
         }
+
+        if (FirstChoiceButton != null)
+            FirstChoiceButton.Pressed += () => SelectChoice(0);
+
+        if (SecondChoiceButton != null)
+            SecondChoiceButton.Pressed += () => SelectChoice(1);
+    }
+
+    private void SelectChoice(int choice)
+    {
+        Action<int> callback = choiceCallback;
+        if (callback == null)
+            return;
+
+        choiceCallback = null;
+        SetChoiceButtonsVisible(false);
+        callback(choice);
+    }
+
+    private void SetChoiceButtonsVisible(bool visible)
+    {
+        if (ChoiceButtons != null)
+            ChoiceButtons.Visible = visible;
     }
 }

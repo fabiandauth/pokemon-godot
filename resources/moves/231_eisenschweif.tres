@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Eisenschweif"
+Aliases = []
+Generation = 2
+SourceUrl = "https://www.pokewiki.de/Eisenschweif"
+Category = 0
+PokemonType = 17
+Accuracy = 75
+Power = 100
+PP = 15
+StatusChange = ""

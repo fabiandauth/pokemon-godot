@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Weißnebel"
+Aliases = []
+Generation = 1
+SourceUrl = "https://www.pokewiki.de/Wei%C3%9Fnebel"
+Category = 2
+PokemonType = 6
+Accuracy = 0
+Power = 0
+PP = 30
+StatusChange = "Weißnebel verhindert fünf Runden lang Statuswertveränderungen des Anwenders durch den Gegner. Würde eine Attacke nur eine Statuswertveränderung bewirken, wie Telekinese oder Heuler, so schlägt diese fehl. Weißnebel hat keinen Einfluss auf Statuswertveränderungen, die als Nebeneffekt von einigen Attacken auftreten, wie z. B. bei Säure oder Psychokinese. Weißnebel hebt keine bereits bestehenden Statuswertveränderungen auf, verhindert nicht, dass der Anwender selbst seine Statuswerte verändert, und verhindert die Statuswertveränderungen durch Paralyse und Verbrennung nicht. Der Effekt von Weißnebel kann nur durch Austauschen, Auflockern und Dunkelnebel (nur 1. Generation ) aufgehoben werden. Der erneute Einsatz von Weißnebel schlägt fehl, wenn seine Wirkung bereits besteht."

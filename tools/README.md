@@ -19,3 +19,20 @@ to `assets/pokemon/gen6/`.
 Source: <https://www.bisafans.de/pokedex/001.php>. Pokémon names, data, and
 sprites remain the property of their respective owners; verify redistribution
 rights before publishing generated assets.
+
+## PokéWiki move importer
+
+`move_importer.py` imports every move introduced in Generations 1 through 6
+from PokéWiki. It follows each status move to its Effect section, merges
+duplicate names, preserves aliases for renamed moves, and creates both
+`data/moves/moves_gen_1_6.json` and Godot resources under `resources/moves/`.
+
+```bash
+/tmp/pokemon-import-venv/bin/python tools/move_importer.py
+```
+
+API responses are cached under `tools/.cache/pokewiki/moves`. Use `--refresh`
+to download them again, or `--skip-status-details` for a quick list-only run.
+
+Sources: <https://www.pokewiki.de/Attacken_der_1._Generation> through
+<https://www.pokewiki.de/Attacken_der_6._Generation>.

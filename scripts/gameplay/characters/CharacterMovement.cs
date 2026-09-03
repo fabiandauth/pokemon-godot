@@ -11,6 +11,9 @@ public partial class CharacterMovement : Node
     [Signal]
     public delegate void AnimationEventHandler(string animationType);
 
+    [Signal]
+    public delegate void MovementFinishedEventHandler();
+
     [ExportCategory("Nodes")]
     [Export]
     public Node2D Character;
@@ -235,11 +238,22 @@ public partial class CharacterMovement : Node
         IsJumping = false;
         ECharacterMovement = ECharacterMovement.WALKING;
         SnapPositionToGrid();
+        EmitSignal(SignalName.MovementFinished);
     }
 
     public void Turn()
     {
         EmitSignal(SignalName.Animation, "turn");
+    }
+
+    public void CancelMovement()
+    {
+        SceneManager.GetCurrentLevel()?.ReleaseTile(TargetPosition);
+        IsWalking = false;
+        IsJumping = false;
+        ECharacterMovement = ECharacterMovement.WALKING;
+        Progress = 0f;
+        TargetPosition = Character.Position;
     }
 
     public void SnapPositionToGrid()

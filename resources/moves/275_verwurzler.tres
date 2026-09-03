@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Verwurzler"
+Aliases = []
+Generation = 3
+SourceUrl = "https://www.pokewiki.de/Verwurzler"
+Category = 2
+PokemonType = 4
+Accuracy = 0
+Power = 0
+PP = 20
+StatusChange = "Erhöht pro Runde 1/16 der KP des Anwenders, dieser kann jedoch nicht mehr ausgetauscht werden. Selbst ein Einsatz von Wirbelwind, Brüller, Überkopfwurf oder Drachenrute gegen den Anwender vertreibt ihn nicht. Jedoch kann der Anwender selbst durch Attacken wie Voltwechsel, Kehrtwende oder Stafette aus dem Kampf flüchten. Durch Einsatz von Stafette wird der Effekt auf das neu eingetauschte Pokémon übertragen."

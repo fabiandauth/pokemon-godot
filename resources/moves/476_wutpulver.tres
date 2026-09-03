@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Wutpulver"
+Aliases = []
+Generation = 5
+SourceUrl = "https://www.pokewiki.de/Wutpulver"
+Category = 2
+PokemonType = 12
+Accuracy = 0
+Power = 0
+PP = 20
+StatusChange = "In einem Mehrfachkampf greifen die Gegner nur den Anwender an, wodurch der Partner geschützt wird. Wutpulver hat eine erhöhte Priorität von +2 (+3 in der 5. Generation ) und wird deshalb vor den meisten anderen Attacken eingesetzt. Schützt den Partner allerdings weder vor gezielten Attacken der Pokémon auf seiner Seite noch vor solchen, die mehrere Pokémon treffen oder vor dem Effekt von Verfolgung, wenn der Partner in der Runde ausgetauscht wird. In Einfachkämpfen ist die Attacke nutzlos."

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Hagelsturm"
+Aliases = []
+Generation = 3
+SourceUrl = "https://www.pokewiki.de/Hagelsturm"
+Category = 2
+PokemonType = 6
+Accuracy = 0
+Power = 0
+PP = 10
+StatusChange = "Fünf Runden lang wütet ein Hagelsturm, verdrängt andere Wettereffekte und fügt jedem Pokémon auf dem Kampffeld in jeder Runde 1/16 der maximalen KP als Schaden zu. Eis -Pokémon sind davon nicht betroffen. Falls das Pokémon, das den Hagelsturm verursacht, einen Eisbrocken trägt, verlängert sich die Dauer des Hagelsturms von 5 auf 8 Runden."

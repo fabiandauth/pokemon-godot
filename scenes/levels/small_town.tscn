@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=4 uid="uid://bhequssh43v25"]
+[gd_scene load_steps=23 format=4 uid="uid://bhequssh43v25"]
 
 [ext_resource type="Script" uid="uid://bpion4qpiamje" path="res://scripts/gameplay/levels/Level.cs" id="1_2cpqh"]
 [ext_resource type="TileSet" uid="uid://cx5l6e3tq8rem" path="res://resources/tilesets/level.tres" id="1_467iw"]
@@ -11,6 +11,23 @@
 [ext_resource type="Script" uid="uid://buiyxe2pa1lhv" path="res://scripts/utilities/LevelDebugger.cs" id="9_gr214"]
 [ext_resource type="Script" path="res://scripts/gameplay/characters/NpcItemRewardConfig.cs" id="10_reward"]
 [ext_resource type="Resource" path="res://resources/items/flower_bouquet.tres" id="11_flower"]
+[ext_resource type="Script" path="res://scripts/gameplay/encounters/WildPokemonEncounter.cs" id="12_encounter"]
+[ext_resource type="Resource" path="res://resources/pokemon/016_taubsi.tres" id="13_taubsi"]
+[ext_resource type="Resource" path="res://resources/pokemon/019_rattfratz.tres" id="14_rattfratz"]
+
+[sub_resource type="Resource" id="Resource_taubsi_encounter"]
+script = ExtResource("12_encounter")
+Species = ExtResource("13_taubsi")
+SpawnWeight = 50.0
+MinimumLevel = 2
+MaximumLevel = 3
+
+[sub_resource type="Resource" id="Resource_rattfratz_encounter"]
+script = ExtResource("12_encounter")
+Species = ExtResource("14_rattfratz")
+SpawnWeight = 50.0
+MinimumLevel = 2
+MaximumLevel = 3
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r2wcl"]
 size = Vector2(16, 32)
@@ -69,7 +86,8 @@ metadata/_custom_type_script = "uid://bd7euek3bm7wd"
 
 [node name="Level" type="Node2D"]
 script = ExtResource("1_2cpqh")
-EncounterRate = 2
+TallGrassEncounterRate = 10.0
+WildPokemon = Array[ExtResource("12_encounter")]([SubResource("Resource_taubsi_encounter"), SubResource("Resource_rattfratz_encounter")])
 Bottom = 320
 Right = 512
 

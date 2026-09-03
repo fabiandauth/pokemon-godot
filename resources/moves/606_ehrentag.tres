@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Ehrentag"
+Aliases = []
+Generation = 6
+SourceUrl = "https://www.pokewiki.de/Ehrentag"
+Category = 2
+PokemonType = 1
+Accuracy = 0
+Power = 0
+PP = 40
+StatusChange = "Die Attacke hat keinen Effekt im Kampf."

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Aurasphäre"
+Aliases = []
+Generation = 4
+SourceUrl = "https://www.pokewiki.de/Aurasph%C3%A4re"
+Category = 1
+PokemonType = 7
+Accuracy = 0
+Power = 80
+PP = 20
+StatusChange = ""

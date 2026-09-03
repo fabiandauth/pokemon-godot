@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Zugabe"
+Aliases = []
+Generation = 2
+SourceUrl = "https://www.pokewiki.de/Zugabe"
+Category = 2
+PokemonType = 1
+Accuracy = 100
+Power = 0
+PP = 5
+StatusChange = "Zugabe zwingt den Gegner, seine zuletzt eingesetzte Attacke noch 3 mal zu wiederholen, wenn er angreifen will. Hat die erzwungene Attacke mehrere Zielmöglichkeiten, wird ein zufälliger Gegner gewählt. Wird die Attacke durch Aussetzer, Begrenzer, Erdanziehung, Heilblockade oder Tastfluch blockiert, wird Verzweifler eingesetzt, bis entweder die Blockade oder die Zugabe endet. Ist das Ziel durch Stafette oder Kehrtwende eines anderen Pokémon erschienen und beherrscht die Attacke selbst auch, wählt Zugabe diese Attacke aus."

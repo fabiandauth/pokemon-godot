@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Geokontrolle"
+Aliases = []
+Generation = 6
+SourceUrl = "https://www.pokewiki.de/Geokontrolle"
+Category = 2
+PokemonType = 18
+Accuracy = 0
+Power = 0
+PP = 10
+StatusChange = "Die Attacke wird in der ersten Runde aufgeladen, solange der Anwender kein Energiekraut trägt (dieses wird beim Einsatz der Attacke verbraucht). In der zweiten Runde werden Spezial-Angriff, Spezial-Verteidigung und Initiative des Anwenders um jeweils zwei Stufen erhöht."

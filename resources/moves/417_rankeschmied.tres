@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Ränkeschmied"
+Aliases = []
+Generation = 4
+SourceUrl = "https://www.pokewiki.de/R%C3%A4nkeschmied"
+Category = 2
+PokemonType = 16
+Accuracy = 0
+Power = 0
+PP = 20
+StatusChange = "Ränkeschmied erhöht den Spezial-Angriff um zwei Stufen. Hat dieser Statuswert bereits Stufe 6 erreicht, schlägt die Attacke fehl."

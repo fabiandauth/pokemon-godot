@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Donnerwelle"
+Aliases = []
+Generation = 1
+SourceUrl = "https://www.pokewiki.de/Donnerwelle"
+Category = 2
+PokemonType = 5
+Accuracy = 100
+Power = 0
+PP = 20
+StatusChange = "Das Ziel wird bei Erfolg paralysiert. Elektro -Pokémon sind seit der sechsten Generation immun gegen eine Paralyse. Zudem unterliegt Donnerwelle trotz ihrer Klassifizierung als Status -Attacke den Typenwechselwirkungen und paralysiert keine Pokémon, die gegen Elektro-Attacken immun sind, so wie Boden -Pokémon. Dementsprechend kann Donnerwelle beim Einsatz durch ein Pokémon mit der Fähigkeit Regulierung Boden-Pokémon paralysieren, jedoch Geister -Pokémon nichts anhaben."

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Magnetflug"
+Aliases = []
+Generation = 4
+SourceUrl = "https://www.pokewiki.de/Magnetflug"
+Category = 2
+PokemonType = 5
+Accuracy = 0
+Power = 0
+PP = 10
+StatusChange = "Macht Pokémon für fünf Runden immun gegen Stachler, Giftspitzen, Klebenetz, Feldeffekte und Attacken vom Typ Boden. Da der Anwender schwebt, kann er vor Pokémon mit der Fähigkeit Ausweglos flüchten. Magnetflug kann über Stafette weitergegeben werden."

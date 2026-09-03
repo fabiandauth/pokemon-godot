@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CaptureItemDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/items/CaptureItemDefinition.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Id = "poke_ball"
+DisplayName = "Poké Ball"
+Description = "A device for catching wild Pokémon. It can only be used during a wild battle."
+Category = 0
+CatchRateMultiplier = 1.0

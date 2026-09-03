@@ -40,13 +40,16 @@ corner_radius_top_right = 5
 corner_radius_bottom_right = 5
 corner_radius_bottom_left = 5
 
-[node name="MessageManager" type="CanvasLayer" node_paths=PackedStringArray("Box", "Label", "InputField", "SendButton", "CancelButton")]
+[node name="MessageManager" type="CanvasLayer" node_paths=PackedStringArray("Box", "Label", "InputField", "SendButton", "CancelButton", "ChoiceButtons", "FirstChoiceButton", "SecondChoiceButton")]
 script = ExtResource("1_yl3ye")
 Box = NodePath("Control/NinePatchRect")
 Label = NodePath("Control/NinePatchRect/RichTextLabel")
 InputField = NodePath("Control/NinePatchRect/InputField")
 SendButton = NodePath("Control/NinePatchRect/SendButton")
 CancelButton = NodePath("Control/NinePatchRect/CancelButton")
+ChoiceButtons = NodePath("Control/NinePatchRect/ChoiceButtons")
+FirstChoiceButton = NodePath("Control/NinePatchRect/ChoiceButtons/FightButton")
+SecondChoiceButton = NodePath("Control/NinePatchRect/ChoiceButtons/FlightButton")
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
@@ -129,3 +132,32 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_button_hover")
 text = "Close"
 theme_override_fonts/normal_font = ExtResource("2_84ee0")
 theme_override_font_sizes/normal_font_size = 30
+
+[node name="ChoiceButtons" type="HBoxContainer" parent="Control/NinePatchRect"]
+visible = false
+layout_mode = 0
+anchor_left = 0.52
+anchor_top = 0.68
+anchor_right = 0.973684
+anchor_bottom = 0.94
+theme_override_constants/separation = 12
+
+[node name="FightButton" type="Button" parent="Control/NinePatchRect/ChoiceButtons"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("2_84ee0")
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_button")
+theme_override_styles/hover = SubResource("StyleBoxFlat_button_hover")
+text = "Fight"
+
+[node name="FlightButton" type="Button" parent="Control/NinePatchRect/ChoiceButtons"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("2_84ee0")
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_button")
+theme_override_styles/hover = SubResource("StyleBoxFlat_button_hover")
+text = "Flight"

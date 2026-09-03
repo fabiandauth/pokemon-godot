@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Reflektor"
+Aliases = []
+Generation = 1
+SourceUrl = "https://www.pokewiki.de/Reflektor"
+Category = 2
+PokemonType = 11
+Accuracy = 0
+Power = 0
+PP = 20
+StatusChange = "Der Schaden, den der Anwender und seine Partner durch Physisch -Angriffe erleiden, wird fünf Runden lang halbiert. Wird Lichtlehm vom Anwender getragen, erhöht sich die Rundenanzahl auf acht. Reflektor verschwindet sofort, wenn vom Gegner Durchbruch, Auflockern, Psychobeißer, Rasender Stier oder Cryptobruch (in XD ) eingesetzt wird. Die Attacke schlägt fehl, wenn Reflektor bereits wirkt. Der Effekt von Reflektor wird von Volltreffern ignoriert."

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Übernahme"
+Aliases = []
+Generation = 3
+SourceUrl = "https://www.pokewiki.de/%C3%9Cbernahme"
+Category = 2
+PokemonType = 16
+Accuracy = 0
+Power = 0
+PP = 10
+StatusChange = "Übernahme hat eine erhöhte Priorität von +4. Der Anwender wartet eine Status-Attacke des Gegners ab, um die Wirkung der Attacke des Gegners zu stehlen und auf sich selbst zu übertragen. Es kann fast jede Statuswert steigernde Attacke wie z. B. Gedankengut und KP auffüllende Attacke wie z. B. Tagedieb und Wasserring übernommen werden, die den Anwender selbst oder das Team des Anwenders zum Ziel hat wie z. B. Rückenwind und Aromakur. Außerdem können Begrenzer, Delegator, Energiefokus, Tarnung, Umwandlung und Wunschtraum von Übernahme gestohlen werden. Die Attacken Fluch und Geokontrolle können nicht von Übernahme gestohlen werden. Sollten zwei Pokémon in einem Kampf beide Übernahme einsetzen, zeigt die Attacke nur bei dem langsameren Pokémon Wirkung, da das schnellere Pokémon lediglich die Wirkung von der Übernahme-Attacke des Gegners übernimmt."

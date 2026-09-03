@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/DeathScreen.cs" id="1"]
+[ext_resource type="FontFile" uid="uid://e4w4uwtnmxq2" path="res://assets/fonts/pokemon-emerald.ttf" id="2"]
+
+[node name="DeathScreen" type="CanvasLayer" node_paths=PackedStringArray("Root")]
+layer = 100
+script = ExtResource("1")
+Root = NodePath("Root")
+
+[node name="Root" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="ColorRect" parent="Root"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.02, 0.02, 0.025, 1)
+
+[node name="Message" type="Label" parent="Root"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -260.0
+offset_top = -60.0
+offset_right = 260.0
+offset_bottom = 60.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.9, 0.16, 0.14, 1)
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 72
+text = "YOU DIED"
+horizontal_alignment = 1
+vertical_alignment = 1

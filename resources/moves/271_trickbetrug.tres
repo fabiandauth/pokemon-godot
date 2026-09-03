@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Trickbetrug"
+Aliases = []
+Generation = 3
+SourceUrl = "https://www.pokewiki.de/Trickbetrug"
+Category = 2
+PokemonType = 11
+Accuracy = 100
+Power = 0
+PP = 10
+StatusChange = "Tauscht gehaltenes Item mit dem des Gegners. Die Attacke schlägt fehl, wenn keines der beiden im Kampf befindlichen Pokémon ein Item trägt, eins von beiden einen Brief trägt, das Ziel einen Delegator hat oder eins von beiden Pokémon die Fähigkeit Wertehalter besitzt. Auch kann keine Tafel getauscht werden, wenn ein Pokémon mit der Fähigkeit Variabilität beteiligt ist. Der Platinum-Orb kann getauscht werden, sofern kein Giratina beteiligt ist. Auch Module können nur getauscht werden, sofern kein Genesect beteiligt ist."

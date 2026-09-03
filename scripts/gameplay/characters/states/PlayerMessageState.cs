@@ -38,6 +38,9 @@ public partial class PlayerMessageState : State
                 // Don't advance - let InputField handle the SPACE key for typing
                 return;
             }
+
+            if (MessageManager.IsAwaitingChoice())
+                return;
             
             Logger.Info(new object[] { "PlayerMessageState: Advancing text with SPACE" });
             MessageManager.ScrollText();

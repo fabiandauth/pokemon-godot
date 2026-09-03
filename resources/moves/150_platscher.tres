@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Platscher"
+Aliases = []
+Generation = 1
+SourceUrl = "https://www.pokewiki.de/Platscher"
+Category = 2
+PokemonType = 1
+Accuracy = 0
+Power = 0
+PP = 40
+StatusChange = "Der Einsatz von Platscher hat keinen Effekt. Die Attacke kann aber nicht eingesetzt werden, wenn Erdanziehung aktiviert ist; ist dies nicht der Fall, bekommt man die Meldung „Nichts geschieht!“ angezeigt."

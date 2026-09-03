@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Itemsperre"
+Aliases = []
+Generation = 4
+SourceUrl = "https://www.pokewiki.de/Itemsperre"
+Category = 2
+PokemonType = 16
+Accuracy = 100
+Power = 0
+PP = 15
+StatusChange = "Das Ziel wird fünf Runden lang daran gehindert, gehaltene Items zu verwenden. Auch der Trainer des Pokémon kann fünf Runden lang keine Items mehr auf dieses Pokémon einsetzen. Dieser Effekt wird aufgehoben, wenn das betroffene Pokémon ausgetauscht wird. Mega-Steine und Z-Kristalle werden nicht blockiert, ein Pokémon kann also trotz Itemsperre immer noch eine Mega-Entwicklung durchführen oder eine Z-Attacke einsetzen."

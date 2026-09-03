@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Morgengrauen"
+Aliases = []
+Generation = 2
+SourceUrl = "https://www.pokewiki.de/Morgengrauen"
+Category = 2
+PokemonType = 1
+Accuracy = 0
+Power = 0
+PP = 5
+StatusChange = "Je nach Wetter werden dem Anwender eine unterschiedliche Anzahl KP aufgefüllt: Bei Sonne ⅔ der maximalen KP, bei normalen Konditionen ½ und bei allen übrigen Wetterzuständen ¼."

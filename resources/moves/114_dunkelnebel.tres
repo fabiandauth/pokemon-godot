@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Dunkelnebel"
+Aliases = []
+Generation = 1
+SourceUrl = "https://www.pokewiki.de/Dunkelnebel"
+Category = 2
+PokemonType = 6
+Accuracy = 0
+Power = 0
+PP = 30
+StatusChange = "Dunkelnebel setzt alle Statuswertveränderungen der aktiven Pokémon zurück."

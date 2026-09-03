@@ -1,0 +1,273 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/BattleMenu.cs" id="1"]
+[ext_resource type="FontFile" uid="uid://e4w4uwtnmxq2" path="res://assets/fonts/pokemon-emerald.ttf" id="2"]
+
+[sub_resource type="StyleBoxFlat" id="battle_panel"]
+bg_color = Color(0.88, 0.92, 0.82, 1)
+border_width_left = 6
+border_width_top = 6
+border_width_right = 6
+border_width_bottom = 6
+border_color = Color(0.19, 0.25, 0.31, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="command_button"]
+bg_color = Color(0.91, 0.78, 0.25, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.19, 0.25, 0.31, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="StyleBoxFlat" id="command_focus"]
+bg_color = Color(1, 0.88, 0.36, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.2, 0.42, 0.58, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="StyleBoxFlat" id="text_panel"]
+bg_color = Color(0.97, 0.95, 0.83, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.32, 0.43, 0.4, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[node name="BattleMenu" type="CanvasLayer" node_paths=PackedStringArray("Root", "CommandPanel", "SelectionPanel", "FightButton", "PokemonButton", "ItemButton", "RunButton", "BackButton", "SelectionList", "SelectionTitle", "BattleText", "PlayerName", "WildName", "PlayerHp", "WildHp", "PlayerSprite", "WildSprite")]
+layer = 25
+script = ExtResource("1")
+Root = NodePath("Root")
+CommandPanel = NodePath("Root/Window/Bottom/CommandPanel")
+SelectionPanel = NodePath("Root/Window/Bottom/SelectionPanel")
+FightButton = NodePath("Root/Window/Bottom/CommandPanel/Commands/Fight")
+PokemonButton = NodePath("Root/Window/Bottom/CommandPanel/Commands/Pokemon")
+ItemButton = NodePath("Root/Window/Bottom/CommandPanel/Commands/Item")
+RunButton = NodePath("Root/Window/Bottom/CommandPanel/Commands/Run")
+BackButton = NodePath("Root/Window/Bottom/SelectionPanel/Back")
+SelectionList = NodePath("Root/Window/Bottom/SelectionPanel/List")
+SelectionTitle = NodePath("Root/Window/Bottom/SelectionPanel/Title")
+BattleText = NodePath("Root/Window/Bottom/BattleText")
+PlayerName = NodePath("Root/Window/Arena/PlayerInfo/Name")
+WildName = NodePath("Root/Window/Arena/WildInfo/Name")
+PlayerHp = NodePath("Root/Window/Arena/PlayerInfo/Hp")
+WildHp = NodePath("Root/Window/Arena/WildInfo/Hp")
+PlayerSprite = NodePath("Root/Window/Arena/PlayerSprite")
+WildSprite = NodePath("Root/Window/Arena/WildSprite")
+
+[node name="Root" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Backdrop" type="ColorRect" parent="Root"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.08, 0.15, 0.12, 0.96)
+
+[node name="Window" type="PanelContainer" parent="Root"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -500.0
+offset_top = -300.0
+offset_right = 500.0
+offset_bottom = 300.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("battle_panel")
+
+[node name="Arena" type="Control" parent="Root/Window"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 15.0
+offset_right = 980.0
+offset_bottom = 330.0
+
+[node name="WildSprite" type="TextureRect" parent="Root/Window/Arena"]
+layout_mode = 0
+offset_left = 620.0
+offset_top = 25.0
+offset_right = 860.0
+offset_bottom = 225.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="PlayerSprite" type="TextureRect" parent="Root/Window/Arena"]
+layout_mode = 0
+offset_left = 100.0
+offset_top = 95.0
+offset_right = 360.0
+offset_bottom = 305.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="WildInfo" type="VBoxContainer" parent="Root/Window/Arena"]
+layout_mode = 0
+offset_left = 430.0
+offset_top = 15.0
+offset_right = 750.0
+offset_bottom = 90.0
+
+[node name="Name" type="Label" parent="Root/Window/Arena/WildInfo"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.08, 0.12, 0.1, 1)
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 27
+
+[node name="Hp" type="ProgressBar" parent="Root/Window/Arena/WildInfo"]
+custom_minimum_size = Vector2(0, 24)
+layout_mode = 2
+show_percentage = false
+
+[node name="PlayerInfo" type="VBoxContainer" parent="Root/Window/Arena"]
+layout_mode = 0
+offset_left = 470.0
+offset_top = 235.0
+offset_right = 870.0
+offset_bottom = 310.0
+
+[node name="Name" type="Label" parent="Root/Window/Arena/PlayerInfo"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.08, 0.12, 0.1, 1)
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 27
+
+[node name="Hp" type="ProgressBar" parent="Root/Window/Arena/PlayerInfo"]
+custom_minimum_size = Vector2(0, 24)
+layout_mode = 2
+show_percentage = false
+
+[node name="Bottom" type="PanelContainer" parent="Root/Window"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 335.0
+offset_right = 980.0
+offset_bottom = 580.0
+theme_override_styles/panel = SubResource("text_panel")
+
+[node name="BattleText" type="Label" parent="Root/Window/Bottom"]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 15.0
+offset_right = 475.0
+offset_bottom = 230.0
+theme_override_colors/font_color = Color(0.08, 0.12, 0.1, 1)
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 28
+text = "What will Pokémon do?"
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="CommandPanel" type="Control" parent="Root/Window/Bottom"]
+layout_mode = 2
+
+[node name="Commands" type="GridContainer" parent="Root/Window/Bottom/CommandPanel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_left = 0.52
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = -8.0
+offset_bottom = -8.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 2
+
+[node name="Fight" type="Button" parent="Root/Window/Bottom/CommandPanel/Commands"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("command_button")
+theme_override_styles/focus = SubResource("command_focus")
+text = "FIGHT"
+
+[node name="Pokemon" type="Button" parent="Root/Window/Bottom/CommandPanel/Commands"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("command_button")
+theme_override_styles/focus = SubResource("command_focus")
+text = "POKÉMON"
+
+[node name="Item" type="Button" parent="Root/Window/Bottom/CommandPanel/Commands"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("command_button")
+theme_override_styles/focus = SubResource("command_focus")
+text = "ITEM"
+
+[node name="Run" type="Button" parent="Root/Window/Bottom/CommandPanel/Commands"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("command_button")
+theme_override_styles/focus = SubResource("command_focus")
+text = "RUN"
+
+[node name="SelectionPanel" type="Control" parent="Root/Window/Bottom"]
+visible = false
+layout_mode = 2
+
+[node name="Title" type="Label" parent="Root/Window/Bottom/SelectionPanel"]
+layout_mode = 0
+offset_left = 490.0
+offset_top = 6.0
+offset_right = 815.0
+offset_bottom = 42.0
+theme_override_colors/font_color = Color(0.08, 0.12, 0.1, 1)
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 27
+
+[node name="List" type="ItemList" parent="Root/Window/Bottom/SelectionPanel"]
+layout_mode = 0
+offset_left = 490.0
+offset_top = 8.0
+offset_right = 815.0
+offset_bottom = 230.0
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 25
+
+[node name="Back" type="Button" parent="Root/Window/Bottom/SelectionPanel"]
+layout_mode = 0
+offset_left = 825.0
+offset_top = 85.0
+offset_right = 945.0
+offset_bottom = 150.0
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 26
+theme_override_styles/normal = SubResource("command_button")
+theme_override_styles/focus = SubResource("command_focus")
+text = "BACK"

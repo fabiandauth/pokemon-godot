@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Rapidschutz"
+Aliases = []
+Generation = 5
+SourceUrl = "https://www.pokewiki.de/Rapidschutz"
+Category = 2
+PokemonType = 7
+Accuracy = 0
+Power = 0
+PP = 15
+StatusChange = "Rapidschutz besitzt eine erhöhte Priorität und wird daher vor den meisten anderen Attacken in einer Runde eingesetzt. Rapidschutz schützt den Anwender und alle Partner auf dem Feld vor Attacken mit erhöhter Priorität, wie Ruckzuckhieb und Wasserdüse, aber nicht vor Attacken, die diese Priorität durch die Fähigkeit Strolch erhalten haben. Rapidschutz schützt nicht gegen Offenlegung. Im Gegenteil, der Effekt von Rapidschutz wird durch den gegnerischen Einsatz von Offenlegung aufgehoben. Das mehrfache Benutzen von Rapidschutz in Folge senkt die Chance auf Erfolg um 50%."

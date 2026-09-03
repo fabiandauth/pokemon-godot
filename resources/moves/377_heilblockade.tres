@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Heilblockade"
+Aliases = []
+Generation = 4
+SourceUrl = "https://www.pokewiki.de/Heilblockade"
+Category = 2
+PokemonType = 11
+Accuracy = 100
+Power = 0
+PP = 15
+StatusChange = "Heilblockade wirkt fünf Runden lang und hindert das Auffüllen der KP des Ziels durch die Attacken Verwurzler, Wasserring, Mondschein, Morgengrauen, Ruheort, Genesung, Heilbefehl, Erholung, Weichei, Wunschtraum, Milchgetränk, Tagedieb und Synthese. Auch die Attacken Absorber, Megasauger, Gigasauger, Egelsamen, Traumfresser, Ableithieb und Blutsauger verursachen nur noch Schaden, aber füllen keine KP mehr auf. Pokémon mit den Fähigkeiten Voltabsorber oder H2O-Absorber werden KP abgezogen anstatt aufgefüllt, wenn sie von Elektro-bzw. Wasser -Attacken getroffen werden. Alle Items und weitere Fähigkeiten behalten ihre Wirkung, bis auf das Item Überreste, welches auch blockiert wird."

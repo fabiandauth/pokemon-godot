@@ -21,6 +21,7 @@ Globals="*res://scenes/core/Globals.tscn"
 Signals="*res://scenes/core/Signals.tscn"
 Inventory="*res://scenes/core/Inventory.tscn"
 PokemonRegistry="*res://scenes/core/PokemonRegistry.tscn"
+MoveRegistry="*res://scenes/core/MoveRegistry.tscn"
 StoryManager="*res://scenes/core/StoryManager.tscn"
 SceneManager="*res://scenes/core/scene_manager.tscn"
 

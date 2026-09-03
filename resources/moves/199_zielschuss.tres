@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Zielschuss"
+Aliases = []
+Generation = 2
+SourceUrl = "https://www.pokewiki.de/Zielschuss"
+Category = 2
+PokemonType = 1
+Accuracy = 0
+Power = 0
+PP = 5
+StatusChange = "Wenn Zielschuss eingesetzt worden ist, dann trifft die nächste Attacke 100%-ig; auch, wenn das Ziel sich im Moment in der Luft, unter der Erde oder im Wasser befindet ( Fliegen, Schaufler, Taucher, Sprungfeder etc.). Allerdings wird Zielschuss scheitern, wenn das Ziel Schutzschild oder Scanner einsetzt oder sich hinter einem Delegator befindet. Die folgende Attacke kann in Mehrfachkämpfen ebenfalls das Ziel verfehlen, wenn sie durch Fähigkeiten wie Sturmsog oder Blitzfänger umgelenkt wird."

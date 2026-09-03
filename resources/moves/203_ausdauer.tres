@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/moves/MoveResource.cs" id="1"]
+
+[resource]
+script = ExtResource("1")
+Name = "Ausdauer"
+Aliases = []
+Generation = 2
+SourceUrl = "https://www.pokewiki.de/Ausdauer"
+Category = 2
+PokemonType = 1
+Accuracy = 0
+Power = 0
+PP = 10
+StatusChange = "Wird der Anwender nach dem Einsatz von Ausdauer von einer Attacke getroffen, durch deren Schaden er normalerweise besiegt werden würde, dann bleibt ihm doch noch genau 1 KP übrig. Dies gilt auch, wenn der Anwender in der gleichen Runde von mehreren Attacken oder einer Attacke wie Kugelsaat, die mehrfach trifft, getroffen wird."
